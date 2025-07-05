@@ -1,0 +1,7 @@
+format-version 1
+
+default-modpack "GhostLand7"
+
+modpacks {
+    modpack "GhostLand7" path="./modpack" preferred-name="GhostLand 7"
+}

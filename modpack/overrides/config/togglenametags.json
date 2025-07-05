@@ -1,0 +1,6 @@
+{
+  "renderNametags": true,
+  "renderEntityNametags": true,
+  "renderSelfNametag": false,
+  "renderBossbar": true
+}

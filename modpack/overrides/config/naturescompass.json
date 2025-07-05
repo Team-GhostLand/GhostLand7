@@ -1,0 +1,16 @@
+{
+  "common": {
+    "maxSamplesComment": "The maximum number of samples to be taken when searching for a biome.",
+    "maxSamples": 50000,
+    "radiusModifierComment": "biomeSize * radiusModifier = maxSearchRadius. Raising this value will increase search accuracy but will potentially make the process more resource .",
+    "radiusModifier": 2500,
+    "sampleSpaceModifierComment": "biomeSize * sampleSpaceModifier = sampleSpace. Lowering this value will increase search accuracy but will make the process more resource intensive.",
+    "sampleSpaceModifier": 16,
+    "biomeBlacklistComment": "A list of biomes that the compass will not be able to search for, specified by resource location. The wildcard character * can be used to match any number of characters, and ? can be used to match one character. Ex (ignore backslashes): [\"minecraft:savanna\", \"minecraft:desert\", \"minecraft:*ocean*\"]",
+    "biomeBlacklist": []
+  },
+  "client": {
+    "fixBiomeNamesComment": "Fixes biome names by adding missing spaces. Ex: ForestHills becomes Forest Hills",
+    "fixBiomeNames": true
+  }
+}

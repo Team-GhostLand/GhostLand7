@@ -1,0 +1,13 @@
+{
+  "TOAST_CONFIG": {
+    "SHOW_AUTHOR": true,
+    "SHOW_ALBUM_NAME": false,
+    "ROTATE_ALBUM_COVER": true,
+    "DISABLE_TOAST_SOUND": "MUTE_SELF"
+  },
+  "JUKEBOX_CONFIG": {
+    "MAX_COUNT_HISTORY": 10,
+    "DEBUG_MOD": false
+  },
+  "SHOW_TITLE_SCREEN_BUTTON": true
+}
