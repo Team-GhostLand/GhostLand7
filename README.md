@@ -3,5 +3,11 @@
 
 ## Issues:
 - [ ] Continents incompatible with Tectonic
-- [ ] Fastload not working properly
+- [x] Fastload not working properly
 - [ ] Update config files
+
+## Changes:
+
+### 0.0.3
+- Removed Fastload
+- Removed HT's TreeChop
