@@ -8,9 +8,9 @@ modpacks {
         description "Paczka na siódmą edycję GhostLanda - wersja alpha"
         ingame-name "GhostLand 7 Alpha"
         /-files {
-            allow "abc" "xyz"
-            expect "abc" "xyz"
-            disallowed "abc" "xyz"
+            allow "config/*" "mods/*" "shaderpacks/*"
+            expect "config/" "mods/" "shaderpacks/" "datapacks/" "resourcepacks/" "defaultconfigs/" "moddata/" "options.txt"
+            disallowed ".fabric" "crash-reports" "CustomSkinLoader" "data" "fancymenu_data" "frozenlib_cape_cache" "ldlib" "logs" "ModTranslations" "saves" "schematics" "stackdeobf_mappings" "xaero" "irisUpdateInfo.json" 
         }
     }
 }
