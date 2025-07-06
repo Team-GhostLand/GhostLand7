@@ -1,7 +1,16 @@
-format-version 1
+format-version 2
 
 default-modpack "GhostLand7"
 
 modpacks {
-    modpack "GhostLand7" path="./modpack" preferred-name="GhostLand 7"
+    modpack "GhostLand7" path="./modpack" preferred-name="GhostLand 7" {
+        version-prefix "7a"
+        description "Paczka na siódmą edycję GhostLanda - wersja alpha"
+        ingame-name "GhostLand 7 Alpha"
+        /-files {
+            allow "abc" "xyz"
+            expect "abc" "xyz"
+            disallowed "abc" "xyz"
+        }
+    }
 }
