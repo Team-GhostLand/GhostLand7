@@ -3,18 +3,24 @@
 
 ## Issues:
 - [ ] Continents incompatible with Tectonic
-- [x] Update config files
+- [ ] Update config files *(ongoing)*
 - [ ] Clouds have some issues with rendering
 - [ ] Issues while exiting a world
 
 ## Changes:
+
+### Based on:
+* [GhostLand 7 Baseline](https://github.com/Team-GhostLand/GhostLand7-Baseline/)
+* Our internal testing modpacks
+* Results of GhostLand's 1st [elections](https://github.com/Team-GhostLand/vote-calculator)
 
 ### 0.0.3
 - Removed Fastload
 - Removed HT's TreeChop
 
 ### 7a4
-- ???
+- Changed some minor vanilla configs (see [here](zmienione-configi.md)).
+- Updated to v2 `grinch.kdl` format
 
 ### 7a5
 - Added Chipped x Create Fabric
@@ -22,23 +28,29 @@
 - Added Immersive Weathering
 - Removed 3D crops Revamped (don't fit with farmer's delight)
 
+### 7a6
+- Fixed a minor config issue with the previous version
+
 ## Guides:
 
 ### Tools needed:
 - [Modrinth](https://modrinth.com/)
-- [Grinch](https://github.com/Team-GhostLand/Grinch)
+- [Grinch](https://github.com/Team-GhostLand/Grinch) and a terminal to run it in (REQUIRED for development, RECOMMENDED for playtesting)
+- A Git-enabled code editor (such as [VSCode](https://code.visualstudio.com/)), Git or [GitHub CLI](https://cli.github.com/) (REQUIRED for development, can be ignored for testing)
 
-### How to play:
-1. Download repo
-2. Run `grinch export` or `grinch export --quick`
-3. Open `GhostLand 7.mrpack` using Modrinth
+### How to playtest:
+1. Clone or [download](https://github.com/Team-GhostLand/GhostLand7/archive/refs/heads/master.zip) this repo;
+2. If using Grinch, navigate to the repo's main folder (where this very `README.md` file is located) inside your terminal. If not using Grinch, do so in your file explorer.
+2. Run `grinch export --quick` or `grinch e -q` for short (or manually zip the __content__ (ie. don't include the folder itself) of `modpack` into `GhostLand 7.mrpack`, if you don't have Grinch installed).
+3. Import `GhostLand 7.mrpack` using Modrinth;
 4. Now you can play!
 
-### How to update:
-1. Download repo
-2. Run `grinch export --dev`
-3. Open `GhostLand 7.mrpack` using Modrinth
-4. Edit modpack using Modrinth App
-5. Swap `GhostLand 7.mrpack` with the new one exported from Modrinth
-6. Run `grinch import "GhostLand 7.mrpack"`
-6. Push changes to the repo
+### How to contribute:
+1. Clone this repo;
+2. Navigate to its main folder (where this very `README.md` file is located) inside your terminal;
+3. Run `grinch export --dev` or `grinch e -d` for short;
+4. Open `GhostLand 7.mrpack` using Modrinth;
+5. Edit the modpack using Modrinth;
+6. Export it from Modrinth to this folder as a new file (eg. `ghostland-updated.mrpack`);
+7. Run `grinch import` or `grinch i` for short. *(Grinch will manually pick up on any new files (files with names it hasn't „seen”) inside this folder. Please note that if there are several new files, Grinch will autoselect whichever one it sees first, which happens mostly **at random** (some OSes may sort alphabetically or by file chasnged/modified date, but that is **not** guaranteed). If you want to control this randomness (or if you want to import a file with a name that Grinch had already „seen” before), please override Grinch's autoselection using `grinch i <FILENAME>.mrpack`.)*
+8. Push changes to the repo.
