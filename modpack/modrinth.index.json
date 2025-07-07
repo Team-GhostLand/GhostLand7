@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "7a4",
+  "versionId": "7a5",
   "name": "GhostLand 7 Alpha",
   "summary": "Paczka na siódmą edycję GhostLanda - wersja alpha",
   "files": [
@@ -1836,6 +1836,21 @@
       "fileSize": 16345637
     },
     {
+      "path": "mods/chcf-1.0.0.jar",
+      "hashes": {
+        "sha1": "eb7579f676c9f608010def1d3870a623cf357fb5",
+        "sha512": "af76127fb18b0e433a574932e47752033eeb848aa8982ce5bf1347152094e8b107d1bc69c6a1341c6fe24cc5e0d41d2169a2c2c022c595ff6a92f63eddde39f3"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/Ncbuvyrf/versions/Q9Q2uYPe/chcf-1.0.0.jar"
+      ],
+      "fileSize": 3200242
+    },
+    {
       "path": "mods/chipped-fabric-1.20.1-3.0.7.jar",
       "hashes": {
         "sha1": "add35e79f6a930825e4dbe77d5d0468fb96c533f",
@@ -2074,6 +2089,21 @@
         "https://cdn.modrinth.com/data/IAnP4np7/versions/nqsTHZwx/create-structures-0.1.1-1.20.1-FABRIC.jar"
       ],
       "fileSize": 484457
+    },
+    {
+      "path": "mods/create-track-map-1.4+mc1.20.1-fabric.jar",
+      "hashes": {
+        "sha1": "262e54637fc296c09473325f0fe83d37bc4b3d08",
+        "sha512": "8913409ee9efc242f959fd95b0e5e088c9a6d99a8517d55195a75069d588eeb18fa680bb9279729a78de4cbf926791ca19d9eb574b53d5cda983b87c8df279d5"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/gxoNIjg6/versions/qoyYyg2G/create-track-map-1.4%2Bmc1.20.1-fabric.jar"
+      ],
+      "fileSize": 5189665
     },
     {
       "path": "mods/create_copper_and_zinc-1.6.0-fabric-1.20.1.jar",
@@ -2779,6 +2809,21 @@
         "https://cdn.modrinth.com/data/6txNkua3/versions/KVUoxnR1/immersive_paintings-0.6.8%2B1.20.1-fabric.jar"
       ],
       "fileSize": 4853104
+    },
+    {
+      "path": "mods/immersive_weathering-1.20.1-2.0.5-fabric.jar",
+      "hashes": {
+        "sha1": "cf26806f00f362e6976b1ce6e3d8ad9e1cee6b1c",
+        "sha512": "8e674b43145bde69c3b15d467a104fa64fe84a2b8462c1d52747ce58935e94c2bed11290d912ca9b2dc8c37ba41f61f6af1b5465d134ac5d1e4516dc67a5b3eb"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/jkskOO9i/versions/m6QTqFfV/immersive_weathering-1.20.1-2.0.5-fabric.jar"
+      ],
+      "fileSize": 2245587
     },
     {
       "path": "mods/indium-1.0.36+mc1.20.1.jar",
@@ -4204,21 +4249,6 @@
         "https://cdn.modrinth.com/data/yfDziwn1/versions/gg2j3lh7/SodiumTranslations.zip"
       ],
       "fileSize": 225741
-    },
-    {
-      "path": "resourcepacks/crops-3d(2).zip",
-      "hashes": {
-        "sha1": "233e886a3aed43cb48d01f87b8d68f43eb66b970",
-        "sha512": "57073e45b1499cb7c4e6e40f9314fa6bb24716f116ef83a65914c86a7999bb26d28c023afd502e2bdbce60312c225199c4e46a3194e8dbe7bb60121894338996"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/PgpTtNoI/versions/iKYRZwnm/crops-3d%282%29.zip"
-      ],
-      "fileSize": 483678
     },
     {
       "path": "shaderpacks/BSL_v10.0.zip",
