@@ -1,5 +1,5 @@
-# GhostLand7
-7th edition of the GhostLand modpack
+# GhostLand 7
+A modpack for the 7th edition of GhostLand SMP
 
 ## Issues:
 - [ ] Continents incompatible with Tectonic
