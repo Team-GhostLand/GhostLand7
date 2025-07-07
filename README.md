@@ -52,7 +52,7 @@
 - Removed HT's TreeChop
 
 ### 7a4
-- Changed some minor vanilla configs (see [here](zmienione-configi.md)).
+- Changed some minor vanilla configs (see: 5 earliest lines [here](https://github.com/Team-GhostLand/GhostLand7#vanilla)).
 - Updated to v2 `grinch.kdl` format
 
 ### 7a5

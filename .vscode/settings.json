@@ -1,0 +1,5 @@
+{
+    "files.associations": {
+        ".gr-workspace": "cmake" //Works decently well (comments are gray, like they should be; evertyhting else is white, so no weird number highlighting or anything like that)
+    },
+}
