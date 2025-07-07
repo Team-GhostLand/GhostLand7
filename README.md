@@ -7,29 +7,14 @@
 - [ ] Clouds have some issues with rendering
 - [ ] Issues while exiting a world
 
-## Changes:
+## Cumulative list of altered configs
 
-### Based on:
-* [GhostLand 7 Baseline](https://github.com/Team-GhostLand/GhostLand7-Baseline/)
-* Our internal testing modpacks
-* Results of GhostLand's 1st [elections](https://github.com/Team-GhostLand/vote-calculator)
-
-### 0.0.3
-- Removed Fastload
-- Removed HT's TreeChop
-
-### 7a4
-- Changed some minor vanilla configs (see [here](zmienione-configi.md)).
-- Updated to v2 `grinch.kdl` format
-
-### 7a5
-- Added Chipped x Create Fabric
-- Added Create Track Map
-- Added Immersive Weathering
-- Removed 3D crops Revamped (don't fit with farmer's delight)
-
-### 7a6
-- Fixed a minor config issue with the previous version
+### Vanilla
+* polski (auto)
+* fullscreen off
+* narrator off
+* completed setup
+* gui scale 2
 
 ## Guides:
 
@@ -54,3 +39,27 @@
 6. Export it from Modrinth to this folder as a new file (eg. `ghostland-updated.mrpack`);
 7. Run `grinch import` or `grinch i` for short. *(Grinch will manually pick up on any new files (files with names it hasn't „seen”) inside this folder. Please note that if there are several new files, Grinch will autoselect whichever one it sees first, which happens mostly **at random** (some OSes may sort alphabetically or by file chasnged/modified date, but that is **not** guaranteed). If you want to control this randomness (or if you want to import a file with a name that Grinch had already „seen” before), please override Grinch's autoselection using `grinch i <FILENAME>.mrpack`.)*
 8. Push changes to the repo.
+
+## Changelogs:
+
+### Based on:
+* [GhostLand 7 Baseline](https://github.com/Team-GhostLand/GhostLand7-Baseline/)
+* Our internal testing modpacks
+* Results of GhostLand's 1st [elections](https://github.com/Team-GhostLand/vote-calculator)
+
+### 0.0.3
+- Removed Fastload
+- Removed HT's TreeChop
+
+### 7a4
+- Changed some minor vanilla configs (see [here](zmienione-configi.md)).
+- Updated to v2 `grinch.kdl` format
+
+### 7a5
+- Added Chipped x Create Fabric
+- Added Create Track Map
+- Added Immersive Weathering
+- Removed 3D crops Revamped (don't fit with farmer's delight)
+
+### 7a6
+- Fixed a minor config issue with the previous version
