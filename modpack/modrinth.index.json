@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "7a7",
+  "versionId": "7a8",
   "name": "GhostLand 7 Alpha",
   "summary": "Paczka na siódmą edycję GhostLanda - wersja alpha",
   "files": [
@@ -2076,6 +2076,21 @@
       "fileSize": 484457
     },
     {
+      "path": "mods/create-track-map-1.4+mc1.20.1-fabric.jar.disabled",
+      "hashes": {
+        "sha1": "262e54637fc296c09473325f0fe83d37bc4b3d08",
+        "sha512": "8913409ee9efc242f959fd95b0e5e088c9a6d99a8517d55195a75069d588eeb18fa680bb9279729a78de4cbf926791ca19d9eb574b53d5cda983b87c8df279d5"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/gxoNIjg6/versions/qoyYyg2G/create-track-map-1.4%2Bmc1.20.1-fabric.jar"
+      ],
+      "fileSize": 5189665
+    },
+    {
       "path": "mods/create_copper_and_zinc-1.6.0-fabric-1.20.1.jar",
       "hashes": {
         "sha1": "6f359d079480b75e9d86e0ba09ceb9363feea82f",
@@ -3514,6 +3529,21 @@
         "https://cdn.modrinth.com/data/hqQqvaa4/versions/QBdAaSvF/puffish_skills-0.16.3-1.20-fabric.jar"
       ],
       "fileSize": 570405
+    },
+    {
+      "path": "mods/puffish_skills_origins-0.2.0-1.20.1-fabric.jar.disabled",
+      "hashes": {
+        "sha1": "8e5f1fcebb32bae175bf00b7800bf2210c85ec51",
+        "sha512": "8383187b6f17ada44032654e2efe9f6bd32c22e11fc6722732874b0cc5fe74d5c2d3d67f62872002983e9dd0221fac84e31393b29706e22a76406a884e701f47"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/G2gG8giX/versions/xsYqLkmA/puffish_skills_origins-0.2.0-1.20.1-fabric.jar"
+      ],
+      "fileSize": 12323
     },
     {
       "path": "mods/rebind_narrator-fabric-1.20.1-2.0.2.jar",
