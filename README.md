@@ -2,10 +2,10 @@
 A modpack for the 7th edition of GhostLand SMP
 
 ## Issues:
-- [ ] Continents incompatible with Tectonic
 - [ ] Update config files *(ongoing)*
 - [ ] Clouds have some issues with rendering
 - [ ] Issues while exiting a world
+- [ ] Issues while entering a world (falling through the world)
 
 ## Cumulative list of altered configs
 
@@ -63,3 +63,9 @@ A modpack for the 7th edition of GhostLand SMP
 
 ### 7a6
 - Fixed a minor config issue with the previous version
+
+### 7a7
+- Removed Continents (Tectonic now adds the same functionality)
+- Removed World Preview (it doesn't work and it isn't necessary)
+- Removed Pufferfish's Skills x Origins (we don't have Origins in this modpack)
+- Removed Create Track Map (it doesn't work on singleplayer and it isn't necessary)
