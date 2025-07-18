@@ -5,11 +5,11 @@ A modpack for the 7th edition of GhostLand SMP
 ## Issues:
 - [x] Continents incompatible with Tectonic *(fixed: Tectonic handles continentality on its own)*
 - [ ] Update config files *(ongoing)*
-- [ ] Clouds have some issues with rendering
+- [ ] Clouds have some issues with rendering (DH makes clouds double-layerd) *(note: Can't we pretend that this is intentional? They look kinda dope!)*
 - [x] Issues while exiting a world *(fixed: They just... fixed... themselves? Quits instantly without DH; with DH on - exiting takes some time (10-something seconds), but __usually__ will also happen, eventually.)*
-- [ ] Issues while entering a world (falling through the world) *(note: isn't that just the chunks loading in?)*
+- [x] Issues while entering a world (falling through the world) *(fixed: was a bug in older Baseline versions and since this pack was accidentally based on said older version - MidnightSP must've simply been unlucky enough to run into said bug)*
 - [ ] Issues while entering a world (game incredibly laggy for the first few minutes) *(note: that IS the chunks loading in - recommended solution is to look at the horizon in a single direction until it loads, then look around very slowly, will need to make a note about this in Discord)*
-- [ ] If Aether detects Loading Screen Tips - regardless of whether integration with it is enabled in the config or not - it reloads resources right after game loads, leading to a doubled loading screen (which significantly increases the practical startup time - since, even though thanks to RRS we can navigate menus when resources are loading, noone's gonna join the world with a loading bar, especially one so obnoxious (in-game, it's fine when loading) as the one that ELS adds).
+- [x] If Aether detects Loading Screen Tips - regardless of whether integration with it is enabled in the config or not - it reloads resources right after game loads, leading to a doubled loading screen (which significantly increases the practical startup time - since, even though thanks to RRS we can navigate menus when resources are loading, noone's gonna join the world with a loading bar, especially one so obnoxious (in-game, it's fine when loading) as the one that ELS adds). *(fixed: Tipsn't)*
 - [ ] GregTech's ores become transparent underwater (their polygons disappear - you can see the void)
 - [ ] On some modded biome coastlines, Creeper-hole-like cutouts appear, and they tend to cut off trees and leave them floating
 - [ ] Enabling Planet Curvature in Distant Horizons does nothing
@@ -17,6 +17,11 @@ A modpack for the 7th edition of GhostLand SMP
 
 
 ## Changelogs:
+
+### 7a13
+- Added back Adaptive Tooltips (it got mistaken for Tips in the previous update)
+- Re-enabled Advanced Tooltips (accidentally disabled in the previous update)
+- Fixed texturepack errors caused by update 7a10 changing only MrIndex (it should also change vanilla configs)
 
 ### 7a12
 - Removed Reborn Progression (makes early-game too slow and encourages grinding)
@@ -92,18 +97,16 @@ This obviously isn't all that changed in this giant patch, but I don't even reme
 ### Known TODOs
 There will, for certain, be more. These are just some things that came to my mind on the spot.
 * FancyMenu (incl. Remove GFARB; Main menu panorama)
-* Loading/Pause screen tips
 * Patchouli (if we end up including it), or some other guide/questbook thingy
 * Use a datapack to properly configure cross-mod recipies (and loottables, if it turns out that chests feel too cluttered, which apparently (according to a recent discussion with Tymuś and - frankly - my own experience, too, now that I think about it) was a problem on GL6), so the pack doesn't feel like just a bunch of crudely mixed-together crap held together with hopes and prayers, but rather a cohesive creative experience. Ties together with the point above (about a guidebook).
 * Bind-pizzeria (incl. a link to a LOOREEEEE repository - see: [pending election](https://github.com/Team-GhostLand/GhostLand7#pending-elections) about roleplay)
 * Do something with Puffer's skill trees (we have too many of them rn, while none of them use Origins x Puffer)
 * DiscordRCP
 * Adaptive Tooltips
-* Make sure Vanilin won't fight with EBE (only enable it for entities)
 * Get HT's to cooperate with Veinminer
-* Custom resourcepack (like for Cebuliony, Tips and stuff)
+* Custom resourcepack (like for Cebuliony and stuff)
 * Sparse Structures
-* Increase title splash cycle rate
+* Increase title splash cycle rate (the way it is right now, you won't ever see it changing)
 * Disable Simple VC groups (we have radios for that) 
 * *also, this isn't really a config-related TODO, but we need to check whether Iru's bed-mod-thing works on server-side only*
 
@@ -120,10 +123,6 @@ There will, for certain, be more. These are just some things that came to my min
 * Skipped multiplayer warning
 * Auto-jump off
 * Disabled pasue-on-lost-focus
-
-### DH
-* r=375 *(At 6k map size (GhostLand's size, as per elections), that'd let you see exactly the whole world from its center)*
-* enabled Adaptive Transfer Speed
 
 ### Sodium
 * Quality: Lambda Grass mode

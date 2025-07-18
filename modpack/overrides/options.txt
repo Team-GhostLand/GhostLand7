@@ -42,7 +42,7 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","fabric","seasons:seasonal_lush_caves","Moonlight Mods Dynamic Assets","immersive_weathering:visual_waxed_iron_items","createfood:farmers_delight","createfood:ends_delight","createfood:ubes_delight","createfood:expanded_delight","createfood:farmers_respite","createfood:cultural_delight","createfood:rustic_delight","createfood:create","continuity:default","continuity:glass_pane_culling_fix","file/VanillaTweaks.zip","file/Less-Dramatic Skies.zip","railways:green_signals","wilderwild:wilder_main_menu"]
+resourcePacks:["vanilla","fabric","seasons:seasonal_lush_caves","Moonlight Mods Dynamic Assets","file/GR_SVX_Chat Reporting Helper.zip","file/GR_SVX_SodiumTranslations.zip","immersive_weathering:visual_waxed_iron_items","file/GR_SVX_LowOnFire_1.20.1.zip","createfood:farmers_delight","createfood:ends_delight","createfood:ubes_delight","createfood:expanded_delight","createfood:farmers_respite","createfood:cultural_delight","createfood:rustic_delight","createfood:create","continuity:default","continuity:glass_pane_culling_fix","file/VanillaTweaks.zip","file/Less-Dramatic Skies.zip","railways:green_signals","file/GR_SVX_Better-Leaves-9.2.zip","file/GR_SVX_Simple Grass Flowers v1.9.5.zip","file/GR_SVX_REVIVED_Farmer\u0027s Delight_crops_3D_Refabricated_R1.5-1.20.x.zip","file/GR_SVX_crops-3d(2).zip"]
 incompatibleResourcePacks:["immersive_weathering:visual_waxed_iron_items","file/Simple Grass Flowers v1.9.5.zip","file/crops-3d(2).zip"]
 lastServer:
 lang:pl_pl
@@ -53,7 +53,7 @@ chatLineSpacing:0.0
 textBackgroundOpacity:0.5
 backgroundForChatOnly:true
 hideServerAddress:false
-advancedItemTooltips:false
+advancedItemTooltips:true
 pauseOnLostFocus:false
 overrideWidth:0
 overrideHeight:0
