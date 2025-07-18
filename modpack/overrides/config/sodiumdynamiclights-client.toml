@@ -3,7 +3,7 @@
 	#Allowed Values: OFF, SLOW, FAST, REALTIME
 	mode = "REALTIME"
 	#Enables water-sensitive light sources check. This means that water-sensitive items will not light up when submerged in water.
-	water_sensitive_check = true
+	water_sensitive_check = false
 	#Enable block entities light source.
 	block_entities = true
 	#Enable entities light source.
@@ -15,4 +15,4 @@
 	tnt = "SIMPLE"
 	#Creeper lighting mode. May be off, simple or fancy.
 	#Allowed Values: OFF, SIMPLE, FANCY
-	creeper = "OFF"
+	creeper = "SIMPLE"

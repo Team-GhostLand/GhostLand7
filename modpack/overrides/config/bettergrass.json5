@@ -29,7 +29,7 @@
 	/* -> Better Snow
 	   OFF/OPTIFINE/LAMBDA (default: OPTIFINE)
 	*/
-	"betterSnowMode": "OPTIFINE",
+	"betterSnowMode": "LAMBDA",
 	"snowLayers": [
 		"snow",
 		"moss_carpet"

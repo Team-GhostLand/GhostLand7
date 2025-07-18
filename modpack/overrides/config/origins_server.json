@@ -1,0 +1,419 @@
+{
+  "performVersionCheck": true,
+  "origins": {
+    "origins-classes:nitwit": {
+      "enabled": true
+    },
+    "origins:enderian": {
+      "enabled": true,
+      "origins:throw_ender_pearl": true,
+      "origins:water_vulnerability": true,
+      "origins:pumpkin_hate": true,
+      "origins:extra_reach": true,
+      "origins:ender_particles": true,
+      "origins:damage_from_potions": true
+    },
+    "origins:human": {
+      "enabled": true
+    },
+    "origins-classes:lumberjack": {
+      "enabled": true,
+      "origins-classes:tree_felling": true,
+      "origins-classes:more_planks_from_logs": true
+    },
+    "origins:feline": {
+      "enabled": true,
+      "origins:fall_immunity": true,
+      "origins:sprint_jump": true,
+      "origins:velvet_paws": true,
+      "origins:nine_lives": true,
+      "origins:weak_arms": true,
+      "origins:scare_creepers": true,
+      "origins:cat_vision": true
+    },
+    "origins-classes:warrior": {
+      "enabled": true,
+      "origins-classes:more_attack_damage": true,
+      "origins-classes:less_shield_slowdown": true
+    },
+    "origins:elytrian": {
+      "enabled": true,
+      "origins:elytra": true,
+      "origins:launch_into_air": true,
+      "origins:aerial_combatant": true,
+      "origins:light_armor": true,
+      "origins:claustrophobia": true,
+      "origins:more_kinetic_damage": true
+    },
+    "origins:shulk": {
+      "enabled": true,
+      "origins:shulker_inventory": true,
+      "origins:natural_armor": true,
+      "origins:strong_arms": true,
+      "origins:strong_arms_break_speed": true,
+      "origins:no_shield": true,
+      "origins:more_exhaustion": true
+    },
+    "origins-classes:cleric": {
+      "enabled": true,
+      "origins-classes:longer_potions": true,
+      "origins-classes:better_enchanting": true
+    },
+    "origins-classes:explorer": {
+      "enabled": true,
+      "origins-classes:explorer_kit": true,
+      "origins-classes:no_sprint_exhaustion": true
+    },
+    "origins:merling": {
+      "enabled": true,
+      "origins:water_breathing": true,
+      "origins:water_vision": true,
+      "origins:aqua_affinity": true,
+      "origins:swim_speed": true,
+      "origins:like_water": true,
+      "origins:aquatic": true,
+      "origins:conduit_power_on_land": true,
+      "origins:air_from_potions": true
+    },
+    "origins:phantom": {
+      "enabled": true,
+      "origins:phantomize": true,
+      "origins:translucent": true,
+      "origins:phasing": true,
+      "origins:invisibility": true,
+      "origins:burn_in_daylight": true,
+      "origins:hunger_over_time": true,
+      "origins:fragile": true,
+      "origins:phantomize_overlay": true
+    },
+    "origins-classes:beastmaster": {
+      "enabled": true,
+      "origins-classes:tamed_animal_boost": true,
+      "origins-classes:tamed_potion_diffusal": true
+    },
+    "origins-classes:merchant": {
+      "enabled": true,
+      "origins-classes:trade_availability": true,
+      "origins-classes:rare_wandering_loot": true
+    },
+    "origins:arachnid": {
+      "enabled": true,
+      "origins:climbing": true,
+      "origins:master_of_webs": true,
+      "origins:carnivore": true,
+      "origins:fragile": true,
+      "origins:arthropod": true
+    },
+    "origins-classes:rancher": {
+      "enabled": true,
+      "origins-classes:twin_breeding": true,
+      "origins-classes:more_animal_loot": true
+    },
+    "origins:blazeborn": {
+      "enabled": true,
+      "origins:fire_immunity": true,
+      "origins:nether_spawn": true,
+      "origins:burning_wrath": true,
+      "origins:hotblooded": true,
+      "origins:water_vulnerability": true,
+      "origins:flame_particles": true,
+      "origins:damage_from_snowballs": true,
+      "origins:damage_from_potions": true
+    },
+    "origins:avian": {
+      "enabled": true,
+      "origins:slow_falling": true,
+      "origins:fresh_air": true,
+      "origins:like_air": true,
+      "origins:tailwind": true,
+      "origins:lay_eggs": true,
+      "origins:vegetarian": true
+    },
+    "origins-classes:archer": {
+      "enabled": true,
+      "origins-classes:no_projectile_divergence": true,
+      "origins-classes:less_bow_slowdown": true
+    },
+    "origins-classes:farmer": {
+      "enabled": true,
+      "origins-classes:more_crop_drops": true,
+      "origins-classes:better_bone_meal": true
+    },
+    "origins-classes:miner": {
+      "enabled": true,
+      "origins-classes:more_stone_break_speed": true,
+      "origins-classes:no_mining_exhaustion": true
+    },
+    "origins-classes:blacksmith": {
+      "enabled": true,
+      "origins-classes:quality_equipment": true,
+      "origins-classes:efficient_repairs": true
+    },
+    "origins-classes:cook": {
+      "enabled": true,
+      "origins-classes:better_crafted_food": true,
+      "origins-classes:more_smoker_xp": true
+    },
+    "origins-classes:rogue": {
+      "enabled": true,
+      "origins-classes:sneaky": true,
+      "origins-classes:stealth": true,
+      "origins-classes:stealth_descriptor": true
+    },
+    "kitsune:kitsunewhite": {
+      "enabled": true,
+      "kitsune:speed": true,
+      "kitsune:sneaky": true,
+      "kitsune:berry": true,
+      "kitsune:ancientwhite": true,
+      "kitsune:lesshealth": true
+    },
+    "moon:moon": {
+      "enabled": true,
+      "moon:dash": true,
+      "moon:levitate": true,
+      "moon:blast": true,
+      "moon:jumo": true,
+      "moon:night": true,
+      "moon:falldamage": true,
+      "moon:village": true,
+      "moon:star": true,
+      "moon:moon": true,
+      "moon:heat": true,
+      "moon:weak": true
+    },
+    "kitsune:kitsunered": {
+      "enabled": true,
+      "kitsune:speed": true,
+      "kitsune:sneaky": true,
+      "kitsune:berry": true,
+      "kitsune:ancientred": true,
+      "kitsune:lesshealth": true
+    },
+    "xolotlkwt:enderxolotl": {
+      "enabled": true,
+      "origins:water_breathing": true,
+      "xolotlkwt:enderbubble": true,
+      "xolotlkwt:unique_eyes": true,
+      "xolotlkwt:aqua_affinity": true,
+      "xolotlkwt:playdead": true,
+      "xolotlkwt:id": true,
+      "origins:fragile": true,
+      "origins:pumpkin_hate": true,
+      "origins:aquatic": true,
+      "origins:conduit_power_on_land": true,
+      "origins:air_from_potions": true,
+      "origins:ender_particles": true
+    },
+    "celestial:celestial": {
+      "enabled": true,
+      "celestial:mana": true,
+      "celestial:budding": true,
+      "celestial:meteor": true,
+      "celestial:netherstar": true,
+      "celestial:fireproof": true
+    },
+    "prscaleorigins:micro": {
+      "enabled": true,
+      "prscaleorigins:micro_scale": true,
+      "prscaleorigins:micro_balance": true
+    },
+    "prscaleorigins:small": {
+      "enabled": true,
+      "prscaleorigins:small_scale": true,
+      "prscaleorigins:small_balance": true
+    },
+    "extraorigins:floran": {
+      "enabled": true,
+      "extraorigins:green_thumb": true,
+      "extraorigins:photosynthesis": true,
+      "extraorigins:absorbing": true,
+      "extraorigins:flammable": true,
+      "extraorigins:nectarivore": true
+    },
+    "prscaleorigins:giant": {
+      "enabled": true,
+      "prscaleorigins:giant_scale": true,
+      "prscaleorigins:giant_balance": true
+    },
+    "extraorigins:piglin": {
+      "enabled": true,
+      "extraorigins:all_that_glitters": true,
+      "extraorigins:crossbow_master": true,
+      "extraorigins:piglin_neutrality": true,
+      "origins:nether_spawn": true,
+      "extraorigins:homesick": true,
+      "extraorigins:golden_gluttony": true,
+      "extraorigins:flabby": true,
+      "extraorigins:soul_spooked": true
+    },
+    "prscaleorigins:normal": {
+      "enabled": true
+    },
+    "extraorigins:inchling": {
+      "enabled": true,
+      "extraorigins:bite_sized": true,
+      "extraorigins:nimble": true,
+      "extraorigins:small_appetite": true,
+      "origins:climbing": true,
+      "extraorigins:jockey": true
+    },
+    "prscaleorigins:big": {
+      "enabled": true,
+      "prscaleorigins:big_scale": true,
+      "prscaleorigins:big_balance": true
+    },
+    "extraorigins:truffle": {
+      "enabled": true,
+      "extraorigins:magic_spores": true,
+      "extraorigins:infestation": true,
+      "extraorigins:rooted": true,
+      "extraorigins:decomposition": true
+    },
+    "prscaleorigins:verybig": {
+      "enabled": true,
+      "prscaleorigins:verybig_scale": true,
+      "prscaleorigins:verybig_balance": true
+    },
+    "prscaleorigins:verysmall": {
+      "enabled": true,
+      "prscaleorigins:verysmall_scale": true,
+      "prscaleorigins:verysmall_balance": true
+    },
+    "sullys_origins:aetherian/green": {
+      "enabled": true,
+      "sullys_origins:aetherian_base/chromatic/at_fire_vision_green": true
+    },
+    "sullys_origins:aetherian/purple_prime": {
+      "enabled": true,
+      "sullys_origins:aetherian_prime/chromatic/at_fire_vision_purple": true
+    },
+    "sullys_origins:aetherian/red": {
+      "enabled": true,
+      "sullys_origins:aetherian_base/chromatic/at_fire_vision_red": true
+    },
+    "sullys_origins:aetherian_prime": {
+      "enabled": true,
+      "sullys_origins:aetherian_prime/at_sun_bar": true,
+      "sullys_origins:aetherian_prime/at_sun_charge": true,
+      "sullys_origins:aetherian_prime/at_no_limit": true,
+      "sullys_origins:aetherian_prime/at_superform_check": true,
+      "sullys_origins:aetherian_prime/at_superform_toggle": true,
+      "sullys_origins:aetherian_prime/at_superform_auto_toggle": true,
+      "sullys_origins:aetherian_prime/at_superform": true,
+      "sullys_origins:aetherian_prime/at_flight": true,
+      "sullys_origins:aetherian_prime/at_impulse": true,
+      "sullys_origins:aetherian_prime/at_strenght": true,
+      "sullys_origins:aetherian_prime/at_speed": true,
+      "sullys_origins:aetherian_prime/at_fall": true,
+      "sullys_origins:aetherian_prime/at_armor": true,
+      "sullys_origins:aetherian_prime/at_no_items": true
+    },
+    "sullys_origins:aetherian/pink_prime": {
+      "enabled": true,
+      "sullys_origins:aetherian_prime/chromatic/at_fire_vision_pink": true
+    },
+    "sullys_origins:aetherian/red_prime": {
+      "enabled": true,
+      "sullys_origins:aetherian_prime/chromatic/at_fire_vision_red": true
+    },
+    "sullys_origins:aetherian/orange_cosmic": {
+      "enabled": true,
+      "sullys_origins:aetherian_cosmic/chromatic/at_fire_vision_orange": true,
+      "sullys_origins:aetherian_cosmic/chromatic/at_superform_orange": true
+    },
+    "sullys_origins:aetherian/red_cosmic": {
+      "enabled": true,
+      "sullys_origins:aetherian_cosmic/chromatic/at_fire_vision_red": true,
+      "sullys_origins:aetherian_cosmic/chromatic/at_superform_red": true
+    },
+    "sullys_origins:aetherian_cosmic": {
+      "enabled": true,
+      "sullys_origins:aetherian_cosmic/at_sun_bar": true,
+      "sullys_origins:aetherian_cosmic/at_sun_charge": true,
+      "sullys_origins:aetherian_cosmic/at_superform_check": true,
+      "sullys_origins:aetherian_cosmic/at_superform_toggle": true,
+      "sullys_origins:aetherian_cosmic/at_superform_auto_toggle": true,
+      "sullys_origins:aetherian_cosmic/at_superform": true,
+      "sullys_origins:aetherian_cosmic/at_flight": true,
+      "sullys_origins:aetherian_cosmic/at_impulse": true,
+      "sullys_origins:aetherian_cosmic/at_strenght": true,
+      "sullys_origins:aetherian_cosmic/at_speed": true,
+      "sullys_origins:aetherian_cosmic/at_armor": true,
+      "sullys_origins:aetherian_cosmic/at_no_items": true
+    },
+    "sullys_origins:aetherian/purple": {
+      "enabled": true,
+      "sullys_origins:aetherian_base/chromatic/at_fire_vision_purple": true
+    },
+    "sullys_origins:aetherian/orange": {
+      "enabled": true,
+      "sullys_origins:aetherian_base/chromatic/at_fire_vision_orange": true
+    },
+    "sullys_origins:aetherian/pink_cosmic": {
+      "enabled": true,
+      "sullys_origins:aetherian_cosmic/chromatic/at_fire_vision_pink": true,
+      "sullys_origins:aetherian_cosmic/chromatic/at_superform_pink": true
+    },
+    "sullys_origins:aetherian/pink": {
+      "enabled": true,
+      "sullys_origins:aetherian_base/chromatic/at_fire_vision_pink": true
+    },
+    "sullys_origins:aetherian/blue_prime": {
+      "enabled": true,
+      "sullys_origins:aetherian_prime/chromatic/at_fire_vision_blue": true
+    },
+    "sullys_origins:aetherian": {
+      "enabled": true,
+      "sullys_origins:aetherian_base/at_sun_bar": true,
+      "sullys_origins:aetherian_base/at_sun_charge": true,
+      "sullys_origins:aetherian_base/at_sun_weakness": true,
+      "sullys_origins:aetherian_base/at_fall": true,
+      "sullys_origins:aetherian_base/at_speed": true,
+      "sullys_origins:aetherian_base/at_impulse": true,
+      "sullys_origins:aetherian_base/at_strenght": true,
+      "sullys_origins:aetherian_base/at_armor": true,
+      "sullys_origins:aetherian_base/at_no_items": true,
+      "sullys_origins:aetherian_base/at_sun_dimensions": true
+    },
+    "sullys_origins:aetherian/yellow_prime": {
+      "enabled": true,
+      "sullys_origins:aetherian_prime/chromatic/at_fire_vision_yellow": true
+    },
+    "sullys_origins:aetherian/blue": {
+      "enabled": true,
+      "sullys_origins:aetherian_base/chromatic/at_fire_vision_blue": true
+    },
+    "sullys_origins:aetherian/green_cosmic": {
+      "enabled": true,
+      "sullys_origins:aetherian_cosmic/chromatic/at_fire_vision_green": true,
+      "sullys_origins:aetherian_cosmic/chromatic/at_superform_green": true
+    },
+    "sullys_origins:aetherian/blue_cosmic": {
+      "enabled": true,
+      "sullys_origins:aetherian_cosmic/chromatic/at_fire_vision_blue": true
+    },
+    "sullys_origins:aetherian/green_prime": {
+      "enabled": true,
+      "sullys_origins:aetherian_prime/chromatic/at_fire_vision_green": true
+    },
+    "sullys_origins:aetherian/yellow": {
+      "enabled": true,
+      "sullys_origins:aetherian_base/chromatic/at_fire_vision_yellow": true
+    },
+    "sullys_origins:aetherian/orange_prime": {
+      "enabled": true,
+      "sullys_origins:aetherian_prime/chromatic/at_fire_vision_orange": true
+    },
+    "sullys_origins:aetherian/purple_cosmic": {
+      "enabled": true,
+      "sullys_origins:aetherian_cosmic/chromatic/at_fire_vision_purple": true,
+      "sullys_origins:aetherian_cosmic/chromatic/at_superform_purple": true
+    },
+    "sullys_origins:aetherian/yellow_cosmic": {
+      "enabled": true,
+      "sullys_origins:aetherian_cosmic/chromatic/at_fire_vision_yellow": true,
+      "sullys_origins:aetherian_cosmic/chromatic/at_superform_yellow": true
+    }
+  }
+}

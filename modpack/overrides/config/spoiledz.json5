@@ -1,0 +1,9 @@
+{
+	// Season count for 100% spoilage
+	"seasonSpoilage": 4,
+	// On spoiled craft, reset spoiling time
+	"freshCrafting": false,
+	"effectChance": 35,
+	// In ticks
+	"effectDuration": 400
+}

@@ -1,0 +1,25 @@
+	[PocketGps.Power]
+		#Which energy unit to display for Forge?
+		#Default is FE.
+		#Allowed Values: FE, RF, E
+		energy_unit = "FE"
+		#Require the Gps to have power in order to display the minimap?
+		#(true/false)
+		#Default is false.
+		need_power = false
+		#How much the power the GPS can hold.
+		#Default 40000
+		#Range: > 0
+		gps_capacity = 40000
+		#The maximum input the GPS can receive when charging.
+		#Default 128
+		#Range: > 0
+		gps_max_input = 128
+		#How much power the GPS can output.
+		#Default 128
+		#Range: > 0
+		gps_max_output = 128
+		#Power cost of the GPS while moving (per tick).
+		#Default 2
+		#Range: > 0
+		gps_energy_cost = 2

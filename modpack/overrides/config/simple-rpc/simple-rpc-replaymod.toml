@@ -1,0 +1,85 @@
+
+[general]
+	#Enable/Disable ReplayMod Support
+	enabled = true
+	#Internal Version Number. NO TOUCHY!
+	version = 2
+
+#The Replay Browser Event
+[replay_viewer]
+	#Enable/Disable the ReplayMod Replay Viewer Event
+	enabled = true
+
+	#List of RPCs that will be displayed at random
+	[[replay_viewer.presence]]
+		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
+		type = "PLAYING"
+		#The first line of text under the app name
+		description = "Browsing Replays"
+		#The second line of text under the app name
+		state = "{{player.name}} is browsing the library"
+		#The Asset ID or URLs of images to randomly use for the large image
+		largeImageKey = ["mclogonew"]
+		#The text to show when someone hovers over the largeImage
+		largeImageText = "It's Minecraft {{game.version}}, but modded"
+		#The Asset ID or URLs of images to randomly use for the small image
+		smallImageKey = ["{{images.player}}"]
+		#The text to show when someone hovers over the smallImage
+		smallImageText = "{{player.name}}"
+		#The Twitch or Youtube URL to use when type is set to STREAMING
+		streamingActivityUrl = "https://twitch.tv/twitch"
+		#List of buttons (max 2) to show on the RPC
+		buttons = []
+
+#The Replay Editor Event
+[replay_editor]
+	#Enable/Disable the ReplayMod Editor Event
+	enabled = true
+
+	#List of RPCs that will be displayed at random
+	[[replay_editor.presence]]
+		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
+		type = "PLAYING"
+		#The first line of text under the app name
+		description = "Editing a video"
+		#The second line of text under the app name
+		state = "{{player.name}} is reviewing footage"
+		#The Asset ID or URLs of images to randomly use for the large image
+		largeImageKey = ["mclogonew"]
+		#The text to show when someone hovers over the largeImage
+		largeImageText = "It's Minecraft {{game.version}}, but modded"
+		#The Asset ID or URLs of images to randomly use for the small image
+		smallImageKey = ["{{images.player}}"]
+		#The text to show when someone hovers over the smallImage
+		smallImageText = "{{player.name}}"
+		#The Twitch or Youtube URL to use when type is set to STREAMING
+		streamingActivityUrl = "https://twitch.tv/twitch"
+		#List of buttons (max 2) to show on the RPC
+		buttons = []
+
+#The Replay Rendering Event
+[replay_render]
+	#Enable/Disable the ReplayMod Rendering Event
+	enabled = true
+
+	#List of RPCs that will be displayed at random
+	[[replay_render.presence]]
+		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
+		type = "PLAYING"
+		#The first line of text under the app name
+		description = "Exporting a video with {{replaymod.time.left}} left"
+		#The second line of text under the app name
+		state = "Rendering {{replaymod.frames.current}}/{{replaymod.frames.total}} frames"
+		#The Asset ID or URLs of images to randomly use for the large image
+		largeImageKey = ["mclogonew"]
+		#The text to show when someone hovers over the largeImage
+		largeImageText = "It's Minecraft {{game.version}}, but modded"
+		#The Asset ID or URLs of images to randomly use for the small image
+		smallImageKey = ["{{images.player}}"]
+		#The text to show when someone hovers over the smallImage
+		smallImageText = "{{player.name}}"
+		#The Twitch or Youtube URL to use when type is set to STREAMING
+		streamingActivityUrl = "https://twitch.tv/twitch"
+		#List of buttons (max 2) to show on the RPC
+		buttons = []
+

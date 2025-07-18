@@ -1,0 +1,8 @@
+{
+  "tracked_data_whitelist": [
+    "com.example.mymod.Utilities"
+  ],
+  "state_builder_whitelist": [
+    "net.example.examplemod.Utils"
+  ]
+}

@@ -1,10 +1,24 @@
-    {
-      "version": 1,
-      "overrides": {
+{
+    "version": 1,
+    "overrides": {
         "nvidium": {
-          "-depends": {
-            "sodium": ""
-          }
-      }
+            "-depends": {
+                "sodium": ""
+            }
+        },
+        "replayvoicechat": {
+            "depends": {
+                "fabricloader": "\u003e\u003d0.14.21",
+                "minecraft": "1.20.1",
+                "java": "\u003e\u003d17",
+                "voicechat": "\u003e\u003d1.20.1-2.4.13",
+                "replaymod": "\u003d1.20.1-2.6.23"
+            }
+        },
+        "distanthorizons": {
+            "-breaks": {
+                "chunky": "*"
+            }
+        }
     }
-    }
+}
