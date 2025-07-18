@@ -16,3 +16,6 @@ modpack/overrides/config/spark/tmp
 
 # Copyright violations lol
 modpack/overrides/config/analog/records
+
+# Distant Horizons
+modpack/overrides/config/DistantHorizons.toml
