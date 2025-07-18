@@ -10,6 +10,7 @@ modpack/overrides/config/skinrestorer/mojang_profile_cache.json
 modpack/overrides/config/sodium-fingerprint.json
 modpack/overrides/config/jade/usernamecache.json
 modpack/overrides/config/roughlyenoughitems/hints.json
+modpack/overrides/config/voicechat/username-cache.json
 
 # Temproary files
 modpack/overrides/config/spark/tmp
@@ -17,5 +18,5 @@ modpack/overrides/config/spark/tmp
 # Copyright violations lol
 modpack/overrides/config/analog/records
 
-# Distant Horizons
+# Distant Horizons interprets values differently on different devices - better to remove its configs and have everything set to default
 modpack/overrides/config/DistantHorizons.toml

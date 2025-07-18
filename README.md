@@ -18,10 +18,15 @@ A modpack for the 7th edition of GhostLand SMP
 
 ## Changelogs:
 
+### 7a14
+- Properly updated pack's version (forgot in the last patch)
+- Fixed one more regression (Sodium thinking that we hadn't seen the donation prompt, even though I'm 99% sure that ALL GhostLand players have seen it at some point in their lives - and our config reflected that before, but now it changed its mind, or something, idk)
+
 ### 7a13
 - Added back Adaptive Tooltips (it got mistaken for Tips in the previous update)
 - Re-enabled Advanced Tooltips (accidentally disabled in the previous update)
 - Fixed texturepack errors caused by update 7a10 changing only MrIndex (it should also change vanilla configs)
+- Nuked some more leaky configs
 
 ### 7a12
 - Removed Reborn Progression (makes early-game too slow and encourages grinding)
