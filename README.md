@@ -18,6 +18,9 @@ A modpack for the 7th edition of GhostLand SMP
 
 ## Changelogs:
 
+### 7a10
+* Added side support to non-mod/datapack things
+
 ### 7a9
 - Properly configured optional and excluded mods. Also, changed some datapack-mods into normal datapacks. This was all done under the geist of limiting the amount of mods present in Slim Edition (and - to a lesser extent - Full, too), and I think it went reasonably well, with ~150 mods optimised out of existance for Slim Edition (and the total mod count there is 211, which is both too much and actually pretty good). This kind of slimming-down is everything this patch WAS originally supposed to be about, but then - all hell broke loose because I realized that:
 - This modpack was based on an earlier version of GhostLand Baseline (eg. OptiGui got removed in GLB, but stayed here; CME is supposed to be off by default; StackDeobf got deleted because they have a fully-functional [web version](https://stackdeobf.net/), so there's no need to clog the RAM with it; added WilderWild and HT's), so I updated it. (And by „updated”, I mean „manually added/disabled/removed everything that I remembered as „wasn't like that in Baseline” because there is no easy way to merge mrpacks, and Baseline was made before Grinch existed (in fact, Baseline is the reason why Grinch came to be - the DX was just so bad without proper Git support), so Git merging wasn't an option, either”.)

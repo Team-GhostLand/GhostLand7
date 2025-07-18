@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "7a9",
+  "versionId": "7a10",
   "name": "GhostLand 7 Alpha",
   "summary": "Paczka na siódmą edycję GhostLanda - wersja alpha",
   "files": [
@@ -5721,14 +5721,14 @@
       "fileSize": 1294234
     },
     {
-      "path": "resourcepacks/Better-Leaves-9.2.zip",
+      "path": "resourcepacks/GR_SVX_Better-Leaves-9.2.zip",
       "hashes": {
         "sha1": "f6f58a5afa0dd9cc5759cd8f3f4a577b53c971a4",
         "sha512": "5cb3cb074fe11e35719cd080b1850569365c76996a2162df856e35de2daf1d34bee0c58bc10e940b492d12f1501155193ddf3cc285af3d198ee5a0d65ba420a2"
       },
       "env": {
         "client": "required",
-        "server": "required"
+        "server": "unsupported"
       },
       "downloads": [
         "https://cdn.modrinth.com/data/uvpymuxq/versions/1lk3J8Ip/Better-Leaves-9.2.zip"
@@ -5736,14 +5736,14 @@
       "fileSize": 1074526
     },
     {
-      "path": "resourcepacks/Chat Reporting Helper.zip",
+      "path": "resourcepacks/GR_SVX_Chat Reporting Helper.zip",
       "hashes": {
         "sha1": "4b3c263defd89be217bddec65543d0be15cd10f9",
         "sha512": "1eef4eb345e9cb424e024adc59366f633cf20cbe14a0703564812b507cfb8ca118025445e96aeb715866f6c0651760a924de74652362ad26c96be8f440a508e8"
       },
       "env": {
         "client": "required",
-        "server": "required"
+        "server": "unsupported"
       },
       "downloads": [
         "https://cdn.modrinth.com/data/tN4E9NfV/versions/7zxgLdb2/Chat%20Reporting%20Helper.zip"
@@ -5751,14 +5751,14 @@
       "fileSize": 32592
     },
     {
-      "path": "resourcepacks/Dramatic Skies.zip",
+      "path": "resourcepacks/GR_SVX_Dramatic Skies.zip",
       "hashes": {
         "sha1": "0e518401308ef634b0f552288f8f4d744228ba27",
         "sha512": "9822eab8b327baae4d849d9d4593597759506aae8cac650e2267b49d97f361d584cb161a8d0c9885d17972544cd62f94c15bbfbf8440abd4d48d8d2995b5c76a"
       },
       "env": {
         "client": "required",
-        "server": "required"
+        "server": "unsupported"
       },
       "downloads": [
         "https://cdn.modrinth.com/data/2YyNMled/versions/3kR3A2kE/Dramatic%20Skys%20Demo%201.5.3.35.zip"
@@ -5766,14 +5766,14 @@
       "fileSize": 11383475
     },
     {
-      "path": "resourcepacks/LowOnFire_1.20.1.zip",
+      "path": "resourcepacks/GR_SVX_LowOnFire_1.20.1.zip",
       "hashes": {
         "sha1": "08db918bc8642b5501402fe25c9b6a8286a538b5",
         "sha512": "f569d1facbe5fb231cc96a1018efab3ec45f9764acd6b13bc4b26c141631439a0627db70386d6baf729f2069c066532e58a672baf955e8fb2cc7d088c349d802"
       },
       "env": {
         "client": "required",
-        "server": "required"
+        "server": "unsupported"
       },
       "downloads": [
         "https://cdn.modrinth.com/data/RRxvWKNC/versions/roiZsJIW/LowOnFire_1.20.1.zip"
@@ -5781,14 +5781,14 @@
       "fileSize": 49395
     },
     {
-      "path": "resourcepacks/REVIVED_Farmer's Delight_crops_3D_Refabricated_R1.5-1.20.x.zip",
+      "path": "resourcepacks/GR_SVX_REVIVED_Farmer's Delight_crops_3D_Refabricated_R1.5-1.20.x.zip",
       "hashes": {
         "sha1": "13e6732cbfffaa37c78bf8147eb9611ca0e94411",
         "sha512": "be04bae39f98e321067ce4e32b0076d3553128bf1934f705609a1922a6b10e4926a2f8f524241b15ff2e045fe3809f5ee9f3bd64b48cd07d260a027590a13014"
       },
       "env": {
         "client": "required",
-        "server": "required"
+        "server": "unsupported"
       },
       "downloads": [
         "https://cdn.modrinth.com/data/fwqO0cpj/versions/rZsGEd1L/REVIVED_Farmer%27s%20Delight_crops_3D_Refabricated_R1.5-1.20.x.zip"
@@ -5796,14 +5796,14 @@
       "fileSize": 350006
     },
     {
-      "path": "resourcepacks/Simple Grass Flowers v1.9.5.zip",
+      "path": "resourcepacks/GR_SVX_Simple Grass Flowers v1.9.5.zip",
       "hashes": {
         "sha1": "2f430322ca2afdee2962180a23a577bbb7dea240",
         "sha512": "a3433c47360476a004d46c9ac4ae956037edd3549789e6c6c044ac451f50c99b5dd820ef4e9f7779c5eb21e5c181c5acad408588a9aa80f6fe856e54fc82ff07"
       },
       "env": {
         "client": "required",
-        "server": "required"
+        "server": "unsupported"
       },
       "downloads": [
         "https://cdn.modrinth.com/data/ti9KkMHm/versions/JDKDkDow/Simple%20Grass%20Flowers%20v1.9.5.zip"
@@ -5811,14 +5811,14 @@
       "fileSize": 187196
     },
     {
-      "path": "resourcepacks/SodiumTranslations.zip",
+      "path": "resourcepacks/GR_SVX_SodiumTranslations.zip",
       "hashes": {
         "sha1": "19a2f380a3a43077624f692f7532a480cdfae21a",
         "sha512": "592dcd2a76b3b683730c7260a5f9338b96207a1549c5630c8ae548d4593fffd178e91d6c6926fd3715b29e01cefb8fe338dc071bce3bb58eb5a35707e07d77c4"
       },
       "env": {
         "client": "required",
-        "server": "required"
+        "server": "unsupported"
       },
       "downloads": [
         "https://cdn.modrinth.com/data/yfDziwn1/versions/kMhmZLcr/SodiumTranslations.zip"
@@ -5826,14 +5826,14 @@
       "fileSize": 225824
     },
     {
-      "path": "resourcepacks/crops-3d(2).zip",
+      "path": "resourcepacks/GR_SVX_crops-3d(2).zip",
       "hashes": {
         "sha1": "233e886a3aed43cb48d01f87b8d68f43eb66b970",
         "sha512": "57073e45b1499cb7c4e6e40f9314fa6bb24716f116ef83a65914c86a7999bb26d28c023afd502e2bdbce60312c225199c4e46a3194e8dbe7bb60121894338996"
       },
       "env": {
         "client": "required",
-        "server": "required"
+        "server": "unsupported"
       },
       "downloads": [
         "https://cdn.modrinth.com/data/PgpTtNoI/versions/iKYRZwnm/crops-3d%282%29.zip"
@@ -5841,14 +5841,14 @@
       "fileSize": 483678
     },
     {
-      "path": "shaderpacks/BSL_v10.0.zip",
+      "path": "shaderpacks/GR_CLO+SVX_BSL_v10.0.zip",
       "hashes": {
         "sha1": "82eb9981a31a4753bb5022b5f64d5ec4f6a27071",
         "sha512": "3ce31ae8c7242ae335de70df10f8147420a64ca372585c195d0b300f9e8c5b923f1e5bf2b8dddfcc741a0ce8e0235e079540101632837624787da84e9b52d72f"
       },
       "env": {
-        "client": "required",
-        "server": "required"
+        "client": "optional",
+        "server": "unsupported"
       },
       "downloads": [
         "https://cdn.modrinth.com/data/Q1vvjJYV/versions/jRn8y2VF/BSL_v10.0.zip"
@@ -5856,14 +5856,14 @@
       "fileSize": 1121678
     },
     {
-      "path": "shaderpacks/ComplementaryReimagined_r5.5.1.zip",
+      "path": "shaderpacks/GR_CLO+SVX_ComplementaryReimagined_r5.5.1.zip",
       "hashes": {
         "sha1": "c9f1724fbe77e1d36afab9612b4aaac693bc84e4",
         "sha512": "e3168c3e8b9a59e70dbc7dd27931d8b245e5b16b093c87f1dccd01edc3a8be0fb14153fe8175e822ea6463ac0d715de377d186455580915c6f9d98c02b39194f"
       },
       "env": {
-        "client": "required",
-        "server": "required"
+        "client": "optional",
+        "server": "unsupported"
       },
       "downloads": [
         "https://cdn.modrinth.com/data/HVnmMxH1/versions/sAAjYvFB/ComplementaryReimagined_r5.5.1.zip"
@@ -5871,14 +5871,14 @@
       "fileSize": 456328
     },
     {
-      "path": "shaderpacks/ComplementaryUnbound_r5.5.1.zip",
+      "path": "shaderpacks/GR_CLO+SVX_ComplementaryUnbound_r5.5.1.zip",
       "hashes": {
         "sha1": "52fdb332e6de592cceb8f85f2dc756eb78afab01",
         "sha512": "a79d536ad610741d3ac25faeb4f32a7fff6d25b89529b5a4919d72b9f9f817a15680a734e5ccb50efd77737ff215089adb93d7a3c02b439c25b9dab988e41c36"
       },
       "env": {
-        "client": "required",
-        "server": "required"
+        "client": "optional",
+        "server": "unsupported"
       },
       "downloads": [
         "https://cdn.modrinth.com/data/R6NEzAwj/versions/1ng9gVp7/ComplementaryUnbound_r5.5.1.zip"
@@ -5886,14 +5886,14 @@
       "fileSize": 456332
     },
     {
-      "path": "shaderpacks/Noble v1.8.3.zip",
+      "path": "shaderpacks/GR_CLO+SVX_Noble v1.8.3.zip",
       "hashes": {
         "sha1": "15bd91a4315a3fddba21b2f497769866eb268b85",
         "sha512": "ab98b1dbd652ceb7f2b4f0308ee66c866714c15864a7001bf6ec396f1c2c39d104add690cd2e76cab5cf99b7e9d2890b89bc607635b779427e25e5a7b5f47f95"
       },
       "env": {
-        "client": "required",
-        "server": "required"
+        "client": "optional",
+        "server": "unsupported"
       },
       "downloads": [
         "https://cdn.modrinth.com/data/sclYVqbt/versions/ACPd0y24/Noble%20v1.8.3.zip"
@@ -5901,14 +5901,14 @@
       "fileSize": 11480653
     },
     {
-      "path": "shaderpacks/Nostalgia_v5.1.zip",
+      "path": "shaderpacks/GR_CLO+SVX_Nostalgia_v5.1.zip",
       "hashes": {
         "sha1": "c93900007773ce0314539461e26aa8faadf4aec9",
         "sha512": "9a15161da2e360bcc446bfeb5163a2b4e70e49b46545ccbdde05540a46d861a7a378c243769faeabca76019e75cb1e55b1b2c04f74b8aaa23b86d436ebbb034c"
       },
       "env": {
-        "client": "required",
-        "server": "required"
+        "client": "optional",
+        "server": "unsupported"
       },
       "downloads": [
         "https://cdn.modrinth.com/data/xEItlMn3/versions/fzxeGgx7/Nostalgia_v5.1.zip"
@@ -5916,14 +5916,14 @@
       "fileSize": 1842205
     },
     {
-      "path": "shaderpacks/Pixel-Perfect-1-5-2a.zip",
+      "path": "shaderpacks/GR_CLO+SVX_Pixel-Perfect-1-5-2a.zip",
       "hashes": {
         "sha1": "ad30196a9b7733ce5857331a71a9bc139ebe9f84",
         "sha512": "0b7c297df66a549217c7eab347e2d30a069e4cf19d0c2796174851f5ea998eb87c3dd5cfcdd2271a776245874cc2b895e0fb4046ac3a3f0c21d95b3e7ebe5335"
       },
       "env": {
-        "client": "required",
-        "server": "required"
+        "client": "optional",
+        "server": "unsupported"
       },
       "downloads": [
         "https://cdn.modrinth.com/data/D5k8BTVz/versions/yClZbuaO/Pixel-Perfect-1-5-2a.zip"
@@ -5931,14 +5931,14 @@
       "fileSize": 7766144
     },
     {
-      "path": "shaderpacks/miniature-shader-2.15.2.zip",
+      "path": "shaderpacks/GR_CLO+SVX_miniature-shader-2.15.2.zip",
       "hashes": {
         "sha1": "0340d0989dec159e5c5145757363cba53a96bcd8",
         "sha512": "15125b3feb04b8de1d579bf01197760bdf54a90122efabd1cefb894890b1bab264b6b7931a1bf58d3db943d38a58cbe8d378b5aaea53ef9f422ce683c52821a7"
       },
       "env": {
-        "client": "required",
-        "server": "required"
+        "client": "optional",
+        "server": "unsupported"
       },
       "downloads": [
         "https://cdn.modrinth.com/data/UaS8ROxa/versions/4kudV28N/miniature-shader-2.15.2.zip"
@@ -5946,14 +5946,14 @@
       "fileSize": 31529
     },
     {
-      "path": "shaderpacks/photon_v1.2a.zip",
+      "path": "shaderpacks/GR_CLO+SVX_photon_v1.2a.zip",
       "hashes": {
         "sha1": "6ad7e57f22ceb5530b168d077414abc8387c9b04",
         "sha512": "6dd3e8078c5a7958638259a3472ce1192e549e0683c5c668df25bfcff5d282af5fe791e423490561c4a2e68f3933f4ff2ef2ef689f13a4774bfdef86d7994db4"
       },
       "env": {
-        "client": "required",
-        "server": "required"
+        "client": "optional",
+        "server": "unsupported"
       },
       "downloads": [
         "https://cdn.modrinth.com/data/lLqFfGNs/versions/rz2vlXVm/photon_v1.2a.zip"
@@ -5961,14 +5961,14 @@
       "fileSize": 3737845
     },
     {
-      "path": "shaderpacks/rethinking-voxels_r0.1-beta8.zip",
+      "path": "shaderpacks/GR_CLO+SVX_rethinking-voxels_r0.1-beta8.zip",
       "hashes": {
         "sha1": "d9839cef6e7e206a77a62d6c464930fa97248566",
         "sha512": "92293b8de3ed75ee85234b20f94ca7f821ac64bf6d4476c4b1a15b65deaced797b76d62248a5cac747eeb6699ab54c0b022ba1e9ffb6a96b51dbc3f11019ded4"
       },
       "env": {
-        "client": "required",
-        "server": "required"
+        "client": "optional",
+        "server": "unsupported"
       },
       "downloads": [
         "https://cdn.modrinth.com/data/kmwfVOoi/versions/ZYsfUe9S/rethinking-voxels_r0.1-beta8.zip"
