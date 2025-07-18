@@ -18,6 +18,11 @@ A modpack for the 7th edition of GhostLand SMP
 
 ## Changelogs:
 
+### 7a12
+- Removed Reborn Progression (makes early-game too slow and encourages grinding)
+- Removed Tips and removed them from Aether config
+- Disabled Bed Overhaul (for now)
+
 ### 7a11
 - Banished Distant Horizons config file
 

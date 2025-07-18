@@ -14,6 +14,8 @@
     "minecraft:plains_village",
     "minecraft:desert_village",
     "additionalstructures:jungle_tree_hole",
-    "betterarcheology:underwater_2"
+    "betterarcheology:underwater_2",
+    "ctov:medium/village_desert_oasis",
+    "ctov:large/village_plains_fortified"
   ]
 }

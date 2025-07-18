@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "7a10",
+  "versionId": "7a12",
   "name": "GhostLand 7 Alpha",
   "summary": "Paczka na siódmą edycję GhostLanda - wersja alpha",
   "files": [
@@ -756,21 +756,6 @@
       "fileSize": 397239
     },
     {
-      "path": "mods/GR_CLO+SVX_AdaptiveTooltips-1.3.0-fabric-1.20.2.jar",
-      "hashes": {
-        "sha1": "2ff512a70c437c20523de01ea95b6fc9b164a5c0",
-        "sha512": "4e7e930360a122eef64874a88f3410e5b050559782a8270a37e80803753af2ad1be6d9c6bd68f09ddb88e327428ff37f7e0230991fdecdd10a32b078934c7206"
-      },
-      "env": {
-        "client": "optional",
-        "server": "unsupported"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/wFv8yCxM/versions/MgbaLEPy/AdaptiveTooltips-1.3.0-fabric-1.20.2.jar"
-      ],
-      "fileSize": 153757
-    },
-    {
       "path": "mods/GR_CLO+SVX_BetterAdvancements-Fabric-1.20.1-0.4.2.25.jar",
       "hashes": {
         "sha1": "22964ac6041bd356e40658eb50425ae730f1b071",
@@ -964,21 +949,6 @@
         "https://cdn.modrinth.com/data/ZouiUX7t/versions/EoAqSkiW/Sounds-2.2.1%2B1.20.1%2Bfabric.jar"
       ],
       "fileSize": 10424707
-    },
-    {
-      "path": "mods/GR_CLO+SVX_Tips-Fabric-1.20.1-12.1.8.jar",
-      "hashes": {
-        "sha1": "bf1806e6bff295528ad303e3e1caee071fb53cef",
-        "sha512": "1214cbee2afc40535130870002ff04e6455c993ae2f0ddf5481e1c9fccb305469186c677142f8e1244c6141e262a01636c7139203d91d8381e2509cc82c01be8"
-      },
-      "env": {
-        "client": "optional",
-        "server": "unsupported"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/AMCbgyVw/versions/uq5F0GNj/Tips-Fabric-1.20.1-12.1.8.jar"
-      ],
-      "fileSize": 116739
     },
     {
       "path": "mods/GR_CLO+SVX_XaeroZoomout-Fabric-1.20-1.1.0.jar",
@@ -4056,7 +4026,7 @@
       "fileSize": 825685
     },
     {
-      "path": "mods/bedoverhaul-1.0.2.jar",
+      "path": "mods/bedoverhaul-1.0.2.jar.disabled",
       "hashes": {
         "sha1": "246fe39796d9db90154342db5bfbca0d7bef40bd",
         "sha512": "d57fb5d17672a6950d3c54babb6975e9f35fb7228d08d0750c34a2570a225aeff8d44196ea17530626b532c38fd77a4ae5e769a81d896e567a6a15f9615cb543"
@@ -5329,21 +5299,6 @@
         "https://cdn.modrinth.com/data/c7m1mi73/versions/dCEO67fT/packetfixer-3.1.4-1.18-1.20.4-merged.jar"
       ],
       "fileSize": 163268
-    },
-    {
-      "path": "mods/progression-reborn-1.20-v1.3.16.jar",
-      "hashes": {
-        "sha1": "9e8950e94ff634d8210afd51db4b4dd5af0c92ca",
-        "sha512": "5b39d11e8a2e857f93d70fb9cc870f4780c2c05dc6c940d1956f5353b0c927b4ea82e9064a8196d36676811ea3caf102192c97c2c346766bf611c82833adefba"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/PE2WMGd2/versions/lWk37qwO/progression-reborn-1.20-v1.3.16.jar"
-      ],
-      "fileSize": 363212
     },
     {
       "path": "mods/puffish_attributes-0.7.4-1.20-fabric.jar",
