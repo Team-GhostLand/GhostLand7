@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "7a14",
+  "versionId": "7a15",
   "name": "GhostLand 7 Alpha",
   "summary": "Paczka na siódmą edycję GhostLanda - wersja alpha",
   "files": [
@@ -499,6 +499,21 @@
         "https://cdn.modrinth.com/data/RAXqYPH1/versions/rTizqJId/Annotated-DI-Fabric-4.0.8%2B1.20.4.jar"
       ],
       "fileSize": 864961
+    },
+    {
+      "path": "mods/Autism-1.0.0.jar",
+      "hashes": {
+        "sha1": "5891d92cd029cc4cb1a4f7d574f78076c0892712",
+        "sha512": "d2d8f64854a60803e9f5bcf0a10d5e960033bbaefaed0a1dca6d7fff078be697e8ad0d7dd1f3c697c08f89e3e3b647ca0a07b96bdaba2fd8931014477b9a2e72"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/XzbXU1rm/versions/QaSqjoBG/Autism-1.0.0.jar"
+      ],
+      "fileSize": 48047
     },
     {
       "path": "mods/BOMD-1.7.5-1.20.1.jar",
@@ -4521,6 +4536,21 @@
       "fileSize": 18034363
     },
     {
+      "path": "mods/do_a_barrel_roll-fabric-3.6.1+1.20.1.jar",
+      "hashes": {
+        "sha1": "2efedb58832380d3a6f6445033b12222aa247f9a",
+        "sha512": "e2294aeb8589c5a0c7508a0b5ac575bc47f05fbf85db50c985f5165f9ee29292a0f8ee8d548083b151af0a9c843e4ec68d6ca8f1861c91f6b9446269190bf662"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/6FtRfnLg/versions/CuLlUIYD/do_a_barrel_roll-fabric-3.6.1%2B1.20.1.jar"
+      ],
+      "fileSize": 502529
+    },
+    {
       "path": "mods/dynamiccrosshair-9.8+1.20.1-fabric.jar",
       "hashes": {
         "sha1": "5fc11d54f4748f1683ddea3c2d6e5fb7139c6fa7",
@@ -4549,6 +4579,21 @@
         "https://cdn.modrinth.com/data/e9V6wFcR/versions/4KEfJPHI/expandeddelight-0.3.2.jar"
       ],
       "fileSize": 323205
+    },
+    {
+      "path": "mods/exposure-1.20.1-1.7.16-fabric.jar",
+      "hashes": {
+        "sha1": "d55b8d666598410db4bee4e51aeb445726574ce5",
+        "sha512": "1b65566b954ab6712c15268a983eef4875341779bf5f80f65141e93818ffc8678861d1e1fb24e864a1c040222f5bf7f7262e902b350246b35bcfdd7bf54d898f"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/hB899VmG/versions/fiezBPPG/exposure-1.20.1-1.7.16-fabric.jar"
+      ],
+      "fileSize": 1342392
     },
     {
       "path": "mods/extraorigins-1.20-8.jar",
@@ -4714,6 +4759,21 @@
         "https://cdn.modrinth.com/data/BzOTnuqM/versions/4I0fr3sf/fish_of_thieves-mc1.20.1-v3.1.2-fabric.jar"
       ],
       "fileSize": 1494378
+    },
+    {
+      "path": "mods/flightassistant-fabric-3.0.0-alpha.10+mc1.20.1.jar",
+      "hashes": {
+        "sha1": "8eba8ecb424ba1a2e339ce2f1e76b0ebee0c8a06",
+        "sha512": "aa6d68794a427fb36ca867b7804aa9efe23db73fec433ce9e3f747492888593fca7e6230f235d2a06008ef13e4a83662268797df513370d183acb6e06c6ebc4d"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/CWqLEOPt/versions/4hZbhBrK/flightassistant-fabric-3.0.0-alpha.10%2Bmc1.20.1.jar"
+      ],
+      "fileSize": 842286
     },
     {
       "path": "mods/fusion-1.2.8a-fabric-mc1.20.1.jar",
@@ -5421,6 +5481,21 @@
       "fileSize": 431646
     },
     {
+      "path": "mods/rolling-down-in-the-deep-0.1.1.jar",
+      "hashes": {
+        "sha1": "4d19a8580d4d4b8faf8da56b21c99537d330b035",
+        "sha512": "4c06311cf20d55b0e0e4c17d45e7680494d3c67b0b45d1eaeba6a635cdd828197c066de9c21c9ae40ff998f824c703b4928cb33d5a222f8d7cccbceae516df52"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/zQqsEeqy/versions/PFWiA3fE/rolling-down-in-the-deep-0.1.1.jar"
+      ],
+      "fileSize": 75728
+    },
+    {
       "path": "mods/silk-all-1.10.1.jar",
       "hashes": {
         "sha1": "db808d34e1a41e0216c3df6b612a4f6c604757a6",
@@ -5451,19 +5526,19 @@
       "fileSize": 563207
     },
     {
-      "path": "mods/spoiledz-1.0.10.jar",
+      "path": "mods/smallships-fabric-1.20.1-2.0.0-b1.4.jar",
       "hashes": {
-        "sha1": "a72f0caa1f7b1fffae22b6cc08b1c7528714fdbc",
-        "sha512": "a60a4198bc485f2ee0a12d405d7637c01b33e64f09174c284939ec1cf50aa003d6460b38d8a2096f994639c38a3d4a920b50dfc336c40d0e675e4cb5fe353768"
+        "sha1": "6c12ee505822a6f28e4bd027c4107d59eaecbf2e",
+        "sha512": "a08da465ff2fdd69fea612e33fb209d349925e8b8b268aede484e624949677c1b1a39e281f7aaeb21687d5068bbe0e5319d41b867149a789b4421b5b96136b73"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/WBzldFmc/versions/Vh6j7Y0P/spoiledz-1.0.10.jar"
+        "https://cdn.modrinth.com/data/rGWEHQrP/versions/gpbYUuEr/smallships-fabric-1.20.1-2.0.0-b1.4.jar"
       ],
-      "fileSize": 145502
+      "fileSize": 2160482
     },
     {
       "path": "mods/starlight-1.1.2+fabric.dbc156f.jar",

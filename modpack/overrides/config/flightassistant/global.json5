@@ -1,0 +1,6 @@
+{
+	modEnabled: true,
+	hudEnabled: true,
+	safetyEnabled: true,
+	automationsAllowedInOverlays: false
+}

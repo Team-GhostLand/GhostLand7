@@ -16,6 +16,9 @@
     "additionalstructures:jungle_tree_hole",
     "betterarcheology:underwater_2",
     "ctov:medium/village_desert_oasis",
-    "ctov:large/village_plains_fortified"
+    "ctov:large/village_plains_fortified",
+    "ctov:large/village_savanna",
+    "bettermineshafts:mineshaft_lush",
+    "biomeswevegone:ironwood_gour_plateau"
   ]
 }
