@@ -21,6 +21,9 @@ A modpack for the 7th edition of GhostLand SMP
 
 ## Changelogs:
 
+### 7a17
+- Marked a client-sided Fusion as double-sided (so ReChiseld won't complain)
+
 ### 7a16
 - Updated: 3D Skin Layers, Balm, Distant Horizons, Entity Culling, RPG Skill Tree (but Modrinth will try to gaslight you into thinking that it's not updated), FancyMenu, FlightAssistant, Geckolib
 - Configured sides for Rolling Down in the Deep, FlightAssistant and Do a Barrel Roll
