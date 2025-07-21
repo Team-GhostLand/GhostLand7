@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "7a18",
+  "versionId": "7a19",
   "name": "GhostLand 7 Alpha",
   "summary": "Paczka na siódmą edycję GhostLanda - wersja alpha",
   "files": [
@@ -4836,7 +4836,7 @@
       "fileSize": 1169044
     },
     {
-      "path": "mods/gtceu-fabric-1.20.1-1.0.20.b.jar",
+      "path": "mods/gtceu-fabric-1.20.1-1.0.20.b.jar.disabled",
       "hashes": {
         "sha1": "db1d75571a513f41df9aed90dff64c0218b6680a",
         "sha512": "300c36c3e59a60dea48a3a626bc1d78299de2a27fd5ab7c6c2b598caca9e2e365971259e070464193b4fc775c8676b32f6a430293314976889e67f046f7b5b9f"

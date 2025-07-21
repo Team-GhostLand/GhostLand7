@@ -21,6 +21,9 @@ A modpack for the 7th edition of GhostLand SMP
 
 ## Changelogs:
 
+### 7a19
+- Disabled GregTech (the server was failing to start with it on); TODO: Debug wtf is going on
+
 ### 7a18
 - Marked Fusion as double-sided (fr this time)
 
