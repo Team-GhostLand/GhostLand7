@@ -21,6 +21,9 @@ A modpack for the 7th edition of GhostLand SMP
 
 ## Changelogs:
 
+### 7a18
+- Marked Fusion as double-sided (fr this time)
+
 ### 7a17
 - Marked a client-sided Fusion as double-sided (so ReChiseld won't complain)
 

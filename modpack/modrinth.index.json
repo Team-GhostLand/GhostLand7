@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "7a17",
+  "versionId": "7a18",
   "name": "GhostLand 7 Alpha",
   "summary": "Paczka na siódmą edycję GhostLanda - wersja alpha",
   "files": [
@@ -3163,7 +3163,7 @@
       },
       "env": {
         "client": "required",
-        "server": "unsupported"
+        "server": "required"
       },
       "downloads": [
         "https://cdn.modrinth.com/data/p19vrgc2/versions/nDq0aU3y/fusion-1.2.8a-fabric-mc1.20.1.jar"
