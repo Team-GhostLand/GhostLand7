@@ -41,9 +41,9 @@ graphicsMode:1
 ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
-renderClouds:"false"
-resourcePacks:["vanilla","fabric","seasons:seasonal_lush_caves","Moonlight Mods Dynamic Assets","file/GR_SVX_Chat Reporting Helper.zip","file/GR_SVX_SodiumTranslations.zip","immersive_weathering:visual_waxed_iron_items","file/GR_SVX_LowOnFire_1.20.1.zip","createfood:farmers_delight","createfood:ends_delight","createfood:ubes_delight","createfood:expanded_delight","createfood:farmers_respite","createfood:cultural_delight","createfood:rustic_delight","createfood:create","continuity:default","continuity:glass_pane_culling_fix","file/VanillaTweaks.zip","file/Less-Dramatic Skies.zip","railways:green_signals","file/GR_SVX_Better-Leaves-9.2.zip","file/GR_SVX_REVIVED_Farmer\u0027s Delight_crops_3D_Refabricated_R1.5-1.20.x.zip","wilderwild:wilder_main_menu","$polymer-resources"]
-incompatibleResourcePacks:["immersive_weathering:visual_waxed_iron_items"]
+renderClouds:"true"
+resourcePacks:["vanilla","$polymer-resources","fabric","seasons:seasonal_lush_caves","Moonlight Mods Dynamic Assets","file/GR_SVX_Chat Reporting Helper.zip","file/GR_SVX_SodiumTranslations.zip","immersive_weathering:visual_waxed_iron_items","file/GR_SVX_LowOnFire_1.20.1.zip","createfood:farmers_delight","createfood:ends_delight","createfood:ubes_delight","createfood:expanded_delight","createfood:farmers_respite","createfood:cultural_delight","createfood:rustic_delight","createfood:create","continuity:default","continuity:glass_pane_culling_fix","file/VanillaTweaks.zip","file/Less-Dramatic Skies.zip","railways:green_signals","file/GR_SVX_Simple Grass Flowers v1.9.5.zip","file/GR_SVX_Better-Leaves-9.2.zip","file/GR_SVX_REVIVED_Farmer\u0027s Delight_crops_3D_Refabricated_R1.5-1.20.x.zip","file/GR_SVX_crops-3d(2).zip"]
+incompatibleResourcePacks:["immersive_weathering:visual_waxed_iron_items","file/GR_SVX_Simple Grass Flowers v1.9.5.zip","file/GR_SVX_crops-3d(2).zip"]
 lastServer:
 lang:pl_pl
 soundDevice:""
@@ -147,7 +147,7 @@ key_create.keyinfo.toolbelt:key.keyboard.left.alt
 key_create.keyinfo.ponder:key.keyboard.w
 key_key.createbigcannons.pitch_mode:key.keyboard.unknown
 key_key.createbigcannons.fire_controlled_cannon:key.mouse.left
-key_key.do_a_barrel_roll.toggle_enabled:key.keyboard.i
+key_key.do_a_barrel_roll.toggle_enabled:key.keyboard.unknown
 key_key.do_a_barrel_roll.toggle_thrust:key.keyboard.unknown
 key_key.do_a_barrel_roll.open_config:key.keyboard.unknown
 key_key.do_a_barrel_roll.pitch_up:key.keyboard.unknown
@@ -157,18 +157,18 @@ key_key.do_a_barrel_roll.yaw_right:key.keyboard.d
 key_key.do_a_barrel_roll.roll_left:key.keyboard.unknown
 key_key.do_a_barrel_roll.roll_right:key.keyboard.unknown
 key_key.do_a_barrel_roll.thrust_forward:key.keyboard.w
-key_key.do_a_barrel_roll.thrust_backward:key.keyboard.unknown
+key_key.do_a_barrel_roll.thrust_backward:key.keyboard.s
 key_dsurround.text.keybind.modConfigurationMenu:key.keyboard.unknown
 key_dsurround.text.keybind.individualSoundConfig:key.keyboard.unknown
 key_dsurround.text.keybind.diagnosticHud:key.keyboard.unknown
 key_key.entityculling.toggle:key.keyboard.unknown
 key_key.exposure.camera_controls:key.keyboard.unknown
 key_key.flightassistant.toggle_enabled:key.keyboard.unknown
-key_key.flightassistant.open_flight_setup:key.keyboard.keypad.enter
-key_key.flightassistant.autopilot_disconnect:key.keyboard.caps.lock
+key_key.flightassistant.open_flightassistant_setup:key.keyboard.unknown
+key_key.flightassistant.autopilot_disconnect:key.keyboard.apostrophe
 key_key.flightassistant.manual_pitch_override:key.keyboard.right.alt
-key_key.flightassistant.hide_current_alert:key.keyboard.keypad.0
-key_key.flightassistant.show_hidden_alert:key.keyboard.keypad.decimal
+key_key.flightassistant.hide_current_alert:key.keyboard.comma
+key_key.flightassistant.show_hidden_alert:key.keyboard.period
 key_key.flightassistant.thrust.set_idle:key.keyboard.left
 key_key.flightassistant.thrust.decrease_thrust:key.keyboard.down
 key_key.flightassistant.thrust.increase_thrust:key.keyboard.up
@@ -221,7 +221,7 @@ key_key.replaymod.positionkeyframe:key.keyboard.unknown
 key_key.replaymod.positiononlykeyframe:key.keyboard.unknown
 key_key.replaymod.timekeyframe:key.keyboard.unknown
 key_key.replaymod.bothkeyframes:key.keyboard.unknown
-key_key.smallships.ship_sail:key.keyboard.r
+key_key.smallships.ship_sail:key.keyboard.y
 key_key.structurecredits.deactivate_key:key.keyboard.unknown
 key_key.structurecredits.show_again_key:key.keyboard.unknown
 key_key.structurecredits.dont_show_key:key.keyboard.unknown

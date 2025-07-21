@@ -1,24 +1,9 @@
 {
   "active": true,
-  "showOnlyOneTime": true,
+  "showOnlyOneTime": false,
   "chatMessage": false,
   "showCreator": true,
-  "customStructureName": {
-    "minecraft:swamp_hut": "a_cat:cat_hut"
-  },
-  "dontShowAll": [
-    "minecraft:",
-    "dimdungeons:"
-  ],
-  "dontShow": [
-    "minecraft:plains_village",
-    "minecraft:desert_village",
-    "additionalstructures:jungle_tree_hole",
-    "betterarcheology:underwater_2",
-    "ctov:medium/village_desert_oasis",
-    "ctov:large/village_plains_fortified",
-    "ctov:large/village_savanna",
-    "bettermineshafts:mineshaft_lush",
-    "biomeswevegone:ironwood_gour_plateau"
-  ]
+  "customStructureName": {},
+  "dontShowAll": [],
+  "dontShow": []
 }

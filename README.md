@@ -5,7 +5,8 @@ A modpack for the 7th edition of GhostLand SMP
 ## Issues:
 - [x] Continents incompatible with Tectonic *(fixed: Tectonic handles continentality on its own)*
 - [ ] Update config files *(ongoing)*
-- [x] Clouds have some issues with rendering (DH makes clouds double-layerd) ~~*(note: Can't we pretend that this is intentional? They look kinda dope!)*~~ *(fixed: turned the clouds off (there is one layer now instead of two))*
+- [ ] Clouds have some issues with rendering (DH makes clouds double-layerd) ~~*(note: Can't we pretend that this is intentional? They look kinda dope!)*~~ ~~*(fixed: turned the clouds off (there is one layer now instead of two))*~~ *(nope: look below)*
+- [x] Clouds don't render at all without DH *(fixed: turned the clouds back on (there is one layer now instead of zero for DH-less players))*
 - [ ] Issues while exiting a world ~~*(fixed: They just... fixed... themselves? Quits instantly without DH; with DH on - exiting takes some time (10-something seconds), but __usually__ will also happen, eventually.)*~~ *(update: they haven't actually fixed themselves, this issue still happens)*
 - [x] Issues while entering a world (falling through the world) *(fixed: was a bug in older Baseline versions and since this pack was accidentally based on said older version - MidnightSP must've simply been unlucky enough to run into said bug)*
 - [ ] Issues while entering a world (game incredibly laggy for the first few minutes) *(note: that IS the chunks loading in - recommended solution is to look at the horizon in a single direction until it loads, then look around very slowly, will need to make a note about this in Discord)*
@@ -15,9 +16,25 @@ A modpack for the 7th edition of GhostLand SMP
 - [ ] Enabling Planet Curvature in Distant Horizons does nothing
 - [ ] With Panoramics seemingly completely cooked, we have nothing to make a main menu panorama for Fancy Menu with.
 - [ ] Small Ships' boats made from wood from WilderWilds don't have textures
+- [ ] Main menu panorama is... Uhhhhh...... Just check the Discord, please
 
 
 ## Changelogs:
+
+### 7a16
+- Updated: 3D Skin Layers, Balm, Distant Horizons, Entity Culling, RPG Skill Tree (but Modrinth will try to gaslight you into thinking that it's not updated), FancyMenu, FlightAssistant, Geckolib
+- Configured sides for Rolling Down in the Deep, FlightAssistant and Do a Barrel Roll
+- Re-disabled Cumulus button (it's unwantedly enabled by default, so it was disabled for some time (but undocumented), but then got re-enabled for some reason, and now it's back to it's proper (disabled) state)
+- Configured Structure Credits
+- Cleared all pins from REI
+- Re-closed REI (regression from v12: was left opened and noone noticed until now)
+- Fixed resourcepacks (that broke again, for *some* ungodly reason - srsly, why does this keep happening?)
+- Changed s'more keybinds
+- Bye, SVC-DC Bridge! (it's incompatible with our ARM-based server)
+- Turned on clouds in options (to „fancy”)
+- T'was a very painful choice..... But Dynamic Surroundings is now client-optional.
+- Dynamic Crosshair, Traveler's Ttles and Fusion now correctly self-identify as CLO+SVX (x2) and SVX respectively (some update broke them, idk)
+- Added `observable_announce` to overrides, so that it shuts the f up
 
 ### 7a15
 - Added Do a Barrel Roll (to make elytra flying more fun)
@@ -123,7 +140,9 @@ There will, for certain, be more. These are just some things that came to my min
 * Custom resourcepack (like for Cebuliony and stuff)
 * Sparse Structures
 * Increase title splash cycle rate (the way it is right now, you won't ever see it changing)
-* Disable Simple VC groups (we have radios for that) 
+* Disable Simple VC groups (we have radios for that)
+* MAYBE? add some default pins to REI, to subtly guide the player towards important objectives?
+* Enable "visited=don't show again" for Structure Credits
 * *also, this isn't really a config-related TODO, but we need to check whether Iru's bed-mod-thing works on server-side only*
 
 ### Vanilla
@@ -175,8 +194,12 @@ There will, for certain, be more. These are just some things that came to my min
 * Disabled everything Cave Dust
 * Plane Rocket Boost at Enter
 * Disabled vanilla screenshots - replaced with large ones
-* Added secondary ability to Origins
-* Tinker's set to pages
+* Added secondary ability to Origins (at H)
+* Tinker's set to Pages
+* Remapped Small Ships sail from R to Y to prevent airplane-boat collisions
+* Remapped various FlightAssistant keys to the right-hand cluster (where its arrows already were, anyway)
+* Added thrus reversal to Do a Barrel Roll (at S)
+* Disabled Do a Barrel Roll's toggle
 
 ### Bind Pizzeria
 * Temporarily configured Worldmap shortcut (will be changed later to something more immersive, along with other BP configs)
@@ -201,6 +224,21 @@ There will, for certain, be more. These are just some things that came to my min
 ### Miniature Shader
 * Whatever stuff was in Baseline
 
+### Aether
+* Disabled Cumulus button
+* Disabled tips
+
+### FlightAssistant
+* Made the HUD green (*to MidnightSP: did you change this, or is that the defualt? Cuz it's white in their screenshots*)
+
+### Structure Credits
+* Cleared visited structures list
+* Cleared any default overrides/blacklists that they had
+* Disabled the "visited=don't show again" behaviour (**this must be reset in final release!**, or the players will get spammed with structure notifications)
+
+### Observable
+* Survived the announcement
+
 
 ## Things to mention to people
 * See: [Issue](https://github.com/Team-GhostLand/GhostLand7#issues) about entering
@@ -210,10 +248,11 @@ There will, for certain, be more. These are just some things that came to my min
 * If they don't have the Analog mod installed (Slim Edition) or have it disabled (default in Tweakable Edition, or could've done so manually in Full Edition), they must enable the resourcepack „Analog-serverside-edition.zip”.
 * There are 4 options for skies available: Shaders, Dramatic Skies resourcepack via Celestial mod (you can disable it if you don't want to use DS), Less-dramatic Skies resourcepack via Vanilla Tweaks (default), just a normal Vanilla sky. It's recommneded to not combine them - just pick whichever one you think looks best.
 * If you build a Create Mod train, you **MUST** save it as a schematic! This is so that, whenever trains break (hopefully they won't, but you never know), there would be a backup that lets you restore the train to the **EXACT** state that it was in before. This is important because when the trains broke on GL5, we took some *creative liberties* (pun intended), such as a freaking golden rim around the edges (or the fact that we used Copycats as the base building material, instead of trapdoors and stuff, like it was before), when rebuilding them. To be clear, the act of rebuilding on GM1 alone was entirely justified. The trains broke on their own; just magically disappeared. It would be unfair of the server admins to require Ghostland Railway Administration members to go through the struggle of obtaining train casings again because of the server's fault. But because we cheated (let's be honest and call it out for what it was) when rebuilding, *we* were the ones who treated the rest of the playerbase unfairly. Guzio's opinion here: ...And to me, that was the very moment when the server stopped being fun (just like they said in [this video](https://youtu.be/fYpe4KZj9UE): as soon as someone cheats at an SMP, it all suddenly feels meaningless). Well - one out of three. The other one was when the server went offline for 2 weeks because of a critical software failure (it really killed the excellent momentum (with usually >= 3 players at any given time during the day), right as we got an influx of new members, too!) and the other-other one was when Jifo was disqussing plans for GL6 at Palmer's (I thought „What's the point of playing now, if it's soon gonna be gone?”). Because, to be honest, GL5 really had a lot going for it! If it weren't for that 2-week outage and the cheating (discussion at Palmer's was a result of these two, since the playerbase started leaving), there is a chance, however small, that it would've still been alive today. *So, anyway...* Backup your trains people! Let's be sure that they're rebuilt EXACTLY like they were before, so that absolutely 0 materials get cheated in. How knows, maybe that's how we get a year (or more?) -long edition?
+* Privacy notes: We accepted BetterStats privacy policy and we have Wiretap installed
 
 ### Pending elections
 * **Origins:** Add Origins++? *ALSO* Replace Origins Default with Origins-? *ALSO* Have Origins at all?
-* **Tech mods:** GregTech *or* Modern Industry + GT-style ores? *ALSO* TechReborn? *ALSO* Create 5 with Addons *or* Create 6 without addons? **[Must test first!]**
+* **Tech mods:** GregTech *or* Modern Industry + GT-style ores? *ALSO* TechReborn?
 * **Smelting:** Alloy Forgery + Mythic Metals *or* Tinkers + HepExpansion *or* both, and then we add HepPlus for Mythic Metals x Tinkers integation? *[Will remove Crate: Molten Metals if we end up with Tinkers.]*
 * **Dimensions:** Aether, Twilight Forest, The Bumblezone? (non-exclusive; probably won't even need a majority - even a moderate community interest (like 1/3) would be enough, and those who don't want a given mod, can just not use it) *ALSO* If we want DimDoors? (since it adds some pretty invasive structures (if you attempt to remove one, you'll be left with an ever-growing Rift) - this WILL require a majority vote)
 * **Other:** Co-op achievements? *ALSO* Iru's harder bed thingy? *ALSO* Progression Reborn? *ALSO* Do we want this edition to be a bit more roleplay-ish?
