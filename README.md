@@ -21,6 +21,9 @@ A modpack for the 7th edition of GhostLand SMP
 
 ## Changelogs:
 
+### 7a21
+- bumped version (because I forgot to do so for 7a20)
+
 ### 7a20
 - Swapped CreateTrackMap for my own, custom version that actually works with modern MC (Maybe?).
 
