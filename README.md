@@ -21,6 +21,9 @@ A modpack for the 7th edition of GhostLand SMP
 
 ## Changelogs:
 
+### 7a20
+- Swapped CreateTrackMap for my own, custom version that actually works with modern MC (Maybe?).
+
 ### 7a19
 - Disabled GregTech (the server was failing to start with it on); TODO: Debug wtf is going on
 
