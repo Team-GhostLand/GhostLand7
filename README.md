@@ -1,6 +1,16 @@
 # GhostLand 7
 A modpack for the 7th edition of GhostLand SMP
 
+## Table of Contents
+- [Issues](#issues)
+- [Changelogs](#changelogs)
+- [Altered Configs](#cumulative-list-of-altered-configs)
+- [Things to mention](#things-to-mention-to-people)
+- [Guides](#guides)
+  - [Tools needed](#tools-needed)
+  - [How to playtest](#how-to-playtest)
+  - [How to contribute](#how-to-contribute)
+- [Credits/Licensing](#creditslicensing)
 
 ## Issues:
 - [x] Continents incompatible with Tectonic *(fixed: Tectonic handles continentality on its own)*
@@ -8,11 +18,11 @@ A modpack for the 7th edition of GhostLand SMP
 - [ ] Clouds have some issues with rendering (DH makes clouds double-layerd) ~~*(note: Can't we pretend that this is intentional? They look kinda dope!)*~~ ~~*(fixed: turned the clouds off (there is one layer now instead of two))*~~ *(nope: look below)*
 - [x] Clouds don't render at all without DH *(fixed: turned the clouds back on (there is one layer now instead of zero for DH-less players))*
 - [ ] Issues while exiting a world ~~*(fixed: They just... fixed... themselves? Quits instantly without DH; with DH on - exiting takes some time (10-something seconds), but __usually__ will also happen, eventually.)*~~ *(update: they haven't actually fixed themselves, this issue still happens)*
-- [x] Issues while entering a world (falling through the world) *(fixed: was a bug in older Baseline versions and since this pack was accidentally based on said older version - MidnightSP must've simply been unlucky enough to run into said bug)*
+- [ ] Issues while entering a world (falling through the world) ~~*(fixed: was a bug in older Baseline versions and since this pack was accidentally based on said older version - MidnightSP must've simply been unlucky enough to run into said bug)*~~ *(update: this happens due to world generation being really slow, so the player falls through the world until it generates below them)*
 - [ ] Issues while entering a world (game incredibly laggy for the first few minutes) *(note: that IS the chunks loading in - recommended solution is to look at the horizon in a single direction until it loads, then look around very slowly, will need to make a note about this in Discord)*
 - [x] If Aether detects Loading Screen Tips - regardless of whether integration with it is enabled in the config or not - it reloads resources right after game loads, leading to a doubled loading screen (which significantly increases the practical startup time - since, even though thanks to RRS we can navigate menus when resources are loading, noone's gonna join the world with a loading bar, especially one so obnoxious (in-game, it's fine when loading) as the one that ELS adds). *(fixed: Tipsn't)*
 - [ ] GregTech's ores become transparent underwater (their polygons disappear - you can see the void)
-- [ ] On some modded biome coastlines, Creeper-hole-like cutouts appear, and they tend to cut off trees and leave them floating *(note: this doesn't seem to happen, rather it is regular world height generation issues)*
+- [ ] On some modded biome coastlines, Creeper-hole-like cutouts appear, and they tend to cut off trees and leave them floating *(note: this doesn't seem to happen, rather it is regular world generation issue)*
 - [ ] Enabling Planet Curvature in Distant Horizons does nothing
 - [ ] With Panoramics seemingly completely cooked, we have nothing to make a main menu panorama for Fancy Menu with.
 - [ ] Small Ships' boats made from wood from WilderWilds don't have textures
