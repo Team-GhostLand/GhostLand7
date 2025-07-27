@@ -26,10 +26,17 @@ A modpack for the 7th edition of GhostLand SMP
 - [ ] Enabling Planet Curvature in Distant Horizons does nothing
 - [ ] With Panoramics seemingly completely cooked, we have nothing to make a main menu panorama for Fancy Menu with.
 - [ ] Small Ships' boats made from wood from WilderWilds don't have textures
-- [ ] Main menu panorama is... Uhhhhh...... Just check the Discord, please
+- [ ] Main menu panorama is... Uhhhhh...... Just check the Discord, please *(note: this seems to happen if you disabled WW's panorama resourcepack (which for some reason has to be done every time something changes about resourcepacks), if a WW panorama was showing before)*
 
 
 ## Changelogs:
+
+### 7a22
+- fully removed GregTech (temproary - awaiting MidnightSP's call, but I wanted to remove all flat-out disabled mods, ahead of sending the pack to Tymon for "Bloat Evaluation")
+- added and configured Geocluster, as a way to get GregTech-style ores (temproary - awaiting MidnightSP's call)
+- Updated: Fusion, MoonlightLib, BetterLeaves, BYG, Particle Rain, Puffer, Recibles, RPG skills, Sound Physics, Aether, Trans4Sodium, VisWkbnch, Waystones
+- **BED OVERHAUL IS NOW MARKED AS SERVER-ONLY** becasue otherwise we'll probably never remember to test it and I wanted to do something about all flat-out disabled mods, ahead of sending the pack to Tymon for "Bloat Evaluation", but **IF SOME WEIRD DESYNC RELATED TO BEDS HAPPENS OR WE'LL BE OUTRIGHT UNABLE TO JOIN, THEN PLS REMEMBER IT'S MOST LIKELY BECAUSE OF THIS**
+- Some changes for server-side: Added `servers.dat` to `removals.txt`; added `server.properties`
 
 ### 7a21
 - bumped version (because I forgot to do so for 7a20)
@@ -38,7 +45,7 @@ A modpack for the 7th edition of GhostLand SMP
 - Swapped CreateTrackMap for my own, custom version that actually works with modern MC (Maybe?).
 
 ### 7a19
-- Disabled GregTech (the server was failing to start with it on); TODO: Debug wtf is going on
+- Disabled GregTech (the server was failing to start with it on)
 
 ### 7a18
 - Marked Fusion as double-sided (fr this time)
@@ -58,7 +65,7 @@ A modpack for the 7th edition of GhostLand SMP
 - Bye, SVC-DC Bridge! (it's incompatible with our ARM-based server)
 - Turned on clouds in options (to „fancy”)
 - T'was a very painful choice..... But Dynamic Surroundings is now client-optional.
-- Dynamic Crosshair, Traveler's Ttles and Fusion now correctly self-identify as CLO+SVX (x2) and SVX respectively (some update broke them, idk)
+- Dynamic Crosshair, Traveler's Titles and Fusion now correctly self-identify as CLO+SVX (x2) and SVX respectively (some update broke them, idk)
 - Added `observable_announce` to overrides, so that it shuts the f up
 
 ### 7a15
@@ -168,6 +175,7 @@ There will, for certain, be more. These are just some things that came to my min
 * Disable Simple VC groups (we have radios for that)
 * MAYBE? add some default pins to REI, to subtly guide the player towards important objectives?
 * Enable "visited=don't show again" for Structure Credits
+* Add the modpack icon into our files (won't be auto-applied, but this way, people will at least have the option to enable it themselves)
 * *also, this isn't really a config-related TODO, but we need to check whether Iru's bed-mod-thing works on server-side only*
 
 ### Vanilla
@@ -264,6 +272,15 @@ There will, for certain, be more. These are just some things that came to my min
 ### Observable
 * Survived the announcement
 
+### Geocluster
+* Allowed modded ore spawns
+* Enabled samples for deepslate ores
+* Disabled chat spam
+* Removed conflicts with vanilla ores
+* Slightly beefed it up (15% chance of veins in chunk over 5%; max. 5 veins instead of max. 2; up to 12 samples instead of 6)
+* Enabled debug logging
+* Moved prospector from a weird custom window back into chat
+
 
 ## Things to mention to people
 * See: [Issue](https://github.com/Team-GhostLand/GhostLand7#issues) about entering
@@ -274,6 +291,7 @@ There will, for certain, be more. These are just some things that came to my min
 * There are 4 options for skies available: Shaders, Dramatic Skies resourcepack via Celestial mod (you can disable it if you don't want to use DS), Less-dramatic Skies resourcepack via Vanilla Tweaks (default), just a normal Vanilla sky. It's recommneded to not combine them - just pick whichever one you think looks best.
 * If you build a Create Mod train, you **MUST** save it as a schematic! This is so that, whenever trains break (hopefully they won't, but you never know), there would be a backup that lets you restore the train to the **EXACT** state that it was in before. This is important because when the trains broke on GL5, we took some *creative liberties* (pun intended), such as a freaking golden rim around the edges (or the fact that we used Copycats as the base building material, instead of trapdoors and stuff, like it was before), when rebuilding them. To be clear, the act of rebuilding on GM1 alone was entirely justified. The trains broke on their own; just magically disappeared. It would be unfair of the server admins to require Ghostland Railway Administration members to go through the struggle of obtaining train casings again because of the server's fault. But because we cheated (let's be honest and call it out for what it was) when rebuilding, *we* were the ones who treated the rest of the playerbase unfairly. Guzio's opinion here: ...And to me, that was the very moment when the server stopped being fun (just like they said in [this video](https://youtu.be/fYpe4KZj9UE): as soon as someone cheats at an SMP, it all suddenly feels meaningless). Well - one out of three. The other one was when the server went offline for 2 weeks because of a critical software failure (it really killed the excellent momentum (with usually >= 3 players at any given time during the day), right as we got an influx of new members, too!) and the other-other one was when Jifo was disqussing plans for GL6 at Palmer's (I thought „What's the point of playing now, if it's soon gonna be gone?”). Because, to be honest, GL5 really had a lot going for it! If it weren't for that 2-week outage and the cheating (discussion at Palmer's was a result of these two, since the playerbase started leaving), there is a chance, however small, that it would've still been alive today. *So, anyway...* Backup your trains people! Let's be sure that they're rebuilt EXACTLY like they were before, so that absolutely 0 materials get cheated in. How knows, maybe that's how we get a year (or more?) -long edition?
 * Privacy notes: We accepted BetterStats privacy policy and we have Wiretap installed
+* Use Java 21 instead of the default 17 (while at it, you might also want to increase the RAM and add an icon (it unfortnatley doesn't happen automatically for sideloaded packs) - we embed one inside modpack files)
 
 ### Pending elections
 * **Origins:** Add Origins++? *ALSO* Replace Origins Default with Origins-? *ALSO* Have Origins at all?
