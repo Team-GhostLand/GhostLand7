@@ -31,6 +31,15 @@ A modpack for the 7th edition of GhostLand SMP
 
 ## Changelogs:
 
+### 7a23
+- *Note: This patch will revert some of the previous changes and might be a bit of a mess*
+- Added GregTech back
+- Added WindDog's Bridge Mod (for better gregtech compatibility)
+- Removed Geocluster (it was a temporary solution, anyway)
+- Removed MoonlightLib and all of its dependencies (Farmer's Delight (+ its addons), Supplementaries, Amendments, Fast Paintings, Immersive Weathering, Create: Molten Metals)
+- To replace Farmer's Delight added: [Let's do] (API, Vinery, HerbalBrews, Meadow, Beachparty, NetherVinery, Farm & Charm, Candlelight, Bakery, Brewery, Compat, Corn Expansion)
+- Removed 3D Crops Revamped (no compatibility with [Let's do] mods)
+
 ### 7a22
 - fully removed GregTech (temproary - awaiting MidnightSP's call, but I wanted to remove all flat-out disabled mods, ahead of sending the pack to Tymon for "Bloat Evaluation")
 - added and configured Geocluster, as a way to get GregTech-style ores (temproary - awaiting MidnightSP's call)
