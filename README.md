@@ -5,7 +5,11 @@ A modpack for the 7th edition of GhostLand SMP
 - [Issues](#issues)
 - [Changelogs](#changelogs)
 - [Altered Configs](#cumulative-list-of-altered-configs)
+  - [TODOs](#known-todos)
+  - [Vanilla](#vanilla)
+  - [Keybinds](#controls-not-bind-pizzeria)
 - [Things to mention](#things-to-mention-to-people)
+  - [Elections](#pending-elections)
 - [Guides](#guides)
   - [Tools needed](#tools-needed)
   - [How to playtest](#how-to-playtest)
@@ -44,7 +48,6 @@ A modpack for the 7th edition of GhostLand SMP
 - fully removed GregTech (temproary - awaiting MidnightSP's call, but I wanted to remove all flat-out disabled mods, ahead of sending the pack to Tymon for "Bloat Evaluation")
 - added and configured Geocluster, as a way to get GregTech-style ores (temproary - awaiting MidnightSP's call)
 - Updated: Fusion, MoonlightLib, BetterLeaves, BYG, Particle Rain, Puffer, Recibles, RPG skills, Sound Physics, Aether, Trans4Sodium, VisWkbnch, Waystones
-- **BED OVERHAUL IS NOW MARKED AS SERVER-ONLY** becasue otherwise we'll probably never remember to test it and I wanted to do something about all flat-out disabled mods, ahead of sending the pack to Tymon for "Bloat Evaluation", but **IF SOME WEIRD DESYNC RELATED TO BEDS HAPPENS OR WE'LL BE OUTRIGHT UNABLE TO JOIN, THEN PLS REMEMBER IT'S MOST LIKELY BECAUSE OF THIS**
 - Some changes for server-side: Added `servers.dat` to `removals.txt`; added `server.properties`
 
 ### 7a21
@@ -120,7 +123,7 @@ Overall: this patch was supposed to be small and take just a few days (3, maybe)
 - Reborn Progression, to hopefully slow down the sweating/grinding
 - Iru's bed thingy, to (also) hopefully slow down the sweating/grinding
 - Gravestones (we already had them, but I thought I'd mention them again, to adress the point about wearing iron armour from that video: it isn't as much about the armour itself, but rather about how it sucks to loose your items, which Gravestones will (hopefully) remedy, unlike those sh!tty Death Bundles from GL5)
-- *TODO: Find/build a mod for `sudo`-like command (not [this](https://modrinth.com/mod/sudo/) - that's a joke-mod, sadly), to balance the need for admins (the video is wrong on that one, sadly - might be true for a vanilla server, but mods do be breaking sometimes, so an OP is needed on GhostLand) with the „No Cheating Whatsoever” rule (becasue that, really, does kill the joy from playing - see: point about trains in [things to mention](https://github.com/Team-GhostLand/GhostLand7#things-to-mention-to-people)), by eg. requiring you to provide a reason behind using OP, clearing your inventory upon leaving Sudo Mode, requiring someone else to acknowlege that you're granting yourself OP powers and logging it in the Discord for everyone to see.*
+- *TODO: Find/build a mod for `sudo`-like command (not [this](https://modrinth.com/mod/sudo/) - that's a joke-mod, sadly), to balance the need for admins (the video is wrong on that one, sadly - might be true for a vanilla server, but mods do be breaking sometimes, so an OP is needed on GhostLand) with the „No Cheating Whatsoever” rule (becasue that, really, does kill the joy from playing - see: point about trains in [things to mention](#things-to-mention-to-people)), by eg. requiring you to provide a reason behind using OP, clearing your inventory upon leaving Sudo Mode, requiring someone else to acknowlege that you're granting yourself OP powers and logging it in the Discord for everyone to see.*
 
 This obviously isn't all that changed in this giant patch, but I don't even remember everything anymore. All I can say is that, once I realised that this patch is getting too large, I sort-of stopped caring anymore and did a bunch of extra stuff (the end result of which is that the total count of projects inside our Modrinth Index increased by exaclty 54 - this, of course, encompasses everything (mods, datapacks) and also is the final „balance”, not „the raw amount of mods added”). Nevertheless, I remember *some* changes. These are:
 - Simple Discord RPC instead of CraftPresence (SD-RPC works better for our usecase than CrP)
@@ -153,7 +156,7 @@ This obviously isn't all that changed in this giant patch, but I don't even reme
 - Removed 3D crops Revamped (don't fit with farmer's delight)
 
 ### 7a4
-- Changed some minor vanilla configs (see: 5 earliest lines [here](https://github.com/Team-GhostLand/GhostLand7#vanilla)).
+- Changed some minor vanilla configs (see: 5 earliest lines [here](#vanilla)).
 - Updated to v2 `grinch.kdl` format (and with it - configured modpack name, description and a new versioning scheme)
 
 ### 0.0.3
@@ -173,7 +176,7 @@ There will, for certain, be more. These are just some things that came to my min
 * FancyMenu (incl. Remove GFARB; Main menu panorama)
 * Patchouli (if we end up including it), or some other guide/questbook thingy
 * Use a datapack to properly configure cross-mod recipies (and loottables, if it turns out that chests feel too cluttered, which apparently (according to a recent discussion with Tymuś and - frankly - my own experience, too, now that I think about it) was a problem on GL6), so the pack doesn't feel like just a bunch of crudely mixed-together crap held together with hopes and prayers, but rather a cohesive creative experience. Ties together with the point above (about a guidebook).
-* Bind-pizzeria (incl. a link to a LOOREEEEE repository - see: [pending election](https://github.com/Team-GhostLand/GhostLand7#pending-elections) about roleplay)
+* Bind-pizzeria (incl. a link to a LOOREEEEE repository - see: [pending election](#pending-elections) about roleplay)
 * Do something with Puffer's skill trees (we have too many of them rn, while none of them use Origins x Puffer)
 * DiscordRCP
 * Adaptive Tooltips
@@ -185,7 +188,8 @@ There will, for certain, be more. These are just some things that came to my min
 * MAYBE? add some default pins to REI, to subtly guide the player towards important objectives?
 * Enable "visited=don't show again" for Structure Credits
 * Add the modpack icon into our files (won't be auto-applied, but this way, people will at least have the option to enable it themselves)
-* *also, this isn't really a config-related TODO, but we need to check whether Iru's bed-mod-thing works on server-side only*
+* Clear configs for mods that are no longer with us (eg. Geocluster)
+* *also, this isn't really a config-related TODO, but we need to check whether Bed Overhaul on server-side only*
 
 ### Vanilla
 * polski (auto)
@@ -257,9 +261,6 @@ There will, for certain, be more. These are just some things that came to my min
 * Disabled Health Buffering (incl. hunger, etc.), as it was breaking Apple Skin
 * Forced Crosshair Updates, otherwise Dynamic Crosshair would break
 
-### Entered structure display thingy
-* Accidentally tripped some structures, must clear them from the Known-list, or other players won't see them
-
 ### BetterStats
 * Accepted TOS
 
@@ -281,18 +282,9 @@ There will, for certain, be more. These are just some things that came to my min
 ### Observable
 * Survived the announcement
 
-### Geocluster
-* Allowed modded ore spawns
-* Enabled samples for deepslate ores
-* Disabled chat spam
-* Removed conflicts with vanilla ores
-* Slightly beefed it up (15% chance of veins in chunk over 5%; max. 5 veins instead of max. 2; up to 12 samples instead of 6)
-* Enabled debug logging
-* Moved prospector from a weird custom window back into chat
-
 
 ## Things to mention to people
-* See: [Issue](https://github.com/Team-GhostLand/GhostLand7#issues) about entering
+* See: [Issue](#issues) about entering
 * The differences between Full, Slim and Tweakable Editions
 * There are 2 Kitsune Origins - wool color at their icons indicates the color of the particles you'll be emitting while walking.
 * Inching Origin (and other size-changing ones) and Origins: Sizes don't conflict, as Origins: Sizes applies a multiplier, rather than an override. So if you pick Inchling then Normal, you'll be a standard Inchling that we all know and love; if you pick Small, you'll be an even smaller Inchling; you COULD probably make yourself invisible if you combine Inching+Tiny, or you can turn into a regular human by picking Incling and then Giant.
@@ -304,10 +296,9 @@ There will, for certain, be more. These are just some things that came to my min
 
 ### Pending elections
 * **Origins:** Add Origins++? *ALSO* Replace Origins Default with Origins-? *ALSO* Have Origins at all?
-* **Tech mods:** GregTech *or* Modern Industry + GT-style ores? *ALSO* TechReborn?
-* **Smelting:** Alloy Forgery + Mythic Metals *or* Tinkers + HepExpansion *or* both, and then we add HepPlus for Mythic Metals x Tinkers integation? *[Will remove Crate: Molten Metals if we end up with Tinkers.]*
+* **Smelting:** Alloy Forgery + Mythic Metals *or* Tinkers + HepExpansion *or* both, and then we add HepPlus for Mythic Metals x Tinkers integation?
 * **Dimensions:** Aether, Twilight Forest, The Bumblezone? (non-exclusive; probably won't even need a majority - even a moderate community interest (like 1/3) would be enough, and those who don't want a given mod, can just not use it) *ALSO* If we want DimDoors? (since it adds some pretty invasive structures (if you attempt to remove one, you'll be left with an ever-growing Rift) - this WILL require a majority vote)
-* **Other:** Co-op achievements? *ALSO* Iru's harder bed thingy? *ALSO* Progression Reborn? *ALSO* Do we want this edition to be a bit more roleplay-ish?
+* **Other:** Co-op achievements? *ALSO* Do we want this edition to be a bit more roleplay-ish? *ALSO* TechReborn?
 
 ### Things mentioned to future-Guzio:
 Mod Patched (now deleted) mentioned an RFC about JSON merging - might be useful for Grinch in the future, perhaps?
@@ -339,7 +330,7 @@ Mod Patched (now deleted) mentioned an RFC about JSON merging - might be useful 
 
 
 ## Credits/Licensing:
-* Licensed under MIT (ie. the „Do whatever the fuck you want”-clause), with the exception of some files (mentioned later).
+* Licensed under [MIT]() (ie. the „Do whatever the fuck you want”-clause), with the exception of some files (mentioned later).
 * [Guzio](https://github.com/GuzioMG), [MidnightSP](https://github.com/Midnight-SP) and other people who didn't push any patches, but nevertheless helped us in some way on [our Discord](https://discord.gg/qCNUYBXY7P).
 * [__*#GhostLand Project*__](https://github.com/Team-GhostLand/) – by [Jifo](https://github.com/JIFO0)
-* This repository contains some files from 2 projects that are not licensed under MIT. We embedded them in compliance with their licenses, but this DOES NOT RE-LICENSE THEM under MIT in any way, shape, or form (we have no right to do so, after all). So if you were to fork/download/clone or otherwise obtain a copy of this project, you either also need to follow their licenses (such as no monetization), or **you must remove those files**. One of those files, Async Mod, comes from [this amazing repo](https://github.com/Bliss-tbh/Async-1.20.1/) (seriously amazing, I love those commit messages - btw, I too hate Gradle) and is licensed under [GPL](https://github.com/Bliss-tbh/Async-1.20.1/blob/ver/1.20.1/LICENSE) (ie. if you modify that file, you need to release all changed sources). The other non-MIT project (files: Less-Dramatic Skies resourcepack and everything including Vanilla Tweaks (or VT_) in its name) is [Vanilla Tweaks](https://vanillatweaks.net/). According to their [license](https://vanillatweaks.net/terms/), we need to have a `credits.txt` file with contents specified by them (which we do), which will be included on all main publishing platforms (we placed it inside `overrides`, so when you load this project's MRPACK inside Modrith (our target platform), the file will be included in the profile's root) and „our pack must include proper modification and/or additions” (which - if you count the modpack as a whole - probably counts, considering it has over 300 said modifications) and mustn't be monetised (which it isn't). Oh, we also have a resourcepack that got extracted from the [Analog](https://modrinth.com/mod/analog) mod, but that one's also licensed under [MIT](https://github.com/Gibatron/analog/blob/1.20/LICENSE), so we can safely include it in a different MIT project, as long as we include their exact wording of their license (which I just did, with that link).
+* This repository contains some files from 2 projects that are not licensed under MIT. We embedded them in compliance with their licenses, but this DOES NOT RE-LICENSE THEM under MIT in any way, shape, or form (we have no right to do so, after all). So if you were to fork/download/clone or otherwise obtain a copy of this project, you either also need to follow their licenses (such as no monetization; make sources public), or **you must remove those files**. One of those files, Async Mod, comes from [this amazing repo](https://github.com/Bliss-tbh/Async-1.20.1/) (seriously amazing, I love those commit messages - btw, I too hate Gradle) and is licensed under [GPL](https://github.com/Bliss-tbh/Async-1.20.1/blob/ver/1.20.1/LICENSE) (ie. if you modify that file, you need to release all changed sources). The other non-MIT project (files: Less-Dramatic Skies resourcepack and everything including Vanilla Tweaks (or VT_) in its name) is [Vanilla Tweaks](https://vanillatweaks.net/). According to their [license](https://vanillatweaks.net/terms/), we need to have a `credits.txt` file with contents specified by them (which we do), which will be included on all main publishing platforms (we placed it inside `overrides`, so when you load this project's MRPACK inside Modrith (our target platform), the file will be included in the profile's root) and „our pack must include proper modification and/or additions” (which - if you count the modpack as a whole - probably counts, considering it has over 300 said modifications) and mustn't be monetised (which it isn't). That's it for non-MIT projects, but we also have a resourcepack that got extracted from the [Analog](https://modrinth.com/mod/analog) mod and our own fork of Create Track Map (CTM Restitched), but they're both licensed under [MIT](https://github.com/Gibatron/analog/blob/1.20/LICENSE), so we can safely include it in a different MIT project, as long as we include their exact wording of their licenses (which I just did, with that link - well, technically, only for Analog, but that CTM fork is made by us, so this pack's license is the same for it, as well).
