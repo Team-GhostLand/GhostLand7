@@ -42,9 +42,9 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","$polymer-resources","fabric","seasons:seasonal_lush_caves","file/GR_SVX_Chat Reporting Helper.zip","file/GR_SVX_SodiumTranslations.zip","file/GR_SVX_LowOnFire_1.20.1.zip","continuity:default","continuity:glass_pane_culling_fix","file/VanillaTweaks.zip","file/Less-Dramatic Skies.zip","railways:green_signals","file/GR_SVX_Better-Leaves-9.3.zip","file/GR_SVX_Simple Grass Flowers v1.9.5.zip","file/GR_SVX_crops-3d(2).zip"]
-incompatibleResourcePacks:["immersive_weathering:visual_waxed_iron_items","file/GR_SVX_Simple Grass Flowers v1.9.5.zip","file/GR_SVX_crops-3d(2).zip"]
-lastServer:
+resourcePacks:["vanilla","$polymer-resources","fabric","seasons:seasonal_lush_caves","file/GR_SVX_Chat Reporting Helper.zip","file/GR_SVX_SodiumTranslations.zip","file/GR_SVX_LowOnFire_1.20.1.zip","continuity:default","continuity:glass_pane_culling_fix","file/VanillaTweaks.zip","file/Less-Dramatic Skies.zip","railways:green_signals","vinery:bushy_leaves","file/GR_SVX_Better-Leaves-9.3.zip","file/GR_SVX_Simple Grass Flowers v1.9.5.zip"]
+incompatibleResourcePacks:["file/GR_SVX_Simple Grass Flowers v1.9.5.zip"]
+lastServer:localhost
 lang:pl_pl
 soundDevice:""
 chatVisibility:0
@@ -75,7 +75,7 @@ glDebugVerbosity:1
 skipMultiplayerWarning:true
 skipRealms32bitWarning:false
 hideMatchedNames:true
-joinedFirstServer:false
+joinedFirstServer:true
 hideBundleTutorial:false
 syncChunkWrites:false
 showAutosaveIndicator:true
@@ -224,7 +224,7 @@ key_key.smallships.ship_sail:key.keyboard.y
 key_key.structurecredits.deactivate_key:key.keyboard.unknown
 key_key.structurecredits.show_again_key:key.keyboard.unknown
 key_key.structurecredits.dont_show_key:key.keyboard.unknown
-key_bedrodium.toggle:key.keyboard.unknown
+key_substrate.toggle:key.keyboard.r
 key_tcdcommons.key.refresh_current_screen:key.keyboard.unknown
 key_key.tconstruct.helmet_interact:key.keyboard.page.up
 key_key.tconstruct.leggings_interact:key.keyboard.page.down

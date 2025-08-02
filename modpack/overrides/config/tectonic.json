@@ -23,6 +23,7 @@
   "global_terrain": {
     "increased_height": false,
     "lava_tunnels": true,
+    "ultrasmooth": false,
     "vertical_scale": 1.125
   },
   "islands": {

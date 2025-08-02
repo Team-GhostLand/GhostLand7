@@ -1,18 +1,18 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "7a23",
+  "versionId": "7a24",
   "name": "GhostLand 7 Alpha",
   "summary": "Paczka na siódmą edycję GhostLanda - wersja alpha",
   "files": [
     {
-      "path": "datapacks/1.21 Crafting Backport.zip",
+      "path": "datapacks/GR_CLO_1.21 Crafting Backport.zip",
       "hashes": {
         "sha1": "dbfebca85cde38c8de83dc1dc5fe9ccd870d31d9",
         "sha512": "a1acbf695d0cd28c63f16bd390f907c48c5d7acd1b4f1f334e234151aa5c5c7ec23dc7546145a04485e0ea54a3ca642a2f50090ecff83cf7f142e039735442fc"
       },
       "env": {
-        "client": "required",
+        "client": "optional",
         "server": "required"
       },
       "downloads": [
@@ -21,13 +21,13 @@
       "fileSize": 15951
     },
     {
-      "path": "datapacks/Aether Freezing Recipes 1.0.0-1.20.1.zip",
+      "path": "datapacks/GR_CLO_Aether Freezing Recipes 1.0.0-1.20.1.zip",
       "hashes": {
         "sha1": "4c4d511db42eb9885d1325fceb2a62481980d028",
         "sha512": "d75c82c2962b2edd9ed9e898e88e41dd50ba370d1a627f0be43fb751086a5af1b0b1e2ca770cb09ad47f65c6a53de5ece6b496bbae392b05f52fd850b7bf289d"
       },
       "env": {
-        "client": "required",
+        "client": "optional",
         "server": "required"
       },
       "downloads": [
@@ -36,13 +36,13 @@
       "fileSize": 105174
     },
     {
-      "path": "datapacks/Aether Ruined Portals 1.0.0-1.20.1.zip",
+      "path": "datapacks/GR_CLO_Aether Ruined Portals 1.0.0-1.20.1.zip",
       "hashes": {
         "sha1": "e6c8e6d707e4e06fd3cbda7045237bd28de1fe53",
         "sha512": "4cbcb4c72e83a96b4b8f6fc111ac29df24d291a4ffdbecce4928da752e77d67ca5e8153db2243c7409445ba610a8b722ee0d7dfe2e2f110e47a4e45403ee5b63"
       },
       "env": {
-        "client": "required",
+        "client": "optional",
         "server": "required"
       },
       "downloads": [
@@ -51,13 +51,13 @@
       "fileSize": 98964
     },
     {
-      "path": "datapacks/Celestial.zip",
+      "path": "datapacks/GR_CLO_Celestial.zip",
       "hashes": {
         "sha1": "555dff8da4726d511708b165a19f8eba227ec1d9",
         "sha512": "e93f401a8db942c534fc0b3cb34f1afcbe4f479e77b176771ab126358e9322e0b83d535c016df5059a2d881c2c95cafcb7fdc1414eb9beeba0f32931906400bb"
       },
       "env": {
-        "client": "required",
+        "client": "optional",
         "server": "required"
       },
       "downloads": [
@@ -66,13 +66,13 @@
       "fileSize": 81949
     },
     {
-      "path": "datapacks/Create Compat - BetterEnd \u0026 BetterNether v1.1.zip",
+      "path": "datapacks/GR_CLO_Create Compat - BetterEnd \u0026 BetterNether v1.1.zip",
       "hashes": {
         "sha1": "314d134dc2454f90456fbcb2f1a8bf0c05686f1c",
         "sha512": "8dd3f8a5b48c944bd2919bc3535f987322c875155000001b7f21558c629dd07366ecb9b8c4ba73aca515b6c6f8d9b35b726c746d9cbf410264b8de550e992cb9"
       },
       "env": {
-        "client": "required",
+        "client": "optional",
         "server": "required"
       },
       "downloads": [
@@ -81,13 +81,13 @@
       "fileSize": 142436
     },
     {
-      "path": "datapacks/Create-Man-of-Many-Planes-1.0.zip",
+      "path": "datapacks/GR_CLO_Create-Man-of-Many-Planes-1.0.zip",
       "hashes": {
         "sha1": "290c9ec61611fba4d77987849ae7af0d9c0c6a23",
         "sha512": "c22296eb23960d2282484ae51d115bd55e1239f0e85f381ea2e40634d664495569f0a15c18eb5b21a82ff5c8ac28230619f4cba3576d87abf1b7fdba3e89003a"
       },
       "env": {
-        "client": "required",
+        "client": "optional",
         "server": "required"
       },
       "downloads": [
@@ -96,13 +96,13 @@
       "fileSize": 1885048
     },
     {
-      "path": "datapacks/CreateCobblestone_deepslate_generators_1.0.zip",
+      "path": "datapacks/GR_CLO_CreateCobblestone_deepslate_generators_1.0.zip",
       "hashes": {
         "sha1": "01a2971fcea15ebc456fc9300d2c8a7126dc4ec6",
         "sha512": "4ba1ee18d64fe9d94b3f15dbd3d661d0d135b88b8ccc551ce6f05355ce8e69e1892ad33dcb32387fc7d573dd44063bbffcd4311dd9bccd9aa8ee02fe5abad7ca"
       },
       "env": {
-        "client": "required",
+        "client": "optional",
         "server": "required"
       },
       "downloads": [
@@ -111,13 +111,13 @@
       "fileSize": 1037
     },
     {
-      "path": "datapacks/DnT Ancient City Overhaul.zip",
+      "path": "datapacks/GR_CLO_DnT Ancient City Overhaul.zip",
       "hashes": {
         "sha1": "8677ae854d8bc8f12c807d990965f1652574bde0",
         "sha512": "4087cd935ca5bda52313d0c156d36e94e56bbdb5783ce27185bcb7472c68c7a5be458bfe8ae55e7bd3c9ad8432caf05196c9e741b0bf60a630307ed5c64e1eff"
       },
       "env": {
-        "client": "required",
+        "client": "optional",
         "server": "required"
       },
       "downloads": [
@@ -126,13 +126,13 @@
       "fileSize": 439430
     },
     {
-      "path": "datapacks/DnT Pillager Outpost Overhaul v1.2.zip",
+      "path": "datapacks/GR_CLO_DnT Pillager Outpost Overhaul v1.2.zip",
       "hashes": {
         "sha1": "7b82c39d65939f16d58759edec5bb73d80607945",
         "sha512": "96a67058273970c8b21760e7493b7e471615cfcaba12b5a57568d54267e75fde03eec71c7a8de72b0d01f2f790418fea2f98bd3432fe92f8e44a3036145b1660"
       },
       "env": {
-        "client": "required",
+        "client": "optional",
         "server": "required"
       },
       "downloads": [
@@ -141,13 +141,13 @@
       "fileSize": 194278
     },
     {
-      "path": "datapacks/DnT Stronghold Overhaul v1.1.zip",
+      "path": "datapacks/GR_CLO_DnT Stronghold Overhaul v1.1.zip",
       "hashes": {
         "sha1": "358d7b8a44befdb21a2704cf02aaaf30596451ad",
         "sha512": "937f0880651cb9fd9078532585aef8b39a42d46ad2c2835ca1738a5a529cc1ba1d57859beca95f170c4e89dd6bddb5e84a7efaac9b5ea54d28167c5e1b1501dc"
       },
       "env": {
-        "client": "required",
+        "client": "optional",
         "server": "required"
       },
       "downloads": [
@@ -156,13 +156,13 @@
       "fileSize": 1775935
     },
     {
-      "path": "datapacks/DnT Swamp Hut Rework.zip",
+      "path": "datapacks/GR_CLO_DnT Swamp Hut Rework.zip",
       "hashes": {
         "sha1": "bfb83ee356b4325eb3da9596103b1ce5aadc3942",
         "sha512": "f1ad2dc1ded160acc2b5f898727df898ce7fb1c8ec69a3553d6d6cbe8e44c3dedea3383bf62861903046b9235b1026770494bd022a45286b21c1071cf8afd483"
       },
       "env": {
-        "client": "required",
+        "client": "optional",
         "server": "required"
       },
       "downloads": [
@@ -171,13 +171,13 @@
       "fileSize": 66293
     },
     {
-      "path": "datapacks/Dungeons and Taverns 3.0.3.fix.zip",
+      "path": "datapacks/GR_CLO_Dungeons and Taverns 3.0.3.fix.zip",
       "hashes": {
         "sha1": "5b66ee2570761b2f728956b2b5b5ed6fc0b50e8b",
         "sha512": "6a7b8c7e7ee9e84761d34b51f8400403ee5a46f947dd6b04f90b4ad4f15b947eefedc3ffb7555ba369622866ca6e8127ad5e4f974a0700b348f7db42d3a9fd94"
       },
       "env": {
-        "client": "required",
+        "client": "optional",
         "server": "required"
       },
       "downloads": [
@@ -186,19 +186,154 @@
       "fileSize": 6558830
     },
     {
-      "path": "datapacks/EnderxolotlOrigin-v1.3.zip",
+      "path": "datapacks/GR_CLO_EnderxolotlOrigin-v1.3.zip",
       "hashes": {
         "sha1": "11096b173a87066d9fb0a29342ef9827c6b17eb0",
         "sha512": "6662741e3c37cd98b68a6a9f19b7792f54cb01490545ed5a1e443b2bc4287579b75886b4a534ea1c6db7159fd9a3679cfe79e0fffd03dc8407f040d43f36c361"
       },
       "env": {
-        "client": "required",
+        "client": "optional",
         "server": "required"
       },
       "downloads": [
         "https://cdn.modrinth.com/data/mQfN06yW/versions/1defxv3x/EnderxolotlOrigin-v1.3.zip"
       ],
       "fileSize": 5954
+    },
+    {
+      "path": "datapacks/GR_CLO_Kitsune.zip",
+      "hashes": {
+        "sha1": "0adcf14e5966460fb5bed06aa04d637608f72638",
+        "sha512": "01bb24e3b28aeec42e52a0071a2468d5e9104a713d588a062d5b8695c444088c35b1eb646a7c674c3928f86930a130717ca43ff36b2bf25e6212ad58ba772334"
+      },
+      "env": {
+        "client": "optional",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/U7G4EHLF/versions/ealuNsRw/Kitsune.zip"
+      ],
+      "fileSize": 29756
+    },
+    {
+      "path": "datapacks/GR_CLO_Moon Gazer.zip",
+      "hashes": {
+        "sha1": "4a8ea23de3c220f14fb63c70b0cc9aa5765d85fc",
+        "sha512": "c60979f358935b758b3162fc6e2f83d5ff14a43df42f5a60e3ea4f8ac65e0c9285601f4dd19556b6f0d7aa1ce5e1cc81e10aa002da821e4fa1ae2c22db1b1e39"
+      },
+      "env": {
+        "client": "optional",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/cqUHD0Wb/versions/56DprMDW/Moon%20Gazer.zip"
+      ],
+      "fileSize": 25738
+    },
+    {
+      "path": "datapacks/GR_CLO_More-Compatibility-Variants-BX-1.0.3+1.20.1.zip",
+      "hashes": {
+        "sha1": "23ae10921c23e64baf31eebc292559cf6a5c6609",
+        "sha512": "9f38577bfb4c7fafc3469a92d4bc2b2ff12544ba24be17471e014280079d7130116013f846be4ed8d0ee03585e269d3812918dafcf0e49b75c51bcd2f9a21fcd"
+      },
+      "env": {
+        "client": "optional",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/DcLhPXwh/versions/BR1ReLoi/More-Compatibility-Variants-BX-1.0.3%2B1.20.1.zip"
+      ],
+      "fileSize": 133228
+    },
+    {
+      "path": "datapacks/GR_CLO_RPG Skill Tree 1.20-1.21.1.zip",
+      "hashes": {
+        "sha1": "2605f2e7d88110892bd029be3ef659d09d41340b",
+        "sha512": "083cf312e337a4751e1badfbc967d872dd71ba8ae5b79fbf0eb882b485062253cde90be1146137f7e31214d51482d092c6aee6cf4fcfb30c460c84ee15373e4d"
+      },
+      "env": {
+        "client": "optional",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/6sAmNFuE/versions/Rk8AL34S/RPG%20Skill%20Tree%201.20-1.21.1.jar"
+      ],
+      "fileSize": 140702
+    },
+    {
+      "path": "datapacks/GR_CLO_Recibles (1).zip",
+      "hashes": {
+        "sha1": "6f1cce758ccd3710505d2f9f549baf976392eb49",
+        "sha512": "e47e1f4a5f12a75bc271300a75fb3e6d674176d3231309b3f6a88ab6edc88ed71d2477664e5f00a1782b4a16b8d01a300ccf0edb2b950501fbccc25ed38d1c5f"
+      },
+      "env": {
+        "client": "optional",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/YZ8vYkQs/versions/6bNDSpfW/Recibles%20%281%29.zip"
+      ],
+      "fileSize": 485036
+    },
+    {
+      "path": "datapacks/GR_CLO_Remove_Terralith_Intro_Message_v1.1.zip",
+      "hashes": {
+        "sha1": "9cba0528b69574fa70f3737e74397ac63d98e1be",
+        "sha512": "f24541b53c3297f4fb1d7aa40debfa11574f2c08690f9537f0d289b96fc3ea69f3585de5f7f2ab7ab66469cdba1a06708bf8944c072ff3695982941d387ea429"
+      },
+      "env": {
+        "client": "optional",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/sk4iFZGy/versions/L5lkBuqD/Remove_Terralith_Intro_Message_v1.1.zip"
+      ],
+      "fileSize": 50740
+    },
+    {
+      "path": "datapacks/GR_CLO_Stronger Skill Tree.zip",
+      "hashes": {
+        "sha1": "2761bf0491036e7c09c0fc9d070d341aec2cab54",
+        "sha512": "e1e36197b860285738aab86d2ba59827b6e9ade8bf4ddafef1f9e7d1d670b7edf4e41536d23e50b1e85ac26e4badd18fe09d250b063272bb47deb92d78c2baec"
+      },
+      "env": {
+        "client": "optional",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/KsIs7qhw/versions/YFoa63WG/Stronger%20Skill%20Tree.zip"
+      ],
+      "fileSize": 21412
+    },
+    {
+      "path": "datapacks/GR_CLO_Structory_1.20_v1.3.5.zip",
+      "hashes": {
+        "sha1": "e296a05a943e0ec247c73b60efc86cee2df56b48",
+        "sha512": "e84c62b3fd8e41c2630af6aa07dc14636d8b7a0794131422b5d5a40a6013853a2c3a9c504e791840501d8273bb487d9907787af113af80d620c91e00258a1c2d"
+      },
+      "env": {
+        "client": "optional",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/aKCwCJlY/versions/Mqf8GtVD/Structory_1.20_v1.3.5.zip"
+      ],
+      "fileSize": 1271723
+    },
+    {
+      "path": "datapacks/GR_CLO_Structory_Towers_1.20_v1.0.7.zip",
+      "hashes": {
+        "sha1": "5fa17a2aa9d6153bf22145e5bb8afd77eac27130",
+        "sha512": "89df28cbf09dd0dbdd9a7f021c845846ab0c2e0207314c24b378cb7d364f53cffd0bb2b4329032e1c55def90687b070e29cfaa76632f965d714daa79fa8de38e"
+      },
+      "env": {
+        "client": "optional",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/j3FONRYr/versions/jn7FPN0l/Structory_Towers_1.20_v1.0.7.zip"
+      ],
+      "fileSize": 509230
     },
     {
       "path": "datapacks/GR_CLO_Terralith_ReStoned_v1.1.zip",
@@ -216,6 +351,51 @@
       "fileSize": 6931
     },
     {
+      "path": "datapacks/GR_CLO_Tinkers' Melting - The Aether.zip",
+      "hashes": {
+        "sha1": "0a1206b0b79214dcc563be12a6f596040ffc3c64",
+        "sha512": "360a66fb30c9a6f5a70b807a22c32eb5eabbec35f9426070b1ff13f31056cb928ad491c9309d22ea04a843f7d83f77b0f3fbe56c0ef541b2bf3e372d7f35eed7"
+      },
+      "env": {
+        "client": "optional",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/1I4OVdwB/versions/przU9YsQ/Tinkers%27%20Melting%20-%20The%20Aether.zip"
+      ],
+      "fileSize": 13863
+    },
+    {
+      "path": "datapacks/GR_CLO_Towers_Of_The_Wild_Reworked_v4.2.2_Waystone.zip",
+      "hashes": {
+        "sha1": "67d29c6ad77e17537f7094b0aa4e9d46776b6b23",
+        "sha512": "db6e4398332849c5c739230cfbd308ca0a904eac7b26a92e089c2bd61fbc777ed5e64ff697fdd38ebd3234889ff787d1a9351b304a0cb99bdb98a66d845d5751"
+      },
+      "env": {
+        "client": "optional",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/iqOgCgNa/versions/qgrkU1fO/Towers_Of_The_Wild_Reworked_v4.2.2_Waystone.zip"
+      ],
+      "fileSize": 1450937
+    },
+    {
+      "path": "datapacks/GR_CLO_aetherian-v2_2.zip",
+      "hashes": {
+        "sha1": "82fe7739439d25c0844a18e92961b65dbf79fdce",
+        "sha512": "5375a91fca31c8b43eda2a62de44fc1f046f6949bea556621b0ca654c2e761b86839f07e4a0ab6de669a46d51546184195168c541c6c00f21bc5a503eb3a50fc"
+      },
+      "env": {
+        "client": "optional",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/VqVm9tcn/versions/a779ETUe/aetherian-v2_2.zip"
+      ],
+      "fileSize": 60564
+    },
+    {
       "path": "datapacks/GR_CLO_ctov-creates-structures-add-on-v1-0.zip",
       "hashes": {
         "sha1": "62a3cad1bb7ebaca83b26c46ae231a9bd618f006",
@@ -231,193 +411,13 @@
       "fileSize": 91191
     },
     {
-      "path": "datapacks/Kitsune.zip",
-      "hashes": {
-        "sha1": "0ae4c73bd7f82157acf7c627587c06beae5f5741",
-        "sha512": "76fa6657e9bfd7f42d8d099dd0a441bd7aa9dafaa78de19b8c33b9486bba5f31e5d6702c68367732670b521f4126d6f9885c23dcc13d1223559ae02a550355f9"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/U7G4EHLF/versions/7YzQ6sAE/Kitsune.zip"
-      ],
-      "fileSize": 27394
-    },
-    {
-      "path": "datapacks/Moon Gazer.zip",
-      "hashes": {
-        "sha1": "4a8ea23de3c220f14fb63c70b0cc9aa5765d85fc",
-        "sha512": "c60979f358935b758b3162fc6e2f83d5ff14a43df42f5a60e3ea4f8ac65e0c9285601f4dd19556b6f0d7aa1ce5e1cc81e10aa002da821e4fa1ae2c22db1b1e39"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/cqUHD0Wb/versions/56DprMDW/Moon%20Gazer.zip"
-      ],
-      "fileSize": 25738
-    },
-    {
-      "path": "datapacks/More-Compatibility-Variants-BX-1.0.3+1.20.1.zip",
-      "hashes": {
-        "sha1": "23ae10921c23e64baf31eebc292559cf6a5c6609",
-        "sha512": "9f38577bfb4c7fafc3469a92d4bc2b2ff12544ba24be17471e014280079d7130116013f846be4ed8d0ee03585e269d3812918dafcf0e49b75c51bcd2f9a21fcd"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/DcLhPXwh/versions/BR1ReLoi/More-Compatibility-Variants-BX-1.0.3%2B1.20.1.zip"
-      ],
-      "fileSize": 133228
-    },
-    {
-      "path": "datapacks/RPG Skill Tree 1.20-1.21.1.zip",
-      "hashes": {
-        "sha1": "2605f2e7d88110892bd029be3ef659d09d41340b",
-        "sha512": "083cf312e337a4751e1badfbc967d872dd71ba8ae5b79fbf0eb882b485062253cde90be1146137f7e31214d51482d092c6aee6cf4fcfb30c460c84ee15373e4d"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/6sAmNFuE/versions/Rk8AL34S/RPG%20Skill%20Tree%201.20-1.21.1.jar"
-      ],
-      "fileSize": 140702
-    },
-    {
-      "path": "datapacks/Recibles (1).zip",
-      "hashes": {
-        "sha1": "6f1cce758ccd3710505d2f9f549baf976392eb49",
-        "sha512": "e47e1f4a5f12a75bc271300a75fb3e6d674176d3231309b3f6a88ab6edc88ed71d2477664e5f00a1782b4a16b8d01a300ccf0edb2b950501fbccc25ed38d1c5f"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/YZ8vYkQs/versions/6bNDSpfW/Recibles%20%281%29.zip"
-      ],
-      "fileSize": 485036
-    },
-    {
-      "path": "datapacks/Remove_Terralith_Intro_Message_v1.1.zip",
-      "hashes": {
-        "sha1": "9cba0528b69574fa70f3737e74397ac63d98e1be",
-        "sha512": "f24541b53c3297f4fb1d7aa40debfa11574f2c08690f9537f0d289b96fc3ea69f3585de5f7f2ab7ab66469cdba1a06708bf8944c072ff3695982941d387ea429"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/sk4iFZGy/versions/L5lkBuqD/Remove_Terralith_Intro_Message_v1.1.zip"
-      ],
-      "fileSize": 50740
-    },
-    {
-      "path": "datapacks/Stronger Skill Tree.zip",
-      "hashes": {
-        "sha1": "2761bf0491036e7c09c0fc9d070d341aec2cab54",
-        "sha512": "e1e36197b860285738aab86d2ba59827b6e9ade8bf4ddafef1f9e7d1d670b7edf4e41536d23e50b1e85ac26e4badd18fe09d250b063272bb47deb92d78c2baec"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/KsIs7qhw/versions/YFoa63WG/Stronger%20Skill%20Tree.zip"
-      ],
-      "fileSize": 21412
-    },
-    {
-      "path": "datapacks/Structory_1.20_v1.3.5.zip",
-      "hashes": {
-        "sha1": "e296a05a943e0ec247c73b60efc86cee2df56b48",
-        "sha512": "e84c62b3fd8e41c2630af6aa07dc14636d8b7a0794131422b5d5a40a6013853a2c3a9c504e791840501d8273bb487d9907787af113af80d620c91e00258a1c2d"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/aKCwCJlY/versions/Mqf8GtVD/Structory_1.20_v1.3.5.zip"
-      ],
-      "fileSize": 1271723
-    },
-    {
-      "path": "datapacks/Structory_Towers_1.20_v1.0.7.zip",
-      "hashes": {
-        "sha1": "5fa17a2aa9d6153bf22145e5bb8afd77eac27130",
-        "sha512": "89df28cbf09dd0dbdd9a7f021c845846ab0c2e0207314c24b378cb7d364f53cffd0bb2b4329032e1c55def90687b070e29cfaa76632f965d714daa79fa8de38e"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/j3FONRYr/versions/jn7FPN0l/Structory_Towers_1.20_v1.0.7.zip"
-      ],
-      "fileSize": 509230
-    },
-    {
-      "path": "datapacks/Tinkers' Melting - The Aether.zip",
-      "hashes": {
-        "sha1": "0a1206b0b79214dcc563be12a6f596040ffc3c64",
-        "sha512": "360a66fb30c9a6f5a70b807a22c32eb5eabbec35f9426070b1ff13f31056cb928ad491c9309d22ea04a843f7d83f77b0f3fbe56c0ef541b2bf3e372d7f35eed7"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/1I4OVdwB/versions/przU9YsQ/Tinkers%27%20Melting%20-%20The%20Aether.zip"
-      ],
-      "fileSize": 13863
-    },
-    {
-      "path": "datapacks/Towers_Of_The_Wild_Reworked_v4.2.2_Waystone.zip",
-      "hashes": {
-        "sha1": "67d29c6ad77e17537f7094b0aa4e9d46776b6b23",
-        "sha512": "db6e4398332849c5c739230cfbd308ca0a904eac7b26a92e089c2bd61fbc777ed5e64ff697fdd38ebd3234889ff787d1a9351b304a0cb99bdb98a66d845d5751"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/iqOgCgNa/versions/qgrkU1fO/Towers_Of_The_Wild_Reworked_v4.2.2_Waystone.zip"
-      ],
-      "fileSize": 1450937
-    },
-    {
-      "path": "datapacks/aetherian-v2_2.zip",
-      "hashes": {
-        "sha1": "82fe7739439d25c0844a18e92961b65dbf79fdce",
-        "sha512": "5375a91fca31c8b43eda2a62de44fc1f046f6949bea556621b0ca654c2e761b86839f07e4a0ab6de669a46d51546184195168c541c6c00f21bc5a503eb3a50fc"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/VqVm9tcn/versions/a779ETUe/aetherian-v2_2.zip"
-      ],
-      "fileSize": 60564
-    },
-    {
-      "path": "datapacks/default_skill_trees-1.1.zip",
+      "path": "datapacks/GR_CLO_default_skill_trees-1.1.zip",
       "hashes": {
         "sha1": "564a1320a4d26de1ad476687ce1920ccd12c142c",
         "sha512": "3f09b95c480ba7371264bd3b021f4ddb639bd1abeabb8a416d429ac4753b86b4f2aa462a3b1f77a49a70f8a28a9f558bde7c2b6dab0f735a686ba5b8538e9984"
       },
       "env": {
-        "client": "required",
+        "client": "optional",
         "server": "required"
       },
       "downloads": [
@@ -426,13 +426,13 @@
       "fileSize": 11519
     },
     {
-      "path": "datapacks/minecraft-dimension-detector-datapack-1.3.0.zip",
+      "path": "datapacks/GR_CLO_minecraft-dimension-detector-datapack-1.3.0.zip",
       "hashes": {
         "sha1": "55184d9c32655d52a14d94f93be926b87a9a26fb",
         "sha512": "fa45c0bc940db22757b473bcbb6919ab4eb9181c5524623624d167b83e95f502887607da47cb62c07ccf7e578a26d4563e82bc33f42804cff9d45ddec411b6c8"
       },
       "env": {
-        "client": "required",
+        "client": "optional",
         "server": "required"
       },
       "downloads": [
@@ -441,13 +441,13 @@
       "fileSize": 23163
     },
     {
-      "path": "datapacks/scaleorigins.zip",
+      "path": "datapacks/GR_CLO_scaleorigins.zip",
       "hashes": {
         "sha1": "ca8bea45ecf9739f9db8ee633de993e37a778ade",
         "sha512": "93dd114cc42ed5c4a9dcdd87ed12f0325ab41b5b75b518e9aebb09c3625c61e1d5d3528f776f3bdd53f7012c229459b9a07ea457877ddc94cfe4ea102b50842f"
       },
       "env": {
-        "client": "required",
+        "client": "optional",
         "server": "required"
       },
       "downloads": [
@@ -846,19 +846,19 @@
       "fileSize": 30635
     },
     {
-      "path": "mods/GR_CLO+SVX_InventoryProfilesNext-fabric-1.20-1.10.12.jar",
+      "path": "mods/GR_CLO+SVX_InventoryProfilesNext-fabric-1.20-1.10.15.jar",
       "hashes": {
-        "sha1": "5bb8c32d35f8d845ea908cb005c06d26fe77a091",
-        "sha512": "9c5e185f2c7151496a0cabcefbe8883e6b61690586de76f25e7349d5b0d1ca63a7b0188d07c950ac483a026227f60a1f5d79f55739d2ee6b430b7df5902030f0"
+        "sha1": "02d4b835387478168ec19f1eada2cb69b09a1609",
+        "sha512": "cac51cc7366fb4f9e2b9d3333182168016cb731c36cc7274c4cb97f0f0f368d324b7c379f902f602894a07557b1e6d59e2c84b04fdbe42fa840af077be673ea1"
       },
       "env": {
         "client": "optional",
         "server": "unsupported"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/O7RBXm3n/versions/zXog2n0B/InventoryProfilesNext-fabric-1.20-1.10.12.jar"
+        "https://cdn.modrinth.com/data/O7RBXm3n/versions/KOMwTyrI/InventoryProfilesNext-fabric-1.20-1.10.15.jar"
       ],
-      "fileSize": 1440510
+      "fileSize": 1516433
     },
     {
       "path": "mods/GR_CLO+SVX_ItemPhysicLite_FABRIC_v1.6.6_mc1.20.1.jar",
@@ -964,6 +964,21 @@
         "https://cdn.modrinth.com/data/T6oqPfxF/versions/hcThI3QG/XaeroZoomout-Fabric-1.20-1.1.0.jar"
       ],
       "fileSize": 33177
+    },
+    {
+      "path": "mods/GR_CLO+SVX_Zoomify-2.14.4+1.20.1.jar",
+      "hashes": {
+        "sha1": "6a1858e728e774d941d8f000f789e5fa4870edca",
+        "sha512": "89ac40fd2bf8fe36725c6fefbf670e8fec39a2775b5615b007492bcbd0a06ba5ee1409b630a82c3fb09819a7f05cdb54f4c4091f56902f391c74885abee31202"
+      },
+      "env": {
+        "client": "optional",
+        "server": "unsupported"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/w7ThoJFB/versions/VsZyF8DS/Zoomify-2.14.4%2B1.20.1.jar"
+      ],
+      "fileSize": 807764
     },
     {
       "path": "mods/GR_CLO+SVX_advancementinfo-1.20-fabric0.83.0-1.4.jar",
@@ -1129,21 +1144,6 @@
         "https://cdn.modrinth.com/data/ETlrkaYF/versions/KpTt0KNS/cwb-fabric-3.0.0%2Bmc1.20.jar"
       ],
       "fileSize": 79729
-    },
-    {
-      "path": "mods/GR_CLO+SVX_cycletitlescreensplash-1.20.1-1.3.jar",
-      "hashes": {
-        "sha1": "d0766dc8f91e4c5519efaa1241eb27db13644e74",
-        "sha512": "ae24ac9bc82753c6042998dccb01e9dcc5e2fc709b2259a24540a932648d910a77f1bd1ad403dfc0094698d93e2bf185bba66e697ace7790c0bee5fea3a54cd0"
-      },
-      "env": {
-        "client": "optional",
-        "server": "unsupported"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/ubb2Lt4u/versions/8VzChrQC/cycletitlescreensplash-1.20.1-1.3.jar"
-      ],
-      "fileSize": 26527
     },
     {
       "path": "mods/GR_CLO+SVX_dynamic-fps-3.9.5+minecraft-1.20.0-fabric.jar",
@@ -1641,19 +1641,19 @@
       "fileSize": 39604
     },
     {
-      "path": "mods/GR_CLO_Ksyxis-1.3.3.jar",
+      "path": "mods/GR_CLO_Ksyxis-1.3.4.jar",
       "hashes": {
-        "sha1": "2fff901eeb095c0a17ee16590e1be76c968224fc",
-        "sha512": "e754d8709d4a4c4ea894dda7bc5c3b017c8baddaaaa67b2319881d52dcce5ecd12d626087d55008de5eb942b02cf9e2099c71602296c5b63ea75abb2452b0bc7"
+        "sha1": "143fe088170e5777d3ccf5b488d61ee3635ebffe",
+        "sha512": "f085627a6dd242bec916fc5dbec5694733f3a44e7826f51ba64887ae50860b5b6e9f89ceac4ca9beefee356c428211260ce4a40bee6bb136bfe636c42753c972"
       },
       "env": {
         "client": "optional",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/2ecVyZ49/versions/ueN87SNs/Ksyxis-1.3.3.jar"
+        "https://cdn.modrinth.com/data/2ecVyZ49/versions/vCQj9Ui7/Ksyxis-1.3.4.jar"
       ],
-      "fileSize": 28484
+      "fileSize": 29869
     },
     {
       "path": "mods/GR_CLO_MRU-1.0.4+1.20.1+fabric.jar",
@@ -2001,6 +2001,21 @@
       "fileSize": 1064362
     },
     {
+      "path": "mods/GR_CLO_areas-1.20.1-6.1.jar",
+      "hashes": {
+        "sha1": "44f45c530e3690f83a103ca9a1c962182a92d71c",
+        "sha512": "51d385f5bf8a7e37fb42f18d58c4b826084babecdce1b3dff21a39fc772983657ce36663a02f241d2746d203fc76c45772c699c9f5afef5b1dd3ee04e3161065"
+      },
+      "env": {
+        "client": "optional",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/NWvsqJ2Z/versions/z8wdbzwT/areas-1.20.1-6.1.jar"
+      ],
+      "fileSize": 73372
+    },
+    {
       "path": "mods/GR_CLO_async-locator-fabric-1.20-1.3.0.jar",
       "hashes": {
         "sha1": "9bd8650056dd2dbbc64c4842f4dc9b9391ee8bf9",
@@ -2029,6 +2044,21 @@
         "https://cdn.modrinth.com/data/9Y8sMRVG/versions/RSjDPkRp/badstdout-1.1.1-1.20.jar"
       ],
       "fileSize": 40544
+    },
+    {
+      "path": "mods/GR_CLO_bedoverhaul-1.0.2.jar",
+      "hashes": {
+        "sha1": "246fe39796d9db90154342db5bfbca0d7bef40bd",
+        "sha512": "d57fb5d17672a6950d3c54babb6975e9f35fb7228d08d0750c34a2570a225aeff8d44196ea17530626b532c38fd77a4ae5e769a81d896e567a6a15f9615cb543"
+      },
+      "env": {
+        "client": "optional",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/3RDCjrMO/versions/yAxEzTjb/bedoverhaul-1.0.2.jar"
+      ],
+      "fileSize": 114300
     },
     {
       "path": "mods/GR_CLO_betterstats-3.12.6+fabric-1.20.1.jar",
@@ -2074,6 +2104,21 @@
         "https://cdn.modrinth.com/data/Ncbuvyrf/versions/Q9Q2uYPe/chcf-1.0.0.jar"
       ],
       "fileSize": 3200242
+    },
+    {
+      "path": "mods/GR_CLO_collective-1.20.1-8.3.jar",
+      "hashes": {
+        "sha1": "ec387c40637a330661d9f4c3e59d93efc17046a2",
+        "sha512": "11263db68965bd7d727284ecfd84047d0085c647af1aa8903896946515742ae5ced21cf3b46497dcf5e35ff1f0db646dad2bc330b9c3997cf75b304d34e4f745"
+      },
+      "env": {
+        "client": "optional",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/e0M1UDsY/versions/P0uRrvF9/collective-1.20.1-8.3.jar"
+      ],
+      "fileSize": 657310
     },
     {
       "path": "mods/GR_CLO_create-deco-additions-1.3.jar",
@@ -2541,19 +2586,19 @@
       "fileSize": 913732
     },
     {
-      "path": "mods/GR_CLO_tectonic-3.0.1-fabric-1.20.1.jar",
+      "path": "mods/GR_CLO_tectonic-3.0.5-fabric-1.20.1.jar",
       "hashes": {
-        "sha1": "ca291d2cf364f642a75bd524e0d44903bee9c603",
-        "sha512": "94f019e812e7fc7e07bf4009b101b52296f2dbf3af713d4d9e1fd14e2400e5980f285e09b96ffcfb7aa01e504f117aabd91e2303934a28b026b3b22fd50a5ce9"
+        "sha1": "3285c1b91acb2af7a02ed2ab5c03499e4c23bc84",
+        "sha512": "23a9df2bf48a9ae6c1a436b0b65f1172a646cc24eef3691c45efb2a0628bbb5ea3816a8b58c7942c06fc6435ef8f58340809b0062e2bd7e4cf8d440a3841d34b"
       },
       "env": {
         "client": "optional",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/lWDHr9jE/versions/sPAY67Vk/tectonic-3.0.1-fabric-1.20.1.jar"
+        "https://cdn.modrinth.com/data/lWDHr9jE/versions/f8NbLNys/tectonic-3.0.5-fabric-1.20.1.jar"
       ],
-      "fileSize": 293172
+      "fileSize": 293113
     },
     {
       "path": "mods/GR_CLO_toggleableitemframes-5.1.0-1.20.1.jar",
@@ -2736,19 +2781,19 @@
       "fileSize": 781487
     },
     {
-      "path": "mods/GR_CLX_dimensionalsyncfixes-fabric-1.20.1-0.0.1.jar",
+      "path": "mods/GR_CLX_dimensionalsyncfixes-fabric-1.20.1-0.0.2.jar",
       "hashes": {
-        "sha1": "e47aa1bc65c61fffde8bc85d7d1d3b8d6930ba0b",
-        "sha512": "b204a3e67a60c8f9b34fdb9762eb32692862d49f8898f3544c284cea4cf2898715f89d42d8a56f3da701458ec13d7988a465cbed0a3d5f3614001dba0d2b4777"
+        "sha1": "f1d0d5258e36412ca651d45f95706100a286bc3f",
+        "sha512": "b2a8cc658612dd6025d703a6ab7ed0bb9497b68a22cb5e63f03f18b378b238e5161f3e44566ab3d3c0cd68d08fa9a2362744d65e7e1af6bf7e170f2c9cbdf7c3"
       },
       "env": {
         "client": "unsupported",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/445bpKSe/versions/ytqWo3I1/dimensionalsyncfixes-fabric-1.20.1-0.0.1.jar"
+        "https://cdn.modrinth.com/data/445bpKSe/versions/E29prwyG/dimensionalsyncfixes-fabric-1.20.1-0.0.2.jar"
       ],
-      "fileSize": 4592
+      "fileSize": 2938
     },
     {
       "path": "mods/GR_CLX_jline4mcdsrv-0.6.4.jar",
@@ -3276,19 +3321,19 @@
       "fileSize": 605968
     },
     {
-      "path": "mods/GR_SVX_substrate-3.1-1.20.x.jar",
+      "path": "mods/GR_SVX_substrate-3.2-1.20.x.jar",
       "hashes": {
-        "sha1": "d81fd114e497f837b50747c42ece72ce1333fa4b",
-        "sha512": "d11d9c38935337e5197c642df795e73a24f92a47e59f6f7a8924df0b6e27413f55c1a30a2b1a1673495b778bc8e8bb7b72b5dac437a62af4e1c3ac3208936dbd"
+        "sha1": "1f0619fa243c3263c68c6e7696b5a2f6ba146d85",
+        "sha512": "30c746380d6757b5af8ea04371ad4e654b7ed7ff226579b67c4d006c34044df10f46f3fdfd7b51f42e752dfaf85fa42902f40361c53468382eea00591f787004"
       },
       "env": {
         "client": "required",
         "server": "unsupported"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/zNuzb72d/versions/udBxIVi2/substrate-3.1-1.20.x.jar"
+        "https://cdn.modrinth.com/data/zNuzb72d/versions/phYiTxA6/substrate-3.2-1.20.x.jar"
       ],
-      "fileSize": 407913
+      "fileSize": 407551
     },
     {
       "path": "mods/GRd_CLO_CMESuckMyDuck-1.0.5.jar.disabled",
@@ -3756,21 +3801,6 @@
       "fileSize": 1396331
     },
     {
-      "path": "mods/Zoomify-2.14.4+1.20.1.jar",
-      "hashes": {
-        "sha1": "6a1858e728e774d941d8f000f789e5fa4870edca",
-        "sha512": "89ac40fd2bf8fe36725c6fefbf670e8fec39a2775b5615b007492bcbd0a06ba5ee1409b630a82c3fb09819a7f05cdb54f4c4091f56902f391c74885abee31202"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/w7ThoJFB/versions/VsZyF8DS/Zoomify-2.14.4%2B1.20.1.jar"
-      ],
-      "fileSize": 807764
-    },
-    {
       "path": "mods/accessories-fabric-1.0.0-beta.47+1.20.1.jar",
       "hashes": {
         "sha1": "b2290b215a8f7e9a2676b87ac1192271eae7467d",
@@ -3921,21 +3951,6 @@
       "fileSize": 585207
     },
     {
-      "path": "mods/areas-1.20.1-6.1.jar",
-      "hashes": {
-        "sha1": "44f45c530e3690f83a103ca9a1c962182a92d71c",
-        "sha512": "51d385f5bf8a7e37fb42f18d58c4b826084babecdce1b3dff21a39fc772983657ce36663a02f241d2746d203fc76c45772c699c9f5afef5b1dd3ee04e3161065"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/NWvsqJ2Z/versions/z8wdbzwT/areas-1.20.1-6.1.jar"
-      ],
-      "fileSize": 73372
-    },
-    {
       "path": "mods/arrp-0.8.1.jar",
       "hashes": {
         "sha1": "c615b514078bf337e0bdfdcaf427a83f980580a3",
@@ -4009,21 +4024,6 @@
         "https://cdn.modrinth.com/data/DhSSvaxs/versions/6tIaagwA/beautify-1.2.0%2B1.20.1.jar"
       ],
       "fileSize": 825685
-    },
-    {
-      "path": "mods/bedoverhaul-1.0.2.jar.disabled",
-      "hashes": {
-        "sha1": "246fe39796d9db90154342db5bfbca0d7bef40bd",
-        "sha512": "d57fb5d17672a6950d3c54babb6975e9f35fb7228d08d0750c34a2570a225aeff8d44196ea17530626b532c38fd77a4ae5e769a81d896e567a6a15f9615cb543"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/3RDCjrMO/versions/yAxEzTjb/bedoverhaul-1.0.2.jar"
-      ],
-      "fileSize": 114300
     },
     {
       "path": "mods/better-end-4.0.11.jar",
@@ -4191,21 +4191,6 @@
       "fileSize": 94865
     },
     {
-      "path": "mods/collective-1.20.1-8.3.jar",
-      "hashes": {
-        "sha1": "ec387c40637a330661d9f4c3e59d93efc17046a2",
-        "sha512": "11263db68965bd7d727284ecfd84047d0085c647af1aa8903896946515742ae5ced21cf3b46497dcf5e35ff1f0db646dad2bc330b9c3997cf75b304d34e4f745"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/e0M1UDsY/versions/P0uRrvF9/collective-1.20.1-8.3.jar"
-      ],
-      "fileSize": 657310
-    },
-    {
       "path": "mods/copycats-2.2.2+mc.1.20.1-fabric.jar",
       "hashes": {
         "sha1": "bee12467cf7cd605ad79fa65a5fb53625ac8c1fa",
@@ -4236,19 +4221,19 @@
       "fileSize": 191236
     },
     {
-      "path": "mods/crabsbackport-1.2.1.jar",
+      "path": "mods/crabsbackport-1.3.0.jar",
       "hashes": {
-        "sha1": "0045c6362d3a833e87b72b4c0ae055373cf34654",
-        "sha512": "9fb80a1f9e1ef1c0cac2d4e3f40cef73794430e41fd77a92c7a27884ec160e69d5607efd280e582e485efb11749e466fe8cc249e1151fa27e855a63fd4cb6a3e"
+        "sha1": "c0a2e82303129bc6cd07a3ec436e847b5cde1f83",
+        "sha512": "79bcf47528e2342b428b02ec13c0628629fe226ef0d1807a6a4c4bf14e1dd4ed6d0cc0473da89b6abf2d4d6d3c234bea0ea20b68acda62a127707d5ffedb52f3"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/7gzfYSfN/versions/kln17ahb/crabsbackport-1.2.1.jar"
+        "https://cdn.modrinth.com/data/7gzfYSfN/versions/zmISCyBU/crabsbackport-1.3.0.jar"
       ],
-      "fileSize": 1860180
+      "fileSize": 10353845
     },
     {
       "path": "mods/create-fabric-0.5.1-j-build.1631+mc1.20.1.jar",
@@ -4641,19 +4626,19 @@
       "fileSize": 1494378
     },
     {
-      "path": "mods/fusion-1.2.9-fabric-mc1.20.1.jar",
+      "path": "mods/fusion-1.2.10-fabric-mc1.20.1.jar",
       "hashes": {
-        "sha1": "06d84704dc53c50c74edb4864e5d99dcfaa8ed26",
-        "sha512": "9981b67b93c0827f385b04ea4762ed7b0da0cd0b1bfc4bfbee3ea53acd620bde2e07dc3de92a587666478f28a04340654adeaff2d935147630c67b86ba48886e"
+        "sha1": "d61214955628a960403156be0cd95939882acfb9",
+        "sha512": "4365dc56cae89b3f12ba65e4a5d47b9d9f8f6c2325f62e64f93b90a6e998c2d11f0a049b08e8211cf504b8da2ef06fa3daf1792cbc417738d2ca1882b817f374"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/p19vrgc2/versions/LLiqd7qs/fusion-1.2.9-fabric-mc1.20.1.jar"
+        "https://cdn.modrinth.com/data/p19vrgc2/versions/3hVe2Aky/fusion-1.2.10-fabric-mc1.20.1.jar"
       ],
-      "fileSize": 514499
+      "fileSize": 514602
     },
     {
       "path": "mods/fzzy_config-0.7.1+1.20.1.jar",
@@ -5016,21 +5001,6 @@
       "fileSize": 4178439
     },
     {
-      "path": "mods/letsdocompat-fabric-2.2.3.jar",
-      "hashes": {
-        "sha1": "15d0b2a0a55a3f23105bec4c04f6973402e7bb4e",
-        "sha512": "8cff987eaace2e6f735a17acdd08b7150ec21104eb0e7b1d29af15c708271bde81d2e231ca30d09d869f7e6296772023ba9d78a0c28b2278862feafbe8e6d4f5"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/FNi5IMiX/versions/mNZaKLS0/letsdocompat-fabric-2.2.3.jar"
-      ],
-      "fileSize": 27564
-    },
-    {
       "path": "mods/lexiconfig-fabric-1.4.18.jar",
       "hashes": {
         "sha1": "2bb86beff507e0d2e0c6e327af0048e21de04ba0",
@@ -5166,19 +5136,19 @@
       "fileSize": 57229
     },
     {
-      "path": "mods/modernfix-fabric-5.24.3+mc1.20.1.jar",
+      "path": "mods/modernfix-fabric-5.24.4+mc1.20.1.jar",
       "hashes": {
-        "sha1": "4709074c94ed778bb6f8bdf2fe94a426b48bec25",
-        "sha512": "f6f9fccf57eb9806d89a5b5d74dd8c22351dccd367860433b32b1bfd364d8192df086bcca9c885371dea7e2de01ab968e97be5b5974282f40db38b118344150b"
+        "sha1": "3d20fa94c463113a24346ed544f4ca95c54bae8d",
+        "sha512": "f56b3e3761af6031ecd4cab5b3dc143cbd47d97e0a5eb8138bd579bd6c169687d5affa154c71992703ffddb2e99f3e6c3852fb554ee0321467ffc6a8cc301a28"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/nmDcB62a/versions/Qt5OXLYh/modernfix-fabric-5.24.3%2Bmc1.20.1.jar"
+        "https://cdn.modrinth.com/data/nmDcB62a/versions/PSpecC1r/modernfix-fabric-5.24.4%2Bmc1.20.1.jar"
       ],
-      "fileSize": 533703
+      "fileSize": 533705
     },
     {
       "path": "mods/modmenu-7.2.2.jar",
@@ -5813,17 +5783,17 @@
     {
       "path": "resourcepacks/GR_SVX_SodiumTranslations.zip",
       "hashes": {
-        "sha1": "d6da5a8d4db78c84bf031e1e38401406dc3edd0c",
-        "sha512": "2df6ede3a1b93ebaae7ba8d7309308a12ecc52a34c1c8722dc996b9751a73cda515d3a30132c89b356578df272948f33ebb90e2fb282d774a9ddb1b2668fb367"
+        "sha1": "e69b508d401c579ec2dacefbb49d081a38fa0a72",
+        "sha512": "41bee7cf6654038ae4ebbbd5eed536cf22acca737634ac44c49470c4d84340d52f0ee1a90051d6a5e39372080f2e9be38e91a34e39bba09f936087fcedb8cdca"
       },
       "env": {
         "client": "required",
         "server": "unsupported"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/yfDziwn1/versions/9fQQ7TYI/SodiumTranslations.zip"
+        "https://cdn.modrinth.com/data/yfDziwn1/versions/x7n18otA/SodiumTranslations.zip"
       ],
-      "fileSize": 227073
+      "fileSize": 228734
     },
     {
       "path": "shaderpacks/GR_CLO+SVX_BSL_v10.0.zip",
@@ -5916,19 +5886,19 @@
       "fileSize": 7766144
     },
     {
-      "path": "shaderpacks/GR_CLO+SVX_miniature-shader-2.15.2.zip",
+      "path": "shaderpacks/GR_CLO+SVX_miniature-shader-2.15.3.zip",
       "hashes": {
-        "sha1": "0340d0989dec159e5c5145757363cba53a96bcd8",
-        "sha512": "15125b3feb04b8de1d579bf01197760bdf54a90122efabd1cefb894890b1bab264b6b7931a1bf58d3db943d38a58cbe8d378b5aaea53ef9f422ce683c52821a7"
+        "sha1": "fcd83d47fa0286acca2ead8190d69579b79471df",
+        "sha512": "ba020389d7e12657eebcaf49e3e95f6ad1654d15b5205f4652b50204c04cab5aa8857e1243311b806c2c995c0d0d6614732a301dbadf74eccd59a5b64062671e"
       },
       "env": {
         "client": "optional",
         "server": "unsupported"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/UaS8ROxa/versions/4kudV28N/miniature-shader-2.15.2.zip"
+        "https://cdn.modrinth.com/data/UaS8ROxa/versions/RMhrmckJ/miniature-shader-2.15.3.zip"
       ],
-      "fileSize": 31529
+      "fileSize": 31517
     },
     {
       "path": "shaderpacks/GR_CLO+SVX_photon_v1.2a.zip",

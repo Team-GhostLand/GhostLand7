@@ -22,7 +22,7 @@ A modpack for the 7th edition of GhostLand SMP
 - [ ] Clouds have some issues with rendering (DH makes clouds double-layerd) ~~*(note: Can't we pretend that this is intentional? They look kinda dope!)*~~ ~~*(fixed: turned the clouds off (there is one layer now instead of two))*~~ *(nope: look below)*
 - [x] Clouds don't render at all without DH *(fixed: turned the clouds back on (there is one layer now instead of zero for DH-less players))*
 - [ ] Issues while exiting a world ~~*(fixed: They just... fixed... themselves? Quits instantly without DH; with DH on - exiting takes some time (10-something seconds), but __usually__ will also happen, eventually.)*~~ *(update: they haven't actually fixed themselves, this issue still happens)*
-- [ ] Issues while entering a world (falling through the world) ~~*(fixed: was a bug in older Baseline versions and since this pack was accidentally based on said older version - MidnightSP must've simply been unlucky enough to run into said bug)*~~ *(update: this happens due to world generation being really slow, so the player falls through the world until it generates below them)*
+- [ ] Issues while entering a world (falling through the world) *(note: this happens due to world generation being really slow, so the player falls through the world until it generates below them - but only in Survival (on Creative, the game automatically enables flight, it seems), and only for a little while (the world loads eventually and you get teleported up), unlike that one weird bug from Baseline, where the chunks would just never load at all)* *(to test: whether this also happens on the server)*
 - [ ] Issues while entering a world (game incredibly laggy for the first few minutes) *(note: that IS the chunks loading in - recommended solution is to look at the horizon in a single direction until it loads, then look around very slowly, will need to make a note about this in Discord)*
 - [x] If Aether detects Loading Screen Tips - regardless of whether integration with it is enabled in the config or not - it reloads resources right after game loads, leading to a doubled loading screen (which significantly increases the practical startup time - since, even though thanks to RRS we can navigate menus when resources are loading, noone's gonna join the world with a loading bar, especially one so obnoxious (in-game, it's fine when loading) as the one that ELS adds). *(fixed: Tipsn't)*
 - [ ] GregTech's ores become transparent underwater (their polygons disappear - you can see the void)
@@ -34,6 +34,26 @@ A modpack for the 7th edition of GhostLand SMP
 
 
 ## Changelogs:
+
+### 7a24
+- Set BedOverhaul as enabled, under the assumption that it's server-side only (ie. it can be client-optional - except we don't know that for sure, so we'll see whether it breaks now)
+- Updated: Crab's Backport, DimSyncFix, Fusion, IPN, Ksyxis, Miniature Shader, ModernFix, Kitsune, Substrate, Tectonic, T4S
+- Fixed RPG Skill Tree mess (it still claims to be a mod (not just in Contents listing, but even inside version details), and it still wants to be updated (despiete already being updated), but I'm pretty sure this time it really, trully, 100%, the latest datapack)
+- Marked all datapacks (that could be marked, ie. not VT) as optional on the client
+- Zoomify is now client-optional (and also server-excluded) - but it wasn't updated because [the latest version wants a library that doesn't exist](https://github.com/isXander/Zoomify/issues/238) xD
+- Reordered datapacks, due to them changing in 2a23 (also, Visual Waxed has disappeared for reasons unknown - `TODO: re-enable it via VanillaTweaks`)
+- Removed Geocluster's config
+- Added GhostLand to the server list
+- Added `localhost` as the default Direct Connect in the server list
+- Enabled multiplayer recording for ReplayMod
+- Added MOTD in `server.properties`
+- Configured BetterCompatChecker
+- Configured Zoomify
+- Moved NCR's indicator on the server list, due to conflicts with BCC (technically, this would now conflict with any added servers, but why tf would you ever add a second server on a single-server-tied pack?)
+- Nuked „Cycle Title Screen Splash” (Apparently, the rate wasn't 100s (which is what caused me to leave that now-deleted config TODO about it being too slow), but 100*t*, so 5s. Even setting it to 1t didn't make it go any faster (i sat there for 2 minutes wating for it to change and it didn't - even though it should be changing several times a second), so it's safe to assume that this mod is broken (maybe becasue of Exordium, idk) and can be deleted.)
+- Made Areas client-optional
+- Made Collective client-optional
+- re-added `observable_announce` - it got accidentially deleted
 
 ### 7a23
 - *Note: This patch will revert some of the previous changes and might be a bit of a mess*
@@ -173,22 +193,21 @@ This obviously isn't all that changed in this giant patch, but I don't even reme
 
 ### Known TODOs
 There will, for certain, be more. These are just some things that came to my mind on the spot.
+* **DON'T FORGET** to update BCC every time the *major* version number changes (ie. 7-ALPHA, 7-BETA, 7.0, 7.1, ... - but *not* 7a24, 7b6, 7.0.0, 7.0.1)
 * FancyMenu (incl. Remove GFARB; Main menu panorama)
 * Patchouli (if we end up including it), or some other guide/questbook thingy
 * Use a datapack to properly configure cross-mod recipies (and loottables, if it turns out that chests feel too cluttered, which apparently (according to a recent discussion with Tymuś and - frankly - my own experience, too, now that I think about it) was a problem on GL6), so the pack doesn't feel like just a bunch of crudely mixed-together crap held together with hopes and prayers, but rather a cohesive creative experience. Ties together with the point above (about a guidebook).
 * Bind-pizzeria (incl. a link to a LOOREEEEE repository - see: [pending election](#pending-elections) about roleplay)
 * Do something with Puffer's skill trees (we have too many of them rn, while none of them use Origins x Puffer)
 * DiscordRCP
-* Adaptive Tooltips
 * Get HT's to cooperate with Veinminer
 * Custom resourcepack (like for Cebuliony and stuff)
 * Sparse Structures
-* Increase title splash cycle rate (the way it is right now, you won't ever see it changing)
 * Disable Simple VC groups (we have radios for that)
 * MAYBE? add some default pins to REI, to subtly guide the player towards important objectives?
 * Enable "visited=don't show again" for Structure Credits
-* Add the modpack icon into our files (won't be auto-applied, but this way, people will at least have the option to enable it themselves)
-* Clear configs for mods that are no longer with us (eg. Geocluster)
+* Add the modpack icon into our files (won't be auto-applied, but this way, people will at least have the option to enable it themselves), preferably in such a way that it also works as a server icon, without needing to set one explicitly
+* Clear configs for mods that are no longer with us (eg. ~~Geocluster~~ *that's gone now, but there are a lot more removed mods from that 2a23 update, that left their configs behing*)
 * *also, this isn't really a config-related TODO, but we need to check whether Bed Overhaul on server-side only*
 
 ### Vanilla
@@ -200,10 +219,11 @@ There will, for certain, be more. These are just some things that came to my min
 * audio: music 25%, amb 30%, surround on
 * Advanced Tooltips on
 * Admin Items on
-* Texturepacks: Ambience (3D Crops, 3D Crops FD, grass, leaves), Green Semaphores, VT (skies, VT), CTx (Glass, defaults), food shit, QoL (low on fire, visual waxed), Text (Sodium Translations, Chat Reporting Helper), defaults (Moonlight, Sesonal Lush, Fabric, Polymer, Vanilla)
+* Texturepacks: Ambience (grass, leaves, bushes), Green Semaphores, VT (skies, VT), CTx (Glass, defaults), QoL (low on fire), Text (Sodium Translations, Chat Reporting Helper), defaults (Sesonal Lush, Fabric, Polymer, Vanilla)
 * Skipped multiplayer warning
 * Auto-jump off
 * Disabled pasue-on-lost-focus
+* Added default multiplayer servers (idk if it counts as a „config” tbh)
 
 ### Sodium
 * Quality: Lambda Grass mode
@@ -217,8 +237,8 @@ There will, for certain, be more. These are just some things that came to my min
 ### Controls: *(\*Not bind-pizzeria)*
 * Disabled creative controls (X&C)
 * Disabled narrator (AVE!)
-* Disabled achievements - you can do so from the Esc menu
-* Disabled reload celestial
+* Disabled achievements - you can open them from the Esc menu, anyway
+* Disabled Reload Celestial
 * Disabled AE2 guide
 * Disabled Big Cannons C-key
 * Disabled secondary zoom
@@ -252,6 +272,7 @@ There will, for certain, be more. These are just some things that came to my min
 
 ### ReplayMod
 * Disabled singleplayer recording (RplMd added mostly for social reasons (so that we can clip all funny moments, as recommended [in this video](https://youtu.be/fYpe4KZj9UE)), so there's no need to have it in singleplayer)
+* Enabled multiplayer recording (as stated above - that's our main goal here)
 
 ### REI
 * REI hidden by default (press Ctrl+O to show), cuz it was eating frames for breakfast
@@ -281,6 +302,29 @@ There will, for certain, be more. These are just some things that came to my min
 
 ### Observable
 * Survived the announcement
+
+### Zoomify
+* Tweaked zoom-in animations a little bit (they are too slow by default (1s, really?) - and, while fixing that, I also played around with animation curves to make them look better at 0.3s speed)
+* Disabled zoom-out animation
+* Made it so that the mod only works while the player is carrying a spyglass (handled entirely on the client, so if someone doesn't like that - well, they can disable it - but GhostLand is an immersive modpack, so we shall have immersion by default!)
+* Changed initial zoom level to be 3x at first, and then whatever you left it at by scroll-zooming (by default, scrol-zoom resets)
+* Enabled cinematic camera (at only 30%, to not be too obnoxius) becasue that's how OptiFine used to do things and I'm nostalgic for it lol
+
+### Mod Menu
+* Disabled update checker
+
+### No Chat Reports
+* Moved server safety indicator (on the server list, not in-game) list by 15px Y, due to conflicts with BCC (technically, this would now conflict with any added servers, but why tf would you ever add a second server on a single-server-tied pack?)
+* ...And by 2px X, while at it, to make it better line up with BCC's indicator
+
+### Adaptive Tooltips
+* For consistency, set YACL-style GUI button everywhere
+* Align to corner as a fallback
+* Added some very slight transparency
+
+### BetterCompatChecker
+* Name: `GhostLand`
+* Version: `7a24` *<---update me!*
 
 
 ## Things to mention to people
