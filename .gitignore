@@ -1,4 +1,5 @@
-.gr-workspace
+# Grinch local workspace stuff
+**.gr-workspace
 **.mrpack
 
 # Leaks local world names: (which isn't really a „leak” as in a „security issue”, but this has caused Windows incompatibilities (lol) in the past)
