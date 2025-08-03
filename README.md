@@ -35,6 +35,12 @@ A modpack for the 7th edition of GhostLand SMP
 
 ## Changelogs:
 
+### 7a25
+- Removed WindDog's Bridge Mod (for it was causing a gregtech incompatibility on the server) ((lmao))
+- Added Create: Dynamic Lights
+- Fixed MOTD spacing in `server.properties`
+- Sligtly cranked up structure rates
+
 ### 7a24
 - Set BedOverhaul as enabled, under the assumption that it's server-side only (ie. it can be client-optional - except we don't know that for sure, so we'll see whether it breaks now)
 - Updated: Crab's Backport, DimSyncFix, Fusion, IPN, Ksyxis, Miniature Shader, ModernFix, Kitsune, Substrate, Tectonic, T4S
@@ -202,7 +208,7 @@ There will, for certain, be more. These are just some things that came to my min
 * DiscordRCP
 * Get HT's to cooperate with Veinminer
 * Custom resourcepack (like for Cebuliony and stuff)
-* Sparse Structures
+* Sparse Structures (properly - rn, we only did a very far-reaching but slight boost, but ideally, we'd check which structures tend to over-place themselves and lower their rates) ((might turn out to be unnecessary, idk))
 * Disable Simple VC groups (we have radios for that)
 * MAYBE? add some default pins to REI, to subtly guide the player towards important objectives?
 * Enable "visited=don't show again" for Structure Credits
@@ -224,6 +230,7 @@ There will, for certain, be more. These are just some things that came to my min
 * Auto-jump off
 * Disabled pasue-on-lost-focus
 * Added default multiplayer servers (idk if it counts as a „config” tbh)
+* Server-side: Added an MOTD
 
 ### Sodium
 * Quality: Lambda Grass mode
@@ -325,6 +332,10 @@ There will, for certain, be more. These are just some things that came to my min
 ### BetterCompatChecker
 * Name: `GhostLand`
 * Version: `7a24` *<---update me!*
+
+### Sparse structures
+* Slightly lowered reduction rates (from the default 2x reduction to 1.75x)
+* Reset woodland mansion reduction rates (its set as an example in the file - but since it's an example, it follows the default 2x reduction - but since we changed the defaults, that'd now make mansions even rarer, which is stupid (they are already pretty rare), so we had to change them, as well - and I thougth that if we're changing it anyway, we might as well set it to the vanilla 1x, as the plan is to reset all vanilla rates, anyway)
 
 
 ## Things to mention to people

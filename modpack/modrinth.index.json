@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "7a24",
+  "versionId": "7a25",
   "name": "GhostLand 7 Alpha",
   "summary": "Paczka na siódmą edycję GhostLanda - wersja alpha",
   "files": [
@@ -2779,6 +2779,21 @@
         "https://cdn.modrinth.com/data/SRlzjEBS/versions/M6EFtrdy/audioplayer-fabric-1.20.1-1.13.2.jar"
       ],
       "fileSize": 781487
+    },
+    {
+      "path": "mods/GR_CLX_create-dyn-light-fabric1.20.1+1.0.2.jar",
+      "hashes": {
+        "sha1": "1cab18a29cf729ebacec005edd96097a9bbb9968",
+        "sha512": "d8645d381832384e1afb4675877d8633dec2cf52142cc69aa3f9dfd33ca1d4bb64e0fdb7e391fb32002730d73c59e2489cff6d8b2e047dd2607a16053b4fe4c9"
+      },
+      "env": {
+        "client": "unsupported",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/evMQRxqV/versions/nJgqKQD5/create-dyn-light-fabric1.20.1%2B1.0.2.jar"
+      ],
+      "fileSize": 142609
     },
     {
       "path": "mods/GR_CLX_dimensionalsyncfixes-fabric-1.20.1-0.0.2.jar",
@@ -5674,21 +5689,6 @@
         "https://cdn.modrinth.com/data/LOpKHB2A/versions/ri0lPSAm/waystones-fabric-1.20.1-14.1.16.jar"
       ],
       "fileSize": 519972
-    },
-    {
-      "path": "mods/winddogs_bridge_mod-1.0.0.jar",
-      "hashes": {
-        "sha1": "87e3c4d1d8bfec5cdac4eabae0fc9e5f98548a3c",
-        "sha512": "a8b06fc6ac0e61f9bb1f2b99f45a4db965bc60d5427c428ff3b98f4d5b4eac9e84f6f58a7d11a9d531cdcc9fcde16a85ed4c4c73961bb652398c0d07cf9fc48b"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/bljD2sZP/versions/yv2cqWwX/winddogs_bridge_mod-1.0.0.jar"
-      ],
-      "fileSize": 460464
     },
     {
       "path": "mods/yet_another_config_lib_v3-3.6.6+1.20.1-fabric.jar",
