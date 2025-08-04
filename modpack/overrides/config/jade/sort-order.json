@@ -76,6 +76,8 @@
   "minecraft:villager_profession": null,
   "minecraft:waxed": null,
   "minecraft:zombie_villager": null,
+  "modern_industrialization:energy": null,
+  "modern_industrialization:pipe": null,
   "polymer:blockstate": null,
   "polymer:entities": null,
   "supplementaries:hat_stand": null,

@@ -42,7 +42,7 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","$polymer-resources","fabric","seasons:seasonal_lush_caves","file/GR_SVX_Chat Reporting Helper.zip","file/GR_SVX_SodiumTranslations.zip","file/GR_SVX_LowOnFire_1.20.1.zip","continuity:default","continuity:glass_pane_culling_fix","file/VanillaTweaks.zip","file/Less-Dramatic Skies.zip","railways:green_signals","vinery:bushy_leaves","file/GR_SVX_Better-Leaves-9.3.zip","file/GR_SVX_Simple Grass Flowers v1.9.5.zip"]
+resourcePacks:["vanilla","$polymer-resources","fabric","seasons:seasonal_lush_caves","file/GR_SVX_Chat Reporting Helper.zip","file/GR_SVX_SodiumTranslations.zip","file/GR_SVX_LowOnFire_1.20.1.zip","continuity:default","continuity:glass_pane_culling_fix","file/VanillaTweaks.zip","file/Less-Dramatic Skies.zip","railways:green_signals","file/GR_SVX_Better-Leaves-9.3.zip","file/GR_SVX_Simple Grass Flowers v1.9.5.zip","wilderwild:wilder_main_menu"]
 incompatibleResourcePacks:["file/GR_SVX_Simple Grass Flowers v1.9.5.zip"]
 lastServer:localhost
 lang:pl_pl
@@ -189,7 +189,9 @@ key_key.jade.toggle_liquid:key.keyboard.unknown
 key_key.jade.narrate:key.keyboard.unknown
 key_key.jade.show_details_alternative:key.keyboard.unknown
 key_Open Pizza Menu:key.keyboard.k
+key_key.modern_industrialization.activate:key.keyboard.v
 key_key.modmenu.open_menu:key.keyboard.unknown
+key_supplementaries.keybind.quiver:key.keyboard.v
 key_key.musicnotification.open_screen:key.keyboard.unknown
 key_key.observable.profile:key.keyboard.unknown
 key_key.origins.primary_active:key.keyboard.g

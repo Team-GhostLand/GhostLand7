@@ -24,7 +24,7 @@ A modpack for the 7th edition of GhostLand SMP
 - [ ] Client's embedded server seems to be getting stuck during startup (falling through the world (with commands, etc. not working), while the chunks are loading - and they never finnish loading) and shutdown (you get stuck on the „waiting to save World”-screen) *(note1: neither Guzio, nor `knpks` were able to replicate the issue (Guzio was able to achieve partial replication (falling through the world for a minute or 2, then fixed; I had some exit bugs once or twice, but they eventually stopped happening), while `knpks` couldn't at all, albeit their testing was much shorter) - currenly, this seems to affect only and exclusively MidnightSP)* *(note2: Could this be related to having higher-end hardware? Some heavily-threaded or -threading mod, like Distant Horizons or ASYNC spreads the load onto all 16 cores (compared to Guzio's and `knpks`'s pathetic 4), which creates more opportunities for some nasty lock-ups (thread 1 waits for thread 2, thread 2 waits for thread 1 - and they just get stuck like this until killed) to rear their ugly heads.)* *(note3: it seems like we can safely ignore it, as it only affects singleplayer (doesn't seem to happen on the dedicated server server-wise, and the embedded server doesn't start on multiplayer client-wise) and this pack is mostly multiplayer-focused, anyway - although I can imagine this does probably make development much more annoying for MidnightSP and I feel sorry for the inncocent lad)*
 - [ ] Issues while entering a world (game incredibly laggy for the first few minutes) *(note: that's the chunks loading in - recommended solution is to look at the horizon in a single direction until it loads, then look around very slowly until all other directions load)*
 - [x] If Aether detects Loading Screen Tips - regardless of whether integration with it is enabled in the config or not - it reloads resources right after game loads, leading to a doubled loading screen (which significantly increases the practical startup time - since, even though thanks to RRS we can navigate menus when resources are loading, noone's gonna join the world with a loading bar, especially one so obnoxious (in-game, it's fine when loading) as the one that ELS adds). *(fixed: Tipsn't)*
-- [ ] GregTech's ores become transparent underwater (their polygons disappear - you can see the void)
+- [x] GregTech's ores become transparent underwater (their polygons disappear - you can see the void) **(fixed: GREGORY GOT GEYEETEN)**
 - [x] On some modded biome coastlines, Creeper-hole-like cutouts appear, and they tend to cut off trees and leave them floating *(note: this doesn't seem to happen, rather it is regular world generation issue)* *(fixed: alr, whatever u say...)*
 - [ ] Enabling Planet Curvature in Distant Horizons does nothing
 - [x] With Panoramics seemingly completely cooked, we have nothing to make a main menu panorama for Fancy Menu with. *(fixed: found [this thing](https://modrinth.com/mod/panorama-screenshot) - not yet in the pack, since we're not doing any FancyMenu stuff yet)*
@@ -33,6 +33,27 @@ A modpack for the 7th edition of GhostLand SMP
 
 
 ## Changelogs:
+
+### 7a28
+- Removed mods:
+  - GregTech (RIP)
+  - [Let's do] (all of it)
+  - REI (added EMI instead)
+- Added mods:
+  - Geocluster
+  - MoonlightLib
+  - Farmer's Delight (+ its addons)
+  - Supplementaries
+  - Amendments
+  - Fast Paintings
+  - Immersive Weathering
+  - Sliced'n'Diced
+  - Powah!
+  - ME Requester
+  - Modern Industrialisation
+  - EMI (instead of REI)
+- Added resourcepacks:
+  - 3d Crops Revamped
 
 ### 7a27
 **`[EMERGENCY SECURITY PATCH]`**
