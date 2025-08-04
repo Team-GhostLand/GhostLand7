@@ -162,7 +162,6 @@ key_dsurround.text.keybind.modConfigurationMenu:key.keyboard.unknown
 key_dsurround.text.keybind.individualSoundConfig:key.keyboard.unknown
 key_dsurround.text.keybind.diagnosticHud:key.keyboard.unknown
 key_key.entityculling.toggle:key.keyboard.unknown
-key_key.exposure.camera_controls:key.keyboard.unknown
 key_key.flightassistant.toggle_enabled:key.keyboard.unknown
 key_key.flightassistant.open_flightassistant_setup:key.keyboard.unknown
 key_key.flightassistant.autopilot_disconnect:key.keyboard.apostrophe
@@ -224,15 +223,12 @@ key_key.smallships.ship_sail:key.keyboard.y
 key_key.structurecredits.deactivate_key:key.keyboard.unknown
 key_key.structurecredits.show_again_key:key.keyboard.unknown
 key_key.structurecredits.dont_show_key:key.keyboard.unknown
-key_substrate.toggle:key.keyboard.r
+key_substrate.toggle:key.keyboard.unknown
 key_tcdcommons.key.refresh_current_screen:key.keyboard.unknown
 key_key.tconstruct.helmet_interact:key.keyboard.page.up
 key_key.tconstruct.leggings_interact:key.keyboard.page.down
 key_key.the_bumblezone.beehemoth_up:key.keyboard.space
 key_key.the_bumblezone.beehemoth_down:key.keyboard.caps.lock
-key_key.things.place_item:key.keyboard.j
-key_key.things.openenderchest:key.keyboard.unknown
-key_key.things.toggle_socks_jump_boost:key.keyboard.unknown
 key_key.travelersbackpack.inventory:key.keyboard.b
 key_key.travelersbackpack.sort:key.keyboard.unknown
 key_key.travelersbackpack.ability:key.keyboard.unknown
@@ -242,9 +238,9 @@ key_treechop.key.toggle_chopping:key.keyboard.unknown
 key_treechop.key.toggle_felling:key.keyboard.unknown
 key_treechop.key.cycle_sneak_behavior:key.keyboard.unknown
 key_treechop.key.open_settings_overlay:key.keyboard.unknown
-key_key.push_to_talk:key.keyboard.m
+key_key.push_to_talk:key.keyboard.grave.accent
 key_key.whisper:key.keyboard.unknown
-key_key.mute_microphone:key.keyboard.grave.accent
+key_key.mute_microphone:key.keyboard.m
 key_key.disable_voice_chat:key.keyboard.unknown
 key_key.hide_icons:key.keyboard.unknown
 key_key.voice_chat:key.keyboard.unknown

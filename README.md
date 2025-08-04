@@ -21,19 +21,46 @@ A modpack for the 7th edition of GhostLand SMP
 - [ ] Update config files *(ongoing)*
 - [ ] Clouds have some issues with rendering (DH makes clouds double-layerd) ~~*(note: Can't we pretend that this is intentional? They look kinda dope!)*~~ ~~*(fixed: turned the clouds off (there is one layer now instead of two))*~~ *(nope: look below)*
 - [x] Clouds don't render at all without DH *(fixed: turned the clouds back on (there is one layer now instead of zero for DH-less players))*
-- [ ] Issues while exiting a world ~~*(fixed: They just... fixed... themselves? Quits instantly without DH; with DH on - exiting takes some time (10-something seconds), but __usually__ will also happen, eventually.)*~~ *(update: they haven't actually fixed themselves, this issue still happens)*
-- [ ] Issues while entering a world (falling through the world) *(note: this happens due to world generation being really slow, so the player falls through the world until it generates below them - but only in Survival (on Creative, the game automatically enables flight, it seems), and only for a little while (the world loads eventually and you get teleported up), unlike that one weird bug from Baseline, where the chunks would just never load at all)* *(to test: whether this also happens on the server)*
-- [ ] Issues while entering a world (game incredibly laggy for the first few minutes) *(note: that IS the chunks loading in - recommended solution is to look at the horizon in a single direction until it loads, then look around very slowly, will need to make a note about this in Discord)*
+- [ ] Client's embedded server seems to be getting stuck during startup (falling through the world (with commands, etc. not working), while the chunks are loading - and they never finnish loading) and shutdown (you get stuck on the „waiting to save World”-screen) *(note1: neither Guzio, nor `knpks` were able to replicate the issue (Guzio was able to achieve partial replication (falling through the world for a minute or 2, then fixed; I had some exit bugs once or twice, but they eventually stopped happening), while `knpks` couldn't at all, albeit their testing was much shorter) - currenly, this seems to affect only and exclusively MidnightSP)* *(note2: Could this be related to having higher-end hardware? Some heavily-threaded or -threading mod, like Distant Horizons or ASYNC spreads the load onto all 16 cores (compared to Guzio's and `knpks`'s pathetic 4), which creates more opportunities for some nasty lock-ups (thread 1 waits for thread 2, thread 2 waits for thread 1 - and they just get stuck like this until killed) to rear their ugly heads.)* *(note3: it seems like we can safely ignore it, as it only affects singleplayer (doesn't seem to happen on the dedicated server server-wise, and the embedded server doesn't start on multiplayer client-wise) and this pack is mostly multiplayer-focused, anyway - although I can imagine this does probably make development much more annoying for MidnightSP and I feel sorry for the inncocent lad)*
+- [ ] Issues while entering a world (game incredibly laggy for the first few minutes) *(note: that's the chunks loading in - recommended solution is to look at the horizon in a single direction until it loads, then look around very slowly until all other directions load)*
 - [x] If Aether detects Loading Screen Tips - regardless of whether integration with it is enabled in the config or not - it reloads resources right after game loads, leading to a doubled loading screen (which significantly increases the practical startup time - since, even though thanks to RRS we can navigate menus when resources are loading, noone's gonna join the world with a loading bar, especially one so obnoxious (in-game, it's fine when loading) as the one that ELS adds). *(fixed: Tipsn't)*
 - [ ] GregTech's ores become transparent underwater (their polygons disappear - you can see the void)
-- [ ] On some modded biome coastlines, Creeper-hole-like cutouts appear, and they tend to cut off trees and leave them floating *(note: this doesn't seem to happen, rather it is regular world generation issue)*
+- [x] On some modded biome coastlines, Creeper-hole-like cutouts appear, and they tend to cut off trees and leave them floating *(note: this doesn't seem to happen, rather it is regular world generation issue)* *(fixed: alr, whatever u say...)*
 - [ ] Enabling Planet Curvature in Distant Horizons does nothing
-- [ ] With Panoramics seemingly completely cooked, we have nothing to make a main menu panorama for Fancy Menu with.
+- [x] With Panoramics seemingly completely cooked, we have nothing to make a main menu panorama for Fancy Menu with. *(fixed: found [this thing](https://modrinth.com/mod/panorama-screenshot) - not yet in the pack, since we're not doing any FancyMenu stuff yet)*
 - [ ] Small Ships' boats made from wood from WilderWilds don't have textures
-- [ ] Main menu panorama is... Uhhhhh...... Just check the Discord, please *(note: this seems to happen if you disabled WW's panorama resourcepack (which for some reason has to be done every time something changes about resourcepacks), if a WW panorama was showing before)*
+- [ ] WW's panorama texturepack keeps enabling itself against our will any time the packs change (and causes Missing Texture glitches whenever we disable it (ie. set it to the state it's *supposed to* be in) if its panorama was loaded before)
 
 
 ## Changelogs:
+
+### 7a26
+- removed Substrate keybinds (Keaybinds got reset because it got renamed from Substratium, I think? Becasue our change-list only mentioned disabling Substratium (not Substrate), even though I'm pretty sure I didn't miss any conflicting mods *and also* mod Substratium doesn't seem to exist.)
+- fixed SimpleVC keybind mix-up (``` ` ``` is for push-to-talk (because of its proximity to) and `M` is mute (for *M*ute) - it was the other way around for some reason)
+- configured Create Dynamic Lights
+- got treatened to disable Zoom-with-Spyglass
+- configured FlightAssistant
+- Added mods: Patchouli
+- Updated mods: BALM, Fzzy Config
+- Removed mods:
+  - Numismatic Bounties (In my testing, it was ALMOST perfectly balanced; I was about to give this economical model a greenlight - **...And then it dropped a get-11-crowns-for-just-32-glass balancing bomb-shell on me**. No, thanks. I'd rather not have the entire economy cooked for the rest of the edition because some one person got lucky on the Bounty Board.)
+  - Rolling Down in the Deep (it was clunky as hell)
+  - Alloy Forgery (lost the battle with Tinker's)
+  - Exposure (It's a cool concept and I'm very sad to see it go, but - realistically - noone would've ever used this, especially with Immersive Paintings availabe as an alternative to that ender-filter-thingy)
+  - Fusion (not needed without ReChiseled)
+  - HephaestusPlus (not needed without Mythic Metals or any other mod it's supposed to support)
+  - \*Mythic Metals (Although the metals are very cool, they aren't justifies-pulling-down-3-extra-libs cool - which (with Things (the only\* other reason to keep OwoLib) being gone, and no official support for Tinker's, thus needing us to pull down Alloy Forgery (it's a hard-coded dependency and Deps Overrides can't save us here; \**this one is also an OwoLib dependency - but (iself being nothing more than being a dependency of MM, having lost the battle with Tinker's) I'm not counting it*) and HephaestusPlus for integration with Tinker's) is what this mod effectively forces us to do)
+  - OwoLib (not needed without Mythic Metals (and thus Alloy Forgery) and Things)
+  - ReChiseled (lost the battle with Chipped)
+  - Create: ReChiseled (won't work without ReChiseld)
+  - `supermartijn642corelib` (not needed without ReChiseld)
+  - Things (too OP)
+  - Trinkets (we have Trinkets<->Accessories Compat - regular 'ol Trinkets must've snuck in as some dependency and we didn't notice until now)
+  - JustHammers (Tinker's has them)
+  - Sliced'n'Diced (doesn't do enough to justify its existance after Farmer's Delight's removal)
+- Iris (+compat with GeckoLib and Flywheel, +shaders) are no longer client-optional, after Slim Mode QA determined that they can be enabled
+- Vibrative Voice, despite being marked as server-side-only, was causing index sync issues when joining without it onto a server with it, so we had to mark it as client-required. We did so, however, without marking SimpleVC as client-required because *apparently, somehow*, it doesn't depend on it. We'll see whether they lied about this on their Modrinth page, too... (I'd guess YES (considering their track record and how IT'S LITERALLY A PLUGIN for SVC), but who knows?)
+- Create Dynamic Lights are now Client-optional (instead of unsupported); idk what was I smoking when I set it as unsupported before
 
 ### 7a25
 - Removed WindDog's Bridge Mod (for it was causing a gregtech incompatibility on the server) ((lmao))
@@ -46,7 +73,7 @@ A modpack for the 7th edition of GhostLand SMP
 - Updated: Crab's Backport, DimSyncFix, Fusion, IPN, Ksyxis, Miniature Shader, ModernFix, Kitsune, Substrate, Tectonic, T4S
 - Fixed RPG Skill Tree mess (it still claims to be a mod (not just in Contents listing, but even inside version details), and it still wants to be updated (despiete already being updated), but I'm pretty sure this time it really, trully, 100%, the latest datapack)
 - Marked all datapacks (that could be marked, ie. not VT) as optional on the client
-- Zoomify is now client-optional (and also server-excluded) - but it wasn't updated because [the latest version wants a library that doesn't exist](https://github.com/isXander/Zoomify/issues/238) xD
+- Zoomify is now configured and client-optional (and also server-excluded) - but it wasn't updated because [the latest version wants a library that doesn't exist](https://github.com/isXander/Zoomify/issues/238) xD
 - Reordered datapacks, due to them changing in 2a23 (also, Visual Waxed has disappeared for reasons unknown - `TODO: re-enable it via VanillaTweaks`)
 - Removed Geocluster's config
 - Added GhostLand to the server list
@@ -206,7 +233,6 @@ There will, for certain, be more. These are just some things that came to my min
 * Bind-pizzeria (incl. a link to a LOOREEEEE repository - see: [pending election](#pending-elections) about roleplay)
 * Do something with Puffer's skill trees (we have too many of them rn, while none of them use Origins x Puffer)
 * DiscordRCP
-* Get HT's to cooperate with Veinminer
 * Custom resourcepack (like for Cebuliony and stuff)
 * Sparse Structures (properly - rn, we only did a very far-reaching but slight boost, but ideally, we'd check which structures tend to over-place themselves and lower their rates) ((might turn out to be unnecessary, idk))
 * Disable Simple VC groups (we have radios for that)
@@ -214,7 +240,7 @@ There will, for certain, be more. These are just some things that came to my min
 * Enable "visited=don't show again" for Structure Credits
 * Add the modpack icon into our files (won't be auto-applied, but this way, people will at least have the option to enable it themselves), preferably in such a way that it also works as a server icon, without needing to set one explicitly
 * Clear configs for mods that are no longer with us (eg. ~~Geocluster~~ *that's gone now, but there are a lot more removed mods from that 2a23 update, that left their configs behing*)
-* *also, this isn't really a config-related TODO, but we need to check whether Bed Overhaul on server-side only*
+* *also, this isn't really a config-related TODO, but we need to check whether Bed Overhaul works on server-side only*
 
 ### Vanilla
 * polski (auto)
@@ -257,7 +283,7 @@ There will, for certain, be more. These are just some things that came to my min
 * Disabled Presence Footsteps config
 * Disabled Jukebox
 * Disabled OptiGUI's debug thing
-* Disabled Substratium's reload
+* Disabled Substrate's toggle
 * Disabled Show Ghostblocks
 * Disabled Skill Tree view
 * Disabled everything Jade
@@ -273,6 +299,7 @@ There will, for certain, be more. These are just some things that came to my min
 * Remapped various FlightAssistant keys to the right-hand cluster (where its arrows already were, anyway)
 * Added thrus reversal to Do a Barrel Roll (at S)
 * Disabled Do a Barrel Roll's toggle
+* *Note: REI can be shown with Ctrl+O; U and R for Usages and Recipes*
 
 ### Bind Pizzeria
 * Temporarily configured Worldmap shortcut (will be changed later to something more immersive, along with other BP configs)
@@ -301,6 +328,8 @@ There will, for certain, be more. These are just some things that came to my min
 
 ### FlightAssistant
 * Made the HUD green (*to MidnightSP: did you change this, or is that the defualt? Cuz it's white in their screenshots*)
+* Colors... Uhh... Happened. More color settings just spawned in the config. But the mod wasn't updated? Was me looking at the config enough to make it „fully generate”???
+* Disabled HUD by default (it always shows thrust level (cannot be disabled in the „Not Flying (no elytra)” nor „global” menu), which will just be annoying to anyone who hasn't gotten their eltra yet - they can re-enable it on their end after they get one)
 
 ### Structure Credits
 * Cleared visited structures list
@@ -313,7 +342,7 @@ There will, for certain, be more. These are just some things that came to my min
 ### Zoomify
 * Tweaked zoom-in animations a little bit (they are too slow by default (1s, really?) - and, while fixing that, I also played around with animation curves to make them look better at 0.3s speed)
 * Disabled zoom-out animation
-* Made it so that the mod only works while the player is carrying a spyglass (handled entirely on the client, so if someone doesn't like that - well, they can disable it - but GhostLand is an immersive modpack, so we shall have immersion by default!)
+* ~~Made it so that the mod only works while the player is carrying a spyglass (handled entirely on the client, so if someone doesn't like that - well, they can disable it - but GhostLand is an immersive modpack, so we shall have immersion by default!)~~ *Not anymore, but I'll be back with it in some way, for sure 😈*
 * Changed initial zoom level to be 3x at first, and then whatever you left it at by scroll-zooming (by default, scrol-zoom resets)
 * Enabled cinematic camera (at only 30%, to not be too obnoxius) becasue that's how OptiFine used to do things and I'm nostalgic for it lol
 
@@ -337,6 +366,12 @@ There will, for certain, be more. These are just some things that came to my min
 * Slightly lowered reduction rates (from the default 2x reduction to 1.75x)
 * Reset woodland mansion reduction rates (its set as an example in the file - but since it's an example, it follows the default 2x reduction - but since we changed the defaults, that'd now make mansions even rarer, which is stupid (they are already pretty rare), so we had to change them, as well - and I thougth that if we're changing it anyway, we might as well set it to the vanilla 1x, as the plan is to reset all vanilla rates, anyway)
 
+### Create Dynamic Lights
+* Disabled LambDynamicLights integration (we're using Sodium Dynamic Lights, so that wouldn't work for us)
+* Enabled vanilla mode (becasue we're not using LambDynamicLights and - with both modes disabled - the mod would literally do nothing)
+
+### Veinminer
+* No configs were changed - which is very notable because I thought that we'd need to manually get it to cooperate with HT's, but appently they work together by default (chop trees without sneaking, *no Veinminer* (by default) when sneaking)
 
 ## Things to mention to people
 * See: [Issue](#issues) about entering
@@ -385,7 +420,7 @@ Mod Patched (now deleted) mentioned an RFC about JSON merging - might be useful 
 
 
 ## Credits/Licensing:
-* Licensed under [MIT]() (ie. the „Do whatever the fuck you want”-clause), with the exception of some files (mentioned later).
-* [Guzio](https://github.com/GuzioMG), [MidnightSP](https://github.com/Midnight-SP) and other people who didn't push any patches, but nevertheless helped us in some way on [our Discord](https://discord.gg/qCNUYBXY7P).
-* [__*#GhostLand Project*__](https://github.com/Team-GhostLand/) – by [Jifo](https://github.com/JIFO0)
+* Licensed under [MIT](https://github.com/Team-GhostLand/GhostLand7/blob/master/LICENSE) (ie. the „Do whatever the fuck you want”-clause), with the exception of some files (mentioned later).
+* [Guzio](https://github.com/GuzioMG), [MidnightSP](https://github.com/Midnight-SP) and other people who didn't push any patches, but nevertheless helped us in some way on [our Discord](https://discord.gg/qCNUYBXY7P) (especially `knpks` and DjPalemkov[https://github.com/DjPalemkov]).
+* [__*#GhostLand Project*__](https://github.com/Team-GhostLand/) – *a [Jifo](https://github.com/JIFO0)-Branding initiative*
 * This repository contains some files from 2 projects that are not licensed under MIT. We embedded them in compliance with their licenses, but this DOES NOT RE-LICENSE THEM under MIT in any way, shape, or form (we have no right to do so, after all). So if you were to fork/download/clone or otherwise obtain a copy of this project, you either also need to follow their licenses (such as no monetization; make sources public), or **you must remove those files**. One of those files, Async Mod, comes from [this amazing repo](https://github.com/Bliss-tbh/Async-1.20.1/) (seriously amazing, I love those commit messages - btw, I too hate Gradle) and is licensed under [GPL](https://github.com/Bliss-tbh/Async-1.20.1/blob/ver/1.20.1/LICENSE) (ie. if you modify that file, you need to release all changed sources). The other non-MIT project (files: Less-Dramatic Skies resourcepack and everything including Vanilla Tweaks (or VT_) in its name) is [Vanilla Tweaks](https://vanillatweaks.net/). According to their [license](https://vanillatweaks.net/terms/), we need to have a `credits.txt` file with contents specified by them (which we do), which will be included on all main publishing platforms (we placed it inside `overrides`, so when you load this project's MRPACK inside Modrith (our target platform), the file will be included in the profile's root) and „our pack must include proper modification and/or additions” (which - if you count the modpack as a whole - probably counts, considering it has over 300 said modifications) and mustn't be monetised (which it isn't). That's it for non-MIT projects, but we also have a resourcepack that got extracted from the [Analog](https://modrinth.com/mod/analog) mod and our own fork of Create Track Map (CTM Restitched), but they're both licensed under [MIT](https://github.com/Gibatron/analog/blob/1.20/LICENSE), so we can safely include it in a different MIT project, as long as we include their exact wording of their licenses (which I just did, with that link - well, technically, only for Analog, but that CTM fork is made by us, so this pack's license is the same for it, as well).

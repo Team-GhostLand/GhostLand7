@@ -4,7 +4,8 @@
 		frame_height: 0.5,
 		primary_color: -16711936,
 		secondary_color: -1,
-		advisory_color: -16711681,
+		primary_advisory_color: -16711681,
+		secondary_advisory_color: -65281,
 		caution_color: -256,
 		warning_color: -65536,
 		show_attitude: "HORIZON_AND_LADDER",
@@ -25,6 +26,7 @@
 		show_ground_speed: true,
 		show_vertical_speed: true,
 		show_alerts: true,
+		show_status_messages: true,
 		show_automation_modes: true,
 		show_flight_directors: true
 	},
@@ -33,7 +35,8 @@
 		frame_height: 0.5,
 		primary_color: -16711936,
 		secondary_color: -1,
-		advisory_color: -16711681,
+		primary_advisory_color: -16711681,
+		secondary_advisory_color: -65281,
 		caution_color: -256,
 		warning_color: -65536,
 		show_attitude: "DISABLED",
@@ -54,6 +57,7 @@
 		show_ground_speed: true,
 		show_vertical_speed: false,
 		show_alerts: true,
+		show_status_messages: true,
 		show_automation_modes: true,
 		show_flight_directors: false
 	},
@@ -62,7 +66,8 @@
 		frame_height: 0.5,
 		primary_color: -16711936,
 		secondary_color: -1,
-		advisory_color: -16711681,
+		primary_advisory_color: -16711681,
+		secondary_advisory_color: -65281,
 		caution_color: -256,
 		warning_color: -65536,
 		show_attitude: "DISABLED",
@@ -83,6 +88,7 @@
 		show_ground_speed: false,
 		show_vertical_speed: false,
 		show_alerts: false,
+		show_status_messages: true,
 		show_automation_modes: false,
 		show_flight_directors: false
 	}
