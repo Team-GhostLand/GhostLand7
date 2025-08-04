@@ -34,6 +34,9 @@ A modpack for the 7th edition of GhostLand SMP
 
 ## Changelogs:
 
+### 7a27
+**`[EMERGENCY SECURITY PATCH]`**
+
 ### 7a26
 - removed Substrate keybinds (Keaybinds got reset because it got renamed from Substratium, I think? Becasue our change-list only mentioned disabling Substratium (not Substrate), even though I'm pretty sure I didn't miss any conflicting mods *and also* mod Substratium doesn't seem to exist.)
 - fixed SimpleVC keybind mix-up (``` ` ``` is for push-to-talk (because of its proximity to) and `M` is mute (for *M*ute) - it was the other way around for some reason)
