@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "7a30",
+  "versionId": "7a31",
   "name": "GhostLand 7 Alpha",
   "summary": "Paczka na siódmą edycję GhostLanda - wersja alpha",
   "files": [
@@ -5734,36 +5734,6 @@
         "https://cdn.modrinth.com/data/1eAoo2KR/versions/dvS5DjUA/yet_another_config_lib_v3-3.6.6%2B1.20.1-fabric.jar"
       ],
       "fileSize": 1294234
-    },
-    {
-      "path": "resourcepacks/GR_CLO+SVX_FA+Objects-v1.1.1.zip",
-      "hashes": {
-        "sha1": "67a08b2463761c3da201444a0a61f7d4c689e6c3",
-        "sha512": "3765d3f556c312b7f2225bbf29b34c1d38c6383ca8608f13fc7cccef70c6fc11a8687c65a209e706704aa37fb3505849eaea4aee9d7edb6c602366381cd1d1b6"
-      },
-      "env": {
-        "client": "optional",
-        "server": "unsupported"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/YAVTU8mK/versions/doQyYghr/FA%2BObjects-v1.1.1.zip"
-      ],
-      "fileSize": 85574
-    },
-    {
-      "path": "resourcepacks/GR_CLO+SVX_FreshAnimations_v1.9.2.zip",
-      "hashes": {
-        "sha1": "ff18e6a762b87d7e8bad0726ac7d9c153306c6d2",
-        "sha512": "97a387112a5a94b0e7f4d0d2439977a9f28579303ad883ed3d0fcc3277357f8b3ab2418960f698d1a5f435903e0b2f82716fc92f8500cac090f900b2d2135dcf"
-      },
-      "env": {
-        "client": "optional",
-        "server": "unsupported"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/50dA9Sha/versions/8vtPih5h/FreshAnimations_v1.9.2.zip"
-      ],
-      "fileSize": 516256
     },
     {
       "path": "resourcepacks/GR_SVX_Better-Leaves-9.3.zip",

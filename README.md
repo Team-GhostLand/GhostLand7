@@ -29,12 +29,20 @@ A modpack for the 7th edition of GhostLand SMP
 - [ ] Enabling Planet Curvature in Distant Horizons does nothing
 - [x] With Panoramics seemingly completely cooked, we have nothing to make a main menu panorama for Fancy Menu with. *(fixed: found [this thing](https://modrinth.com/mod/panorama-screenshot) - not yet in the pack, since we're not doing any FancyMenu stuff yet)*
 - [ ] Small Ships' boats made from wood from WilderWilds don't have textures
-- [x] WW's panorama texturepack keeps enabling itself against our will any time the packs change (and causes Missing Texture glitches whenever we disable it (ie. set it to the state it's *supposed to* be in) if its panorama was loaded before) *(fixed?: moved it to the bottom of the list, practically disabling it)*
-- [ ] Can't join the server 💀 *(note: this may very well have been an issue all this time, but we only started testing server joins on 7a24+)*
+- [x] WW's panorama texturepack keeps enabling itself against our will any time the packs change (and causes Missing Texture glitches whenever we disable it (ie. set it to the state it's *supposed to* be in) if its panorama was loaded before) *(fixed: moved it to the bottom of the list, practically disabling it)*
+- [x] Can't join the server 💀 *(fixed: Somewhere along the mess that was 2a28, 2a29 and 2a30 - this bug has vanished. Now you can join. It even takes you all the way to the Origins screen!)*
+- [ ] Can't join the server at first becasue Twilight Forest complains about stuff; I have to get kicked and join again, after it's finished complaining *(note: this might be, in some way, related to an issue ~~that I've been ignoring for now (becasue it lowkey works like an accitential security feature 💀)~~ that TwF sometimes just randomly screams `Exception occurred in netty pipeline`, whenever server-seeker (Which, btw, WON'T BLOODY LEAVE US ALONE - does this stupid script-kiddie not have any flags to set to not auto-retry on modded servers? Bro, let it go! Unless you actually manage to find this repo, there's no chance of you just brute-forcing a ~300 characters-long password, where each character has ~118000 states - becasue that's what our modlist effectively becomes in this context.) tries to join)*
+- [ ] The server spends too long loading players when they join, causing Watchdog to crash it *(fixed?: bumped watchdog to 5min)*
 - [ ] In EMI's tree view, all texture-derived icons (ie. NOT those black-and-white ones, like crafting;smelting;Tinker's, but those that are based on EMI's tab texture, like Sequenced Assembly or Inscriber) are offset in the Y axis so much that they clip all the way outside of the tree
+- [ ] Modrinth's server list underscores the entire MOTD for some reason *(note: since doesn't happen in the actual game, I'm afraid this is entirely MR's fault and there might be no way to fix it from our level)*
 
 
 ## Changelogs:
+
+### 7a31
+* Configured DH server
+* Made Watchdog less aggresieve
+* Yeeted Fresh Animations and its addon *(won't work on non-vanilla mobs)*
 
 ### 7a30
 - Updated: Let's Do: Farm'n'Charm (base *(Becasue the older version was crashing the server. Guess what? IT'S THE SAME PROBLEM AGAIN! They used client-side code on the server. It's good that they were very fast with delivering a fix, but... seriously, people! Just add some side-detecting if statements 😅.)*, Candelight, Brewery, Bakery), Beachparty; Miniature Shader
@@ -350,7 +358,7 @@ There will, for certain, be more. These are just some things that came to my min
 * Auto-jump off
 * Disabled pasue-on-lost-focus
 * Added default multiplayer servers
-* Server-side: Added an MOTD, cleared-out RCON configs, increased the player cap, allowed flight (I don't think anyone's going to cheat - meanwhile, lags might cause false kicked-for-flying errors), enabled Command Blocks, set the default difficulty to hard (in line with older GLs), enabled query, forced gamemode, disabled chat reporting (not that this would change anything with NCR installed) 
+* Server-side: Added an MOTD, cleared-out RCON configs, increased the player cap, allowed flight (I don't think anyone's going to cheat - meanwhile, lags might cause false kicked-for-flying errors), enabled Command Blocks, set the default difficulty to hard (in line with older GLs), enabled query, forced gamemode, disabled chat reporting (not that this would change anything with NCR installed), turned the Watchdog from a pitbull to a golden retriever
 * Fabric: added dependency overrides for Zoomify (set YACL version to something that exists), ReplayVC (as part of 7a9, so I no longer remember what I did - but whatever it was, it wasn't enough to let us update SimpleVC), Distant Horizons (forced it to cooperate with Chunky); Nvidium has overriden itself (for... some reason)
 
 ### Sodium
@@ -480,6 +488,11 @@ There will, for certain, be more. These are just some things that came to my min
 * Set up complete crafting trees for Tinker's Controller (the basic-ass-2block-Smeltery one, not the 3x3-big-Smeltery one) and liquid Brass (for those Create craftings mentioned above), and pinned said controller. Also, pinned the Crafting Station (not the item, but the recipie itself - becasue there are just too many damn variants; I didn't bother setting up crafting trees for it for the same reason). This doesn't even cover 2% of what should be pinned and/or what trees should be set up for a „minimum Tinker's setup”, but setting up Tinkers' trees in particular just feels SO TEDIOUS for some reason.
 * Fixed a weird crafting loop involving Paper and Twilight Forest (now, paper is crafted using the regular Sugar Cane).
 * *pinning Create trains, basic AE2 stuff and just a wee-bit of Tinker's is obviously not everything, just like that one paper loop propapbly isn't the only edge case - but I decided to remove the TODO about configuring pins and to not open a new Known Issue about loops becasue (respectively): this is a good-enough starting point for the pinning process (so good, that it's justifiable to remove the TODO - which doesn't change the fact that there's still a lot of stuff To-Do in this regard), and I didn't find any other bugs YET and that one about paper is now fixed*
+
+### Distant Horizons (server-side)
+* `distantGeneratorMode = "PRE_EXISTING_ONLY"`, So that it wouldn't attempt to generate any chunks on its own. This task shall be left to Chunky. For 2 reasons: Chunky tends to be so fast that DH can't keep up (thus leaving holes in LODs), so we'll first let Chunky run, then DH can do its thing at its own pace; DH warned about an unknown generator type (`org.dimdev.dimdoors.world.pocket.BlankChunkGenerator`) that may cause DH's gen to fail. Chunky's won't becasue it generates normal chunks.
+* `showGenerationProgress = "LOG" #To not bother every online player with DH`, `generationProgressDisplayIntervalInSeconds = 30` and `generationProgressDisableMessageDisplayTimeInSeconds = 0` because this progress bar is pretty obnoxious
+* Cranked to all 4 cores (what could possibly go wrong?)
 
 ## Things to mention to people
 * See: [Issue](#issues) about entering
