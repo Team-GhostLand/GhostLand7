@@ -24,15 +24,29 @@ A modpack for the 7th edition of GhostLand SMP
 - [ ] Client's embedded server seems to be getting stuck during startup (falling through the world (with commands, etc. not working), while the chunks are loading - and they never finnish loading) and shutdown (you get stuck on the „waiting to save World”-screen) *(note1: neither Guzio, nor `knpks` were able to replicate the issue (Guzio was able to achieve partial replication (falling through the world for a minute or 2, then fixed; I had some exit bugs once or twice, but they eventually stopped happening), while `knpks` couldn't at all, albeit their testing was much shorter) - currenly, this seems to affect only and exclusively MidnightSP)* *(note2: Could this be related to having higher-end hardware? Some heavily-threaded or -threading mod, like Distant Horizons or ASYNC spreads the load onto all 16 cores (compared to Guzio's and `knpks`'s pathetic 4), which creates more opportunities for some nasty lock-ups (thread 1 waits for thread 2, thread 2 waits for thread 1 - and they just get stuck like this until killed) to rear their ugly heads.)* *(note3: it seems like we can safely ignore it, as it only affects singleplayer (doesn't seem to happen on the dedicated server server-wise, and the embedded server doesn't start on multiplayer client-wise) and this pack is mostly multiplayer-focused, anyway - although I can imagine this does probably make development much more annoying for MidnightSP and I feel sorry for the inncocent lad)*
 - [ ] Issues while entering a world (game incredibly laggy for the first few minutes) *(note: that's the chunks loading in - recommended solution is to look at the horizon in a single direction until it loads, then look around very slowly until all other directions load)*
 - [x] If Aether detects Loading Screen Tips - regardless of whether integration with it is enabled in the config or not - it reloads resources right after game loads, leading to a doubled loading screen (which significantly increases the practical startup time - since, even though thanks to RRS we can navigate menus when resources are loading, noone's gonna join the world with a loading bar, especially one so obnoxious (in-game, it's fine when loading) as the one that ELS adds). *(fixed: Tipsn't)*
-- [ ] GregTech's ores become transparent underwater (their polygons disappear - you can see the void)
+- [x] GregTech's ores become transparent underwater (their polygons disappear - you can see the void) *(fixed: rest in pieces)*
 - [x] On some modded biome coastlines, Creeper-hole-like cutouts appear, and they tend to cut off trees and leave them floating *(note: this doesn't seem to happen, rather it is regular world generation issue)* *(fixed: alr, whatever u say...)*
 - [ ] Enabling Planet Curvature in Distant Horizons does nothing
 - [x] With Panoramics seemingly completely cooked, we have nothing to make a main menu panorama for Fancy Menu with. *(fixed: found [this thing](https://modrinth.com/mod/panorama-screenshot) - not yet in the pack, since we're not doing any FancyMenu stuff yet)*
 - [ ] Small Ships' boats made from wood from WilderWilds don't have textures
 - [ ] WW's panorama texturepack keeps enabling itself against our will any time the packs change (and causes Missing Texture glitches whenever we disable it (ie. set it to the state it's *supposed to* be in) if its panorama was loaded before)
+- [ ] Can't join the server 💀 *(note: this may very well have been an issue all this time, but we only started testing server joins on 7a24+)*
+- [ ] In EMI's tree view, all texture-derived icons (ie. NOT those black-and-white ones, like crafting;smelting;Tinker's, but those that are based on EMI's tab texture, like Sequenced Assembly or Inscriber) are offset in the Y axis so much that they clip all the way outside of the tree
 
 
 ## Changelogs:
+
+### 7a28
+- Updated: Tectonic, Farm'n'Charm, Zoomify
+- Added `DUNGEON   NOW   LOADING..................`
+- Removed VisualWorkbench becasue it was bloaty (client-required for some reason) and Tinker's does the same thing anyway (only on its crafting stations - but who's ever gonna use normal crafting tables with crafting stations available?)
+- Removed GregTech, after our Head of Gregification said that this version is no good. _**[F]**_
+- Re-added MoonlightLib and some of its dependencies (Supplementaries, Amendments, Fast Paintings, Immersive Weathering)
+- Re-added Geocluster, now that GregTech won't be giving us its GT-style ores anymore *(also, its name fits the state of this pack right now: it's one giant geoclusterfuck)*
+- Replaced REI (and it's singular addon - Collapible Entries) with EMI (addons: Let's Do compat, AE2 compat, extra compat, Enchanting, Loot (must be on both sides), Ores (must be on both sides), Proffessions, Trades, Create compat, Effects) *(EMI and 2 addons are marked as required on both sides; all other addons are marked as optional on the client (ie. will be excluded from Slim) and unsupported on the server)*
+- Changes to `server.properties`
+- Configured Geocluster (datapack (partially: only disabled not-generating vanilla ores for now, will also need to tweak it so that modded ores spawn instead of Geocluster's wherever possible) and in-game configs)
+- Applied dependency overrides for Zoomify
 
 ### 7a27
 **`[EMERGENCY SECURITY PATCH]`**
@@ -55,8 +69,8 @@ A modpack for the 7th edition of GhostLand SMP
   - \*Mythic Metals (Although the metals are very cool, they aren't justifies-pulling-down-3-extra-libs cool - which (with Things (the only\* other reason to keep OwoLib) being gone, and no official support for Tinker's, thus needing us to pull down Alloy Forgery (it's a hard-coded dependency and Deps Overrides can't save us here; \**this one is also an OwoLib dependency - but (iself being nothing more than being a dependency of MM, having lost the battle with Tinker's) I'm not counting it*) and HephaestusPlus for integration with Tinker's) is what this mod effectively forces us to do)
   - OwoLib (not needed without Mythic Metals (and thus Alloy Forgery) and Things)
   - ReChiseled (lost the battle with Chipped)
-  - Create: ReChiseled (won't work without ReChiseld)
-  - `supermartijn642corelib` (not needed without ReChiseld)
+  - Create: ReChiseled (won't work without ReChiselde)
+  - `supermartijn642corelib` (not needed without ReChiseled)
   - Things (too OP)
   - Trinkets (we have Trinkets<->Accessories Compat - regular 'ol Trinkets must've snuck in as some dependency and we didn't notice until now)
   - JustHammers (Tinker's has them)
@@ -231,7 +245,7 @@ This obviously isn't all that changed in this giant patch, but I don't even reme
 There will, for certain, be more. These are just some things that came to my mind on the spot.
 * **DON'T FORGET** to update BCC every time the *major* version number changes (ie. 7-ALPHA, 7-BETA, 7.0, 7.1, ... - but *not* 7a24, 7b6, 7.0.0, 7.0.1)
 * FancyMenu (incl. Remove GFARB; Main menu panorama)
-* Patchouli (if we end up including it), or some other guide/questbook thingy
+* Patchouli
 * Use a datapack to properly configure cross-mod recipies (and loottables, if it turns out that chests feel too cluttered, which apparently (according to a recent discussion with Tymuś and - frankly - my own experience, too, now that I think about it) was a problem on GL6), so the pack doesn't feel like just a bunch of crudely mixed-together crap held together with hopes and prayers, but rather a cohesive creative experience. Ties together with the point above (about a guidebook).
 * Bind-pizzeria (incl. a link to a LOOREEEEE repository - see: [pending election](#pending-elections) about roleplay)
 * Do something with Puffer's skill trees (we have too many of them rn, while none of them use Origins x Puffer)
@@ -239,10 +253,11 @@ There will, for certain, be more. These are just some things that came to my min
 * Custom resourcepack (like for Cebuliony and stuff)
 * Sparse Structures (properly - rn, we only did a very far-reaching but slight boost, but ideally, we'd check which structures tend to over-place themselves and lower their rates) ((might turn out to be unnecessary, idk))
 * Disable Simple VC groups (we have radios for that)
-* MAYBE? add some default pins to REI, to subtly guide the player towards important objectives?
 * Enable "visited=don't show again" for Structure Credits
 * Add the modpack icon into our files (won't be auto-applied, but this way, people will at least have the option to enable it themselves), preferably in such a way that it also works as a server icon, without needing to set one explicitly
-* Clear configs for mods that are no longer with us (eg. ~~Geocluster~~ *that's gone now, but there are a lot more removed mods from that 2a23 update, that left their configs behing*)
+* Clear configs for mods that are no longer with us (eg. ~~Geocluster~~ ~~*that's gone now, but there are a lot more removed mods from that 7a23 update, that left their configs behing*~~ *Geocluster is back, and so are some mods from 7a23 - but now 7a26 has a lot of deleted stuff*)
+* Populate `initial-enabled-packs` and **configure default world type** (otherwise BetterEnd/BetterNether will not work) in `server.properties` *(also, do something about auth/whitelist)*
+* Finish Geocluster's and EMI's config
 * *also, this isn't really a config-related TODO, but we need to check whether Bed Overhaul works on server-side only*
 
 ### Vanilla
@@ -258,8 +273,9 @@ There will, for certain, be more. These are just some things that came to my min
 * Skipped multiplayer warning
 * Auto-jump off
 * Disabled pasue-on-lost-focus
-* Added default multiplayer servers (idk if it counts as a „config” tbh)
-* Server-side: Added an MOTD
+* Added default multiplayer servers
+* Server-side: Added an MOTD, cleared-out RCON configs, increased the player cap, allowed flight (I don't think anyone's going to cheat - meanwhile, lags might cause false kicked-for-flying errors), enabled Command Blocks, set the default difficulty to hard (in line with older GLs), enabled query, forced gamemode, disabled chat reporting (not that this would change anything with NCR installed) 
+* Fabric: added dependency overrides for Zoomify (set YACL version to something that exists), ReplayVC (as part of 7a9, so I no longer remember what I did - but whatever it was, it wasn't enough to let us update SimpleVC), Distant Horizons (forced it to cooperate with Chunky); Nvidium has overriden itself (for... some reason)
 
 ### Sodium
 * Quality: Lambda Grass mode
@@ -311,9 +327,6 @@ There will, for certain, be more. These are just some things that came to my min
 * Disabled singleplayer recording (RplMd added mostly for social reasons (so that we can clip all funny moments, as recommended [in this video](https://youtu.be/fYpe4KZj9UE)), so there's no need to have it in singleplayer)
 * Enabled multiplayer recording (as stated above - that's our main goal here)
 
-### REI
-* REI hidden by default (press Ctrl+O to show), cuz it was eating frames for breakfast
-
 ### Exordium
 * Disabled Chat Buffering, as it was breaking Chat Animations
 * Disabled Health Buffering (incl. hunger, etc.), as it was breaking Apple Skin
@@ -363,7 +376,7 @@ There will, for certain, be more. These are just some things that came to my min
 
 ### BetterCompatChecker
 * Name: `GhostLand`
-* Version: `7a24` *<---update me!*
+* Version: `7-ALPHA` *<---update me!*
 
 ### Sparse structures
 * Slightly lowered reduction rates (from the default 2x reduction to 1.75x)
@@ -375,6 +388,22 @@ There will, for certain, be more. These are just some things that came to my min
 
 ### Veinminer
 * No configs were changed - which is very notable because I thought that we'd need to manually get it to cooperate with HT's, but appently they work together by default (chop trees without sneaking, *no Veinminer* (by default) when sneaking)
+
+### Geocluster
+* Via a datapack: Re-enabled vanilla oregen. One other thing we need to do via a DP is to switch from using GC's own non-vanilla ores to whatever equivalents other mods add (eg. Create: Nuclear's Urainium instead of Geocluster's). GC will still be used for samples, though - because (obviously) other mods don't add those.
+* In settings: allowed modded ores, Deepslate Samples and vanilla veins; disallowed chat spam; cranked up max samples/chunk by 2x; slightly bumped spawn rates (3x not 2x attempts; 10pp higher chance to even attempt in the 1st place)
+
+### EMI
+* Verbose Tooltips
+* Source of index: Registered+Creative
+* Fluid unit: milibuckets
+* No searchbar centering
+* Hidden by default *(Ctrl+O to show)*
+* Set up complete crafting trees for some super-basic AE2 components (enough to build a very simple AE2 setup) and pinned those 
+* Slightly altered crafting trees for Create's Brass (to use Tinker's instead of the much more expensive Blaze Burners), Train Tracks (to default to the easiest-to-automate sleepers - tho I couldn't do the same for iron ingots (only ending at gravel instead - no cobble->gravel) because that'd mess up all other recipes) and Rose Quartz (it didn't pick up on the recipie at first), and pinned the „standard setup” for trains. Notably, not a lot of adjustments had to be done (only minor tweaks to otherwise pre-configured routes) becasue it seems that Create is supported out-of-the-box. Yay!
+* Set up complete crafting trees for Tinker's Controller (the basic-ass-2block-Smeltery one, not the 3x3-big-Smeltery one) and liquid Brass (for those Create craftings mentioned above), and pinned said controller. Also, pinned the Crafting Station (not the item, but the recipie itself - becasue there are just too many damn variants; I didn't bother setting up crafting trees for it for the same reason). This doesn't even cover 2% of what should be pinned and/or what trees should be set up for a „minimum Tinker's setup”, but setting up Tinkers' trees in particular just feels SO TEDIOUS for some reason.
+* Fixed a weird crafting loop involving Paper and Twilight Forest (now, paper is crafted using the regular Sugar Cane).
+* *pinning Create trains, basic AE2 stuff and just a wee-bit of Tinker's is obviously not everything, just like that one paper loop propapbly isn't the only edge case - but I decided to remove the TODO about configuring pins and to not open a new Known Issue about loops becasue (respectively): this is a good-enough starting point for the pinning process (so good, that it's justifiable to remove the TODO - which doesn't change the fact that there's still a lot of stuff To-Do in this regard), and I didn't find any other bugs YET and that one about paper is now fixed*
 
 ## Things to mention to people
 * See: [Issue](#issues) about entering

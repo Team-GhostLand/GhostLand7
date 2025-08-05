@@ -6,6 +6,16 @@
                 "sodium": ""
             }
         },
+        "zoomify": {
+            "depends": {
+                "fabric-api": "*",
+                "fabricloader": "\u003e\u003d0.16.0",
+                "fabric-language-kotlin": "\u003e\u003d1.13.4+kotlin.2.2.0",
+                "minecraft": "\u003e\u003d1.20 \u003c\u003d1.20.1",
+                "java": "\u003e\u003d17",
+                "yet_another_config_lib_v3": "\u003e\u003d3.6.6"
+            }
+        },
         "replayvoicechat": {
             "depends": {
                 "fabricloader": "\u003e\u003d0.14.21",

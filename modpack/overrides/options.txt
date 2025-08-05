@@ -190,6 +190,7 @@ key_key.jade.narrate:key.keyboard.unknown
 key_key.jade.show_details_alternative:key.keyboard.unknown
 key_Open Pizza Menu:key.keyboard.k
 key_key.modmenu.open_menu:key.keyboard.unknown
+key_supplementaries.keybind.quiver:key.keyboard.v
 key_key.musicnotification.open_screen:key.keyboard.unknown
 key_key.observable.profile:key.keyboard.unknown
 key_key.origins.primary_active:key.keyboard.g

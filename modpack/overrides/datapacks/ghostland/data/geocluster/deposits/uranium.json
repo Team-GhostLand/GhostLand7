@@ -1,0 +1,38 @@
+{
+  "type": "geocluster:deposit_dense",
+  "config": {
+    "blocks": {
+      "default": [
+        {
+          "block": "geocluster:uranium_ore",
+          "chance": 0.85
+        },
+        {
+          "block": null,
+          "chance": 0.15
+        }
+      ],
+      "minecraft:deepslate": [
+        {
+          "block": "geocluster:deepslate_uranium_ore",
+          "chance": 0.85
+        },
+        {
+          "block": null,
+          "chance": 0.15
+        }
+      ]
+    },
+    "samples": [
+      {
+        "block": "geocluster:uranium_ore_sample",
+        "chance": 1.0
+      }
+    ],
+    "yMin": 8,
+    "yMax": 33,
+    "size": 24,
+    "biomeTag": "#minecraft:is_mountain",
+    "generationWeight": 4
+  }
+}
