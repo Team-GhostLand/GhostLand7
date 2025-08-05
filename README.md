@@ -24,7 +24,7 @@ A modpack for the 7th edition of GhostLand SMP
 - [ ] Client's embedded server seems to be getting stuck during startup (falling through the world (with commands, etc. not working), while the chunks are loading - and they never finnish loading) and shutdown (you get stuck on the „waiting to save World”-screen) *(note1: neither Guzio, nor `knpks` were able to replicate the issue (Guzio was able to achieve partial replication (falling through the world for a minute or 2, then fixed; I had some exit bugs once or twice, but they eventually stopped happening), while `knpks` couldn't at all, albeit their testing was much shorter) - currenly, this seems to affect only and exclusively MidnightSP)* *(note2: Could this be related to having higher-end hardware? Some heavily-threaded or -threading mod, like Distant Horizons or ASYNC spreads the load onto all 16 cores (compared to Guzio's and `knpks`'s pathetic 4), which creates more opportunities for some nasty lock-ups (thread 1 waits for thread 2, thread 2 waits for thread 1 - and they just get stuck like this until killed) to rear their ugly heads.)* *(note3: it seems like we can safely ignore it, as it only affects singleplayer (doesn't seem to happen on the dedicated server server-wise, and the embedded server doesn't start on multiplayer client-wise) and this pack is mostly multiplayer-focused, anyway - although I can imagine this does probably make development much more annoying for MidnightSP and I feel sorry for the inncocent lad)*
 - [ ] Issues while entering a world (game incredibly laggy for the first few minutes) *(note: that's the chunks loading in - recommended solution is to look at the horizon in a single direction until it loads, then look around very slowly until all other directions load)*
 - [x] If Aether detects Loading Screen Tips - regardless of whether integration with it is enabled in the config or not - it reloads resources right after game loads, leading to a doubled loading screen (which significantly increases the practical startup time - since, even though thanks to RRS we can navigate menus when resources are loading, noone's gonna join the world with a loading bar, especially one so obnoxious (in-game, it's fine when loading) as the one that ELS adds). *(fixed: Tipsn't)*
-- [x] GregTech's ores become transparent underwater (their polygons disappear - you can see the void) *(fixed: rest in pieces)*
+- [x] GregTech's ores become transparent underwater (their polygons disappear - you can see the void) **(fixed: GREGORY GOT GEYEETEN)** *(fixed: rest in pieces)* *(note: this has 2 different „fixed” notes bacause it got fixed twice, in both versions of 7a28)*
 - [x] On some modded biome coastlines, Creeper-hole-like cutouts appear, and they tend to cut off trees and leave them floating *(note: this doesn't seem to happen, rather it is regular world generation issue)* *(fixed: alr, whatever u say...)*
 - [ ] Enabling Planet Curvature in Distant Horizons does nothing
 - [x] With Panoramics seemingly completely cooked, we have nothing to make a main menu panorama for Fancy Menu with. *(fixed: found [this thing](https://modrinth.com/mod/panorama-screenshot) - not yet in the pack, since we're not doing any FancyMenu stuff yet)*
@@ -36,7 +36,49 @@ A modpack for the 7th edition of GhostLand SMP
 
 ## Changelogs:
 
+### 7a29
+- *Note: This patch will attempt to fix merge conflicts from the previous one and therefore IS a huge mess*
+- All mod changes were merged (ie. whatever one person (or the both of us) added/removed/updated in 7a28 - got added/removed/updated here, in 7a29), *except*:
+  - The removal of Let's Do (we now have it alongside Farmer's Delight)
+  - The addition of MI and its sound and nuke addons (which tech mod we pick in place of Greg is up to the election)
+  - *Maybe* Magna (idk what's this mod; it's in the configs, but it doesn't seem to be in the Modrinth Index - so it *might* have accidentially gotten deleted from 7a29, despite being in MidnightSP's version of 7a28)
+- Re-added file `observable_announce` (always been there in Guzio's version, but MidnightSP's deleted it)
+- Used configs from Guzio's version for:
+  - Anything that uses timestamps (because Guzio's ver. got submitted later, and therefore those timestamps would get correctly incrememnted)
+  - Geocluster and EMI because they were configured, instead of left as default
+  - Jade's `sert-order.json` and `allowed_sounds.properties` (because the only thing changed is that they reference MI)
+  - `options.txt` (MidnightSP got WWMenu'd - that, and this version also has some MI keybinds what we don't need at this time)
+  - Anything that wasn't picked up by GitHub as a merge conflict (eg. `emi.json` (I already mentioned EMI *configs*, but this file is not a config), `server.properties`, GL's datapack, dependency overrides, .......)
+- Used configs from MidnightSP's version for:
+  - EMI Loot
+  - C2ME
+  - Cubes without Borders
+  - Xaero  
+  - Anything that was picked up by GitHub as a „added” (ie. Powahh, Magna ~~(whatever that is)~~, and ME Requester) and isn't related to MI (ie. MI itself and MI Sound Addon)
+- Added compat mods: LDa Compat *(to better integrate FD and LD)*; Farmer's Cutting: BOP *(as a datapack)*
+
+#### Notice:
+Although everything pretaining to added files (configs, datapacks, other files) in the above changelog is correct - anything that would take place in the Modrinth Index (added/removed/updated packs/mods) **is currently not present**. The state of the index has been reverted to the way it was in in Guzio's version of 7a28 patch, as it's the last-known working modlist. This is because of weird issues I'm encountering:
+* The game refuses to launch with FancyMenu enabled, even though it was launching fine on 7a28 (both Guzio's and (as long as they tested it, which I'd guess they did) MidnightSP's version). So *somehow*, just by the pure concept of both 7a28 versions combining, FancyMenu managed to break. What the fuck???
+* With FM disabled: The game will launch, but there'll be a Mixin conflict between Farmer's Delight and Amendements, which crashes the internal server - but again, I'm gonna guess that it was working fine on MidnightSP's version of 2a28, otherwise it wouldn't've been pushed. So why would it break now???
+
+Because of these weird issues - and the fact that 5AM is approaching - I'm afraid there's no other solution than reveting the modlist to 7a28. And because Guzio's version is the one that's closer to the „intended state” (no MI; still has LD), that's the one that's been chosen *(that, and I'm probably subconciously favouring my own creation)*. To bring it back to that  „intended state”, the following mods must be added:
+* Farmer's Delight (+ its addons) *[those added in 7a28-Midnight]*
+* Powah!
+* Sliced'n'Diced
+* ME Requester
+* 3d Crops Revamped *(Well.. That's not a mod, but whatever.)*
+* LDa Compat
+* Farmer's Cutting: BOP *(And neither is this; that's a datapack.)*
+
+MidnightSP... I'm leaving this to you. I'm really sorry to be dumping this responsibility onto you, but you're more experienced with this (your patch involoved adding 5/7 of these mods - of 4/5, if we only count real mods) and also you'll be well-slept tommorow, while I'm currently falling asleep on the keyboard from 5AM-ness. You're just much better suited to be fixing this than me.
+
 ### 7a28
+Because our project manager has ~~disappeared without a trace~~ *(ok, this isn't really fair - he DID reboot the VM for us just yesterday, but that's about everything anyone's heard from him for the past few weeks)*, so much so that (despite being mentioned in the creditsas the „branding” behind GhostLand) he isn't even a member of this GH org - and neither me, nor MidnightSP are great at coordinating our efforts - this patch ended up getting submitted twice. Whoops.
+
+*Fun fact: because [our build server](http://130.162.246.47:25575/modules/ci/) only checks for increments in the version number - and MidnightSP has submitted his patch first - the server has never and will never build Guzio's version. So - from the perspective of our players - that version is technically lost media. Pretty cool! (Of course, one might try to build it from source (assuming that my source branch ever reaches the final repo (idk; this is my first merge conflict resoltion ever) - because if it doesn't, then „Guzio's version” is TRULY lost media) - but I doubt any of our players will bother going through this hassle, for no real reason.)*
+
+#### Guzio's version
 - Updated: Tectonic, Farm'n'Charm, Zoomify
 - Added `DUNGEON   NOW   LOADING..................`
 - Removed VisualWorkbench becasue it was bloaty (client-required for some reason) and Tinker's does the same thing anyway (only on its crafting stations - but who's ever gonna use normal crafting tables with crafting stations available?)
@@ -48,6 +90,27 @@ A modpack for the 7th edition of GhostLand SMP
 - Configured Geocluster (datapack (partially: only disabled not-generating vanilla ores for now, will also need to tweak it so that modded ores spawn instead of Geocluster's wherever possible) and in-game configs)
 - Applied dependency overrides for Zoomify
 
+#### MidnightSP's version
+- Removed mods:
+  - GregTech (RIP)
+  - [Let's do] (all of it)
+  - REI (added EMI instead)
+- Added mods:
+  - Geocluster
+  - MoonlightLib
+  - Farmer's Delight (+ its addons)
+  - Supplementaries
+  - Amendments
+  - Fast Paintings
+  - Immersive Weathering
+  - Sliced'n'Diced
+  - Powah!
+  - ME Requester
+  - Modern Industrialisation
+  - EMI (instead of REI)
+- Added resourcepacks:
+  - 3d Crops Revamped
+
 ### 7a27
 **`[EMERGENCY SECURITY PATCH]`**
 
@@ -57,7 +120,7 @@ A modpack for the 7th edition of GhostLand SMP
 - configured Create Dynamic Lights
 - got treatened to disable Zoom-with-Spyglass
 - configured FlightAssistant
-- Added mods: Patchouli
+- Added mod: Patchouli
 - Updated mods: BALM, Fzzy Config
 - Removed mods:
   - Numismatic Bounties (In my testing, it was ALMOST perfectly balanced; I was about to give this economical model a greenlight - **...And then it dropped a get-11-crowns-for-just-32-glass balancing bomb-shell on me**. No, thanks. I'd rather not have the entire economy cooked for the rest of the edition because some one person got lucky on the Bounty Board.)
