@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "7a29",
+  "versionId": "7a30",
   "name": "GhostLand 7 Alpha",
   "summary": "Paczka na siódmą edycję GhostLanda - wersja alpha",
   "files": [
@@ -2856,6 +2856,21 @@
       "fileSize": 1504834
     },
     {
+      "path": "mods/GR_CLX_mods-command-mc1.20.1-1.1.3.jar",
+      "hashes": {
+        "sha1": "b5cc2800b2fed698d8276504a25c553c6f508c09",
+        "sha512": "81716845073bb3bd5bff59ba9ca34605b2367d905569646bba4a338402eb192c2520418e098a3ef9545ceef9f80779ad9b9ee64b28f1bb629b8a875465dcd6d3"
+      },
+      "env": {
+        "client": "unsupported",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/PExmWQV8/versions/JlWCTVC5/mods-command-mc1.20.1-1.1.3.jar"
+      ],
+      "fileSize": 2427235
+    },
+    {
       "path": "mods/GR_CLX_skinrestorer-2.4.2+1.20-fabric.jar",
       "hashes": {
         "sha1": "47901324e452b656de3a36082f87f40c32555857",
@@ -3709,6 +3724,21 @@
         "https://cdn.modrinth.com/data/t5W7Jfwy/versions/6fzxx6SC/Pehkui-3.8.3%2B1.14.4-1.21.jar"
       ],
       "fileSize": 555041
+    },
+    {
+      "path": "mods/Powah-5.0.11.jar",
+      "hashes": {
+        "sha1": "8885884da9e4470520faed11347507e3195e642d",
+        "sha512": "34463adf1ae235d3e63abd171ead53280d6d1d9ce97a8b12e54f98e9401e7d7c8f5de3c92a0ef9d54158471cf8ed7f500b4ebe71636e698d8211803d1e47f23a"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/KZO4S4DO/versions/6beFT60p/Powah-5.0.11.jar"
+      ],
+      "fileSize": 2424885
     },
     {
       "path": "mods/PuzzlesLib-v8.1.32-1.20.1-Fabric.jar",
@@ -4971,79 +5001,79 @@
       "fileSize": 1702813
     },
     {
-      "path": "mods/letsdo-bakery-fabric-2.0.5.jar",
+      "path": "mods/letsdo-bakery-fabric-2.0.6.jar",
       "hashes": {
-        "sha1": "fb0b895ebbd50297999cc8e5fdfa4ca0d2458d8c",
-        "sha512": "a5c5b4abc1a5d156dedf860808c0b172de0f4ef56b555fe3c0e862bc4bc2c897aa6193218e44b369d7ce8b3797ed06ad6344821138c2b66c136220ab8683a9b6"
+        "sha1": "203dd030920eda073520f0fe9c3de47259234480",
+        "sha512": "129d664e0e9e05eab2ea6e8aef27f7cf741ba419d90617e9943d2db254c73d549b0632a2ee821a3b80c4455d918773fc3becbb9019c2a572c9d727726de525ca"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/oNB5jhlA/versions/HnCM6bcy/letsdo-bakery-fabric-2.0.5.jar"
+        "https://cdn.modrinth.com/data/oNB5jhlA/versions/KEv4JeEB/letsdo-bakery-fabric-2.0.6.jar"
       ],
-      "fileSize": 2236136
+      "fileSize": 2236226
     },
     {
-      "path": "mods/letsdo-beachparty-fabric-2.0.2.jar",
+      "path": "mods/letsdo-beachparty-fabric-2.0.3.jar",
       "hashes": {
-        "sha1": "19bedc21c53856adf93ebb5f7cb3909beba56e45",
-        "sha512": "437cc999f65f67aa7310c31f50bfd569775ab0d74eded339e581666f18569b1b64f10f2d6541592847a817457a632f60d85b05028120cc65fba592415844cb64"
+        "sha1": "45f42624b7b9fec1065111f4f55a155aa21b0bfe",
+        "sha512": "d5f2231bac4df2354e5ef13e82a12f61f3ba9f7f856f1faf0c97d2c6491c6ec90949a3f81f34e7c25264d147f4aede94411e70525a49e6eeaef9a673a8881cd6"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/GyKzAh3l/versions/YxKElBTj/letsdo-beachparty-fabric-2.0.2.jar"
+        "https://cdn.modrinth.com/data/GyKzAh3l/versions/lTdx0SHO/letsdo-beachparty-fabric-2.0.3.jar"
       ],
-      "fileSize": 7420328
+      "fileSize": 7420462
     },
     {
-      "path": "mods/letsdo-brewery-fabric-2.0.5.jar",
+      "path": "mods/letsdo-brewery-fabric-2.0.6.jar",
       "hashes": {
-        "sha1": "903e017ae138a66ac04427f0a875bdb87760f7d2",
-        "sha512": "53721c0c898730a6bcc9921a6c599fff148983693f32f74167d7609ca0771b0e25ac33e32483e3df71129cf1e05eb74151e18f78b66063062e22a5b54a00cd0a"
+        "sha1": "626c51b6474da30250b7ad793f8d210943b8c819",
+        "sha512": "9fe9c809215874453f1f7d832975d0855b0d66e0b8b4933a4182aadeed52899b4b9c49680cd1a7325eefafe72541b3ba6b44e90ee4039b21a6a14ccc7afcff35"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/b7NV2plI/versions/5yxZCrX8/letsdo-brewery-fabric-2.0.5.jar"
+        "https://cdn.modrinth.com/data/b7NV2plI/versions/W2QrBsrL/letsdo-brewery-fabric-2.0.6.jar"
       ],
-      "fileSize": 2025609
+      "fileSize": 2030105
     },
     {
-      "path": "mods/letsdo-candlelight-fabric-2.0.4.jar",
+      "path": "mods/letsdo-candlelight-fabric-2.0.5.jar",
       "hashes": {
-        "sha1": "e1ce665d5d7340e62066779b3be984873356e735",
-        "sha512": "20047cb75d7c88332ae4a703473dbe6da79a5303c52bc332acb9733ba2ff1f05005ebc07b74422921b395169b3b40c47721a5a87e2333026d7768bfbc763ec7b"
+        "sha1": "fda38107a8fbf90fc4208be0f996b8f81f28b5e8",
+        "sha512": "6a2daf556a3f0a665d45e9ee560551e955d2e340dd05e5d778db8d371d320f9a629e4a813465d378e5ac9ca07e63b96a2eaaa01f3079dbc7455b274559497a56"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/qwbArkQk/versions/FdI5FhHe/letsdo-candlelight-fabric-2.0.4.jar"
+        "https://cdn.modrinth.com/data/qwbArkQk/versions/RUk2PHO1/letsdo-candlelight-fabric-2.0.5.jar"
       ],
-      "fileSize": 2486874
+      "fileSize": 2494711
     },
     {
-      "path": "mods/letsdo-farm_and_charm-fabric-1.0.10.jar",
+      "path": "mods/letsdo-farm_and_charm-fabric-1.0.12.jar",
       "hashes": {
-        "sha1": "c7b47dbe3085e399729eaf7e82ccb570f19afc0b",
-        "sha512": "75e53fb2986b09c91d1f1d780987104fb99b0417fafdbf69e0e40282d8547edab0d9e5e2fb3d100d10b8992fcb14d9034bc915d2f6e5992cbc7f2a03803f692d"
+        "sha1": "42406c55adc5b57fa8278e6b15c2a51d52eaa483",
+        "sha512": "6fa163c7dd0e71d07598486412e4ef011aa855d7299480c040361ffebf18539776667bc75ac8aab6ff6549444eff129271f58bcdfbf4e10ddb5309a66931bad6"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/HJetCzWo/versions/JZBAcqDE/letsdo-farm_and_charm-fabric-1.0.10.jar"
+        "https://cdn.modrinth.com/data/HJetCzWo/versions/kLXg747l/letsdo-farm_and_charm-fabric-1.0.12.jar"
       ],
-      "fileSize": 3320764
+      "fileSize": 3321831
     },
     {
       "path": "mods/letsdo-herbalbrews-fabric-1.0.12.jar",
@@ -5074,21 +5104,6 @@
         "https://cdn.modrinth.com/data/ra7o6Sl7/versions/phaFB3JP/letsdo-meadow-fabric-1.3.25.jar"
       ],
       "fileSize": 2658744
-    },
-    {
-      "path": "mods/letsdo-nethervinery-fabric-1.2.17.jar",
-      "hashes": {
-        "sha1": "3a0648158f9ea971eff5992db85f522cb740f29b",
-        "sha512": "1de8f4ee0b3ca02dd4e77a58ff9d986042d8e060aa8a1d5284fa2b6a8886746eda8bed696ca9adb1dbc52b552264a4ce8b3a964bd878a7fe3029599f2722f435"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/4TTDxtOx/versions/yWEjrmMM/letsdo-nethervinery-fabric-1.2.17.jar"
-      ],
-      "fileSize": 859063
     },
     {
       "path": "mods/letsdo-vinery-fabric-1.4.39.jar",
@@ -5224,6 +5239,21 @@
         "https://cdn.modrinth.com/data/NRjRiSSD/versions/5xvCCRjJ/memoryleakfix-fabric-1.17%2B-1.1.5.jar"
       ],
       "fileSize": 49334
+    },
+    {
+      "path": "mods/merequester-fabric-1.20.1-1.1.4.jar",
+      "hashes": {
+        "sha1": "83af552ca49a5fea68687bf4c12986d48755fa2d",
+        "sha512": "29e7ce3c499298c625c515bfdc3658edcfa50efe3dd7e9841233279fda2b65153216d736557a3437ed4cbb21b917905b4e145404bf5b6761c5c534677178eebf"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/E6BFl96N/versions/NmhR6jIY/merequester-fabric-1.20.1-1.1.4.jar"
+      ],
+      "fileSize": 223689
     },
     {
       "path": "mods/midnightlib-fabric-1.4.1.1.jar",
@@ -5706,6 +5736,36 @@
       "fileSize": 1294234
     },
     {
+      "path": "resourcepacks/GR_CLO+SVX_FA+Objects-v1.1.1.zip",
+      "hashes": {
+        "sha1": "67a08b2463761c3da201444a0a61f7d4c689e6c3",
+        "sha512": "3765d3f556c312b7f2225bbf29b34c1d38c6383ca8608f13fc7cccef70c6fc11a8687c65a209e706704aa37fb3505849eaea4aee9d7edb6c602366381cd1d1b6"
+      },
+      "env": {
+        "client": "optional",
+        "server": "unsupported"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/YAVTU8mK/versions/doQyYghr/FA%2BObjects-v1.1.1.zip"
+      ],
+      "fileSize": 85574
+    },
+    {
+      "path": "resourcepacks/GR_CLO+SVX_FreshAnimations_v1.9.2.zip",
+      "hashes": {
+        "sha1": "ff18e6a762b87d7e8bad0726ac7d9c153306c6d2",
+        "sha512": "97a387112a5a94b0e7f4d0d2439977a9f28579303ad883ed3d0fcc3277357f8b3ab2418960f698d1a5f435903e0b2f82716fc92f8500cac090f900b2d2135dcf"
+      },
+      "env": {
+        "client": "optional",
+        "server": "unsupported"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/50dA9Sha/versions/8vtPih5h/FreshAnimations_v1.9.2.zip"
+      ],
+      "fileSize": 516256
+    },
+    {
       "path": "resourcepacks/GR_SVX_Better-Leaves-9.3.zip",
       "hashes": {
         "sha1": "79ef77661a5038d0cbcbbaa8a921532fe2935577",
@@ -5751,6 +5811,21 @@
       "fileSize": 11383475
     },
     {
+      "path": "resourcepacks/GR_SVX_Fancy Crops v1.2.zip",
+      "hashes": {
+        "sha1": "b7b75543839378884e4e86aa8c0d445f8cf354e4",
+        "sha512": "635fbbfec67c7f79c061b6ff048087dfc2627d14ecd0e243f926311103bb77fc3edc31617ae7133325eb13eb1093df2c1df1a6f114d05d926eaa381cecab1643"
+      },
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/UGEVQ6t9/versions/TQMLlyko/Fancy%20Crops%20v1.2.zip"
+      ],
+      "fileSize": 97281
+    },
+    {
       "path": "resourcepacks/GR_SVX_LowOnFire_1.20.1.zip",
       "hashes": {
         "sha1": "08db918bc8642b5501402fe25c9b6a8286a538b5",
@@ -5794,6 +5869,21 @@
         "https://cdn.modrinth.com/data/yfDziwn1/versions/x7n18otA/SodiumTranslations.zip"
       ],
       "fileSize": 228734
+    },
+    {
+      "path": "resourcepacks/GR_SVX_[1.4.1] Enhanced Boss Bars.zip",
+      "hashes": {
+        "sha1": "3dfe3e45e973179d924b7ff462aae5a1a36c2c6d",
+        "sha512": "e2ab6353357cd06e7d92670baeff994f3d3e87bb6bbb8243b8f74b4a2012118ace418772118510bfc9228b94ca44586f14f01d6eb33f885a6ca45608033782a9"
+      },
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/U5SedJ9S/versions/3fjpw8Kj/%5B1.4.1%5D%20Enhanced%20Boss%20Bars.zip"
+      ],
+      "fileSize": 159369
     },
     {
       "path": "shaderpacks/GR_SVX_BSL_v10.0.zip",
@@ -5886,21 +5976,6 @@
       "fileSize": 7766144
     },
     {
-      "path": "shaderpacks/GR_SVX_miniature-shader-2.15.3.zip",
-      "hashes": {
-        "sha1": "fcd83d47fa0286acca2ead8190d69579b79471df",
-        "sha512": "ba020389d7e12657eebcaf49e3e95f6ad1654d15b5205f4652b50204c04cab5aa8857e1243311b806c2c995c0d0d6614732a301dbadf74eccd59a5b64062671e"
-      },
-      "env": {
-        "client": "required",
-        "server": "unsupported"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/UaS8ROxa/versions/RMhrmckJ/miniature-shader-2.15.3.zip"
-      ],
-      "fileSize": 31517
-    },
-    {
       "path": "shaderpacks/GR_SVX_photon_v1.2a.zip",
       "hashes": {
         "sha1": "6ad7e57f22ceb5530b168d077414abc8387c9b04",
@@ -5929,6 +6004,21 @@
         "https://cdn.modrinth.com/data/kmwfVOoi/versions/ZYsfUe9S/rethinking-voxels_r0.1-beta8.zip"
       ],
       "fileSize": 8320052
+    },
+    {
+      "path": "shaderpacks/miniature-shader-2.16.zip",
+      "hashes": {
+        "sha1": "9fb529960a75861ea8b6862a12531494ee27d65a",
+        "sha512": "6ac210426c4b211014f18ee821d569ac9123d0ce4ff75712f904535c1196d243b6c4b78179a5914fd5d7a421e5e5d00657cab6df6f36e0a9031f1f415c764c99"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/UaS8ROxa/versions/gom1N7c2/miniature-shader-2.16.zip"
+      ],
+      "fileSize": 31965
     }
   ],
   "dependencies": {

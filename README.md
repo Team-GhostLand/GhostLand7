@@ -29,12 +29,21 @@ A modpack for the 7th edition of GhostLand SMP
 - [ ] Enabling Planet Curvature in Distant Horizons does nothing
 - [x] With Panoramics seemingly completely cooked, we have nothing to make a main menu panorama for Fancy Menu with. *(fixed: found [this thing](https://modrinth.com/mod/panorama-screenshot) - not yet in the pack, since we're not doing any FancyMenu stuff yet)*
 - [ ] Small Ships' boats made from wood from WilderWilds don't have textures
-- [ ] WW's panorama texturepack keeps enabling itself against our will any time the packs change (and causes Missing Texture glitches whenever we disable it (ie. set it to the state it's *supposed to* be in) if its panorama was loaded before)
+- [x] WW's panorama texturepack keeps enabling itself against our will any time the packs change (and causes Missing Texture glitches whenever we disable it (ie. set it to the state it's *supposed to* be in) if its panorama was loaded before) *(fixed?: moved it to the bottom of the list, practically disabling it)*
 - [ ] Can't join the server 💀 *(note: this may very well have been an issue all this time, but we only started testing server joins on 7a24+)*
 - [ ] In EMI's tree view, all texture-derived icons (ie. NOT those black-and-white ones, like crafting;smelting;Tinker's, but those that are based on EMI's tab texture, like Sequenced Assembly or Inscriber) are offset in the Y axis so much that they clip all the way outside of the tree
 
 
 ## Changelogs:
+
+### 7a30
+- Updated: Let's Do: Farm'n'Charm (base *(Becasue the older version was crashing the server. Guess what? IT'S THE SAME PROBLEM AGAIN! They used client-side code on the server. It's good that they were very fast with delivering a fix, but... seriously, people! Just add some side-detecting if statements 😅.)*, Candelight, Brewery, Bakery), Beachparty; Miniature Shader
+- Nuked Nether Vinery (it wasn't even booting (`[17:21:12] [Render thread] [nethervinery/ERROR]: Failed to register NetherVinery registries! Disabling mod. at: knot//net.satisfy.nethervinery.fabric.NetherVineryFabric.onInitialize(NetherVineryFabric.java:27)`), anyway)
+- Added POWAHH! and ME Requester
+- ...And with this, the merge is *almost* finished! I only skipped updating Amendments (becasue I suspect that a too-new version *(for context: Guzio's version of 7a28 had a higher Amendments version number than MidnightSP, and the higher version has won)* could be the cause of the conflict with Farmer's Delight from 7a29), as well as the installation of Farmer's Delight (and its related projects - like „its addons”, Sliced'n'Diced, Farmer's Cutting: BOP, LDa Compat and ~~3D Crops~~) because (as stated before) MidnightSP is much better equipped to be handling this, since they have more experience with FD (having already added it once, then deleted, and then (succesfully, unlike my attempt) added it back).
+- Added a `/mods` command. This mod could technically be client-optional (becasue it has client-side functionality, but isn't essential to join the server), but we marked it as server-only becasue having it on the client would be detrimental to its own functionality: The client's command would override the server's, thus preventing us from listing mods on the server anywhere but in the console - and being able to see the server mod list without SSHing the very reason we included it (we already have Mod Menu for clients, so it's not like we really need it there).
+- Added resourcepacks: Fresh Animations (unlike all other packs, this one is marked as client-optional (not just server-excluded) because it might be a bit too heavy for the Slim Edition), FreshAnim Extension (same deal here), Enchanced Boss Bars and Fancy Crops (the crops can't be 3D even with FD installed (becasue we're keeping Let's Do, and it has no 3D crops addons), so we might as well at least make them fancier).
+- Re-ordered resourcepacks again (because re-adding Moonlight mods changed the list a lot, plus I just added 4 more packs). As part of this, I finally capitulated against WW-panorama. Instead of trying to keep it disabled (it keeps coming back) - I allowed it to stay on the enabled list, but pushed it to the bottom, effectively doing the same thing that disabling it would have achieved.
 
 ### 7a29
 - *Note: This patch will attempt to fix merge conflicts from the previous one and therefore IS a huge mess*
@@ -58,25 +67,25 @@ A modpack for the 7th edition of GhostLand SMP
 - Added compat mods: LDa Compat *(to better integrate FD and LD)*; Farmer's Cutting: BOP *(as a datapack)*
 
 #### Notice:
-Although everything pretaining to added files (configs, datapacks, other files) in the above changelog is correct - anything that would take place in the Modrinth Index (added/removed/updated packs/mods) **is currently not present**. The state of the index has been reverted to the way it was in in Guzio's version of 7a28 patch, as it's the last-known working modlist. This is because of weird issues I'm encountering:
+Although everything pretaining to added files (configs, datapacks, other files) in the above changelog is correct - anything that would take place in the Modrinth Index (added/removed/updated packs/mods) **is currently not present**. In other words, all those mentions about „Added compat mods:” or „All mod changes were merged” are... basically lies. They didn't happen. Instead, the state of the index has been reverted to the way it was in Guzio's version of 7a28 patch, as it's the last-known working modlist and everything mentioned above rather represents the „intended state” of the pack. This is because of weird issues I encountered while trying to actually run the game in this „intended state”:
 * The game refuses to launch with FancyMenu enabled, even though it was launching fine on 7a28 (both Guzio's and (as long as they tested it, which I'd guess they did) MidnightSP's version). So *somehow*, just by the pure concept of both 7a28 versions combining, FancyMenu managed to break. What the fuck???
-* With FM disabled: The game will launch, but there'll be a Mixin conflict between Farmer's Delight and Amendements, which crashes the internal server - but again, I'm gonna guess that it was working fine on MidnightSP's version of 2a28, otherwise it wouldn't've been pushed. So why would it break now???
+* With FM disabled: The game will launch, but there'll be a Mixin conflict between Farmer's Delight and Amendments, which crashes the internal server - but again, I'm gonna guess that it was working fine on MidnightSP's version of 7a28, otherwise it wouldn't've been pushed. So why would it break now???
 
-Because of these weird issues - and the fact that 5AM is approaching - I'm afraid there's no other solution than reveting the modlist to 7a28. And because Guzio's version is the one that's closer to the „intended state” (no MI; still has LD), that's the one that's been chosen *(that, and I'm probably subconciously favouring my own creation)*. To bring it back to that  „intended state”, the following mods must be added:
-* Farmer's Delight (+ its addons) *[those added in 7a28-Midnight]*
-* Powah!
-* Sliced'n'Diced
-* ME Requester
-* 3d Crops Revamped *(Well.. That's not a mod, but whatever.)*
-* LDa Compat
-* Farmer's Cutting: BOP *(And neither is this; that's a datapack.)*
+Because of these weird issues - and the fact that 5AM is fast approaching - I'm afraid there's no other solution than reveting the modlist to 7a28. And because Guzio's version is the one that's closer to the „intended state” (no MI; still has LD; has DNL), that's the one that's been chosen *(that, and I'm probably subconciously favouring my own creation)*. To bring it back to that „intended state”, the following mods must be added:
+- Farmer's Delight (+ its addons) *[those added in 7a28-Midnight]*
+- Powah!
+- Sliced'n'Diced
+- ME Requester
+- 3d Crops Revamped *(Well.. That's not a mod, but whatever.)*
+- LDa Compat
+- Farmer's Cutting: BOP *(And neither is this; that's a datapack.)*
 
 MidnightSP... I'm leaving this to you. I'm really sorry to be dumping this responsibility onto you, but you're more experienced with this (your patch involoved adding 5/7 of these mods - of 4/5, if we only count real mods) and also you'll be well-slept tommorow, while I'm currently falling asleep on the keyboard from 5AM-ness. You're just much better suited to be fixing this than me.
 
 ### 7a28
 Because our project manager has ~~disappeared without a trace~~ *(ok, this isn't really fair - he DID reboot the VM for us just yesterday, but that's about everything anyone's heard from him for the past few weeks)*, so much so that (despite being mentioned in the creditsas the „branding” behind GhostLand) he isn't even a member of this GH org - and neither me, nor MidnightSP are great at coordinating our efforts - this patch ended up getting submitted twice. Whoops.
 
-*Fun fact: because [our build server](http://130.162.246.47:25575/modules/ci/) only checks for increments in the version number - and MidnightSP has submitted his patch first - the server has never and will never build Guzio's version. So - from the perspective of our players - that version is technically lost media. Pretty cool! (Of course, one might try to build it from source (assuming that my source branch ever reaches the final repo (idk; this is my first merge conflict resoltion ever) - because if it doesn't, then „Guzio's version” is TRULY lost media) - but I doubt any of our players will bother going through this hassle, for no real reason.)*
+*Fun fact: because [our build server](http://130.162.246.47:25575/modules/ci/) only checks for increments in the version number - and MidnightSP has submitted his patch first - the server has never and will never build Guzio's version. So - at least from the perspective of our players - that version is technically lost media. Pretty cool! (Of course, one might try to build it from source - but I doubt any of our players will bother going through this hassle, for no real reason.)*
 
 #### Guzio's version
 - Updated: Tectonic, Farm'n'Charm, Zoomify
@@ -154,7 +163,7 @@ Because our project manager has ~~disappeared without a trace~~ *(ok, this isn't
 - Fixed RPG Skill Tree mess (it still claims to be a mod (not just in Contents listing, but even inside version details), and it still wants to be updated (despiete already being updated), but I'm pretty sure this time it really, trully, 100%, the latest datapack)
 - Marked all datapacks (that could be marked, ie. not VT) as optional on the client
 - Zoomify is now configured and client-optional (and also server-excluded) - but it wasn't updated because [the latest version wants a library that doesn't exist](https://github.com/isXander/Zoomify/issues/238) xD
-- Reordered datapacks, due to them changing in 2a23 (also, Visual Waxed has disappeared for reasons unknown - `TODO: re-enable it via VanillaTweaks`)
+- Reordered resourcepacks, due to them changing in 7a23 (also, Visual Waxed has disappeared for reasons unknown - `TODO: re-enable it via VanillaTweaks`)
 - Removed Geocluster's config
 - Added GhostLand to the server list
 - Added `localhost` as the default Direct Connect in the server list
@@ -302,6 +311,10 @@ This obviously isn't all that changed in this giant patch, but I don't even reme
 * Results of GhostLand's 1st [elections](https://github.com/Team-GhostLand/vote-calculator)
 
 
+## The Datapack
+[THIS SECTION IS TODO]
+
+
 ## Cumulative list of altered configs
 
 ### Known TODOs
@@ -332,7 +345,7 @@ There will, for certain, be more. These are just some things that came to my min
 * audio: music 25%, amb 30%, surround on
 * Advanced Tooltips on
 * Admin Items on
-* Texturepacks: Ambience (grass, leaves, bushes), Green Semaphores, VT (skies, VT), CTx (Glass, defaults), QoL (low on fire), Text (Sodium Translations, Chat Reporting Helper), defaults (Sesonal Lush, Fabric, Polymer, Vanilla)
+* Texturepacks: Ambience (grass, leaves, bushes, crops), Green Semaphores, boss-bars, VT (skies, base), CTx (Glass, base), FreshAnim (Addon, base), QoL (low on fire, Visual Waxed), Text (Sodium Translations, Chat Reporting Helper), defaults (Sesonal Lush, Moonlight, Fabric, Polymer, Vanilla, WW-Panorama)
 * Skipped multiplayer warning
 * Auto-jump off
 * Disabled pasue-on-lost-focus
@@ -381,7 +394,6 @@ There will, for certain, be more. These are just some things that came to my min
 * Remapped various FlightAssistant keys to the right-hand cluster (where its arrows already were, anyway)
 * Added thrus reversal to Do a Barrel Roll (at S)
 * Disabled Do a Barrel Roll's toggle
-* *Note: REI can be shown with Ctrl+O; U and R for Usages and Recipes*
 
 ### Bind Pizzeria
 * Temporarily configured Worldmap shortcut (will be changed later to something more immersive, along with other BP configs)
@@ -462,6 +474,7 @@ There will, for certain, be more. These are just some things that came to my min
 * Fluid unit: milibuckets
 * No searchbar centering
 * Hidden by default *(Ctrl+O to show)*
+* No changes to keybinds; U, R and A for Usages, Recipes and „Add to favourites” works just fine
 * Set up complete crafting trees for some super-basic AE2 components (enough to build a very simple AE2 setup) and pinned those 
 * Slightly altered crafting trees for Create's Brass (to use Tinker's instead of the much more expensive Blaze Burners), Train Tracks (to default to the easiest-to-automate sleepers - tho I couldn't do the same for iron ingots (only ending at gravel instead - no cobble->gravel) because that'd mess up all other recipes) and Rose Quartz (it didn't pick up on the recipie at first), and pinned the „standard setup” for trains. Notably, not a lot of adjustments had to be done (only minor tweaks to otherwise pre-configured routes) becasue it seems that Create is supported out-of-the-box. Yay!
 * Set up complete crafting trees for Tinker's Controller (the basic-ass-2block-Smeltery one, not the 3x3-big-Smeltery one) and liquid Brass (for those Create craftings mentioned above), and pinned said controller. Also, pinned the Crafting Station (not the item, but the recipie itself - becasue there are just too many damn variants; I didn't bother setting up crafting trees for it for the same reason). This doesn't even cover 2% of what should be pinned and/or what trees should be set up for a „minimum Tinker's setup”, but setting up Tinkers' trees in particular just feels SO TEDIOUS for some reason.
