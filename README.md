@@ -33,7 +33,7 @@ A modpack for the 7th edition of GhostLand SMP
 - [ ] Enabling Planet Curvature in Distant Horizons does nothing
 - [x] With Panoramics seemingly completely cooked, we have nothing to make a main menu panorama for Fancy Menu with. *(fixed: found [this thing](https://modrinth.com/mod/panorama-screenshot) - not yet in the pack, since we're not doing any FancyMenu stuff yet)*
 - [x] Small Ships' boats made from wood from WilderWilds don't have textures *(fixed: removed WilderWilds)*
-- [x] WW's panorama texturepack keeps enabling itself against our will any time the packs change (and causes Missing Texture glitches whenever we disable it (ie. set it to the state it's *supposed to* be in) if its panorama was loaded before) *(fixed: moved it to the bottom of the list, practically disabling it)*
+- [x] WW's panorama texturepack keeps enabling itself against our will any time the packs change (and causes Missing Texture glitches whenever we disable it (ie. set it to the state it's *supposed to* be in) if its panorama was loaded before) *(fixed: removed WilderWilds)*
 - [x] Can't join the server 💀 *(fixed: Somewhere along the mess that was 2a28, 2a29 and 2a30 - this bug has vanished. Now you can join. It even takes you all the way to the Origins screen!)*
 - [x] Can't join the server at first becasue Twilight Forest complains about stuff; I have to get kicked and join again, after it's finished complaining *~~(note: this might be, in some way, related to an issue \~~that I've been ignoring for now (becasue it lowkey works like an accitential security feature 💀)~~~ that TwF sometimes just randomly screams `Exception occurred in netty pipeline`, whenever server-seeker (Which, btw, WON'T BLOODY LEAVE US ALONE - does this stupid script-kiddie not have any flags to set to not auto-retry on modded servers? Bro, let it go! Unless you actually manage to find this repo, there's no chance of you just brute-forcing a ~300 characters-long password, where each character has ~118000 states - becasue that's what our modlist effectively becomes in this context.) tries to join)*~~ *(fixed: that's... uhhh... No longer happening. I dunno why. Maybe it only happens some times?)*
 - [x] The server spends too long loading players when they join, causing Watchdog to crash it *(fixed: bumped watchdog to 5min)*
@@ -43,6 +43,7 @@ A modpack for the 7th edition of GhostLand SMP
 - [ ] Modrinth's server list underscores the entire MOTD for some reason *(note: since doesn't happen in the actual game, I'm afraid this is entirely MR's fault and there might be no way to fix it from our level)*
 - [ ] RPM's recording incicator is constantly lingering in the corner on multiplayer (though it's normally covered by the minimap); not really providing anything of value (ppl will already know that we have RPM - we'll just tell them in the Discord)
 - [ ] Missing translations from Steve's Realistic Sleep in Slim Edition
+- [ ] WilderWild has disappeared *(note: It has not lost an election; it literally wasn't ever even included in it in the first place becasue at the time it was considered to not be in the worldgen category. It's like saying that Tusk has lost the presidential elections, even though he never even ran in them becasue as a prime minister - a completely separate thing. If we want to re-categorise WW as worldgen now, we'd need to repeat the whole elections about worldgen becasue people might vote differently with it as an option (I know I would've), but I don't think it's really worth the hassle. We have already wasted enough time on those other elections, anyway. Just like - if Tusk wanted to re-categorise himself as president, he's need to actually run in the presidential elections.)*
 
 
 ## Changelogs:
@@ -366,8 +367,8 @@ Also, it would be nice to build a resourcpack to complement the datapack - for a
 
 ### Known TODOs
 There will, for certain, be more. These are just some things that came to my mind on the spot.
-* FancyMenu (incl. Remove GFARB; Main menu panorama)
-* Bind-pizzeria (incl. a link to a LOOREEEEE repository - see: [pending election](#pending-elections) about roleplay)
+* FancyMenu (incl. Remove GFARB)
+* Bind-pizzeria (incl. a link to a LOOREEEEE repository, should we vote on a more roleplay-ish edition)
 * DiscordRCP
 * Sparse Structures for modded structures
 * Disable Simple VC groups (we have radios for that)
