@@ -29,10 +29,10 @@ A modpack for the 7th edition of GhostLand SMP
 - [ ] Issues while entering a world (game incredibly laggy for the first few minutes) *(note: that's the chunks loading in - recommended solution is to look at the horizon in a single direction until it loads, then look around very slowly until all other directions load)*
 - [x] If Aether detects Loading Screen Tips - regardless of whether integration with it is enabled in the config or not - it reloads resources right after game loads, leading to a doubled loading screen (which significantly increases the practical startup time - since, even though thanks to RRS we can navigate menus when resources are loading, noone's gonna join the world with a loading bar, especially one so obnoxious (in-game, it's fine when loading) as the one that ELS adds). *(fixed: Tipsn't)*
 - [x] GregTech's ores become transparent underwater (their polygons disappear - you can see the void) **(fixed: GREGORY GOT GEYEETEN)** *(fixed: rest in pieces)* *(note: this has 2 different „fixed” notes bacause it got fixed twice, in both versions of 7a28)*
-- [ ] On some modded biome coastlines, Creeper-hole-like cutouts appear, and they tend to cut off trees and leave them floating ~~*(note: this doesn't seem to happen, rather it is regular world generation issue)* *(fixed: alr, whatever u say...)*~~ *(note: this DOES happen, and doesn't only affect trees, but even villager houses - the responsible biome seems to be `biomesoplenty:floodplain` and its variations)*
+- [x] On some modded biome coastlines, Creeper-hole-like cutouts appear, and they tend to cut off trees and leave them floating ~~*(note: this doesn't seem to happen, rather it is regular world generation issue)* *(fixed: alr, whatever u say...)* *(note: this DOES happen, and doesn't only affect trees, but even villager houses - the responsible biome seems to be `biomesoplenty:floodplain` and its variations)*~~ *(fixed: floodplain is now disabled in Biomes O' Plenty)*
 - [ ] Enabling Planet Curvature in Distant Horizons does nothing
 - [x] With Panoramics seemingly completely cooked, we have nothing to make a main menu panorama for Fancy Menu with. *(fixed: found [this thing](https://modrinth.com/mod/panorama-screenshot) - not yet in the pack, since we're not doing any FancyMenu stuff yet)*
-- [ ] Small Ships' boats made from wood from WilderWilds don't have textures
+- [x] Small Ships' boats made from wood from WilderWilds don't have textures *(fixed: removed WilderWilds)*
 - [x] WW's panorama texturepack keeps enabling itself against our will any time the packs change (and causes Missing Texture glitches whenever we disable it (ie. set it to the state it's *supposed to* be in) if its panorama was loaded before) *(fixed: moved it to the bottom of the list, practically disabling it)*
 - [x] Can't join the server 💀 *(fixed: Somewhere along the mess that was 2a28, 2a29 and 2a30 - this bug has vanished. Now you can join. It even takes you all the way to the Origins screen!)*
 - [x] Can't join the server at first becasue Twilight Forest complains about stuff; I have to get kicked and join again, after it's finished complaining *~~(note: this might be, in some way, related to an issue \~~that I've been ignoring for now (becasue it lowkey works like an accitential security feature 💀)~~~ that TwF sometimes just randomly screams `Exception occurred in netty pipeline`, whenever server-seeker (Which, btw, WON'T BLOODY LEAVE US ALONE - does this stupid script-kiddie not have any flags to set to not auto-retry on modded servers? Bro, let it go! Unless you actually manage to find this repo, there's no chance of you just brute-forcing a ~300 characters-long password, where each character has ~118000 states - becasue that's what our modlist effectively becomes in this context.) tries to join)*~~ *(fixed: that's... uhhh... No longer happening. I dunno why. Maybe it only happens some times?)*
@@ -47,20 +47,28 @@ A modpack for the 7th edition of GhostLand SMP
 
 ## Changelogs:
 
+### 7a34
+- Removed Wilder Wild as it democratically lost the election few months ago so it shouldn't be here anyway
+- Added Farmer's Delight (and its addons: Sliced'n'Diced, Farmer's Cutting: BOP, LDa Compat)
+- Configs:
+  - Removed gtceu configs
+  - Removed lush stacks and dead sea biomes from BiomesWeveGone as they are very ugly
+  - Removed floodplain biome from BiomesOPlenty as it caused floating trees and other issues
+
 ### 7a33
-* *Ah. I see why YUNG's API was client-required.* Better Archeology needs it. Enabled back!
+- *Ah. I see why YUNG's API was client-required.* Better Archeology needs it. Enabled back!
 
 ### 7a32
-* Swapped out Vibrative Voice for Voice Chat Interaction (because (of course, as I predicted becasue it was obvious) VV does need SimpleVC, despite claiming otherwise on Modrinth - and I decided to stop using a mod that messed up their page, because that seems like a red flag) and configured it
-* Made SimpleVC always enabled, even in slim (because - now that I really think about it - there is no point in having it installed, if its presence isn't gonna be guaranteed for all player, becasue people would just switch to Discord as soon as they encounter anyone without the mod, and will likely stick to Discord afterwards)
-* Experimentally set YUNG's API as client-optional (becasue all mods that depend on it are also CLO)
-* Updated: AE2, Amendments (*note to MidnightSP: Should you want to install Farmer's Delight, but encounter any conflicts between it and Amendments - the previous Amendments version (that, I think, worked for you) is 1.2.19 and now we're on 2.0.3*)
-* Did some more Spare Structures config
+- Swapped out Vibrative Voice for Voice Chat Interaction (because (of course, as I predicted becasue it was obvious) VV does need SimpleVC, despite claiming otherwise on Modrinth - and I decided to stop using a mod that messed up their page, because that seems like a red flag) and configured it
+- Made SimpleVC always enabled, even in slim (because - now that I really think about it - there is no point in having it installed, if its presence isn't gonna be guaranteed for all player, becasue people would just switch to Discord as soon as they encounter anyone without the mod, and will likely stick to Discord afterwards)
+- Experimentally set YUNG's API as client-optional (becasue all mods that depend on it are also CLO)
+- Updated: AE2, Amendments (*note to MidnightSP: Should you want to install Farmer's Delight, but encounter any conflicts between it and Amendments - the previous Amendments version (that, I think, worked for you) is 1.2.19 and now we're on 2.0.3*)
+- Did some more Spare Structures config
 
 ### 7a31
-* Configured DH server
-* Made Watchdog less aggresieve
-* Yeeted Fresh Animations and its addon *(won't work on non-vanilla mobs)*
+- Configured DH server
+- Made Watchdog less aggresieve
+- Yeeted Fresh Animations and its addon *(won't work on non-vanilla mobs)*
 
 ### 7a30
 - Updated: Let's Do: Farm'n'Charm (base *(Becasue the older version was crashing the server. Guess what? IT'S THE SAME PROBLEM AGAIN! They used client-side code on the server. It's good that they were very fast with delivering a fix, but... seriously, people! Just add some side-detecting if statements 😅.)*, Candelight, Brewery, Bakery), Beachparty; Miniature Shader
