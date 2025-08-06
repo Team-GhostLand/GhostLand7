@@ -3,6 +3,16 @@
   "lectern": {
     "improved_screen": true
   },
+  "fireball": {
+    "dragon_charge": true,
+    "gravity": true,
+    "deflectable": false,
+    "throwable": true,
+    "improved_explosions": true
+  },
+  "snowball": {
+    "freeze_ticks": 35
+  },
   "hanging_signs": {
     "items_on_signs": true
   },
@@ -26,7 +36,8 @@
       "minecraft:weakness": "minecraft:strength",
       "minecraft:slowness": "minecraft:speed"
     },
-    "connect_to_fences": true
+    "connect_to_fences": true,
+    "consistent_lava_layers": false
   },
   "tripwire_hook": {
     "tool_hook": true

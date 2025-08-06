@@ -4,6 +4,22 @@
     "tooltip_hints": true,
     "custom_configured_screen": true
   },
+  "sign": {
+    "pixel_consistent": true,
+    "text_color_multiplier": 1.2
+  },
+  "projectiles": {
+    "snowball_3d": true,
+    "slimeball_3d": true,
+    "fireball_3d": true,
+    "ghast_fireball_trail": true,
+    "dragon_fireball_trail": true,
+    "charges_tumble": true,
+    "projectiles_tumble": false,
+    "dragon_fireball": {
+      "dragon_breath_emissive": true
+    }
+  },
   "lily_pad": {
     "y_offset": -0.016625
   },
@@ -61,7 +77,6 @@
     "candle_holder_item_holding": true,
     "handle_holder_item_size": 0.625,
     "fixed_holding_animations": false,
-    "sign_text_color_multiplier": 1.2,
     "campfire_smoke_through_blocks": false
   }
 }

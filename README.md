@@ -32,12 +32,21 @@ A modpack for the 7th edition of GhostLand SMP
 - [x] WW's panorama texturepack keeps enabling itself against our will any time the packs change (and causes Missing Texture glitches whenever we disable it (ie. set it to the state it's *supposed to* be in) if its panorama was loaded before) *(fixed: moved it to the bottom of the list, practically disabling it)*
 - [x] Can't join the server 💀 *(fixed: Somewhere along the mess that was 2a28, 2a29 and 2a30 - this bug has vanished. Now you can join. It even takes you all the way to the Origins screen!)*
 - [ ] Can't join the server at first becasue Twilight Forest complains about stuff; I have to get kicked and join again, after it's finished complaining *(note: this might be, in some way, related to an issue ~~that I've been ignoring for now (becasue it lowkey works like an accitential security feature 💀)~~ that TwF sometimes just randomly screams `Exception occurred in netty pipeline`, whenever server-seeker (Which, btw, WON'T BLOODY LEAVE US ALONE - does this stupid script-kiddie not have any flags to set to not auto-retry on modded servers? Bro, let it go! Unless you actually manage to find this repo, there's no chance of you just brute-forcing a ~300 characters-long password, where each character has ~118000 states - becasue that's what our modlist effectively becomes in this context.) tries to join)*
-- [ ] The server spends too long loading players when they join, causing Watchdog to crash it *(fixed?: bumped watchdog to 5min)*
+- [x] The server spends too long loading players when they join, causing Watchdog to crash it *(fixed: bumped watchdog to 5min)*
 - [ ] In EMI's tree view, all texture-derived icons (ie. NOT those black-and-white ones, like crafting;smelting;Tinker's, but those that are based on EMI's tab texture, like Sequenced Assembly or Inscriber) are offset in the Y axis so much that they clip all the way outside of the tree
+- [ ] On the server, you start with a shield in your hand, which greatly lowers the initial wow-effect of Adaptive Crosshair *(note: this can be fixed, by actually configuring starting kits)* 
+- [ ] You start with a Tinker's guidebook *(note: Tinker's seems to ignore starting kits)* 
 - [ ] Modrinth's server list underscores the entire MOTD for some reason *(note: since doesn't happen in the actual game, I'm afraid this is entirely MR's fault and there might be no way to fix it from our level)*
 
 
 ## Changelogs:
+
+### 7a32
+* Swapped out Vibrative Voice for Voice Chat Interaction (because (of course, as I predicted becasue it was obvious) VV does need SimpleVC, despite claiming otherwise on Modrinth - and I decided to stop using a mod that messed up their page, because that seems like a red flag) and configured it
+* Made SimpleVC always enabled, even in slim (because - now that I really think about it - there is no point in having it installed, if its presence isn't gonna be guaranteed for all player, becasue people would just switch to Discord as soon as they encounter anyone without the mod, and will likely stick to Discord afterwards)
+* Experimentally set YUNG's API as client-optional (becasue all mods that depend on it are also CLO)
+* Updated: AE2, Amendments (*note to MidnightSP: Should you want to install Farmer's Delight, but encounter any conflicts between it and Amendments - the previous Amendments version (that, I think, worked for you) is 1.2.19 and now we're on 2.0.3*)
+* Did some more Spare Structures config
 
 ### 7a31
 * Configured DH server
@@ -335,13 +344,14 @@ There will, for certain, be more. These are just some things that came to my min
 * Do something with Puffer's skill trees (we have too many of them rn, while none of them use Origins x Puffer)
 * DiscordRCP
 * Custom resourcepack (like for Cebuliony and stuff)
-* Sparse Structures (properly - rn, we only did a very far-reaching but slight boost, but ideally, we'd check which structures tend to over-place themselves and lower their rates) ((might turn out to be unnecessary, idk))
+* Sparse Structures for modded structures
 * Disable Simple VC groups (we have radios for that)
 * Enable "visited=don't show again" for Structure Credits
 * Add the modpack icon into our files (won't be auto-applied, but this way, people will at least have the option to enable it themselves), preferably in such a way that it also works as a server icon, without needing to set one explicitly
 * Clear configs for mods that are no longer with us (eg. ~~Geocluster~~ ~~*that's gone now, but there are a lot more removed mods from that 7a23 update, that left their configs behing*~~ *Geocluster is back, and so are some mods from 7a23 - but now 7a26 has a lot of deleted stuff*)
 * Populate `initial-enabled-packs` and **configure default world type** (otherwise BetterEnd/BetterNether will not work) in `server.properties` *(also, do something about auth/whitelist)*
 * Finish Geocluster's and EMI's config
+* Configure starting kits to combine immersion with practicality
 * *also, this isn't really a config-related TODO, but we need to check whether Bed Overhaul works on server-side only*
 
 ### Vanilla
@@ -462,8 +472,9 @@ There will, for certain, be more. These are just some things that came to my min
 * Version: `7-ALPHA` *<---update me!*
 
 ### Sparse structures
-* Slightly lowered reduction rates (from the default 2x reduction to 1.75x)
-* Reset woodland mansion reduction rates (its set as an example in the file - but since it's an example, it follows the default 2x reduction - but since we changed the defaults, that'd now make mansions even rarer, which is stupid (they are already pretty rare), so we had to change them, as well - and I thougth that if we're changing it anyway, we might as well set it to the vanilla 1x, as the plan is to reset all vanilla rates, anyway)
+* Dumped all structures in
+* Slightly lowered reduction rates (from the default 2x reduction to 1.75x) for modded structures
+* Kept vanilla spread rates as vanilla (1x recuction rate (aka „kept the same”) instead of 2x)
 
 ### Create Dynamic Lights
 * Disabled LambDynamicLights integration (we're using Sodium Dynamic Lights, so that wouldn't work for us)
@@ -493,6 +504,9 @@ There will, for certain, be more. These are just some things that came to my min
 * `distantGeneratorMode = "PRE_EXISTING_ONLY"`, So that it wouldn't attempt to generate any chunks on its own. This task shall be left to Chunky. For 2 reasons: Chunky tends to be so fast that DH can't keep up (thus leaving holes in LODs), so we'll first let Chunky run, then DH can do its thing at its own pace; DH warned about an unknown generator type (`org.dimdev.dimdoors.world.pocket.BlankChunkGenerator`) that may cause DH's gen to fail. Chunky's won't becasue it generates normal chunks.
 * `showGenerationProgress = "LOG" #To not bother every online player with DH`, `generationProgressDisplayIntervalInSeconds = 30` and `generationProgressDisableMessageDisplayTimeInSeconds = 0` because this progress bar is pretty obnoxious
 * Cranked to all 4 cores (what could possibly go wrong?)
+
+### VC interaction
+* Enabled group and sneak interactions
 
 ## Things to mention to people
 * See: [Issue](#issues) about entering
