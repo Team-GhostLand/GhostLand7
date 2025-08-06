@@ -4,8 +4,12 @@ A modpack for the 7th edition of GhostLand SMP
 ## Table of Contents
 - [Issues](#issues)
 - [Changelogs](#changelogs)
+- [Datapack](#the-datapack)
+  - [Planned](#planned)
+  - [Resourcepack](#resourcepack)
 - [Altered Configs](#cumulative-list-of-altered-configs)
   - [TODOs](#known-todos)
+    - [Forgettable TODOs](#dont-forget-about-those-todos)
   - [Vanilla](#vanilla)
   - [Keybinds](#controls-not-bind-pizzeria)
 - [Things to mention](#things-to-mention-to-people)
@@ -334,29 +338,43 @@ This obviously isn't all that changed in this giant patch, but I don't even reme
 
 
 ## The Datapack
-[THIS SECTION IS TODO]
+We have a datapack embedded within this modpack. Currently, it does this:
+* Allows Geocluster to generate vanilla ores.
 
+### Planned:
+In general, to build a more cohesive experience. More specifically - do so by:
+* Adding a Patchouli guidebook 
+* Properly configureing cross-mod recipies, so the pack doesn't feel like just a bunch of crudely mixed-together crap held together with hopes and prayers, but rather a cohesive creative experience. Ties together with the point above.
+* Integrating Pufferfish skill trees with both Origins (none of the trees we have installed currently use Puffer x Origins) and our vision for the pack, in general (rn, we have several trees installed, that all basically do the same thing - while also none of them work with Ghostland particularly well - they should all be replaced by a single, cohesive tree).
+* *Maybe* integrating together Bounties and DnT? (if anyone will be brave enough to attempt this)
+* Swaping Geocluster ores for proper modded ores.
+
+### Resourcepack
+Also, it would be nice to build a resourcpack to complement the datapack - for a menu panorama (I'm pretty sure FM only uses static images, but a ,moving panorama (using vanilla mechanics) would be great), but mostly for translations. Ideas right now:
+* Fix a translation bug in Seteve's Realistic Sleep
+* Rename Numismatic's currency to „Cebulions”
 
 ## Cumulative list of altered configs
 
 ### Known TODOs
 There will, for certain, be more. These are just some things that came to my mind on the spot.
-* **DON'T FORGET** to update BCC every time the *major* version number changes (ie. 7-ALPHA, 7-BETA, 7.0, 7.1, ... - but *not* 7a24, 7b6, 7.0.0, 7.0.1)
 * FancyMenu (incl. Remove GFARB; Main menu panorama)
-* Patchouli
-* Use a datapack to properly configure cross-mod recipies (and loottables, if it turns out that chests feel too cluttered, which apparently (according to a recent discussion with Tymuś and - frankly - my own experience, too, now that I think about it) was a problem on GL6), so the pack doesn't feel like just a bunch of crudely mixed-together crap held together with hopes and prayers, but rather a cohesive creative experience. Ties together with the point above (about a guidebook).
 * Bind-pizzeria (incl. a link to a LOOREEEEE repository - see: [pending election](#pending-elections) about roleplay)
-* Do something with Puffer's skill trees (we have too many of them rn, while none of them use Origins x Puffer)
 * DiscordRCP
-* Custom resourcepack (like for Cebuliony and stuff)
 * Sparse Structures for modded structures
 * Disable Simple VC groups (we have radios for that)
-* Enable "visited=don't show again" for Structure Credits
 * Add the modpack icon into our files (won't be auto-applied, but this way, people will at least have the option to enable it themselves), preferably in such a way that it also works as a server icon, without needing to set one explicitly
 * Clear configs for mods that are no longer with us (eg. ~~Geocluster~~ ~~*that's gone now, but there are a lot more removed mods from that 7a23 update, that left their configs behing*~~ *Geocluster is back, and so are some mods from 7a23 - but now 7a26 has a lot of deleted stuff*)
-* Populate `initial-enabled-packs` and **configure default world type** (otherwise BetterEnd/BetterNether will not work) in `server.properties` *(also, do something about auth/whitelist)*
 * Finish Geocluster's and EMI's config
 * Configure starting kits to combine immersion with practicality
+* Do something about auth/whitelist (ideally via some sort of Discord integration becasue a `/login` command (like via the AuthMe Paper plugin, etc.) is a pathetic non-solution - it will annoy the hell out of everybody who actually paid for the game, which is **literally everone** in our playerbase, except one guy) or server-seeker will *eventuallY* find this repo and, get our datapack, and probably ~~server-~~seek revenge for calling them a script-kiddie.
+
+
+#### Don't forget about those TODOs!
+Things that - for one reason or another - are exceptionally easy to forget:
+* Update BCC every time the *major* version number changes (ie. 7-ALPHA, 7-BETA, 7.0, 7.1, ... - but *not* 7a24, 7b6, 7.0.0, 7.0.1)
+* Enable "visited=don't show again" for Structure Credits
+* Populate `initial-enabled-packs` and `level-seed`, and configure `level-type` (otherwise a lot of structures won't generate and we'll not have that cool seed that MidnightSP found, and BetterEnd/BetterNether will not work) in `server.properties`
 
 ### Vanilla
 * polski (auto)
@@ -524,10 +542,9 @@ There will, for certain, be more. These are just some things that came to my min
 * Use Java 21 instead of the default 17 (while at it, you might also want to increase the RAM and add an icon (it unfortnatley doesn't happen automatically for sideloaded packs) - we embed one inside modpack files)
 
 ### Pending elections
-* **Origins:** Add Origins++? *ALSO* Replace Origins Default with Origins-? *ALSO* Have Origins at all?
-* **Smelting:** Alloy Forgery + Mythic Metals *or* Tinkers + HepExpansion *or* both, and then we add HepPlus for Mythic Metals x Tinkers integation?
-* **Dimensions:** Aether, Twilight Forest, The Bumblezone? (non-exclusive; probably won't even need a majority - even a moderate community interest (like 1/3) would be enough, and those who don't want a given mod, can just not use it) *ALSO* If we want DimDoors? (since it adds some pretty invasive structures (if you attempt to remove one, you'll be left with an ever-growing Rift) - this WILL require a majority vote)
-* **Other:** Co-op achievements? *ALSO* Do we want this edition to be a bit more roleplay-ish? *ALSO* TechReborn?
+* Everything already in the questionaire
+* Create's power and nuclear mods; also: Big Cannons
+* Core tech mod?
 
 ### Things mentioned to future-Guzio:
 Mod Patched (now deleted) mentioned an RFC about JSON merging - might be useful for Grinch in the future, perhaps?
