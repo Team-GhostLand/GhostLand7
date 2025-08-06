@@ -41,6 +41,9 @@ A modpack for the 7th edition of GhostLand SMP
 
 ## Changelogs:
 
+### 7a33
+* *Ah. I see why YUNG's API was client-required.* Better Archeology needs it. Enabled back!
+
 ### 7a32
 * Swapped out Vibrative Voice for Voice Chat Interaction (because (of course, as I predicted becasue it was obvious) VV does need SimpleVC, despite claiming otherwise on Modrinth - and I decided to stop using a mod that messed up their page, because that seems like a red flag) and configured it
 * Made SimpleVC always enabled, even in slim (because - now that I really think about it - there is no point in having it installed, if its presence isn't gonna be guaranteed for all player, becasue people would just switch to Discord as soon as they encounter anyone without the mod, and will likely stick to Discord afterwards)

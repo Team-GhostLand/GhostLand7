@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "7a32",
+  "versionId": "7a33",
   "name": "GhostLand 7 Alpha",
   "summary": "Paczka na siódmą edycję GhostLanda - wersja alpha",
   "files": [
@@ -1774,21 +1774,6 @@
         "https://cdn.modrinth.com/data/OhduvhIc/versions/PSctVdKm/Veinminer-2.0.7.jar"
       ],
       "fileSize": 113173
-    },
-    {
-      "path": "mods/GR_CLO_YungsApi-1.20-Fabric-4.0.6.jar",
-      "hashes": {
-        "sha1": "8d39c739b534e7351e9fdabf045f171a4e45c98a",
-        "sha512": "90fea70f21cd09bdeefe9cb6bd23677595b32156b1b8053611449504ba84a21ee1e13e5a620851299090ce989f41b97b9b4bdc98def1ccecb33115e19553c64e"
-      },
-      "env": {
-        "client": "optional",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/Ua7DFN59/versions/lscV1N5k/YungsApi-1.20-Fabric-4.0.6.jar"
-      ],
-      "fileSize": 1396331
     },
     {
       "path": "mods/GR_CLO_YungsBetterDesertTemples-1.20-Fabric-3.0.3.jar",
@@ -3904,6 +3889,21 @@
         "https://cdn.modrinth.com/data/1bokaNcj/versions/1Knv1cKY/Xaeros_Minimap_25.2.10_Fabric_1.20.jar"
       ],
       "fileSize": 1740608
+    },
+    {
+      "path": "mods/YungsApi-1.20-Fabric-4.0.6.jar",
+      "hashes": {
+        "sha1": "8d39c739b534e7351e9fdabf045f171a4e45c98a",
+        "sha512": "90fea70f21cd09bdeefe9cb6bd23677595b32156b1b8053611449504ba84a21ee1e13e5a620851299090ce989f41b97b9b4bdc98def1ccecb33115e19553c64e"
+      },
+      "env": {
+        "client": "optional",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/Ua7DFN59/versions/lscV1N5k/YungsApi-1.20-Fabric-4.0.6.jar"
+      ],
+      "fileSize": 1396331
     },
     {
       "path": "mods/accessories-fabric-1.0.0-beta.47+1.20.1.jar",
