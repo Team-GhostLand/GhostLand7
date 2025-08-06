@@ -376,7 +376,7 @@ There will, for certain, be more. These are just some things that came to my min
 * Clear configs for mods that are no longer with us (eg. ~~Geocluster~~ ~~*that's gone now, but there are a lot more removed mods from that 7a23 update, that left their configs behing*~~ *Geocluster is back, and so are some mods from 7a23 - but now 7a26 has a lot of deleted stuff*)
 * Finish Geocluster's and EMI's config
 * Configure starting kits to combine immersion with practicality
-* Do something about auth/whitelist (ideally via some sort of Discord integration becasue a `/login` command (like via the AuthMe Paper plugin, etc.) is a pathetic non-solution - it will annoy the hell out of everybody who actually paid for the game, which is **literally everone** in our playerbase, except one guy) or server-seeker will *eventuallY* find this repo and, get our datapack, and probably ~~server-~~seek revenge for calling them a script-kiddie.
+* Do something about auth/whitelist (ideally via some sort of Discord integration becasue a `/login` command (like via the AuthMe Paper plugin, etc.) is a pathetic non-solution - it will annoy the hell out of everybody who actually paid for the game, which is **literally everone** in our playerbase, except one guy) or server-seeker will *eventually* find this repo and, get our datapack, and probably ~~server-~~seek revenge for calling them a script-kiddie.
 
 
 #### Don't forget about those TODOs!
