@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "7a33",
+  "versionId": "7a34",
   "name": "GhostLand 7 Alpha",
   "summary": "Paczka na siódmą edycję GhostLanda - wersja alpha",
   "files": [
@@ -694,6 +694,36 @@
         "https://cdn.modrinth.com/data/5XH5uKvv/versions/N1flIxoc/ExtraBounties-universal.jar"
       ],
       "fileSize": 273462
+    },
+    {
+      "path": "mods/FarmersDelight-1.20.1-2.4.0+refabricated.jar",
+      "hashes": {
+        "sha1": "62c2e4c5fd5d40c1d1082c49c6a05c292d95e247",
+        "sha512": "298a416f5718926dfb825725705f3baa2b1b1ae0d8462df3fa0ca0f9d9f681570ef431b9ec37e0cdb52c82c195c6d010671a5e2b235fa182c4bcbf9c2978db79"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/7vxePowz/versions/PB4pwRax/FarmersDelight-1.20.1-2.4.0%2Brefabricated.jar"
+      ],
+      "fileSize": 8024496
+    },
+    {
+      "path": "mods/FarmersDelight-Expansion-1.2.2+1.20.1.jar",
+      "hashes": {
+        "sha1": "4e191f90c94f10e98853052c96d1a8199a913586",
+        "sha512": "b84ec6bb2c2d313a4d31acc5928e0894236ca582b3d681b0c20eef52be5e775f84a9f85827767531a287af8cb922630c86d400419dd7893d15cdf2f0faa5d4ff"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/O158bLYR/versions/SlftDV3O/FarmersDelight-Expansion-1.2.2%2B1.20.1.jar"
+      ],
+      "fileSize": 89893
     },
     {
       "path": "mods/ForgeConfigAPIPort-v8.0.2-1.20.1-Fabric.jar",
@@ -2586,6 +2616,21 @@
       "fileSize": 32792
     },
     {
+      "path": "mods/GR_CLO_starterkit-1.20.1-7.4.jar",
+      "hashes": {
+        "sha1": "8c6f9cb038c7b41b317f79645c8110a9f31016ca",
+        "sha512": "bb4d83fe928171bacd44d3c025f0dfbe6f42abb613f2b8d6a185cdd131a9856a9cec6cdc47c9130b4f417eab90bcc333e49453283a86f8bb28d478dc954eb3db"
+      },
+      "env": {
+        "client": "optional",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/6L3ydNi8/versions/8vUVrBt5/starterkit-1.20.1-7.4.jar"
+      ],
+      "fileSize": 185182
+    },
+    {
       "path": "mods/GR_CLO_stevesrealisticsleep-fabric-1.11.2+mc1.20-1.20.1.jar",
       "hashes": {
         "sha1": "023a11c8934d3146947a82fcd055aa5ed8e1dc82",
@@ -2884,21 +2929,6 @@
         "https://cdn.modrinth.com/data/ghrZDhGW/versions/q06yyYO8/skinrestorer-2.4.2%2B1.20-fabric.jar"
       ],
       "fileSize": 188470
-    },
-    {
-      "path": "mods/GR_CLX_starterkit-1.20.1-7.4.jar",
-      "hashes": {
-        "sha1": "8c6f9cb038c7b41b317f79645c8110a9f31016ca",
-        "sha512": "bb4d83fe928171bacd44d3c025f0dfbe6f42abb613f2b8d6a185cdd131a9856a9cec6cdc47c9130b4f417eab90bcc333e49453283a86f8bb28d478dc954eb3db"
-      },
-      "env": {
-        "client": "unsupported",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/6L3ydNi8/versions/8vUVrBt5/starterkit-1.20.1-7.4.jar"
-      ],
-      "fileSize": 185182
     },
     {
       "path": "mods/GR_CLX_wiretap-1.20.1-1.0.3.jar",
@@ -3846,21 +3876,6 @@
       "fileSize": 490611
     },
     {
-      "path": "mods/WilderWild-3.0.7-mc1.20.1.jar",
-      "hashes": {
-        "sha1": "8e1fbf86fa68485775cd274355cc01f63ab9576b",
-        "sha512": "d2328de2539e0ff19bfe652123562f31fe1a6d5ce62ed2de0f630e2ed6f70103d22984a9d70bdb24fa8f4faf00b35a34c6e12d5286cbf77e31a294e81bd36e21"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/AtHRJSUW/versions/vhAZw8EL/WilderWild-3.0.7-mc1.20.1.jar"
-      ],
-      "fileSize": 66906771
-    },
-    {
       "path": "mods/XaerosWorldMap_1.39.12_Fabric_1.20.jar",
       "hashes": {
         "sha1": "0193a3a3ccebebfcdf2d874d8b37b9d766febe8f",
@@ -3897,7 +3912,7 @@
         "sha512": "90fea70f21cd09bdeefe9cb6bd23677595b32156b1b8053611449504ba84a21ee1e13e5a620851299090ce989f41b97b9b4bdc98def1ccecb33115e19553c64e"
       },
       "env": {
-        "client": "optional",
+        "client": "required",
         "server": "required"
       },
       "downloads": [
@@ -4716,6 +4731,51 @@
       "fileSize": 156773
     },
     {
+      "path": "mods/farmers-cutting-biomes-o-plenty-1.20.1-1.1.0-fabric.jar",
+      "hashes": {
+        "sha1": "94f8e836a4986bbcced06b8995208fdbe40fc861",
+        "sha512": "a0c764fb97c30772a27df9dfaa1f228f6b845b45a09bf868e6937bae75b971c914926a397952155644f06e36427d83dcc3749b34534a8d7deeea3305b646574b"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/QWfaJXEc/versions/1os5RzTd/farmers-cutting-biomes-o-plenty-1.20.1-1.1.0-fabric.jar"
+      ],
+      "fileSize": 54488
+    },
+    {
+      "path": "mods/farmers-cutting-oh-the-biomes-weve-gone-1.20.1-1.1-fabric.jar",
+      "hashes": {
+        "sha1": "9a85366e6cda5efd05c9ca8813ca1bfacc630b16",
+        "sha512": "3b79b5d5fd419899318e29e524553aa6c0d365219cff8806f4370be9b3b6820aa3986fafb55b9c8f4ed285ab0ebad22f375bc18ecc1eef9944a0571ebc7499bb"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/ickBpNUE/versions/C4JGcEVt/farmers-cutting-oh-the-biomes-weve-gone-1.20.1-1.1-fabric.jar"
+      ],
+      "fileSize": 88470
+    },
+    {
+      "path": "mods/farmersknives-3.2.jar",
+      "hashes": {
+        "sha1": "eb79d941a640f7abe75e0ba453e9c894384c3d3b",
+        "sha512": "626be8b331da7db5d71b86625efe65c8319cc44797f22d3135bb5c672af4022d813dce49bea592b2e00b194d0775726346f53605352572c4c5a44e1886a48312"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/uc3VdfLM/versions/dH5N4o0F/farmersknives-3.2.jar"
+      ],
+      "fileSize": 103203
+    },
+    {
       "path": "mods/fasterrandom-5.1.0.jar",
       "hashes": {
         "sha1": "440720daaf51d5ad88a96ed59e1f59c63fad3f73",
@@ -5104,6 +5164,21 @@
         "https://cdn.modrinth.com/data/1DWmBJVA/versions/WdjalkV8/letsdo-vinery-fabric-1.4.39.jar"
       ],
       "fileSize": 4178439
+    },
+    {
+      "path": "mods/letsdocompat-fabric-2.2.3.jar",
+      "hashes": {
+        "sha1": "15d0b2a0a55a3f23105bec4c04f6973402e7bb4e",
+        "sha512": "8cff987eaace2e6f735a17acdd08b7150ec21104eb0e7b1d29af15c708271bde81d2e231ca30d09d869f7e6296772023ba9d78a0c28b2278862feafbe8e6d4f5"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/FNi5IMiX/versions/mNZaKLS0/letsdocompat-fabric-2.2.3.jar"
+      ],
+      "fileSize": 27564
     },
     {
       "path": "mods/lexiconfig-fabric-1.4.18.jar",
@@ -5509,6 +5584,21 @@
         "https://cdn.modrinth.com/data/aTaCgKLW/versions/3H0nUJhq/silk-all-1.10.1.jar"
       ],
       "fileSize": 903071
+    },
+    {
+      "path": "mods/sliceanddice-fabric-3.3.1.jar",
+      "hashes": {
+        "sha1": "2c146668d44d80af97df15f37165a3a5933b0308",
+        "sha512": "0afb4988affe98b88122285f956d045f4e345aca25c16dd2c62b0d876f1ff21e0f613f2ab06399634ae32ed196ce888b6c7bb7df06c7e4b4a53713761a0fcc94"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/GmjmRQ0A/versions/EzpVcwYV/sliceanddice-fabric-3.3.1.jar"
+      ],
+      "fileSize": 563207
     },
     {
       "path": "mods/smallships-fabric-1.20.1-2.0.0-b1.4.jar",

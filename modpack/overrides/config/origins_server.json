@@ -166,7 +166,8 @@
       "kitsune:sneaky": true,
       "kitsune:berry": true,
       "kitsune:ancientwhite": true,
-      "kitsune:lesshealth": true
+      "kitsune:lesshealth": true,
+      "kitsune:foxy": true
     },
     "moon:moon": {
       "enabled": true,
@@ -188,7 +189,8 @@
       "kitsune:sneaky": true,
       "kitsune:berry": true,
       "kitsune:ancientred": true,
-      "kitsune:lesshealth": true
+      "kitsune:lesshealth": true,
+      "kitsune:foxy": true
     },
     "xolotlkwt:enderxolotl": {
       "enabled": true,
