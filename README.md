@@ -32,8 +32,8 @@ A modpack for the 7th edition of GhostLand SMP
 - [x] On some modded biome coastlines, Creeper-hole-like cutouts appear, and they tend to cut off trees and leave them floating ~~*(note: this doesn't seem to happen, rather it is regular world generation issue)* *(fixed: alr, whatever u say...)* *(note: this DOES happen, and doesn't only affect trees, but even villager houses - the responsible biome seems to be `biomesoplenty:floodplain` and its variations)*~~ *(fixed: floodplain is now disabled in Biomes O' Plenty)*
 - [ ] Enabling Planet Curvature in Distant Horizons does nothing
 - [x] With Panoramics seemingly completely cooked, we have nothing to make a main menu panorama for Fancy Menu with. *(fixed: found [this thing](https://modrinth.com/mod/panorama-screenshot) - not yet in the pack, since we're not doing any FancyMenu stuff yet)*
-- [x] Small Ships' boats made from wood from WilderWilds don't have textures *(fixed: removed WilderWilds)*
-- [x] WW's panorama texturepack keeps enabling itself against our will any time the packs change (and causes Missing Texture glitches whenever we disable it (ie. set it to the state it's *supposed to* be in) if its panorama was loaded before) *(fixed: removed WilderWilds)*
+- [x] Small Ships' boats made from wood from WilderWilds don't have textures *(fixed: removed WilderWilds's biomes, so there's no way of obtaining these wood types now - players won't run into this issue in normal gameplay)*
+- [x] WW's panorama texturepack keeps enabling itself against our will any time the packs change (and causes Missing Texture glitches whenever we disable it (ie. set it to the state it's *supposed to* be in) if its panorama was loaded before) *(fixed: moved it to the bottom of the list, practically disabling it)*
 - [x] Can't join the server 💀 *(fixed: Somewhere along the mess that was 2a28, 2a29 and 2a30 - this bug has vanished. Now you can join. It even takes you all the way to the Origins screen!)*
 - [x] Can't join the server at first becasue Twilight Forest complains about stuff; I have to get kicked and join again, after it's finished complaining *~~(note: this might be, in some way, related to an issue \~~that I've been ignoring for now (becasue it lowkey works like an accitential security feature 💀)~~~ that TwF sometimes just randomly screams `Exception occurred in netty pipeline`, whenever server-seeker (Which, btw, WON'T BLOODY LEAVE US ALONE - does this stupid script-kiddie not have any flags to set to not auto-retry on modded servers? Bro, let it go! Unless you actually manage to find this repo, there's no chance of you just brute-forcing a ~300 characters-long password, where each character has ~118000 states - becasue that's what our modlist effectively becomes in this context.) tries to join)*~~ *(fixed: that's... uhhh... No longer happening. I dunno why. Maybe it only happens some times?)*
 - [x] The server spends too long loading players when they join, causing Watchdog to crash it *(fixed: bumped watchdog to 5min)*
@@ -43,18 +43,28 @@ A modpack for the 7th edition of GhostLand SMP
 - [ ] Modrinth's server list underscores the entire MOTD for some reason *(note: since doesn't happen in the actual game, I'm afraid this is entirely MR's fault and there might be no way to fix it from our level)*
 - [ ] RPM's recording incicator is constantly lingering in the corner on multiplayer (though it's normally covered by the minimap); not really providing anything of value (ppl will already know that we have RPM - we'll just tell them in the Discord)
 - [ ] Missing translations from Steve's Realistic Sleep in Slim Edition
-- [ ] WilderWild has disappeared *(note: It has not lost an election; it literally wasn't ever even included in it in the first place becasue at the time it was considered to not be in the worldgen category. It's like saying that Tusk has lost the presidential elections, even though he never even ran in them becasue as a prime minister - a completely separate thing. If we want to re-categorise WW as worldgen now, we'd need to repeat the whole elections about worldgen becasue people might vote differently with it as an option (I know I would've), but I don't think it's really worth the hassle. We have already wasted enough time on those other elections, anyway. Just like - if Tusk wanted to re-categorise himself as president, he's need to actually run in the presidential elections.)*
+- [x] WilderWild has disappeared *(fixed: added it back)*
 
 
 ## Changelogs:
 
+### 7a35
+- Re-added Wilder Wild as it literally physically couldn't've democratically loose the election few months ago if it wasn't even a part of that election. *(It's like saying that Tusk has lost the presidential elections. But he didn't; he never even ran in them. At the time of the presidential elections, Tusk was (and still it, but that's besides the point) a prime minister (a completely different role from a president/presidential candidate) - and (at the time of the worldgen elections) we thought that WW is an ambience mod (a completlely different thing from a worldgen mod). And although we since discovered that it does add some biomes, if we want to re-categorise WW as worldgen now, we'd need to repeat the whole elections about worldgen (Just like - if Tusk wanted to „re-categorise” himself as presidential candidate, he's need to actually run in the presidential elections.) becasue people might vote differently with it as an option (I know I'd've), but I don't think it's really worth the hassle. We have already wasted enough time on the ongoing elections, anyway. A saner option is to just accept that as a screw-up from the past.).* As a compromise, it has been configured to only act as an ambience mod (all worldgen functionality (except feature placement and changes structures - because (as can be seen by many other mods we've added that do this, despite not being in elections) that isn't considered as worldgen) has been disabled).
+- Removed file `server.dat_old` becasue it does absolutely nothing if `server.dat` isn't corrupted.
+- Re-added `emi.json` and `observable_announce` because they got unintentionally deleted.
+- Restored `options.txt` and `vcinteraction.properties` becasue the former removed WW's panoramas (and now we have WW back) and disabled advanced tooltips (MidnightSP's confirmed that it was an accident), and the latter reset group interaction settings (which I presume wasn't even done by MidnightSP, but rather happened automatically, as a result of my comment (whatever `.properties` parser they used must've interpreted it as a string and (because that property is supposed to be a boolean) it got reset) - and even if it was on purpouse then we still should keep it on, at least until we properly test that setting's impact on radios)
+- Switched Farmer's Cutting: BOP, Farmer's Cutting: BYG to datapack mode
+- Added Farmer's Cutting: Aether, BetterEnd, BetterNether, Immersive Weathering; Fabric Seasons: Delight Compat
+
 ### 7a34
 - Removed Wilder Wild as it democratically lost the election few months ago so it shouldn't be here anyway
-- Added Farmer's Delight (and its addons: Sliced'n'Diced, Farmer's Cutting: BOP, LDa Compat)
+- Added Farmer's Delight (and its addons: Sliced'n'Diced, Farmer's Cutting: BOP, Farmer's Cutting: BYG, Farmer's Knives, LDa Compat, Expansion)
 - Configs:
   - Removed gtceu configs
   - Removed lush stacks and dead sea biomes from BiomesWeveGone as they are very ugly
   - Removed floodplain biome from BiomesOPlenty as it caused floating trees and other issues
+- Hidden mod names in EMI
+- Changed Starter Kit's status from CLX to CLO
 
 ### 7a33
 - *Ah. I see why YUNG's API was client-required.* Better Archeology needs it. Enabled back!
@@ -529,6 +539,7 @@ Things that - for one reason or another - are exceptionally easy to forget:
 * Slightly altered crafting trees for Create's Brass (to use Tinker's instead of the much more expensive Blaze Burners), Train Tracks (to default to the easiest-to-automate sleepers - tho I couldn't do the same for iron ingots (only ending at gravel instead - no cobble->gravel) because that'd mess up all other recipes) and Rose Quartz (it didn't pick up on the recipie at first), and pinned the „standard setup” for trains. Notably, not a lot of adjustments had to be done (only minor tweaks to otherwise pre-configured routes) becasue it seems that Create is supported out-of-the-box. Yay!
 * Set up complete crafting trees for Tinker's Controller (the basic-ass-2block-Smeltery one, not the 3x3-big-Smeltery one) and liquid Brass (for those Create craftings mentioned above), and pinned said controller. Also, pinned the Crafting Station (not the item, but the recipie itself - becasue there are just too many damn variants; I didn't bother setting up crafting trees for it for the same reason). This doesn't even cover 2% of what should be pinned and/or what trees should be set up for a „minimum Tinker's setup”, but setting up Tinkers' trees in particular just feels SO TEDIOUS for some reason.
 * Fixed a weird crafting loop involving Paper and Twilight Forest (now, paper is crafted using the regular Sugar Cane).
+* Prevented EMI from showing mod names under items.
 * *pinning Create trains, basic AE2 stuff and just a wee-bit of Tinker's is obviously not everything, just like that one paper loop propapbly isn't the only edge case - but I decided to remove the TODO about configuring pins and to not open a new Known Issue about loops becasue (respectively): this is a good-enough starting point for the pinning process (so good, that it's justifiable to remove the TODO - which doesn't change the fact that there's still a lot of stuff To-Do in this regard), and I didn't find any other bugs YET and that one about paper is now fixed*
 
 ### Distant Horizons (server-side)
@@ -538,6 +549,15 @@ Things that - for one reason or another - are exceptionally easy to forget:
 
 ### VC interaction
 * Enabled group and sneak interactions
+
+### Disabled biomes
+* Floodplains from BoP
+* `biomeswevegone:lush_stacks` and `biomeswevegone:dead_sea`
+* All 29 biomes from WilderWild
+
+### WilderWild
+* Disabled all 29 biomes (as I just said)
+* Disabled modifications to placement for the 6 vanilla biomes it changes. 
 
 ## Things to mention to people
 * See: [Issue](#issues) about entering

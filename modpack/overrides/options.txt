@@ -42,7 +42,7 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","$polymer-resources","fabric","Moonlight Mods Dynamic Assets","seasons:seasonal_lush_caves","file/GR_SVX_Chat Reporting Helper.zip","file/GR_SVX_SodiumTranslations.zip","immersive_weathering:visual_waxed_iron_items","file/GR_SVX_LowOnFire_1.20.1.zip","continuity:default","continuity:glass_pane_culling_fix","file/VanillaTweaks.zip","file/Less-Dramatic Skies.zip","file/GR_SVX_[1.4.1] Enhanced Boss Bars.zip","railways:green_signals","file/GR_SVX_Fancy Crops v1.2.zip","vinery:bushy_leaves","file/GR_SVX_Better-Leaves-9.3.zip","file/GR_SVX_Simple Grass Flowers v1.9.5.zip"]
+resourcePacks:["wilderwild:wilder_main_menu","vanilla","$polymer-resources","fabric","Moonlight Mods Dynamic Assets","seasons:seasonal_lush_caves","file/GR_SVX_Chat Reporting Helper.zip","file/GR_SVX_SodiumTranslations.zip","immersive_weathering:visual_waxed_iron_items","file/GR_SVX_LowOnFire_1.20.1.zip","continuity:default","continuity:glass_pane_culling_fix","file/VanillaTweaks.zip","file/Less-Dramatic Skies.zip","file/GR_SVX_[1.4.1] Enhanced Boss Bars.zip","railways:green_signals","file/GR_SVX_Fancy Crops v1.2.zip","vinery:bushy_leaves","file/GR_SVX_Better-Leaves-9.3.zip","file/GR_SVX_Simple Grass Flowers v1.9.5.zip"]
 incompatibleResourcePacks:["immersive_weathering:visual_waxed_iron_items","file/GR_SVX_Fancy Crops v1.2.zip","file/GR_SVX_Simple Grass Flowers v1.9.5.zip"]
 lastServer:localhost
 lang:pl_pl
@@ -53,7 +53,7 @@ chatLineSpacing:0.0
 textBackgroundOpacity:0.5
 backgroundForChatOnly:true
 hideServerAddress:false
-advancedItemTooltips:false
+advancedItemTooltips:true
 pauseOnLostFocus:false
 overrideWidth:0
 overrideHeight:0
