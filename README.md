@@ -41,13 +41,17 @@ A modpack for the 7th edition of GhostLand SMP
 - [ ] On the server, you start with a shield in your hand, which greatly lowers the initial wow-effect of Adaptive Crosshair *(note: this can be fixed, by actually configuring starting kits)* 
 - [ ] You start with a Tinker's guidebook *(note: Tinker's seems to ignore starting kits)* 
 - [ ] Modrinth's server list underscores the entire MOTD for some reason *(note: since doesn't happen in the actual game, I'm afraid this is entirely MR's fault and there might be no way to fix it from our level)*
-- [ ] RPM's recording incicator is constantly lingering in the corner on multiplayer (though it's normally covered by the minimap); not really providing anything of value (ppl will already know that we have RPM - we'll just tell them in the Discord)
+- [x] RPM's recording incicator is constantly lingering in the corner on multiplayer (though it's normally covered by the minimap); not really providing anything of value (ppl will already know that we have RPM - we'll just tell them in the Discord) *(fixed: off)*
 - [ ] Missing translations from Steve's Realistic Sleep in Slim Edition
 - [x] WilderWild has disappeared *(fixed: added it back)*
 - [ ] Opening AE2 Guidebook crashes the game *(note: crashdump imples that this is due to Starlight)*
 
 
 ## Changelogs:
+
+### 7b2
+* Hidden RPM indicator
+* Bumped BCC
 
 ### 7b1
 - Updated: LD Vinery, Amendments, CICADA, Miniature Shader and Waystones (Farmer's Cutting BWG and BoP, TotW: Reworked and, RPG Skill Tree are already up-to-date - some datapacks simply tend to be a bit wonky with version displays; SimpleVC cannot be updated due to older dependencies)
