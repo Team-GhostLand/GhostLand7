@@ -44,9 +44,18 @@ A modpack for the 7th edition of GhostLand SMP
 - [ ] RPM's recording incicator is constantly lingering in the corner on multiplayer (though it's normally covered by the minimap); not really providing anything of value (ppl will already know that we have RPM - we'll just tell them in the Discord)
 - [ ] Missing translations from Steve's Realistic Sleep in Slim Edition
 - [x] WilderWild has disappeared *(fixed: added it back)*
+- [ ] Opening AE2 Guidebook crashes the game *(note: crashdump imples that this is due to Starlight)*
 
 
 ## Changelogs:
+
+### 7b1
+- Updated: LD Vinery, Amendments, CICADA, Miniature Shader and Waystones (Farmer's Cutting BWG and BoP, TotW: Reworked and, RPG Skill Tree are already up-to-date - some datapacks simply tend to be a bit wonky with version displays; SimpleVC cannot be updated due to older dependencies)
+- Added: TechReborn (and TR-EMI) and Modern Industrialisation (and MI Sound); KB!; bee,aeth
+- Confugred starter kits (commands used: `/give @p bundle{display:{Name:'{"text":"Ulepszenia do Łóżek","color":"aqua","italic":true,"underlined":true}',Lore:['{"text":"...żebyś nie musiał(a) się męczyć z tym przy budowie pierwszego domu."}','{"text":"  "}','{"text":"* Użyj zegara na łóżku, aby umożliwić spanie w nim.","color":"white","italic":false}','{"text":"* Użyj kompasu na łóżku, aby umożliwić ustawianie na nim spawna.","color":"white","italic":false}','{"text":"UWAGA! Po użyciu na łóżku, kompasów/zegarów nie da się odzyskać!","color":"red","bold":true,"italic":false}','{"text":"   "}','{"text":"Ps  Darmowy bundle. Może się przydać. ;-)"}']},HideFlags:32,Items:[{id:"minecraft:clock",Count:3b,tag:{display:{Lore:['{"text":"Użyj na łóżku, aby umożliwić spanie w nim."}']}}},{id:"minecraft:compass",Count:1b,tag:{display:{Lore:['{"text":"Użyj na łóżku, aby umożliwić ustawianie na nim spawna."}']}}}]} 1`, `/give @p bundle{display:{Name:'{"text":"Podręczniki do Modów","color":"yellow","italic":true,"underlined":true}',Lore:['{"text":"Zawiera 6 książek z Tinker\'sa, 3 z Patchouli i 2 inne.","color":"white","italic":false}','{"text":"UWAGA! Książka z AE2 crashuje grę! Polecamy jej nawet nie craftować, bo i tak do niczego się nie przyda (dlatego też nie została tu dodana).","color":"red","bold":true,"italic":false}','{"text":"   "}','{"text":"Ps  Darmowy bundle. Może się przydać. ;-)"}']},Items:[{id:"tconstruct:materials_and_you",Count:1b},{id:"tconstruct:puny_smelting",Count:1b},{id:"tconstruct:mighty_smelting",Count:1b},{id:"tconstruct:tinkers_gadgetry",Count:1b},{id:"tconstruct:fantastic_foundry",Count:1b},{id:"tconstruct:encyclopedia",Count:1b},{id:"seasonsextras:seasonal_compendium",Count:1b},{id:"betterend:guidebook",Count:1b},{id:"powah:book",Count:1b},{id:"modern_industrialization:guidebook",Count:1b},{id:"aether:book_of_lore",Count:1b}],HideFlags:32} 1`, `/give @p spyglass{display:{Lore:['{"text":"UWAGA! Musi być w ekwipunku, żeby zoomowanie przez moda Zoomify działało!","color":"red","bold":true,"italic":false}','{"text":"UWAGA! Domyślnie, Mod Zoomify dostępny jest tylko w pełnym wydaniu paczki. W Tweakable Edition musisz go sobie włączyć, a do Slim Edition trzeba go side-loadować.","color":"red","bold":true,"italic":false}','{"text":"   "}','{"text":"Jeśli ta mechanika tak bardzo ci się nie podoba, to możesz zawsze ją wyłączyć (Esc > Mody > Zoomify > kilknij na ikonę moda > sekcja „Spyglass”, na dole > Zoom behavior: Combine)."}']}} 1` and `/give @p shield{Damage:320} 1`; some items renamed using vanilla anvils)
+- Disabled starter books for MI and Tinker's
+- Keybind changes: Disabled flight-related binds from Aether, MI, TR and Bumblezone (they were conflicting hard, so the only option would be to settle on a single one (meanwhile, if they're disabled, people can only enable those from whichever mod they use) and - due to those items being end-game, anyway - people can just enable those when the time come for them)
+- „Seen” the Bundle Tutorial
 
 ### 7a35
 - Re-added Wilder Wild as it literally physically couldn't've democratically loose the election few months ago if it wasn't even a part of that election. *(It's like saying that Tusk has lost the presidential elections. But he didn't; he never even ran in them. At the time of the presidential elections, Tusk was (and still it, but that's besides the point) a prime minister (a completely different role from a president/presidential candidate) - and (at the time of the worldgen elections) we thought that WW is an ambience mod (a completlely different thing from a worldgen mod). And although we since discovered that it does add some biomes, if we want to re-categorise WW as worldgen now, we'd need to repeat the whole elections about worldgen (Just like - if Tusk wanted to „re-categorise” himself as presidential candidate, he's need to actually run in the presidential elections.) becasue people might vote differently with it as an option (I know I'd've), but I don't think it's really worth the hassle. We have already wasted enough time on the ongoing elections, anyway. A saner option is to just accept that as a screw-up from the past.).* As a compromise, it has been configured to only act as an ambience mod (all worldgen functionality (except feature placement and changes structures - because (as can be seen by many other mods we've added that do this, despite not being in elections) that isn't considered as worldgen) has been disabled).
@@ -385,7 +394,6 @@ There will, for certain, be more. These are just some things that came to my min
 * Add the modpack icon into our files (won't be auto-applied, but this way, people will at least have the option to enable it themselves), preferably in such a way that it also works as a server icon, without needing to set one explicitly
 * Clear configs for mods that are no longer with us (eg. ~~Geocluster~~ ~~*that's gone now, but there are a lot more removed mods from that 7a23 update, that left their configs behing*~~ *Geocluster is back, and so are some mods from 7a23 - but now 7a26 has a lot of deleted stuff*)
 * Finish Geocluster's and EMI's config
-* Configure starting kits to combine immersion with practicality
 * Do something about auth/whitelist (ideally via some sort of Discord integration becasue a `/login` command (like via the AuthMe Paper plugin, etc.) is a pathetic non-solution - it will annoy the hell out of everybody who actually paid for the game, which is **literally everone** in our playerbase, except one guy) or server-seeker will *eventually* find this repo and, get our datapack, and probably ~~server-~~seek revenge for calling them a script-kiddie.
 
 
@@ -411,6 +419,7 @@ Things that - for one reason or another - are exceptionally easy to forget:
 * Added default multiplayer servers
 * Server-side: Added an MOTD, cleared-out RCON configs, increased the player cap, allowed flight (I don't think anyone's going to cheat - meanwhile, lags might cause false kicked-for-flying errors), enabled Command Blocks, set the default difficulty to hard (in line with older GLs), enabled query, forced gamemode, disabled chat reporting (not that this would change anything with NCR installed), turned the Watchdog from a pitbull to a golden retriever
 * Fabric: added dependency overrides for Zoomify (set YACL version to something that exists), ReplayVC (as part of 7a9, so I no longer remember what I did - but whatever it was, it wasn't enough to let us update SimpleVC), Distant Horizons (forced it to cooperate with Chunky); Nvidium has overriden itself (for... some reason)
+* „Seen” the Bundle Tutorial
 
 ### Sodium
 * Quality: Lambda Grass mode
@@ -429,7 +438,6 @@ Things that - for one reason or another - are exceptionally easy to forget:
 * Disabled AE2 guide
 * Disabled Big Cannons C-key
 * Disabled secondary zoom
-* Disabled Aether's invis toggle
 * Disabled Accessories opening (in Acc's own menu, and then again in Aether's) - can do it from the inventory
 * Disabled Things' Toggle Jump Boost and Open Ender Pouch - the latter can be done via a rightclick
 * Disabled HT's config
@@ -437,14 +445,18 @@ Things that - for one reason or another - are exceptionally easy to forget:
 * Disabled Presence Footsteps config
 * Disabled Jukebox
 * Disabled OptiGUI's debug thing
+* Disabled MI's flight
 * Disabled Substrate's toggle
 * Disabled Show Ghostblocks
 * Disabled Skill Tree view
 * Disabled everything Jade
+* Disabled everything TechReborn
+* Disabled everything Bumblezone
 * Disabled everything ReplayMod
 * Disabled everything Iris
 * Disabled everything Xaero
 * Disabled everything Cave Dust
+* Disabled everything Aether
 * Plane Rocket Boost at Enter
 * Disabled vanilla screenshots - replaced with large ones
 * Added secondary ability to Origins (at H)
@@ -557,7 +569,17 @@ Things that - for one reason or another - are exceptionally easy to forget:
 
 ### WilderWild
 * Disabled all 29 biomes (as I just said)
-* Disabled modifications to placement for the 6 vanilla biomes it changes. 
+* Disabled modifications to placement for the 6 vanilla biomes it changes.
+
+### Starter kits
+* Configured a GhostLand kit
+* Removed all default kits
+
+### MI
+* Disabled the guidebook
+
+### Tinker's
+* Disabled the guidebook
 
 ## Things to mention to people
 * See: [Issue](#issues) about entering

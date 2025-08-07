@@ -1,9 +1,9 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "7a35",
-  "name": "GhostLand 7 Alpha",
-  "summary": "Paczka na siódmą edycję GhostLanda - wersja alpha",
+  "versionId": "7b1",
+  "name": "GhostLand 7 Beta",
+  "summary": "Paczka na siódmą edycję GhostLanda - wersja beta",
   "files": [
     {
       "path": "datapacks/GR_CLO_1.21 Crafting Backport.zip",
@@ -964,6 +964,21 @@
         "https://cdn.modrinth.com/data/LGVihYcz/versions/UH73QVtK/EMIProfessions-fabric-1.20.1-1.0.3.jar"
       ],
       "fileSize": 25235
+    },
+    {
+      "path": "mods/GR_CLO+SVX_EmiTechReborn-1.0.0.jar",
+      "hashes": {
+        "sha1": "9a4ed3bf6199d25be2e7bb83a0b4483c02e68779",
+        "sha512": "9fa0f0597947ef5889ef28345700835915b3c40214faf29336e4b533600ef793968a10632ba891a0cdb2e0249b304939002d9b0e482a77502fbcd2473586a4be"
+      },
+      "env": {
+        "client": "optional",
+        "server": "unsupported"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/MF8Uygnx/versions/5PIbQFlX/EmiTechReborn-1.0.0.jar"
+      ],
+      "fileSize": 63399
     },
     {
       "path": "mods/GR_CLO+SVX_EnchantmentDescriptions-Fabric-1.20.1-17.1.19.jar",
@@ -3711,6 +3726,21 @@
       "fileSize": 42866
     },
     {
+      "path": "mods/Modern-Industrialization-1.8.6.jar",
+      "hashes": {
+        "sha1": "cf1f266420d1cd3776fef05a5ec690802268656a",
+        "sha512": "da1d05f6eacdd4f5ebb104bf331fcebc757874deb6a0d8d4dfb9954a4bb3411dba19dd24778983a1c5e42616a388e2fb62284a870aeaed7733f933a60ce6fb20"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/Gov5Dboq/versions/18Bcl0A4/Modern-Industrialization-1.8.6.jar"
+      ],
+      "fileSize": 7223370
+    },
+    {
       "path": "mods/MoreChestVariants-1.5.6+1.20.2-Fabric.jar",
       "hashes": {
         "sha1": "408c77d495c04e547903fecb02fae0cf34cf776f",
@@ -4131,19 +4161,19 @@
       "fileSize": 51365899
     },
     {
-      "path": "mods/amendments-1.20-2.0.3-fabric.jar",
+      "path": "mods/amendments-1.20-2.0.5-fabric.jar",
       "hashes": {
-        "sha1": "74bf0d3917f6f635228ce230079ecee845410bd2",
-        "sha512": "0787f768ac675ab97f8d662324dce4161408012e6fac098642e5740a316fbad8a202355180957e7cb9093720f5d81d251bd116a6f03b09e2ade32fe33e3d3581"
+        "sha1": "1dbf645087d1e4959173b88d771cef97bd4788ed",
+        "sha512": "cac7600a2cb2e4e54519c37420d42b8e46199d27b21126cf4331528c0261d8f9a60ed6afee56a2b856efdf5f9a96c5136455b2bd83eec59c7ca4b223a3012098"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/6iTJugQR/versions/gjBYiO12/amendments-1.20-2.0.3-fabric.jar"
+        "https://cdn.modrinth.com/data/6iTJugQR/versions/ZC5WWLUn/amendments-1.20-2.0.5-fabric.jar"
       ],
-      "fileSize": 1235973
+      "fileSize": 1233414
     },
     {
       "path": "mods/another_furniture-fabric-1.20.1-3.0.1.jar",
@@ -4401,19 +4431,19 @@
       "fileSize": 15057458
     },
     {
-      "path": "mods/cicada-lib-0.13.1+1.20.1.jar",
+      "path": "mods/cicada-lib-0.14.2+1.20.1.jar",
       "hashes": {
-        "sha1": "fd8673609144c1d2bc8c12702bee0744dcbf6f60",
-        "sha512": "02f84b18f65b54f03f8c8621410816e93378d45ae00e3cdcaeba658d439bff652cdf5c873b936f6dc88b666d8a1683adc76d784224619a25f01b550a062d10e8"
+        "sha1": "71c8909eb3718cbdcc1b36bf77b37e2241c226d0",
+        "sha512": "6f0129b8aa048336901ccffeedd34502d8fd133089e3e333104052ecdc6c5786ad613ef54ffbdf525d383f8b94a9bdfa205f23c3beeafd634280c8fbdc4bb770"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/IwCkru1D/versions/bloIrVc5/cicada-lib-0.13.1%2B1.20.1.jar"
+        "https://cdn.modrinth.com/data/IwCkru1D/versions/KgsqJnsN/cicada-lib-0.14.2%2B1.20.1.jar"
       ],
-      "fileSize": 387552
+      "fileSize": 387659
     },
     {
       "path": "mods/cloth-config-11.1.136-fabric.jar",
@@ -5256,19 +5286,19 @@
       "fileSize": 2658744
     },
     {
-      "path": "mods/letsdo-vinery-fabric-1.4.39.jar",
+      "path": "mods/letsdo-vinery-fabric-1.4.40.jar",
       "hashes": {
-        "sha1": "3e05d660f893750972661176d90e981f87bf0812",
-        "sha512": "8b6a55b9149531dfdde8a15391ff2aab568c5f1a49d0d837a4421ec23fe9f49a9bd4094ed19757cc98f4cec3c0c34d0248b116036b4e4ca765d284fe581fb7a0"
+        "sha1": "b5233c350a4dd00f646509ad84bd420e58353f34",
+        "sha512": "4af3b7c38c74aef5fb28d0fca7c3c3ae02b723e82c4567a77f97d8f03b29d916f6cdbf7df77352819d8cd2b5b292e6bd702b59dc730d72433d36a5f2d4256169"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/1DWmBJVA/versions/WdjalkV8/letsdo-vinery-fabric-1.4.39.jar"
+        "https://cdn.modrinth.com/data/1DWmBJVA/versions/f2WnLIoU/letsdo-vinery-fabric-1.4.40.jar"
       ],
-      "fileSize": 4178439
+      "fileSize": 3037018
     },
     {
       "path": "mods/letsdocompat-fabric-2.2.3.jar",
@@ -5419,6 +5449,21 @@
         "https://cdn.modrinth.com/data/E6BFl96N/versions/NmhR6jIY/merequester-fabric-1.20.1-1.1.4.jar"
       ],
       "fileSize": 223689
+    },
+    {
+      "path": "mods/mi_sound_addon-1.0.1-1.20.1.jar",
+      "hashes": {
+        "sha1": "4a25c71ff9aca9c482b9e441967e3531e11e6132",
+        "sha512": "4fe89467dd2f7c0fa0b37b1d61ff352058b92ef469071fe55cc3048dbd37242545228b4fc8afc5ec0423dda517a08ce7653a6406f6d25f1b97f8f343068012b5"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/Kk4xvy7w/versions/9TqCptPZ/mi_sound_addon-1.0.1-1.20.1.jar"
+      ],
+      "fileSize": 1079798
     },
     {
       "path": "mods/midnightlib-fabric-1.4.1.1.jar",
@@ -5901,19 +5946,19 @@
       "fileSize": 8013525
     },
     {
-      "path": "mods/waystones-fabric-1.20.1-14.1.16.jar",
+      "path": "mods/waystones-fabric-1.20.1-14.1.17.jar",
       "hashes": {
-        "sha1": "1685c47df76912560e9c9f48249a55b19a936a36",
-        "sha512": "f67cd04d5feb18e95056efb9652d2d3102f23c370776458ba034ce657bc08d8a4699a12794c232e11b0af203234993e1fe8397203a5292d33733f0499bbbd235"
+        "sha1": "abfa0ccadf34976e87e550b93e29c6ac25244d8a",
+        "sha512": "9e30cee4fbfebd87632a9979db95db557010540acdd4dfc967c538d818cc613c62fb53f1e4b061485424f070f9eac5eb6f89c5addcac735abdbd4242a38932a0"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/LOpKHB2A/versions/ri0lPSAm/waystones-fabric-1.20.1-14.1.16.jar"
+        "https://cdn.modrinth.com/data/LOpKHB2A/versions/USFFIy4C/waystones-fabric-1.20.1-14.1.17.jar"
       ],
-      "fileSize": 519972
+      "fileSize": 520003
     },
     {
       "path": "mods/yet_another_config_lib_v3-3.6.6+1.20.1-fabric.jar",
@@ -6171,19 +6216,19 @@
       "fileSize": 8320052
     },
     {
-      "path": "shaderpacks/miniature-shader-2.16.zip",
+      "path": "shaderpacks/miniature-shader-2.16.1.zip",
       "hashes": {
-        "sha1": "9fb529960a75861ea8b6862a12531494ee27d65a",
-        "sha512": "6ac210426c4b211014f18ee821d569ac9123d0ce4ff75712f904535c1196d243b6c4b78179a5914fd5d7a421e5e5d00657cab6df6f36e0a9031f1f415c764c99"
+        "sha1": "de9a068f38b612713e515131d4e41f05280e4830",
+        "sha512": "7e471215d4d1999db38bfd93033e02682862c36abb076bca62b1bc3f0780623a3546f8ca6711c5cd50c97138859c612fbe6f8f8e854fc092159e726ea961c098"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/UaS8ROxa/versions/gom1N7c2/miniature-shader-2.16.zip"
+        "https://cdn.modrinth.com/data/UaS8ROxa/versions/NngviH0C/miniature-shader-2.16.1.zip"
       ],
-      "fileSize": 31965
+      "fileSize": 31977
     }
   ],
   "dependencies": {

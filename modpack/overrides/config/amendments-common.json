@@ -7,7 +7,8 @@
     "dragon_charge": true,
     "gravity": true,
     "deflectable": false,
-    "throwable": true,
+    "fire_charges_throwable": true,
+    "fire_charges_dispenser_behavior": true,
     "improved_explosions": true
   },
   "snowball": {

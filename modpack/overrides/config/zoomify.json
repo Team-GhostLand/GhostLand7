@@ -15,7 +15,7 @@
   "relativeSensitivity": 100,
   "relativeViewBobbing": true,
   "cinematicCamera": 30,
-  "spyglassBehaviour": "combine",
+  "spyglassBehaviour": "only_zoom_while_carrying",
   "spyglassOverlayVisibility": "holding",
   "spyglassSoundBehaviour": "with_overlay",
   "secondaryZoomAmount": 4,
