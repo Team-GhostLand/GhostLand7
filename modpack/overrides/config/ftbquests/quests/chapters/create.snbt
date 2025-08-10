@@ -1,0 +1,211 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create"
+	group: ""
+	icon: "create:cogwheel"
+	id: "4F0410FEC7CCCFD3"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "730C8098116C22E3"
+			rewards: [{
+				count: 4
+				id: "02B2FC6221192B9F"
+				item: "create:shaft"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E97F190750E8B04"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			title: "Witamy w Create"
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["730C8098116C22E3"]
+			id: "19F81FA6EFDD4423"
+			rewards: [
+				{
+					id: "1621DC9E6834B6E3"
+					item: "create:gearbox"
+					type: "item"
+				}
+				{
+					id: "6F8A3AC5F45428E8"
+					item: "create:vertical_gearbox"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "60D65589A68EB74E"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			title: "Epoka Andezytu"
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["19F81FA6EFDD4423"]
+			id: "2CDDB518A59B0BB3"
+			rewards: [{
+				count: 2
+				id: "217BC0629834B542"
+				item: "create:fluid_pipe"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4510E3090FB81FD5"
+				item: "create:copper_casing"
+				type: "item"
+			}]
+			title: "Epoka Miedzi"
+			x: 0.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["2CDDB518A59B0BB3"]
+			id: "104A081025F75330"
+			rewards: [{
+				count: 32
+				id: "1E9959761C46E32F"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			tasks: [{
+				id: "469C99CE93A5981D"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			title: "Epoka Mosiądzu"
+			x: 0.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["730C8098116C22E3"]
+			id: "1919B180F1424472"
+			rewards: [{
+				id: "340D17E8371DEF63"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "166F8C18CE78C4B9"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			title: "Wir wodny"
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["730C8098116C22E3"]
+			id: "660D6D01DD0843D9"
+			rewards: [{
+				count: 4
+				id: "669434D07366B348"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5D9FFDCAE00CD544"
+				item: "create:hand_crank"
+				type: "item"
+			}]
+			title: "Kręcimy"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["730C8098116C22E3"]
+			id: "41864DB88A88A508"
+			rewards: [{
+				id: "35BF2C8A9DA9C45D"
+				item: "supplementaries:wind_vane"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "50F2C93409285313"
+					item: "create:windmill_bearing"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "77A02B4AA93EBF98"
+					item: { Count: 4, id: "create:white_sail" }
+					type: "item"
+				}
+			]
+			title: "Wiatrołap"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["730C8098116C22E3"]
+			id: "1B7BF9138A68E245"
+			rewards: [
+				{
+					count: 4
+					id: "491091C71C5C6AD9"
+					item: "create:andesite_funnel"
+					type: "item"
+				}
+				{
+					id: "7013130E4C3E0304"
+					item: "create:peculiar_bell"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "527FC6BDA48EF0B3"
+					item: {
+						Count: 1
+						id: "create:super_glue"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7B305D775E6ACDE4"
+					item: "create:goggles"
+					type: "item"
+				}
+				{
+					id: "38FAD43B8F991683"
+					item: "create:wrench"
+					type: "item"
+				}
+			]
+			title: "Zestaw Inżyniera"
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["730C8098116C22E3"]
+			id: "19E4FDF95CE04036"
+			rewards: [{
+				count: 16
+				id: "6253861B0FE85991"
+				item: "create:wheat_flour"
+				type: "item"
+			}]
+			tasks: [{
+				id: "18F0E2AFE38C4934"
+				item: "create:millstone"
+				type: "item"
+			}]
+			title: "Młyn"
+			x: -1.0d
+			y: 2.0d
+		}
+	]
+	title: "Create"
+}

@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "7b2",
+  "versionId": "7b3",
   "name": "GhostLand 7 Beta",
   "summary": "Paczka na siódmą edycję GhostLanda - wersja beta",
   "files": [
@@ -711,6 +711,21 @@
       "fileSize": 711191
     },
     {
+      "path": "mods/Create_Questing-FABRIC-1.0.1.jar",
+      "hashes": {
+        "sha1": "2ed5a21ff1591ff403f31bfac332dfd0f95938da",
+        "sha512": "bb79e7f19b0708fa6092c8a86a59dfdfc14e90781e9078c1c96bef651e573895d08028db62eae31d782a3a11a838fbe7953831e9471245f08389651cebd1b3dc"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/jUlR3XZM/versions/aqdJaQxc/Create_Questing-FABRIC-1.0.1.jar"
+      ],
+      "fileSize": 583556
+    },
+    {
       "path": "mods/CreativeCore_FABRIC_v2.12.33_mc1.20.1.jar",
       "hashes": {
         "sha1": "0942ad80b57447232da26a18569fcaa0a2e25727",
@@ -784,6 +799,21 @@
         "https://cdn.modrinth.com/data/5XH5uKvv/versions/N1flIxoc/ExtraBounties-universal.jar"
       ],
       "fileSize": 273462
+    },
+    {
+      "path": "mods/FTBQuestsOptimizer-fabric-2.0.5-1.20.1.jar",
+      "hashes": {
+        "sha1": "53e013736a9a358a40665d411643065f85871ab6",
+        "sha512": "07f518ef82b8958bb33c06637ae12385188d7a910f4d6c9d4b60a344c073ee57823db9fabd4e1ac1b63b5b5afc3b551bb3b2d4ba993fc78c76838cc73da70f0b"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/oPwMsrcf/versions/6ae4Whfp/FTBQuestsOptimizer-fabric-2.0.5-1.20.1.jar"
+      ],
+      "fileSize": 13111
     },
     {
       "path": "mods/FarmersDelight-1.20.1-2.4.0+refabricated.jar",
@@ -3771,6 +3801,21 @@
       "fileSize": 288294
     },
     {
+      "path": "mods/Necronomicon-Fabric-1.6.0+1.20.1.jar",
+      "hashes": {
+        "sha1": "86e4ba3727be9ef8816844aa15f45db099ecb858",
+        "sha512": "c412d5e028085b6b21c611b3d2c60bbc9f4aae442bb448e80a40a44568d715415d5713f1bdc7e023937e7f7d50e855b47dd31e4fed4cfb856f709c0c0996e782"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/P1Kv5EAO/versions/bgc6xYvl/Necronomicon-Fabric-1.6.0%2B1.20.1.jar"
+      ],
+      "fileSize": 37533
+    },
+    {
       "path": "mods/NoChatReports-FABRIC-1.20.1-v2.2.2.jar",
       "hashes": {
         "sha1": "b99f23fb76aad5a944400717e6d71aa011c4d7f7",
@@ -4969,6 +5014,21 @@
         "https://cdn.modrinth.com/data/BzOTnuqM/versions/4I0fr3sf/fish_of_thieves-mc1.20.1-v3.1.2-fabric.jar"
       ],
       "fileSize": 1494378
+    },
+    {
+      "path": "mods/ftbquestsfreezefix-fabric-1.0.0-1.20.1.jar",
+      "hashes": {
+        "sha1": "d140b498b1a5c13f740af480bd00d46e9651d98d",
+        "sha512": "1c1e69b80245db48a024f01bd9cc2a7477c6f75fae57fa37f5ee76bb2d8de37c7b7f0b41fd59bcc79803ba867418dd11e3095b8faaca34679a4daba5e9143a81"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/6Z1o0Fxu/versions/BZH4ySKM/ftbquestsfreezefix-fabric-1.0.0-1.20.1.jar"
+      ],
+      "fileSize": 163628
     },
     {
       "path": "mods/fzzy_config-0.7.2+1.20.1.jar",

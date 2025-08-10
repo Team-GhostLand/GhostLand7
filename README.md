@@ -49,9 +49,17 @@ A modpack for the 7th edition of GhostLand SMP
 
 ## Changelogs:
 
+### 7b3
+- Added FTB Quests, FTB Quests Optimiser, FTB Quests Freeze Fix, Create Questing, FTB Library, FTB Teams
+- Changed controls for:
+  - Advancements [L] (as default)
+  - Quests [J]
+- Created a simple quest tree using FTB Quests (work in progress)
+- **<span style="color:red">Important: From now on export the modpack with <code>/defaultconfigs</code> folder included</span>**
+
 ### 7b2
-* Hidden RPM indicator
-* Bumped BCC
+- Hidden RPM indicator
+- Bumped BCC
 
 ### 7b1
 - Updated: LD Vinery, Amendments, CICADA, Miniature Shader and Waystones (Farmer's Cutting BWG and BoP, TotW: Reworked and, RPG Skill Tree are already up-to-date - some datapacks simply tend to be a bit wonky with version displays; SimpleVC cannot be updated due to older dependencies)
