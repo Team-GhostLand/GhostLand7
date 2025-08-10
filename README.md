@@ -49,6 +49,9 @@ A modpack for the 7th edition of GhostLand SMP
 
 ## Changelogs:
 
+### 7b4
+- Finished Create quest tree and added a quest tree for planes and ships
+
 ### 7b3
 - Added FTB Quests, FTB Quests Optimiser, FTB Quests Freeze Fix, Create Questing, FTB Library, FTB Teams
 - Changed controls for:
