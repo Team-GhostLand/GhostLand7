@@ -49,6 +49,13 @@ A modpack for the 7th edition of GhostLand SMP
 
 ## Changelogs:
 
+### 7b5
+- Re-disabled EMI
+- Re-disabled fullscreen
+- Re-added EMI pins/setups
+- Re-added `observable_announce`
+- Removed `borderlessmining.json` becasue that mod has been gone for ages
+
 ### 7b4
 - Finished Create quest tree and added a quest tree for planes and ships
 
