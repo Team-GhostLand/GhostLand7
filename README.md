@@ -49,6 +49,9 @@ A modpack for the 7th edition of GhostLand SMP
 
 ## Changelogs:
 
+### 7b7
+- Added quests for: Nether (BetterNether), Applied Energistics 2 and Tinker's Construct
+
 ### 7b6
 - Updated: Amendments, CME Bad, PufferSkills, Substrate, Transodium
 - Added: Discord integration, PacketAuth
@@ -71,7 +74,7 @@ A modpack for the 7th edition of GhostLand SMP
   - Advancements [L] (as default)
   - Quests [J]
 - Created a simple quest tree using FTB Quests (work in progress)
-- **<span style="color:red">Important: From now on export the modpack with <code>/defaultconfigs</code> folder included</span>**
+- [REDACTED]
 
 ### 7b2
 - Hidden RPM indicator

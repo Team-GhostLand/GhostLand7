@@ -1,0 +1,492 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "nether"
+	group: ""
+	icon: "minecraft:netherrack"
+	id: "5F8F1B2E7AAD8262"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5F067E4CFEF42DCC"
+			rewards: [{
+				count: 16
+				id: "4A22EEFA7AB56440"
+				item: "minecraft:nether_bricks"
+				type: "item"
+			}]
+			tasks: [{
+				id: "17AF150B1D7C3BC8"
+				item: "minecraft:netherrack"
+				type: "item"
+			}]
+			title: "Piekielna skała"
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5F067E4CFEF42DCC"]
+			id: "790B29A027878B0D"
+			rewards: [{
+				count: 32
+				id: "14FE1AEC01B22837"
+				item: "minecraft:blackstone"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:polished_blackstone_bricks"
+				id: "7F38371DE1C7B34B"
+				structure: "#minecraft:bastion_remnant"
+				title: "Wielka obora"
+				type: "structure"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5F067E4CFEF42DCC"]
+			id: "31E4E2616020DF21"
+			rewards: [{
+				count: 32
+				id: "09220B63326A33B4"
+				item: "minecraft:nether_bricks"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:nether_bricks"
+				id: "753E1F9998D7E51B"
+				structure: "#minecraft:fortress"
+				title: "Piekielna forteca"
+				type: "structure"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["790B29A027878B0D"]
+			id: "7CA3152E601726AC"
+			rewards: [{
+				count: 4
+				id: "1DBF4219E215CD6E"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			tasks: [{
+				id: "09F4FA8C985860B1"
+				item: "minecraft:crying_obsidian"
+				type: "item"
+			}]
+			title: "Nie płacz"
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7CA3152E601726AC"]
+			id: "42E1FBDD7E190532"
+			rewards: [{
+				count: 8
+				id: "589604BAB567EDF5"
+				item: "minecraft:glowstone"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C3A84FED197AEE0"
+				item: "minecraft:respawn_anchor"
+				type: "item"
+			}]
+			title: "Znowu to samo"
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5F067E4CFEF42DCC"]
+			id: "27AAD80221E2C41D"
+			rewards: [{
+				id: "3AF01E6C93423C5B"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "10034643FFD41D33"
+				item: "minecraft:ancient_debris"
+				type: "item"
+			}]
+			title: "Pod morzem lawy"
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["27AAD80221E2C41D"]
+			id: "579A10530AF2C547"
+			rewards: [{
+				count: 2
+				id: "1CE535D632CCEDB8"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "231776A155004988"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "21242F7AAEFD0AB1"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F7632502E2B4593"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "044CD5D275B810C2"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Pełen zestaw"
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["31E4E2616020DF21"]
+			id: "3F240E0B4E1C32A4"
+			rewards: [{
+				count: 4
+				id: "33996E7D0456B3F5"
+				item: "minecraft:blaze_powder"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0F13ED37FD2BDDF1"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			title: "Czysta magia"
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3F240E0B4E1C32A4"]
+			id: "20D54A4B8987FDCF"
+			rewards: [{
+				count: 3
+				id: "2D84771863443CBD"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:strong_healing"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6E653C7DA2F59D05"
+				item: "minecraft:brewing_stand"
+				type: "item"
+			}]
+			title: "Alchemia"
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5F067E4CFEF42DCC"]
+			id: "1BA650E3F4E96F2E"
+			rewards: [{
+				id: "70FDC722C6D13A4C"
+				item: "minecraft:soul_campfire"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:ghast"
+				id: "76DE7B8DC14BB5D4"
+				title: "Wściekła chmurka"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5F067E4CFEF42DCC"]
+			id: "3E15605246D22508"
+			rewards: [{
+				count: 8
+				id: "18171083DF46BE0E"
+				item: "minecraft:gold_block"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:zombified_piglin"
+				id: "3A2821B2241D7FF4"
+				title: "Armia nieumarłych świń"
+				type: "kill"
+				value: 64L
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5F067E4CFEF42DCC"]
+			id: "2C3F1C2D25744110"
+			rewards: [{
+				count: 4
+				id: "581B2EF3A4A46637"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:water"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4DC4AB0F953B3ADE"
+				item: "betternether:blue_obsidian"
+				type: "item"
+			}]
+			title: "Na niebiesko"
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2C3F1C2D25744110"]
+			id: "2DD1B137BBE82068"
+			rewards: [{
+				count: 8
+				id: "124E8637436DADA5"
+				item: "minecraft:ghast_tear"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2808F27A6A444F5C"
+				item: "betternether:blue_crying_obsidian"
+				type: "item"
+			}]
+			title: "Niebieskie łzy"
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5F067E4CFEF42DCC"]
+			id: "00421B8AA23F83BE"
+			rewards: [{
+				id: "69572F8132A6DB19"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3DBD702C9A7EE88A"
+				item: "betternether:cincinnasite_ingot"
+				type: "item"
+			}]
+			title: "Coś żółtego"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["00421B8AA23F83BE"]
+			id: "6AC7CD981F5D9E4C"
+			rewards: [{
+				id: "66481CAEF691B833"
+				item: {
+					Count: 1
+					id: "betternether:cincinnasite_shears"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "50C44491D084CCA0"
+				item: "betternether:cincinnasite_forge"
+				type: "item"
+			}]
+			title: "Przepalanie głęboko pod ziemią"
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["00421B8AA23F83BE"]
+			id: "46199312C1CBE337"
+			rewards: [{
+				count: 4
+				id: "66C35043155D60FD"
+				item: "betternether:cincinnasite"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0F614D31DB14E661"
+					item: {
+						Count: 1
+						id: "betternether:cincinnasite_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "19E33983A63DC3CF"
+					item: {
+						Count: 1
+						id: "betternether:cincinnasite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "176CF037F563497F"
+					item: {
+						Count: 1
+						id: "betternether:cincinnasite_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C894888A8B4FE31"
+					item: {
+						Count: 1
+						id: "betternether:cincinnasite_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "07A73173B76CA2E6"
+					item: {
+						Count: 1
+						id: "betternether:cincinnasite_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Lepsze niż złoto"
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["46199312C1CBE337"]
+			id: "2CB0883EFEDB4CEE"
+			rewards: [{
+				id: "3F3B703E1274B328"
+				item: "minecraft:lodestone"
+				type: "item"
+			}]
+			tasks: [{
+				id: "264F7CDB7E9891AF"
+				item: {
+					Count: 1
+					id: "betternether:cincinnasite_pickaxe_diamond"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "betternether:obsidian_breaker"
+							lvl: 2s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "Niszczyciel obsydianu"
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5F067E4CFEF42DCC"]
+			id: "6C295EE3E93C91E2"
+			rewards: [{
+				count: 8
+				id: "1FACB5D78B3D70D1"
+				item: "minecraft:beetroot_soup"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4EADD00692531678"
+				item: "betternether:nether_ruby"
+				type: "item"
+			}]
+			title: "Krwawy kryształ"
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6C295EE3E93C91E2"]
+			id: "01BA64A887E43ECF"
+			rewards: [{
+				count: 32
+				id: "11C7DACAD43234F9"
+				item: "betternether:black_apple"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1BC899D211456B97"
+				item: "betternether:flaming_ruby_upgrade_smithing_template"
+				type: "item"
+			}]
+			title: "Krwawy diament"
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["31E4E2616020DF21"]
+			id: "3190B60AD5E09254"
+			rewards: [{
+				id: "5352E1EC7BD380D9"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			tasks: [{
+				id: "16A585B55FEEDAB7"
+				item: "minecraft:beacon"
+				type: "item"
+			}]
+			title: "Boskie światło"
+			x: -2.5d
+			y: -2.5d
+		}
+	]
+	subtitle: ["Witamy w piekle"]
+	title: "Nether"
+}
