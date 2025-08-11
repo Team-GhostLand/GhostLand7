@@ -49,6 +49,12 @@ A modpack for the 7th edition of GhostLand SMP
 
 ## Changelogs:
 
+### 7b6
+- Updated: Amendments, CME Bad, PufferSkills, Substrate, Transodium
+- Added: Discord integration, PacketAuth
+- Added `emi.json` to server-excluded files
+- Removed MoreChatHistory becase `Mixin transformation of net.minecraft.client.gui.components.ChatComponent` was failing (presumably becasue of an incompatibility with Discord integration's image renderer, that probably also Mixins into that class?)
+
 ### 7b5
 - Re-disabled EMI
 - Re-disabled fullscreen

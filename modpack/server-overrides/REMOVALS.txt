@@ -2,3 +2,4 @@ options.txt
 shaderpacks
 resourcepacks
 servers.dat
+emi.json

@@ -1,0 +1,81 @@
+# Bot access token
+# [!] Make sure all Privileged Gateway Intents are enabled on https://discord.com/developers/applications/<your_app_id>/bot
+# [!] Make sure the bot has the following permissions on the server:
+# [!] - VIEW_CHANNEL
+# [!] - MESSAGE_SEND
+# [!] - MESSAGE_SEND_IN_THREADS
+# [!] - MESSAGE_EMBED_LINKS
+# [!] - MESSAGE_ATTACH_FILES
+# [!] - MESSAGE_MANAGE
+# [!] - MESSAGE_HISTORY
+discordBotToken = ""
+# Discord channel ID for messaging with MineCraft
+# [!] Make sure the bot has access to the channel and all the permissions listed above.
+discordChannelId = ""
+# Do logging to the server console messages from discord
+logDiscordMessages = true
+# Create a pinned message with the current server status and player list
+enablePinnedStatusMessage = true
+# Notify about internal Discord interaction errors in the server's in-game chat
+logDiscordErrorsToServerChat = true
+# If logDiscordErrorsToServerChat=true, then the errors in the chat will be seen by players with the specified selector
+# By default, "@a" — all players. You can specify a specific nickname or attribute, for example, "@a[tag=admin]"
+discordErrorsChatPlayerSelector = "@a"
+# Mod locale
+modLocale = "en_us"
+
+[webhookModeConfig]
+	# If true, server and player messages will be sent in webhook mode.
+	# [!] Webhook mode works only in regular channels (Threads does not work)
+	# [!] The bot must have Manage Webhooks permission
+	enableWebhookMode = false
+	# Webhook name for displaying server messages
+	webhookServerName = "Minecraft Server"
+	# Avatar url for the webhook for displaying server messages
+	# Leave blank to display the connected bot's avatar
+	webhookServerAvatarUrl = ""
+	# If true, then all players will have access to the /set_avatar_url <url> command to set a custom avatar, which will be used instead of the webhookPlayerAvatarUrl parameter.
+	# The /remove_avatar_url command will also be available to remove an avatar.
+	enableSetAvatarUrlCommand = true
+	# Url to get the player's display avatar
+	# You specify a link with dynamic parameters <uuid> and <name>, which will be automatically substituted when requesting an image
+	# <uuid> — player's UUID
+	# <name> — player's nickname
+	# Default: https://mc-heads.net/avatar/<name>.png
+	webhookPlayerAvatarUrl = "https://mc-heads.net/avatar/<name>.png"
+	# Url to get the player's display avatar if dynamic link is invalid
+	# Default: https://mc-heads.net/avatar.png
+	webhookPlayerDefaultAvatarUrl = "https://mc-heads.net/avatar.png"
+
+[discordProxyConfig]
+	# Configuring the HTTP proxy when connecting with Discord. Do not modify if you don't understand what this is.
+	proxyHostname = ""
+	# Default: 1234
+	# Range: 0 ~ 65535
+	proxyPort = 1234
+	# Leave blank if no certificate required.
+	proxyUser = ""
+	proxyPassword = ""
+
+[channelOverrides]
+	# If true, messages will still be sent to the main channel, but will also be duplicated to the specified channels.
+	duplicateMessages = false
+	# Overrides the default channel for pinned server status message. If empty, uses discordChannelId.
+	pinnedStatusMessageChannelId = ""
+	# Overrides the default channel for player death messages. If empty, uses discordChannelId.
+	deathsChannelId = ""
+	# Overrides the default channel for player advancement messages. If empty, uses discordChannelId.
+	advancementsChannelId = ""
+	# Overrides the default channel for server started/closed messages. If empty, uses discordChannelId.
+	serverStartStopChannelId = ""
+	# Overrides the default channel for player join/leave messages. If empty, uses discordChannelId.
+	playerJoinLeaveChannelId = ""
+	# Overrides the default channel for messages from players in Minecraft chat. If empty, uses discordChannelId.
+	playerChatMessagesChannelId = ""
+	# Overrides the default channel for screenshots sent from Minecraft. If empty, uses discordChannelId.
+	screenshotsChannelId = ""
+	# Overrides the default channel for messages sent using /tellraw @a command. If empty, uses discordChannelId.
+	tellrawChannelId = ""
+	# Overrides the default channel for messages sent using /say command. If empty, uses discordChannelId.
+	sayChannelId = ""
+

@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "7b5",
+  "versionId": "7b6",
   "name": "GhostLand 7 Beta",
   "summary": "Paczka na siódmą edycję GhostLanda - wersja beta",
   "files": [
@@ -1566,21 +1566,6 @@
       "fileSize": 702814
     },
     {
-      "path": "mods/GR_CLO+SVX_morechathistory-1.3.0.jar",
-      "hashes": {
-        "sha1": "346cce5cb5d89e676d8ed0dca05522369063b3c3",
-        "sha512": "b8c097418f9b60b3dce19e6f0a5d2f7ca864f7ac543e589061c898fec141df147296c199fec71f52a5d5d078a6f9ff891704f9d81dcab8653d80885adb551726"
-      },
-      "env": {
-        "client": "optional",
-        "server": "unsupported"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/8qkXwOnk/versions/PLfxrDkh/morechathistory-1.3.0.jar"
-      ],
-      "fileSize": 3546
-    },
-    {
       "path": "mods/GR_CLO+SVX_musicnotification-2.0.1c+1.20.1.jar",
       "hashes": {
         "sha1": "292f68c4bc7fde6f6190bb864a6710a657d2f353",
@@ -2404,6 +2389,21 @@
         "https://cdn.modrinth.com/data/iKRtwScn/versions/I5LEJ06o/despawningeggshatch-1.20.1-4.5.jar"
       ],
       "fileSize": 32510
+    },
+    {
+      "path": "mods/GR_CLO_discord_chat_mod-fabric-quilt-1.20.1-2.5.6.jar",
+      "hashes": {
+        "sha1": "63072cff9cdd2af9256d29f4d9d8c57716520d84",
+        "sha512": "2d66b5209dd90b99e8bc8ec5b8abf2844c3296717baa94ec2bb8b961adafb8a570214317b696e4ff2b6cb61968d0c3a671540f3ddfdeda5fbd6e6eb46a15683f"
+      },
+      "env": {
+        "client": "optional",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/yIWYj2mo/versions/nQ1V3xzN/discord_chat_mod-fabric-quilt-1.20.1-2.5.6.jar"
+      ],
+      "fileSize": 15983438
     },
     {
       "path": "mods/GR_CLO_dismountentity-1.20.1-3.6.jar",
@@ -3621,34 +3621,34 @@
       "fileSize": 605968
     },
     {
-      "path": "mods/GR_SVX_substrate-3.2-1.20.x.jar",
+      "path": "mods/GR_SVX_substrate-3.3-Fabric1.20.x.jar",
       "hashes": {
-        "sha1": "1f0619fa243c3263c68c6e7696b5a2f6ba146d85",
-        "sha512": "30c746380d6757b5af8ea04371ad4e654b7ed7ff226579b67c4d006c34044df10f46f3fdfd7b51f42e752dfaf85fa42902f40361c53468382eea00591f787004"
+        "sha1": "1bdf13438d613c5c18efb9064d26a565e9e0b27c",
+        "sha512": "7c8ee33ee0d3b8ddc3d1d7e8d84894ae09bd7ca4271da450ea289cdb49353ced00b000499b62399570900e20307bc57cc779f0fb2f38b5e9b2fcab3876f2f5e8"
       },
       "env": {
         "client": "required",
         "server": "unsupported"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/zNuzb72d/versions/phYiTxA6/substrate-3.2-1.20.x.jar"
+        "https://cdn.modrinth.com/data/zNuzb72d/versions/1ql3neOF/substrate-3.3-Fabric1.20.x.jar"
       ],
-      "fileSize": 407551
+      "fileSize": 407589
     },
     {
-      "path": "mods/GRd_CLO_CMESuckMyDuck-1.0.5.jar.disabled",
+      "path": "mods/GRd_CLO_CMESuckMyDuck-1.0.6.jar.disabled",
       "hashes": {
-        "sha1": "6e05b5202189538f5aa45406154535358775972a",
-        "sha512": "c1ed373b4321ca226601c36fe1ecc7eec00e3813d60c2df31cc980e29f09395d31593e2203b8fb8950429125fc694b8d5f9dea685c6867dbf02c47cad3d5862b"
+        "sha1": "956b331e68319e0f9ab9e204197b2e175d789545",
+        "sha512": "d727847b2e61c398718e3eae9f444fbdb506df91648947f0704422d2da28647ad72110daaefcc78ffa33b53f0688e301c89f2ae3af7853629d93810d425b50c3"
       },
       "env": {
         "client": "optional",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/ubAFBxFs/versions/m3BQjNPp/CMESuckMyDuck-1.0.5.jar"
+        "https://cdn.modrinth.com/data/ubAFBxFs/versions/78LURkK0/CMESuckMyDuck-1.0.6.jar"
       ],
-      "fileSize": 63631
+      "fileSize": 70389
     },
     {
       "path": "mods/GlitchCore-fabric-1.20.1-0.0.1.1.jar",
@@ -3919,6 +3919,21 @@
         "https://cdn.modrinth.com/data/FiDptjtR/versions/EnGfmh9y/Origins-Classes-1.20-1.7.0.jar"
       ],
       "fileSize": 166904
+    },
+    {
+      "path": "mods/PacketAuth-FabricQuilt-1.6.4_1.20-1.20.1.jar",
+      "hashes": {
+        "sha1": "92ade86ab637e16cdff10a3285d110517a9b8a3e",
+        "sha512": "ada5d0474275ef2316f8598b1572fe9a603fda391f429348d1e69769c709affdc79b700654d7cebfd43ce18d5f1b23377d9fda2378098423c49ca6d9cc8648be"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/7d6mfXL5/versions/SG4SxM1r/PacketAuth-FabricQuilt-1.6.4_1.20-1.20.1.jar"
+      ],
+      "fileSize": 4692347
     },
     {
       "path": "mods/Patchouli-1.20.1-84.1-FABRIC.jar",
@@ -4206,19 +4221,19 @@
       "fileSize": 51365899
     },
     {
-      "path": "mods/amendments-1.20-2.0.5-fabric.jar",
+      "path": "mods/amendments-1.20-2.0.7-fabric.jar",
       "hashes": {
-        "sha1": "1dbf645087d1e4959173b88d771cef97bd4788ed",
-        "sha512": "cac7600a2cb2e4e54519c37420d42b8e46199d27b21126cf4331528c0261d8f9a60ed6afee56a2b856efdf5f9a96c5136455b2bd83eec59c7ca4b223a3012098"
+        "sha1": "3e69c70050f36c0478add5ae748781311bd951d4",
+        "sha512": "fc0a825d8bfe7547ab996deb21ed4bd5839646e1cff1cf5a2bac5aacf500580a15f50d512795e4f1b5700575b02bc8787dc8091665e9b847d29c0090d959999c"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/6iTJugQR/versions/ZC5WWLUn/amendments-1.20-2.0.5-fabric.jar"
+        "https://cdn.modrinth.com/data/6iTJugQR/versions/AiyWavmR/amendments-1.20-2.0.7-fabric.jar"
       ],
-      "fileSize": 1233414
+      "fileSize": 1233119
     },
     {
       "path": "mods/another_furniture-fabric-1.20.1-3.0.1.jar",
@@ -5721,19 +5736,19 @@
       "fileSize": 222194
     },
     {
-      "path": "mods/puffish_skills-0.16.4-1.20-fabric.jar",
+      "path": "mods/puffish_skills-0.16.5-1.20-fabric.jar",
       "hashes": {
-        "sha1": "ea8ddd6daf3a4dc872a9a2598da839e0c4a33724",
-        "sha512": "58ab14f1cf6732f501e60cb5643b7db52fa26d535f157f5ce2fc4c0e4c3cc2cd0145825034e240a782e1fc739c6cde06f99e6136dc7a6b7c831a90bd5104aa5f"
+        "sha1": "ded24d6696cb106f95ad78b59926fc57a1816b70",
+        "sha512": "be954785bccf0469e2c0acd6988eae339c689a015dfca2b6f5715c3f8cbdeafcd316bc084f547796bb1a6d66b8934a25bad259dc09d0532c4384823fa87d7b9f"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/hqQqvaa4/versions/Zh55YYZ3/puffish_skills-0.16.4-1.20-fabric.jar"
+        "https://cdn.modrinth.com/data/hqQqvaa4/versions/rA8n6YZF/puffish_skills-0.16.5-1.20-fabric.jar"
       ],
-      "fileSize": 573491
+      "fileSize": 574161
     },
     {
       "path": "mods/redirected-fabric-1.0.0-1.20.1.jar",
@@ -6128,17 +6143,17 @@
     {
       "path": "resourcepacks/GR_SVX_SodiumTranslations.zip",
       "hashes": {
-        "sha1": "e69b508d401c579ec2dacefbb49d081a38fa0a72",
-        "sha512": "41bee7cf6654038ae4ebbbd5eed536cf22acca737634ac44c49470c4d84340d52f0ee1a90051d6a5e39372080f2e9be38e91a34e39bba09f936087fcedb8cdca"
+        "sha1": "4de31894e8228f475922af9e1b2d86e22d5ed0b3",
+        "sha512": "1d8af3ffb771fa7297230617ebd566f6cda3cd15fcd28b2794759b0b8d840023372e81490a5cc3c389c432fe63c3258e2e67989e1e08f32647c6621e2cc6e042"
       },
       "env": {
         "client": "required",
         "server": "unsupported"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/yfDziwn1/versions/x7n18otA/SodiumTranslations.zip"
+        "https://cdn.modrinth.com/data/yfDziwn1/versions/IG6CxWl0/SodiumTranslations.zip"
       ],
-      "fileSize": 228734
+      "fileSize": 228774
     },
     {
       "path": "resourcepacks/GR_SVX_[1.4.1] Enhanced Boss Bars.zip",
