@@ -49,6 +49,10 @@ A modpack for the 7th edition of GhostLand SMP
 
 ## Changelogs:
 
+### 7b12
+- Enabled Discord integration becasue it's also not the culprit
+- Disabled PacketAuth, PufferSkills (and its Origins compat and atributtes addon, as dependnecies) and Amendments (for the same reason and in the same way as specified below) becasue they're the only other changes in 7b6, which is when everything started breaking.
+
 ### 7b11
 - Enabled Necronomicon and Create Questing on the server because it turns that they were not responsible
 - Disabled Discord integration (for the same reason and in the same way as specified below) becasue it's the second suspect. For context, the crash happens becasue creative tabs fail validation. As part of that validation, names are checked, and doing so requires some calling of methods from classes in `net.minecraft.network.chat.*` (which is where the error *actually* occurs - more specifically, in the `net.minecraft.locale.Language.loadFromJson` method) due to them being used for text formatting 'n'stuff and checking that is apparently also a part of creative tabs validation process. That obviouly points to Discord integration (becasue doing stuff with the chat is its whole purpouse), but I initially suspected Necronomicon becasue literally 2 log lines above the crash it was failing to inject a Mixin about animating item names (which seems much more in line with an error related to creative tabs, and is still related to chat - after all, as I said, chat-related classes/methods are used for various text-related actions in the game's codebase, such as (I guess) item names).

@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "7b11",
+  "versionId": "7b12",
   "name": "GhostLand 7 Beta",
   "summary": "Paczka na siódmą edycję GhostLanda - wersja beta",
   "files": [
@@ -2398,7 +2398,7 @@
       },
       "env": {
         "client": "optional",
-        "server": "unsupported"
+        "server": "required"
       },
       "downloads": [
         "https://cdn.modrinth.com/data/yIWYj2mo/versions/nQ1V3xzN/discord_chat_mod-fabric-quilt-1.20.1-2.5.6.jar"
@@ -2668,7 +2668,7 @@
       },
       "env": {
         "client": "optional",
-        "server": "required"
+        "server": "unsupported"
       },
       "downloads": [
         "https://cdn.modrinth.com/data/G2gG8giX/versions/xsYqLkmA/puffish_skills_origins-0.2.0-1.20.1-fabric.jar"
@@ -3928,7 +3928,7 @@
       },
       "env": {
         "client": "required",
-        "server": "required"
+        "server": "unsupported"
       },
       "downloads": [
         "https://cdn.modrinth.com/data/7d6mfXL5/versions/SG4SxM1r/PacketAuth-FabricQuilt-1.6.4_1.20-1.20.1.jar"
@@ -4228,7 +4228,7 @@
       },
       "env": {
         "client": "required",
-        "server": "required"
+        "server": "unsupported"
       },
       "downloads": [
         "https://cdn.modrinth.com/data/6iTJugQR/versions/zabyMXRZ/amendments-1.20-2.1.1-fabric.jar"
@@ -5728,7 +5728,7 @@
       },
       "env": {
         "client": "required",
-        "server": "required"
+        "server": "unsupported"
       },
       "downloads": [
         "https://cdn.modrinth.com/data/FCFcFw09/versions/ZwFHOOCr/puffish_attributes-0.7.4-1.20-fabric.jar"
@@ -5743,7 +5743,7 @@
       },
       "env": {
         "client": "required",
-        "server": "required"
+        "server": "unsupported"
       },
       "downloads": [
         "https://cdn.modrinth.com/data/hqQqvaa4/versions/rA8n6YZF/puffish_skills-0.16.5-1.20-fabric.jar"
