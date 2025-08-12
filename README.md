@@ -50,7 +50,7 @@ A modpack for the 7th edition of GhostLand SMP
 ## Changelogs:
 
 ### 7b13
-- Reverted the index to its 7b3 state (except for the version number, this time), as it's the next update in line to check (7b2, as expected, does work)
+- Reverted the index to its 7b3/7b4/7b5 state (except for the version number, this time - it's not like we could have 3 numbers at once, anyway), as it's the next update in line to check (7b2, as expected, does work)
 - Enabled all side-loaded FTB mods (becasue they were added in 7b3 and we're revering to it now) by directly renaming them (becasue unindexed (aka sideloaded) mods aren't supported by Grinch)
 
 ### 7b2 (again)
