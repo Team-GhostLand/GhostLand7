@@ -49,6 +49,9 @@ A modpack for the 7th edition of GhostLand SMP
 
 ## Changelogs:
 
+### 7b10
+- Disabled Necronomicon and Create Questing on the server, to test my incompatibility theory (note, that this makes the server and the client incompatible for now, due to a different modlist on each). Becasue it's just a test, I didn't do it via Grinch, but hand-rolled the edits to the index (so that the changes will get automatically undone the next time we export a pack via Modrinth, presumably after we find the culprit of the server crash).
+
 ### 7b9
 Fixing merge conflicts from 7b7
 - Kept Guzio's changes to mods (becasue MidnightSP wasn't doing any changes to mods), ie. kept Guzio's index, except the version number (now `7b9`).
