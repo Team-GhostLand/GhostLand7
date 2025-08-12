@@ -49,6 +49,10 @@ A modpack for the 7th edition of GhostLand SMP
 
 ## Changelogs:
 
+### 7b13
+- Reverted the index to its 7b2 state (except for the version number), as it's the last-known functioning update. I first thought that this title belongs to 7b5 becasue I remember seeing the server as Online when testing that update out, but I guess I must've never restarted the server after the Questing update, until the restart at 7b6 (where I then proceeded to blame 7b6's changes (namely Discord integration - but then, from the lack of ideas, also everything else in that update) for breaking the server).
+- Disabled all side-loaded FTB mods (becasue they were added in 7b3 and we're revering to 7b2) by directly renaming them (becasue unindexed (aka sideloaded) mods aren't supported by Grinch)
+
 ### 7b12
 - Enabled Discord integration becasue it's also not the culprit
 - Disabled PacketAuth, PufferSkills (and its Origins compat and atributtes addon, as dependnecies) and Amendments (for the same reason and in the same way as specified below) becasue they're the only other changes in 7b6, which is when everything started breaking.
@@ -58,7 +62,7 @@ A modpack for the 7th edition of GhostLand SMP
 - Disabled Discord integration (for the same reason and in the same way as specified below) becasue it's the second suspect. For context, the crash happens becasue creative tabs fail validation. As part of that validation, names are checked, and doing so requires some calling of methods from classes in `net.minecraft.network.chat.*` (which is where the error *actually* occurs - more specifically, in the `net.minecraft.locale.Language.loadFromJson` method) due to them being used for text formatting 'n'stuff and checking that is apparently also a part of creative tabs validation process. That obviouly points to Discord integration (becasue doing stuff with the chat is its whole purpouse), but I initially suspected Necronomicon becasue literally 2 log lines above the crash it was failing to inject a Mixin about animating item names (which seems much more in line with an error related to creative tabs, and is still related to chat - after all, as I said, chat-related classes/methods are used for various text-related actions in the game's codebase, such as (I guess) item names).
 
 ### 7b10
-- Disabled Necronomicon and (as a dependency) Create Questing on the server, to test my incompatibility theory (note, that this makes the server and the client incompatible for now, due to a different modlist on each). Becasue it's just a test, I didn't do it via Grinch, but hand-rolled the edits to the index (so that the changes will get automatically undone the next time we export a pack via Modrinth, presumably after we find the culprit of the server crash).
+- Disabled Necronomicon (and Create Questing, as a dependency) on the server, to test my incompatibility theory (I think Necro and Discord have some conflicting mixins on chat, based on the logs that point at Necro and chat-related classes, and the fact that Necro was working before). Note, that this makes the server and the client incompatible for now, due to a different list of double-sided mods on each. Becasue it's just a test, I didn't do it via Grinch, but hand-rolled the edits to the index (so that the changes will get automatically undone the next time we export a pack via Modrinth, presumably after we find the culprit of the server crash).
 
 ### 7b9
 Fixing merge conflicts from 7b7
