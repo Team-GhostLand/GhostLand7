@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "7b6",
+  "versionId": "7b7",
   "name": "GhostLand 7 Beta",
   "summary": "Paczka na siódmą edycję GhostLanda - wersja beta",
   "files": [
@@ -2841,19 +2841,19 @@
       "fileSize": 913732
     },
     {
-      "path": "mods/GR_CLO_tectonic-3.0.6-fabric-1.20.1.jar",
+      "path": "mods/GR_CLO_tectonic-3.0.7-fabric-1.20.1.jar",
       "hashes": {
-        "sha1": "d14cabef6e33e55ae469b514181769f8060a4ed7",
-        "sha512": "13073543d3cebf0090ab5e66f3d63a506f1783a3251c4f7dc0650409a8599b47685702dcfcfff03de792463a588a377328c86410646466daaaf47052b7a7d8c8"
+        "sha1": "0fdad4dd12f828f74097b9264f9e2465bfddb0a5",
+        "sha512": "c39b42a84d6cee75e56f158855662f5648477391072ad45ba9102f7502c87fdaea967762b9878b2fb4cc4621a3e2ac1f074c89d531546ca0b3be212e098104d7"
       },
       "env": {
         "client": "optional",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/lWDHr9jE/versions/tomgxTjS/tectonic-3.0.6-fabric-1.20.1.jar"
+        "https://cdn.modrinth.com/data/lWDHr9jE/versions/Fde2Lsbo/tectonic-3.0.7-fabric-1.20.1.jar"
       ],
-      "fileSize": 293095
+      "fileSize": 294677
     },
     {
       "path": "mods/GR_CLO_toggleableitemframes-5.1.0-1.20.1.jar",
@@ -4221,19 +4221,19 @@
       "fileSize": 51365899
     },
     {
-      "path": "mods/amendments-1.20-2.0.7-fabric.jar",
+      "path": "mods/amendments-1.20-2.1.1-fabric.jar",
       "hashes": {
-        "sha1": "3e69c70050f36c0478add5ae748781311bd951d4",
-        "sha512": "fc0a825d8bfe7547ab996deb21ed4bd5839646e1cff1cf5a2bac5aacf500580a15f50d512795e4f1b5700575b02bc8787dc8091665e9b847d29c0090d959999c"
+        "sha1": "45d93fb365f2acf6441a72d56ae974f9b8339bc3",
+        "sha512": "5c06ccf4519969a346be2f452a7befc948cb02618c5e76e9858eded31867437ecafe893949679949c443aafdc5c9a004590d1dceab6914476555323078b15d8c"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/6iTJugQR/versions/AiyWavmR/amendments-1.20-2.0.7-fabric.jar"
+        "https://cdn.modrinth.com/data/6iTJugQR/versions/zabyMXRZ/amendments-1.20-2.1.1-fabric.jar"
       ],
-      "fileSize": 1233119
+      "fileSize": 1243563
     },
     {
       "path": "mods/another_furniture-fabric-1.20.1-3.0.1.jar",
@@ -5106,19 +5106,19 @@
       "fileSize": 1169044
     },
     {
-      "path": "mods/hephaestusexpansion-1.0.1h+1.20.1.jar",
+      "path": "mods/hephaestusexpansion-1.0.2.jar",
       "hashes": {
-        "sha1": "e45770ab7f1acdc768432d72a855ad1764fa64d1",
-        "sha512": "933cb1a3da754d378c8a92bf77b37425ce268d62c8e01b82f1a189ed29d98f6b9b22ac8e53fe8c17f5d35291011e4a41f35928c31d226eb20dd4833f493338c0"
+        "sha1": "c6ab9e0a8a13d1a476d39fee94af38b61b8e5286",
+        "sha512": "e75c4dc154eba322f51cd1dbddd086fd8f359286761165977b9871e97539f27710950651252fad15b8eba2f767045c87d8257ca1ab06d3060fd97c7325ee939e"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/H6K8bKGy/versions/NYcF2iHr/hephaestusexpansion-1.0.1h%2B1.20.1.jar"
+        "https://cdn.modrinth.com/data/H6K8bKGy/versions/vnyJbqx3/hephaestusexpansion-1.0.2.jar"
       ],
-      "fileSize": 2495142
+      "fileSize": 2472794
     },
     {
       "path": "mods/immersive_aircraft-1.3.3+1.20.1-fabric.jar",
@@ -5586,19 +5586,19 @@
       "fileSize": 721366
     },
     {
-      "path": "mods/moonlight-1.20-2.15.6-fabric.jar",
+      "path": "mods/moonlight-1.20-2.15.7-fabric.jar",
       "hashes": {
-        "sha1": "bd35894351127cd19c757af31dee4b2e64a6f16f",
-        "sha512": "b55f326dcdfa5b21ec17e9018a87e0f945d8cfa993d2a96ab0d0e60d21489b9cc0f6058112b111f41d3f97e4eef9d997477dde0056415f30d338271662b3c9e2"
+        "sha1": "f68dd7c964421143c21629df219a476c18319d3a",
+        "sha512": "82b8804aa53608ad06c9d66df5e83dbdbde85d9d755dfa26c492d8ebef32b8a2fa30860e3b137df9b473ca57255f09d3e7deb6f3f219378439fcdce75c79c29c"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/twkfQtEc/versions/igJFcN94/moonlight-1.20-2.15.6-fabric.jar"
+        "https://cdn.modrinth.com/data/twkfQtEc/versions/mG5peONO/moonlight-1.20-2.15.7-fabric.jar"
       ],
-      "fileSize": 1264362
+      "fileSize": 1271543
     },
     {
       "path": "mods/morearmortrims-1.4.2-1.20.1.jar",

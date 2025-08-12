@@ -49,6 +49,12 @@ A modpack for the 7th edition of GhostLand SMP
 
 ## Changelogs:
 
+### 7b7
+- Updated: Amendments, HepEx, Moonlight, Tectonic
+- Attempted to disable Necronomicon becasue it seemed like it could be causing server startup failures and it didn't seem like any mod depended on it, but apparently it's actually needed for Create Questing (they just... don't tell you about it via Fabric's dependency system, and instead crash your game when you load a world without it), so I mentioned its addition in changelogs for 7b3.
+- Pointed server IP at `ghostland.ovh` instead of the old numerical one
+- Didn't export `defaultconfigs/` becasuse I was inforemd that it's no longer necessary (as such, I also - once again - allowed myself to edit 7b3's changelog to remove a note about it)
+
 ### 7b6
 - Updated: Amendments, CME Bad, PufferSkills, Substrate, Transodium
 - Added: Discord integration, PacketAuth
@@ -66,12 +72,11 @@ A modpack for the 7th edition of GhostLand SMP
 - Finished Create quest tree and added a quest tree for planes and ships
 
 ### 7b3
-- Added FTB Quests, FTB Quests Optimiser, FTB Quests Freeze Fix, Create Questing, FTB Library, FTB Teams
+- Added FTB Quests, FTB Quests Optimiser, FTB Quests Freeze Fix, Create Questing, FTB Library, FTB Teams, Necronomicon
 - Changed controls for:
   - Advancements [L] (as default)
   - Quests [J]
 - Created a simple quest tree using FTB Quests (work in progress)
-- **<span style="color:red">Important: From now on export the modpack with <code>/defaultconfigs</code> folder included</span>**
 
 ### 7b2
 - Hidden RPM indicator
