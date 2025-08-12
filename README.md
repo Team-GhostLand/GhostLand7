@@ -49,7 +49,27 @@ A modpack for the 7th edition of GhostLand SMP
 
 ## Changelogs:
 
+### 7b9
+Fixing merge conflicts from 7b7
+- Kept Guzio's changes to mods (becasue MidnightSP wasn't doing any changes to mods), ie. kept Guzio's index, except the version number (now `7b9`).
+- Kept Guzio's changes to the server list.
+- Kept Guzio's version of any random-bullshit-config-changes to timestamps (ELS, EnBES, Indium, Iris, Packetfixer, VMP, Indigo) becasue those were the latest.
+- Reverted MidnightSP's changes to `emi.json` (they said they didn't do anything to it, so I assume these were accidential edits).
+- Kept MidnightSP's version for random-bullshit-config-changes, other than timestamps (ie. C2ME - but not Cubes Without Borders and Xaero becasue Git didn't flag them as conflicts and I couldn't be bothered to manually reset them; not like any of those changes matter).
+- Kept MidnightSP's modifications to questlines.
+- Kept MidnightSP's additions to questlines.
+
+### 7b8
+- Changed quests for Create
+- Added quests for: End (BetterEnd), Construction (various mods) and Other (miscellaneous)
+
 ### 7b7
+This version once again had some merge conflicts, but this time - it thankfully affected unrelated areas, so fixing them should be fairly easy.
+
+#### MidnightSP's version
+- Added quests for: Nether (BetterNether), Applied Energistics 2 and Tinker's Construct
+
+#### Guzio's version
 - Updated: Amendments, HepEx, Moonlight, Tectonic
 - Attempted to disable Necronomicon becasue it seemed like it could be causing server startup failures and it didn't seem like any mod depended on it, but apparently it's actually needed for Create Questing (they just... don't tell you about it via Fabric's dependency system, and instead crash your game when you load a world without it), so I mentioned its addition in changelogs for 7b3.
 - Pointed server IP at `ghostland.ovh` instead of the old numerical one
@@ -77,6 +97,7 @@ A modpack for the 7th edition of GhostLand SMP
   - Advancements [L] (as default)
   - Quests [J]
 - Created a simple quest tree using FTB Quests (work in progress)
+- [REDACTED]
 
 ### 7b2
 - Hidden RPM indicator

@@ -1,0 +1,443 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tinkers_construct"
+	group: ""
+	icon: {
+		Count: 1
+		id: "tconstruct:crafting_station"
+		tag: {
+			texture: "minecraft:oak_log"
+		}
+	}
+	id: "0760992A9A6486A3"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1D878192A336FB84"
+			rewards: [{
+				count: 4
+				id: "44169871F4929F93"
+				item: "tconstruct:queens_slime_ingot"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "61C26AD3B473F43E"
+					item: "minecraft:slime_ball"
+					type: "item"
+				}
+				{
+					id: "37312CCCE87FFAC0"
+					item: "tconstruct:sky_slime_ball"
+					type: "item"
+				}
+				{
+					id: "7D705D5A2BA83211"
+					item: "tconstruct:ender_slime_ball"
+					type: "item"
+				}
+				{
+					id: "5988B22204F1182D"
+					item: "tconstruct:ichor_slime_ball"
+					type: "item"
+				}
+				{
+					id: "248C53543BDC2971"
+					item: "tconstruct:blood_slime_ball"
+					type: "item"
+				}
+				{
+					id: "48228F95CB96719C"
+					item: "tconstruct:glow_ball"
+					type: "item"
+				}
+			]
+			title: "Kolorowe kule"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "32E4EE2AF3636B4B"
+			tasks: [{
+				id: "25FABF7882510C20"
+				item: {
+					Count: 1
+					id: "tconstruct:part_builder"
+					tag: {
+						texture: "minecraft:oak_planks"
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["32E4EE2AF3636B4B"]
+			id: "3D951D13CF3DFDA1"
+			rewards: [{
+				count: 32
+				id: "4275CAAC508C4BFD"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			tasks: [{
+				id: "274D9C838EAD568A"
+				item: {
+					Count: 1
+					id: "tconstruct:tinker_station"
+					tag: {
+						texture: "minecraft:oak_planks"
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3D951D13CF3DFDA1"]
+			id: "1CB9819AD6147624"
+			rewards: [
+				{
+					id: "21554D7F5C7E40E8"
+					item: "tconstruct:piggy_backpack"
+					type: "item"
+				}
+				{
+					id: "485DF548F9511479"
+					item: {
+						Count: 1
+						id: "travelersbackpack:standard"
+						tag: {
+							StarterUpgrades: {
+								Items: [{
+									Count: 1b
+									id: "travelersbackpack:tanks_upgrade"
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "04A3B918F921BCD8"
+					item: {
+						Count: 1
+						id: "tconstruct:travelers_helmet"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_modifiers: [ ]
+							tic_persistent_data: {
+								abilities: 1
+								defense: 2
+								upgrades: 3
+							}
+							tic_stats: {
+								"tconstruct:armor": 1.0f
+								"tconstruct:durability": 110.0f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6EE13779B9C2009B"
+					item: {
+						Count: 1
+						id: "tconstruct:travelers_chestplate"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_modifiers: [ ]
+							tic_multipliers: {
+								"tconstruct:attack_damage": 0.55f
+							}
+							tic_persistent_data: {
+								abilities: 1
+								defense: 2
+								upgrades: 3
+							}
+							tic_stats: {
+								"tconstruct:armor": 5.0f
+								"tconstruct:attack_damage": 0.0f
+								"tconstruct:durability": 160.0f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6F630CCD12B67E84"
+					item: {
+						Count: 1
+						id: "tconstruct:travelers_leggings"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_modifiers: [ ]
+							tic_persistent_data: {
+								abilities: 1
+								defense: 2
+								upgrades: 3
+							}
+							tic_stats: {
+								"tconstruct:armor": 4.0f
+								"tconstruct:durability": 150.0f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "102C317EFF91F7DE"
+					item: {
+						Count: 1
+						id: "tconstruct:travelers_boots"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_modifiers: [{
+								level: 1s
+								name: "tconstruct:snow_boots"
+							}]
+							tic_persistent_data: {
+								abilities: 1
+								defense: 2
+								upgrades: 3
+							}
+							tic_stats: {
+								"tconstruct:armor": 1.0f
+								"tconstruct:durability": 130.0f
+							}
+							tic_volatile_data: {
+								"tconstruct:snow_boots": 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4D899A4AA39F24C1"
+					item: {
+						Count: 1
+						id: "tconstruct:travelers_shield"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_modifiers: [{
+								level: 1s
+								name: "tconstruct:blocking"
+							}]
+							tic_persistent_data: {
+								abilities: 1
+								defense: 2
+								upgrades: 3
+							}
+							tic_stats: {
+								"tconstruct:block_amount": 10.0f
+								"tconstruct:block_angle": 90.0f
+								"tconstruct:durability": 200.0f
+								"tconstruct:use_item_speed": 0.8f
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "W podróż"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			id: "17749F50F53E7D56"
+			rewards: [{
+				count: 32
+				id: "04EA78C933153325"
+				item: "tconstruct:seared_stone"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0B7915A7416FB62B"
+					item: "tconstruct:seared_melter"
+					type: "item"
+				}
+				{
+					id: "608E834E9DDBF57C"
+					item: "tconstruct:seared_heater"
+					type: "item"
+				}
+				{
+					id: "0F5EA2D06C30653A"
+					item: "tconstruct:seared_fuel_tank"
+					type: "item"
+				}
+				{
+					id: "75D4E70B9508DDB5"
+					item: "tconstruct:seared_basin"
+					type: "item"
+				}
+				{
+					id: "35835D15FBD2B220"
+					item: "tconstruct:seared_table"
+					type: "item"
+				}
+				{
+					id: "5D9297CA7F8C8B44"
+					item: "tconstruct:seared_faucet"
+					type: "item"
+				}
+			]
+			title: "Topienie metali"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17749F50F53E7D56"]
+			id: "67E593A6C0CBD3C0"
+			rewards: [{
+				id: "17EE904D24F98CEB"
+				item: {
+					Count: 1
+					id: "tconstruct:pickaxe"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"tconstruct:copper"
+							"tconstruct:copper"
+							"tconstruct:copper"
+						]
+						tic_modifiers: [
+							{
+								level: 1s
+								name: "tconstruct:piercing"
+							}
+							{
+								level: 3s
+								name: "tconstruct:dwarven"
+							}
+						]
+						tic_persistent_data: {
+							abilities: 1
+							upgrades: 3
+						}
+						tic_stats: {
+							"tconstruct:attack_damage": 0.54999995f
+							"tconstruct:attack_speed": 1.2f
+							"tconstruct:durability": 168.0f
+							"tconstruct:harvest_tier": "minecraft:iron"
+							"tconstruct:mining_speed": 5.5f
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5758862FEED0A88B"
+				item: {
+					Count: 1
+					id: "tconstruct:smeltery_controller"
+					tag: {
+						texture: "tconstruct:seared_stone"
+					}
+				}
+				type: "item"
+			}]
+			title: "Zaawansowany piec"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["17749F50F53E7D56"]
+			id: "492A26EF9F06909A"
+			rewards: [{
+				id: "6B5723A3232E0B02"
+				item: "tconstruct:nugget_cast"
+				type: "item"
+			}]
+			tasks: [{
+				id: "10058D0B2C27D424"
+				item: "tconstruct:ingot_cast"
+				type: "item"
+			}]
+			title: "Sztabka w formie"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			id: "6F173CCCD56AFFC7"
+			rewards: [{
+				count: 32
+				id: "60E4A8878424CF1B"
+				item: "tconstruct:scorched_stone"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0B03468349E74434"
+					item: "tconstruct:scorched_alloyer"
+					type: "item"
+				}
+				{
+					id: "4C469CAFEDACB9A2"
+					item: "tconstruct:scorched_fuel_tank"
+					type: "item"
+				}
+				{
+					id: "7C1E642678974D48"
+					item: "tconstruct:scorched_ingot_tank"
+					type: "item"
+				}
+				{
+					id: "0C8BC65078A2530A"
+					item: "tconstruct:scorched_basin"
+					type: "item"
+				}
+				{
+					id: "3FE4EA7D5669EDF5"
+					item: "tconstruct:scorched_table"
+					type: "item"
+				}
+				{
+					id: "1AC2BA8F99FE7030"
+					item: "tconstruct:scorched_faucet"
+					type: "item"
+				}
+			]
+			title: "Stopy"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6F173CCCD56AFFC7"]
+			id: "562D47E955099DCD"
+			rewards: [{
+				id: "453CD4A46A3025C7"
+				item: "create:contraption_controls"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3C38C2604425D1F5"
+				item: {
+					Count: 1
+					id: "tconstruct:foundry_controller"
+					tag: {
+						texture: "tconstruct:scorched_stone"
+					}
+				}
+				type: "item"
+			}]
+			title: "Odlewnia kontrolowana"
+			x: 4.5d
+			y: -1.5d
+		}
+	]
+	title: "Tinker's Construct"
+}

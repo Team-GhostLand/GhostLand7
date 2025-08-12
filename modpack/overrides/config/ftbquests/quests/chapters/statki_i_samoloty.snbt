@@ -5,7 +5,7 @@
 	group: ""
 	icon: "immersive_aircraft:biplane"
 	id: "519B9D5EC601A300"
-	order_index: 2
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -309,5 +309,6 @@
 			y: -0.5d
 		}
 	]
+	subtitle: ["Daleka podróż"]
 	title: "Statki i Samoloty"
 }

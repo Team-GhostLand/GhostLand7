@@ -1,0 +1,291 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "end"
+	group: ""
+	icon: "minecraft:end_stone"
+	id: "0E880CD43F10A41C"
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			id: "05BA10000AD175DE"
+			rewards: [{
+				count: 8
+				id: "1A360511531DBEB8"
+				item: "meadow:piece_of_cheese"
+				type: "item"
+			}]
+			tasks: [{
+				id: "634200D8F2B46873"
+				item: "minecraft:end_stone"
+				type: "item"
+			}]
+			title: "Czy to ser?"
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["05BA10000AD175DE"]
+			id: "1D50889089EB856C"
+			rewards: [
+				{
+					id: "691AA73FEFC6FC0D"
+					item: "minecraft:dragon_egg"
+					type: "item"
+				}
+				{
+					id: "2BA78F30931E34E6"
+					item: {
+						Count: 1
+						id: "minecraft:elytra"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C741FC3392D72B9"
+					item: {
+						Count: 1
+						id: "travelersbackpack:dragon"
+						tag: {
+							StarterUpgrades: {
+								Items: [{
+									Count: 1b
+									id: "travelersbackpack:tanks_upgrade"
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Pokonaj smoka dwa razy"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_egg"
+				id: "35C49F9764D2FF5B"
+				title: "Pogromca smoków"
+				type: "kill"
+				value: 2L
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["05BA10000AD175DE"]
+			id: "07A577A297D356A1"
+			rewards: [{
+				count: 64
+				id: "075EDC91C954DFA7"
+				item: "minecraft:popped_chorus_fruit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7ED95F1BD9971883"
+				item: "minecraft:chorus_fruit"
+				type: "item"
+			}]
+			title: "Ostateczny owoc"
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["07A577A297D356A1"]
+			id: "0E2209C06BDB2FEF"
+			rewards: [{
+				id: "17962EB5AC5F63D5"
+				item: {
+					Count: 1
+					id: "estrogen:moth_elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "73FD07E332152DE2"
+				item: {
+					Count: 1
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Lecę bo chcę"
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0E2209C06BDB2FEF"]
+			id: "542661BB8029F016"
+			rewards: [{
+				count: 64
+				id: "0A176803BBA5FA08"
+				item: "minecraft:amethyst_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6466D97C992336FB"
+				item: {
+					Count: 1
+					id: "betterend:elytra_armored"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Umocniony lot"
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0E2209C06BDB2FEF"]
+			id: "7E9AD9124068DE4C"
+			rewards: [{
+				count: 64
+				id: "5C97347D7A87DA0E"
+				item: "minecraft:slime_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "73C517AD400503C8"
+				item: {
+					Count: 1
+					id: "tconstruct:slime_chestplate"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_modifiers: [
+							{
+								level: 1s
+								name: "tconstruct:overslime_friend"
+							}
+							{
+								level: 1s
+								name: "tconstruct:wings"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 0.4f
+						}
+						tic_persistent_data: {
+							abilities: 1
+							upgrades: 5
+						}
+						tic_stats: {
+							"tconstruct:armor": 0.0f
+							"tconstruct:attack_damage": 0.0f
+							"tconstruct:durability": 672.0f
+						}
+						tic_volatile_data: {
+							"tconstruct:elyta": 1b
+							"tconstruct:overslime_friend": 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["07A577A297D356A1"]
+			id: "58331BFCF41618FA"
+			tasks: [{
+				id: "5D0EA20769B9AC46"
+				item: "minecraft:shulker_box"
+				type: "item"
+			}]
+			title: "Żywy plecak"
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["05BA10000AD175DE"]
+			id: "3EC0BC4BF11B03FE"
+			rewards: [{
+				count: 3
+				id: "32F6F0D0E0F35395"
+				item: "betterend:thallasium_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "30976F6386895085"
+				item: {
+					Count: 1
+					id: "betterend:thallasium_anvil"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Thallasium"
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["05BA10000AD175DE"]
+			id: "70714AA4DE97BC54"
+			tasks: [{
+				id: "72DDB13A8B4F5FFC"
+				item: "betterend:infusion_pedestal"
+				type: "item"
+			}]
+			title: "Ostateczna magia"
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["05BA10000AD175DE"]
+			id: "0F3FDF9D3C6A16C4"
+			tasks: [{
+				id: "4F2DA770AB066573"
+				item: "betterend:eternal_pedestal"
+				type: "item"
+			}]
+			title: "Wieczność"
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3EC0BC4BF11B03FE"]
+			id: "61689F241FFFCC95"
+			tasks: [{
+				id: "49633A7D5D2231F8"
+				item: {
+					Count: 1
+					id: "betterend:terminite_anvil"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Terminit"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["61689F241FFFCC95"]
+			id: "017ADB6129DDC916"
+			tasks: [{
+				id: "159A194C507ACF29"
+				item: {
+					Count: 1
+					id: "betterend:aeternium_anvil"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Aeternium"
+			x: -2.0d
+			y: -3.5d
+		}
+	]
+	subtitle: ["To już jest koniec"]
+	title: "End"
+}

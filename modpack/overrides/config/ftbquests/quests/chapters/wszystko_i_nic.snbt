@@ -1,0 +1,280 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "wszystko_i_nic"
+	group: ""
+	icon: "artifacts:mimic_spawn_egg"
+	id: "3C67CB97E63121D5"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7FED57D9AC758B54"
+			rewards: [{
+				id: "2685141E64D29971"
+				item: "crabsbackport:music_disc_lava_chicken"
+				type: "item"
+			}]
+			subtitle: "Zbierz wszystkie instrumenty"
+			tasks: [
+				{
+					id: "247EA9B443FF8BF3"
+					item: {
+						Count: 1
+						id: "immersive_melodies:ender_bass"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "13F0BD0A01127B9F"
+					item: {
+						Count: 1
+						id: "immersive_melodies:lute"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "69471B53E0032480"
+					item: {
+						Count: 1
+						id: "immersive_melodies:piano"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "526316D95B68001E"
+					item: {
+						Count: 1
+						id: "immersive_melodies:bagpipe"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "19256B85342C73D8"
+					item: {
+						Count: 1
+						id: "immersive_melodies:flute"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "2B02EA980488554E"
+					item: {
+						Count: 1
+						id: "immersive_melodies:handpan"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "037EF0B1E61B1E1A"
+					item: {
+						Count: 1
+						id: "immersive_melodies:triangle"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "64B68EBC69DA2117"
+					item: {
+						Count: 1
+						id: "immersive_melodies:tiny_drum"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "7578CC9B8BC8BFD6"
+					item: {
+						Count: 1
+						id: "immersive_melodies:didgeridoo"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "4FC883AAF1A90E56"
+					item: {
+						Count: 1
+						id: "immersive_melodies:vielle"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "519E49521355695F"
+					item: {
+						Count: 1
+						id: "immersive_melodies:trumpet"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Orkiestra"
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			id: "52F0F34CB99BB515"
+			rewards: [{
+				id: "399921503989D5F4"
+				item: {
+					Count: 1
+					id: "minecraft:brush"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "72550F238EA08A30"
+				item: "betterarcheology:archeology_table"
+				type: "item"
+			}]
+			title: "Jak zostać archeologiem"
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			id: "1E2520160744052A"
+			rewards: [{
+				id: "3011D57BA58056B7"
+				item: "seasonsextras:crop_season_tester"
+				type: "item"
+			}]
+			tasks: [{
+				id: "385E63596A1ECB95"
+				item: "seasonsextras:season_calendar"
+				type: "item"
+			}]
+			title: "Nadchodzi zima"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			id: "602F0C0AFD54C6ED"
+			rewards: [{
+				id: "372C9EFAD150967F"
+				item: "minecraft:cauldron"
+				type: "item"
+			}]
+			tasks: [{
+				id: "075FE3B70395BE8B"
+				item: "supplementaries:soap"
+				type: "item"
+			}]
+			title: "Czas na kąpiel"
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			id: "1FA16D43B96EEF40"
+			rewards: [{
+				count: 4
+				id: "2286346FD6972458"
+				item: "minecraft:copper_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "286A0B008C50B4B8"
+				item: {
+					Count: 1
+					id: "supplementaries:wrench"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Inżynierka"
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			id: "154DF856353F8CA1"
+			rewards: [{
+				id: "6F0A874529682F6F"
+				item: "artifacts:bunny_hoppers"
+				type: "item"
+			}]
+			subtitle: "Pokonaj 3 mimiki"
+			tasks: [{
+				entity: "artifacts:mimic"
+				icon: "artifacts:mimic_spawn_egg"
+				id: "49BE0182DE039E55"
+				title: "Pogromca mimików"
+				type: "kill"
+				value: 3L
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			id: "1F7E969761923081"
+			rewards: [{
+				count: 2
+				id: "0ECCBD83C8AD0FA4"
+				item: "travelersbackpack:backpack_tank"
+				type: "item"
+			}]
+			tasks: [{
+				id: "04011432D7039982"
+				item: {
+					Count: 1
+					id: "travelersbackpack:standard"
+					tag: {
+						StarterUpgrades: {
+							Items: [{
+								Count: 1b
+								id: "travelersbackpack:tanks_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Więcej miejsca na śmieci"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1F7E969761923081"]
+			id: "70AF1F3FF41A3454"
+			rewards: [{
+				id: "6600B8FDF3CBC1D5"
+				item: "travelersbackpack:crafting_upgrade"
+				type: "item"
+			}]
+			tasks: [{
+				id: "233566E25EC2314F"
+				item: {
+					Count: 1
+					id: "travelersbackpack:standard"
+					tag: {
+						StarterUpgrades: {
+							Items: [{
+								Count: 1b
+								id: "travelersbackpack:tanks_upgrade"
+							}]
+						}
+						Tier: 4
+					}
+				}
+				type: "item"
+			}]
+			title: "Wszystko się zmieści"
+			x: 2.0d
+			y: -4.5d
+		}
+	]
+	subtitle: ["Podróż po różnych zakątkach GhostLandu"]
+	title: "Wszystko i nic"
+}
