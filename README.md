@@ -49,6 +49,10 @@ A modpack for the 7th edition of GhostLand SMP
 
 ## Changelogs:
 
+### 7b8
+- Changed quests for Create
+- Added quests for: End (BetterEnd), Construction (various mods) and Other (miscellaneous)
+
 ### 7b7
 - Added quests for: Nether (BetterNether), Applied Energistics 2 and Tinker's Construct
 

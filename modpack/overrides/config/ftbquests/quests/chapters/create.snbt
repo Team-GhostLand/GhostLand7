@@ -5,7 +5,7 @@
 	group: ""
 	icon: "create:cogwheel"
 	id: "4F0410FEC7CCCFD3"
-	order_index: 3
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -1005,24 +1005,6 @@
 		}
 		{
 			dependencies: ["104A081025F75330"]
-			id: "37DF14DA24C0B1F7"
-			rewards: [{
-				count: 16
-				id: "47F6FF7748691648"
-				item: "minecraft:quartz"
-				type: "item"
-			}]
-			tasks: [{
-				id: "55FE547B1E737770"
-				item: "create:polished_rose_quartz"
-				type: "item"
-			}]
-			title: "Na różowo"
-			x: -1.0d
-			y: -11.5d
-		}
-		{
-			dependencies: ["104A081025F75330"]
 			id: "235B14D665DC4B76"
 			rewards: [{
 				count: 3
@@ -1040,7 +1022,7 @@
 			y: -13.0d
 		}
 		{
-			dependencies: ["104A081025F75330"]
+			dependencies: ["235B14D665DC4B76"]
 			id: "61FA17ACC60F5988"
 			rewards: [{
 				count: 8
@@ -1054,8 +1036,8 @@
 				type: "item"
 			}]
 			title: "Ramie w ramie"
-			x: -1.5d
-			y: -13.0d
+			x: 4.0d
+			y: -11.5d
 		}
 		{
 			dependencies: ["104A081025F75330"]
@@ -1076,7 +1058,7 @@
 			y: -14.5d
 		}
 		{
-			dependencies: ["104A081025F75330"]
+			dependencies: ["235B14D665DC4B76"]
 			id: "514D40DF17D26803"
 			rewards: [{
 				count: 64
@@ -1109,7 +1091,7 @@
 				}
 			]
 			title: "Daleki zasięg"
-			x: 2.0d
+			x: 4.0d
 			y: -14.5d
 		}
 		{
@@ -1241,6 +1223,146 @@
 			title: "Zdalne sterowanie"
 			x: 0.5d
 			y: -19.5d
+		}
+		{
+			dependencies: ["104A081025F75330"]
+			id: "1076D083E0D7C5FB"
+			rewards: [{
+				count: 64
+				id: "4965DE0338C2FACA"
+				item: "create:raw_zinc"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "34C96EE6EA88B275"
+					item: "createoreexcavation:vein_finder"
+					type: "item"
+				}
+				{
+					id: "53B52AE997E71B5E"
+					item: "createoreexcavation:vein_atlas"
+					type: "item"
+				}
+			]
+			title: "Gdzie moje rudy?"
+			x: -1.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["1076D083E0D7C5FB"]
+			id: "25822FE7990A9319"
+			rewards: [{
+				count: 32
+				id: "3E6A518DE89691BD"
+				item: "geocluster:stone_sample"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4AA88DF602BD7638"
+				item: "createoreexcavation:sample_drill"
+				type: "item"
+			}]
+			title: "Wydobycie próbek"
+			x: -3.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["1076D083E0D7C5FB"]
+			id: "73BC8E5A845835ED"
+			rewards: [{
+				id: "051A85F612AE31B1"
+				item: "createoreexcavation:drill"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5EFBBC89474A64D2"
+				item: "createoreexcavation:drilling_machine"
+				type: "item"
+			}]
+			title: "Kopanie pełną parą"
+			x: -3.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["1076D083E0D7C5FB"]
+			id: "3EBF7362A1AD2C7C"
+			rewards: [{
+				count: 16
+				id: "389DB939418E6743"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "33236BEEC731069B"
+				item: "createoreexcavation:extractor"
+				type: "item"
+			}]
+			title: "Automatyczna studnia"
+			x: -3.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["104A081025F75330"]
+			id: "13920197A49B7FFF"
+			rewards: [{
+				count: 1024
+				id: "3AE28389EB112C86"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			tasks: [{
+				id: "13ED2C318518EE04"
+				item: {
+					Count: 1
+					id: "createcobblestone:mechanical_generator"
+					tag: {
+						BlockEntityTag: {
+							type: "none"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Generator kamienia"
+			x: -1.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["235B14D665DC4B76"]
+			id: "10421851CA5A44EA"
+			rewards: [{
+				count: 256
+				id: "42BEF2962DD7F733"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "527005F6E161432E"
+				item: "create:rotation_speed_controller"
+				type: "item"
+			}]
+			title: "Twój wybór"
+			x: 4.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["104A081025F75330"]
+			id: "082781DE8BFA952B"
+			rewards: [{
+				count: 64
+				id: "7C2D8250C13B09DB"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			tasks: [{
+				id: "390F88136E1E0AFA"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			title: "Automatyczne tworzenie"
+			x: 2.0d
+			y: -14.5d
 		}
 	]
 	subtitle: ["Wprowadzenie do moda Create"]

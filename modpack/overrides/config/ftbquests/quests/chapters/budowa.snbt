@@ -1,0 +1,196 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "budowa"
+	group: ""
+	icon: "chipped:tinkering_table"
+	id: "2C944CA21F572686"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4F21ED980413164B"
+			rewards: [{
+				count: 8
+				id: "485BBEB588430F8C"
+				item: "minecraft:torchflower"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1ED1282EFFCF0DD8"
+				item: "chipped:botanist_workbench"
+				type: "item"
+			}]
+			title: "Botanika"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			id: "37465A1D35D5A71A"
+			rewards: [{
+				count: 32
+				id: "5A083D7F40997E8C"
+				item: "tconstruct:clear_glass"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7375F1C9DBC7AA49"
+				item: "chipped:glassblower"
+				type: "item"
+			}]
+			title: "Szyby i szklanki"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "14C51E95D3500D92"
+			rewards: [{
+				count: 8
+				id: "761E2BE9855730C4"
+				item: "another_furniture:oak_table"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E86AA78F1EF1C32"
+				item: "chipped:carpenters_table"
+				type: "item"
+			}]
+			title: "Praca stolarska"
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			id: "27BD99C44B2CBD40"
+			rewards: [{
+				count: 64
+				id: "15EDA346A21330B9"
+				item: "minecraft:string"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1CDB033551489252"
+				item: "chipped:loom_table"
+				type: "item"
+			}]
+			title: "Zaplątanie"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			id: "573E969725579A52"
+			rewards: [{
+				count: 64
+				id: "73C6053B7A337A07"
+				item: "minecraft:deepslate"
+				type: "item"
+			}]
+			tasks: [{
+				id: "54BE6352EE15A1BA"
+				item: "chipped:mason_table"
+				type: "item"
+			}]
+			title: "Twardy jak skała"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "1417995D530E7B9E"
+			rewards: [{
+				count: 8
+				id: "0971FF540E744C9D"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:water"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3FAC428D95BEF2D2"
+				item: "chipped:alchemy_bench"
+				type: "item"
+			}]
+			title: "Mały alchemik"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "17E81D207D80FC97"
+			rewards: [{
+				count: 16
+				id: "2366CBA9A7E30A0A"
+				item: "minecraft:redstone_lamp"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F26C5DE8F823BCA"
+				item: "chipped:tinkering_table"
+				type: "item"
+			}]
+			title: "Rzemieślnctwo"
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			id: "16DB1087177779B2"
+			rewards: [{
+				count: 8
+				id: "6AC6A8365B5CA727"
+				item: "minecraft:painting"
+				type: "item"
+			}]
+			tasks: [{
+				id: "32718E3FDDF00CFA"
+				item: "immersive_paintings:painting"
+				type: "item"
+			}]
+			title: "Na własny obraz"
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			id: "17F82441260B999F"
+			rewards: [{
+				count: 4
+				id: "00A1DF5C377B27C0"
+				item: "minecraft:bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "10F1D97002555CCC"
+				item: "immersive_paintings:graffiti"
+				type: "item"
+			}]
+			title: "Znak na ścianie"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			id: "0557210465253655"
+			rewards: [{
+				count: 4
+				id: "7AC869C37A0F561E"
+				item: "another_furniture:oak_chair"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4FDADFF7E585C311"
+				item: {
+					Count: 1
+					id: "another_furniture:furniture_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Młot do mebli"
+			x: -5.5d
+			y: 1.5d
+		}
+	]
+	subtitle: ["Materiały budowlane i tym podobne"]
+	title: "Budowa"
+}
