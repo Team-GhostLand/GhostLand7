@@ -50,8 +50,12 @@ A modpack for the 7th edition of GhostLand SMP
 ## Changelogs:
 
 ### 7b13
-- Reverted the index to its 7b2 state (except for the version number), as it's the last-known functioning update. I first thought that this title belongs to 7b5 becasue I remember seeing the server as Online when testing that update out, but I guess I must've never restarted the server after the Questing update, until the restart at 7b6 (where I then proceeded to blame 7b6's changes (namely Discord integration - but then, from the lack of ideas, also everything else in that update) for breaking the server).
-- Disabled all side-loaded FTB mods (becasue they were added in 7b3 and we're revering to 7b2) by directly renaming them (becasue unindexed (aka sideloaded) mods aren't supported by Grinch)
+- Reverted the index to its 7b3 state (except for the version number, this time), as it's the next update in line to check (7b2, as expected, does work)
+- Enabled all side-loaded FTB mods (becasue they were added in 7b3 and we're revering to it now) by directly renaming them (becasue unindexed (aka sideloaded) mods aren't supported by Grinch)
+
+### 7b2 (again)
+- Reverted the index to its 7b2 state (even including the version number becasue I forgot to change it to 7b13 (which is what this update was supposed to be) after copy-pasting - RIP the original 7b2; noone will ever be able to download it again becasue it got overwritten on the CI server), as it's the last-known functioning update. I first thought that this title belongs to 7b5 becasue I remember seeing the server as Online when testing that update out, but I guess I must've never restarted the server after the Questing update, until the restart at 7b6 (where I then proceeded to blame 7b6's changes (namely Discord integration - but then, from the lack of ideas, also everything else in that update) for breaking the server).
+- Disabled all side-loaded FTB mods (becasue they were only added in 7b3 and we're revering to 7b2) by directly renaming them (becasue unindexed (aka sideloaded) mods aren't supported by Grinch)
 
 ### 7b12
 - Enabled Discord integration becasue it's also not the culprit
