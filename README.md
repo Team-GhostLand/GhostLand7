@@ -49,24 +49,31 @@ A modpack for the 7th edition of GhostLand SMP
 
 ## Changelogs:
 
-### 7b13
-- Reverted the index to its 7b3/7b4/7b5 state (except for the version number, this time - it's not like we could have 3 numbers at once, anyway), as it's the next update in line to check (7b2, as expected, does work)
-- Enabled all side-loaded FTB mods (becasue they were added in 7b3 and we're revering to it now) by directly renaming them (becasue unindexed (aka sideloaded) mods aren't supported by Grinch)
+### 7b14
+- *Comparing with 7b13; this is probably not what you want:* Reverted the index to its 7b9 state, except for the version number and for all the changes that happened to it in 7b3 (except Necro and CreQuest becasue they were confirmed to be working) because now we've pinpointed that commit as the source of server crashes (though FTB's sideloaded mods were kept as enabled becasue I find it unlikely that the almighty FTB would fumble something so hard)
+- *Comparing with 7b9, ie. the last „main-branch” (in our hearts, at least, becasue in practice all these tests were done right on MASTER - which was probably a bad idea organisation-wise, but it's too late now) version:* Removed FTB Quest Optimiser and FreezeFix
 
-### 7b2 (again)
-- Reverted the index to its 7b2 state (even including the version number becasue I forgot to change it to 7b13 (which is what this update was supposed to be) after copy-pasting - RIP the original 7b2; noone will ever be able to download it again becasue it got overwritten on the CI server), as it's the last-known functioning update. I first thought that this title belongs to 7b5 becasue I remember seeing the server as Online when testing that update out, but I guess I must've never restarted the server after the Questing update, until the restart at 7b6 (where I then proceeded to blame 7b6's changes (namely Discord integration - but then, from the lack of ideas, also everything else in that update) for breaking the server).
-- Disabled all side-loaded FTB mods (becasue they were only added in 7b3 and we're revering to 7b2) by directly renaming them (becasue unindexed (aka sideloaded) mods aren't supported by Grinch)
+### 7b10-7b13
+These updates were really just me debugging shit with Push-on-Save[TM], so I wrapped them up into a single block becasue they don't matter that much. Feel free to read past this.
 
-### 7b12
-- Enabled Discord integration becasue it's also not the culprit
-- Disabled PacketAuth, PufferSkills (and its Origins compat and atributtes addon, as dependnecies) and Amendments (for the same reason and in the same way as specified below) becasue they're the only other changes in 7b6, which is when everything started breaking.
+- 7b13
+  - Reverted the index to its 7b3/7b4/7b5 state (except for the version number, this time - it's not like we could have 3 numbers at once, anyway), as it's the next update in line to check (7b2, as expected, does work)
+  - Enabled all side-loaded FTB mods (becasue they were added in 7b3 and we're revering to it now) by directly renaming them (becasue unindexed (aka sideloaded) mods aren't supported by Grinch)
 
-### 7b11
-- Enabled Necronomicon and Create Questing on the server because it turns that they were not responsible
-- Disabled Discord integration (for the same reason and in the same way as specified below) becasue it's the second suspect. For context, the crash happens becasue creative tabs fail validation. As part of that validation, names are checked, and doing so requires some calling of methods from classes in `net.minecraft.network.chat.*` (which is where the error *actually* occurs - more specifically, in the `net.minecraft.locale.Language.loadFromJson` method) due to them being used for text formatting 'n'stuff and checking that is apparently also a part of creative tabs validation process. That obviouly points to Discord integration (becasue doing stuff with the chat is its whole purpouse), but I initially suspected Necronomicon becasue literally 2 log lines above the crash it was failing to inject a Mixin about animating item names (which seems much more in line with an error related to creative tabs, and is still related to chat - after all, as I said, chat-related classes/methods are used for various text-related actions in the game's codebase, such as (I guess) item names).
+- 7b2 (again)
+  - Reverted the index to its 7b2 state (even including the version number becasue I forgot to change it to 7b13 (which is what this update was supposed to be) after copy-pasting - RIP the original 7b2; noone will ever be able to download it again becasue it got overwritten on the CI server), as it's the last-known functioning update. I first thought that this title belongs to 7b5 becasue I remember seeing the server as Online when testing that update out, but I guess I must've never restarted the server after the Questing update, until the restart at 7b6 (where I then proceeded to blame 7b6's changes (namely Discord integration - but then, from the lack of ideas, also everything else in that update) for breaking the server).
+  - Disabled all side-loaded FTB mods (becasue they were only added in 7b3 and we're revering to 7b2) by directly renaming them (becasue unindexed (aka sideloaded) mods aren't supported by Grinch)
 
-### 7b10
-- Disabled Necronomicon (and Create Questing, as a dependency) on the server, to test my incompatibility theory (I think Necro and Discord have some conflicting mixins on chat, based on the logs that point at Necro and chat-related classes, and the fact that Necro was working before). Note, that this makes the server and the client incompatible for now, due to a different list of double-sided mods on each. Becasue it's just a test, I didn't do it via Grinch, but hand-rolled the edits to the index (so that the changes will get automatically undone the next time we export a pack via Modrinth, presumably after we find the culprit of the server crash).
+- 7b12
+  - Enabled Discord integration becasue it's also not the culprit
+  - Disabled PacketAuth, PufferSkills (and its Origins compat and atributtes addon, as dependnecies) and Amendments (for the same reason and in the same way as specified below) becasue they're the only other changes in 7b6, which is when everything started breaking.
+
+- 7b11
+  - Enabled Necronomicon and Create Questing on the server because it turns that they were not responsible
+  - Disabled Discord integration (for the same reason and in the same way as specified below) becasue it's the second suspect. For context, the crash happens becasue creative tabs fail validation. As part of that validation, names are checked, and doing so requires some calling of methods from classes in `net.minecraft.network.chat.*` (which is where the error *actually* occurs - more specifically, in the `net.minecraft.locale.Language.loadFromJson` method) due to them being used for text formatting 'n'stuff and checking that is apparently also a part of creative tabs validation process. That obviouly points to Discord integration (becasue doing stuff with the chat is its whole purpouse), but I initially suspected Necronomicon becasue literally 2 log lines above the crash it was failing to inject a Mixin about animating item names (which seems much more in line with an error related to creative tabs, and is still related to chat - after all, as I said, chat-related classes/methods are used for various text-related actions in the game's codebase, such as (I guess) item names).
+
+- 7b10
+  - Disabled Necronomicon (and Create Questing, as a dependency) on the server, to test my incompatibility theory (I think Necro and Discord have some conflicting mixins on chat, based on the logs that point at Necro and chat-related classes, and the fact that Necro was working before). Note, that this makes the server and the client incompatible for now, due to a different list of double-sided mods on each. Becasue it's just a test, I didn't do it via Grinch, but hand-rolled the edits to the index (so that the changes will get automatically undone the next time we export a pack via Modrinth, presumably after we find the culprit of the server crash).
 
 ### 7b9
 Fixing merge conflicts from 7b7
@@ -92,7 +99,7 @@ This version once again had some merge conflicts, but this time - it thankfully 
 - Updated: Amendments, HepEx, Moonlight, Tectonic
 - Attempted to disable Necronomicon becasue it seemed like it could be causing server startup failures and it didn't seem like any mod depended on it, but apparently it's actually needed for Create Questing (they just... don't tell you about it via Fabric's dependency system, and instead crash your game when you load a world without it), so I mentioned its addition in changelogs for 7b3.
 - Pointed server IP at `ghostland.ovh` instead of the old numerical one
-- Didn't export `defaultconfigs/` becasuse I was inforemd that it's no longer necessary (as such, I also - once again - allowed myself to edit 7b3's changelog to remove a note about it)
+- Didn't export `defaultconfigs/` becasuse I was informed that it's no longer necessary (as such, I also - once again - allowed myself to edit 7b3's changelog to remove a note about it)
 
 ### 7b6
 - Updated: Amendments, CME Bad, PufferSkills, Substrate, Transodium
