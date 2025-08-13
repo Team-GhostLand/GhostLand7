@@ -49,6 +49,10 @@ A modpack for the 7th edition of GhostLand SMP
 
 ## Changelogs:
 
+### 7b19
+* Configured WhList Sync 2
+* Configured SimpleAuth
+
 ### 7b18
 - that bitch DCLink is also broken *(There's just straightup a ClassNotFound - FOR ITS OWN DAMN THING! How did that even compile????)*
 - Installed server-sided mods: Whitelist Sync 2; MySQL JDBC
@@ -147,7 +151,7 @@ This version once again had some merge conflicts, but this time - it thankfully 
 ### 7b1
 - Updated: LD Vinery, Amendments, CICADA, Miniature Shader and Waystones (Farmer's Cutting BWG and BoP, TotW: Reworked and, RPG Skill Tree are already up-to-date - some datapacks simply tend to be a bit wonky with version displays; SimpleVC cannot be updated due to older dependencies)
 - Added: TechReborn (and TR-EMI) and Modern Industrialisation (and MI Sound); KB!; bee,aeth
-- Confugred starter kits (commands used: `/give @p bundle{display:{Name:'{"text":"Ulepszenia do Łóżek","color":"aqua","italic":true,"underlined":true}',Lore:['{"text":"...żebyś nie musiał(a) się męczyć z tym przy budowie pierwszego domu."}','{"text":"  "}','{"text":"* Użyj zegara na łóżku, aby umożliwić spanie w nim.","color":"white","italic":false}','{"text":"* Użyj kompasu na łóżku, aby umożliwić ustawianie na nim spawna.","color":"white","italic":false}','{"text":"UWAGA! Po użyciu na łóżku, kompasów/zegarów nie da się odzyskać!","color":"red","bold":true,"italic":false}','{"text":"   "}','{"text":"Ps  Darmowy bundle. Może się przydać. ;-)"}']},HideFlags:32,Items:[{id:"minecraft:clock",Count:3b,tag:{display:{Lore:['{"text":"Użyj na łóżku, aby umożliwić spanie w nim."}']}}},{id:"minecraft:compass",Count:1b,tag:{display:{Lore:['{"text":"Użyj na łóżku, aby umożliwić ustawianie na nim spawna."}']}}}]} 1`, `/give @p bundle{display:{Name:'{"text":"Podręczniki do Modów","color":"yellow","italic":true,"underlined":true}',Lore:['{"text":"Zawiera 6 książek z Tinker\'sa, 3 z Patchouli i 2 inne.","color":"white","italic":false}','{"text":"UWAGA! Książka z AE2 crashuje grę! Polecamy jej nawet nie craftować, bo i tak do niczego się nie przyda (dlatego też nie została tu dodana).","color":"red","bold":true,"italic":false}','{"text":"   "}','{"text":"Ps  Darmowy bundle. Może się przydać. ;-)"}']},Items:[{id:"tconstruct:materials_and_you",Count:1b},{id:"tconstruct:puny_smelting",Count:1b},{id:"tconstruct:mighty_smelting",Count:1b},{id:"tconstruct:tinkers_gadgetry",Count:1b},{id:"tconstruct:fantastic_foundry",Count:1b},{id:"tconstruct:encyclopedia",Count:1b},{id:"seasonsextras:seasonal_compendium",Count:1b},{id:"betterend:guidebook",Count:1b},{id:"powah:book",Count:1b},{id:"modern_industrialization:guidebook",Count:1b},{id:"aether:book_of_lore",Count:1b}],HideFlags:32} 1`, `/give @p spyglass{display:{Lore:['{"text":"UWAGA! Musi być w ekwipunku, żeby zoomowanie przez moda Zoomify działało!","color":"red","bold":true,"italic":false}','{"text":"UWAGA! Domyślnie, Mod Zoomify dostępny jest tylko w pełnym wydaniu paczki. W Tweakable Edition musisz go sobie włączyć, a do Slim Edition trzeba go side-loadować.","color":"red","bold":true,"italic":false}','{"text":"   "}','{"text":"Jeśli ta mechanika tak bardzo ci się nie podoba, to możesz zawsze ją wyłączyć (Esc > Mody > Zoomify > kilknij na ikonę moda > sekcja „Spyglass”, na dole > Zoom behavior: Combine)."}']}} 1` and `/give @p shield{Damage:320} 1`; some items renamed using vanilla anvils)
+- Configured starter kits (commands used: `/give @p bundle{display:{Name:'{"text":"Ulepszenia do Łóżek","color":"aqua","italic":true,"underlined":true}',Lore:['{"text":"...żebyś nie musiał(a) się męczyć z tym przy budowie pierwszego domu."}','{"text":"  "}','{"text":"* Użyj zegara na łóżku, aby umożliwić spanie w nim.","color":"white","italic":false}','{"text":"* Użyj kompasu na łóżku, aby umożliwić ustawianie na nim spawna.","color":"white","italic":false}','{"text":"UWAGA! Po użyciu na łóżku, kompasów/zegarów nie da się odzyskać!","color":"red","bold":true,"italic":false}','{"text":"   "}','{"text":"Ps  Darmowy bundle. Może się przydać. ;-)"}']},HideFlags:32,Items:[{id:"minecraft:clock",Count:3b,tag:{display:{Lore:['{"text":"Użyj na łóżku, aby umożliwić spanie w nim."}']}}},{id:"minecraft:compass",Count:1b,tag:{display:{Lore:['{"text":"Użyj na łóżku, aby umożliwić ustawianie na nim spawna."}']}}}]} 1`, `/give @p bundle{display:{Name:'{"text":"Podręczniki do Modów","color":"yellow","italic":true,"underlined":true}',Lore:['{"text":"Zawiera 6 książek z Tinker\'sa, 3 z Patchouli i 2 inne.","color":"white","italic":false}','{"text":"UWAGA! Książka z AE2 crashuje grę! Polecamy jej nawet nie craftować, bo i tak do niczego się nie przyda (dlatego też nie została tu dodana).","color":"red","bold":true,"italic":false}','{"text":"   "}','{"text":"Ps  Darmowy bundle. Może się przydać. ;-)"}']},Items:[{id:"tconstruct:materials_and_you",Count:1b},{id:"tconstruct:puny_smelting",Count:1b},{id:"tconstruct:mighty_smelting",Count:1b},{id:"tconstruct:tinkers_gadgetry",Count:1b},{id:"tconstruct:fantastic_foundry",Count:1b},{id:"tconstruct:encyclopedia",Count:1b},{id:"seasonsextras:seasonal_compendium",Count:1b},{id:"betterend:guidebook",Count:1b},{id:"powah:book",Count:1b},{id:"modern_industrialization:guidebook",Count:1b},{id:"aether:book_of_lore",Count:1b}],HideFlags:32} 1`, `/give @p spyglass{display:{Lore:['{"text":"UWAGA! Musi być w ekwipunku, żeby zoomowanie przez moda Zoomify działało!","color":"red","bold":true,"italic":false}','{"text":"UWAGA! Domyślnie, Mod Zoomify dostępny jest tylko w pełnym wydaniu paczki. W Tweakable Edition musisz go sobie włączyć, a do Slim Edition trzeba go side-loadować.","color":"red","bold":true,"italic":false}','{"text":"   "}','{"text":"Jeśli ta mechanika tak bardzo ci się nie podoba, to możesz zawsze ją wyłączyć (Esc > Mody > Zoomify > kilknij na ikonę moda > sekcja „Spyglass”, na dole > Zoom behavior: Combine)."}']}} 1` and `/give @p shield{Damage:320} 1`; some items renamed using vanilla anvils)
 - Disabled starter books for MI and Tinker's
 - Keybind changes: Disabled flight-related binds from Aether, MI, TR and Bumblezone (they were conflicting hard, so the only option would be to settle on a single one (meanwhile, if they're disabled, people can only enable those from whichever mod they use) and - due to those items being end-game, anyway - people can just enable those when the time come for them)
 - „Seen” the Bundle Tutorial
@@ -683,12 +687,14 @@ Things that - for one reason or another - are exceptionally easy to forget:
 * Bumped max. chat history to 1k from 500 (vanilla is 100, btw), to replace More Chat History's functionality (now that it's gone becasue it was conflicting with this very mod)
 * Configured the bot (see details in the same commit that created this line)
 
-### PacketAuth
-* Translated and Ghostland-ified the messages
-* Increased the wait time from 200ms to 10s becasue the pack tends to chug during joining and it might take it way longer than 200ms to realise that it got an auth-request ping
-* Shortened the token length from 4096 to 512 becasue we need it to fit in a Discord message
-* Configured all DB secret envars
-* Switched to DB from file mode for storage
+### EasyAuth
+* Storage: Switched to MySQL mode and configured all envars
+* Extended: Verbosier logs; changed password length: `<4;inf> -> <12;48>`; decreased the teleportation frequency from 1t to 2s
+* Main: gave 5 login attemps (not 3); bumped idle time from 60s to 300s becasue chunks take a long time to load on this pack, and for the first 60s the game will likely be unresponsive anyway; Disabled Vanish integration (we don't have the mod)
+* Language: Polish
+
+### WhList Sync 2
+* Storage: Switched to MySQL mode and configured all envars
 
 ## Things to mention to people
 * See: [Issue](#issues) about entering
