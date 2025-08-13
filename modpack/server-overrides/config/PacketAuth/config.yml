@@ -18,7 +18,7 @@ kick.disabled.reason: "&cPowód: %reason%"
   
   
 # Possible types: "file" (default) and "mysql". If you selected "mysql" then you can delete files token.yml and disabled_tokens.yml
-storage.mode: "file"
+storage.mode: "mysql"
 # These lines are hidden if storage.mode is "file"
 # MySQL server address
 storage.mysql.host: "${CFG_DB_HOST}"

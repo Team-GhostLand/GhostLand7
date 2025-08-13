@@ -49,6 +49,9 @@ A modpack for the 7th edition of GhostLand SMP
 
 ## Changelogs:
 
+### 7b16
+- Set PacketAuth to use the DB
+
 ### 7b15
 - Configured Discord integration
 - Partially configured PacketAuth
@@ -677,7 +680,7 @@ Things that - for one reason or another - are exceptionally easy to forget:
 * Increased the wait time from 200ms to 10s becasue the pack tends to chug during joining and it might take it way longer than 200ms to realise that it got an auth-request ping
 * Shortened the token length from 4096 to 512 becasue we need it to fit in a Discord message
 * Configured all DB secret envars
-* Switched from DB to file mode for storage for now (Which is technically the default, anyway? But not really?)
+* Switched to DB from file mode for storage
 
 ## Things to mention to people
 * See: [Issue](#issues) about entering
