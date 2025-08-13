@@ -8,5 +8,4 @@ emojifulCompatibility = false
 # By default, this value is 100 in the vanilla game.
 # Default: 500
 # Range: > 20
-maxChatHistory = 500
-
+maxChatHistory = 1000

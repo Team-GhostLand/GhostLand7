@@ -1,0 +1,47 @@
+# DON'T TOUCH IT!
+config.version: "1.6.2"
+
+# You can use placeholder %name% in any message
+
+# Message that's displayed when player don't have compatible mod version. Available placeholders: %name%, %version%
+kick.outdated: "Błąd synchronizacji klienta z serwerem: Nie znaleziono moda &aPacketAuth w wersji %version% &club nowszej. Czy na pewno masz najnowszą wersję paczki?"
+# Message that's displayed when player's token is incorrect
+kick.message: "&cNie podano odpowiedniego tokenu! Wykonaj komendę „/połącz %name%” z bota Konto GhostLand na Discordzie, zedytuj serwer GhostLand na liście serwerów (wklej tam token do odpowiedniego pola) i spróbuj ponownie się połączyć. W razie problemów, pisz na Discordzie."
+# Delay between login and version & token check. If You're having previous messages but your token is valid just increase it
+kick.delay: "%ping% + 10000"
+
+# These lines are hidden if tokenDisabling.enabled is "false"
+# Message that's displayed when player's token is disabled. It'll be displayed in 1st row (by default)
+kick.disabled: "&cNie masz obecnie dostępu do swojego konta GhostLand!"
+# Message that's displayed when player's token is disabled and reason is given. It'll be displayed in 2nd ro (by default). Available placeholders: %name%, %reason%
+kick.disabled.reason: "&cPowód: %reason%"
+  
+  
+# Possible types: "file" (default) and "mysql". If you selected "mysql" then you can delete files token.yml and disabled_tokens.yml
+storage.mode: "file"
+# These lines are hidden if storage.mode is "file"
+# MySQL server address
+storage.mysql.host: "${CFG_DB_HOST}"
+# MySQL port
+storage.mysql.port: "${CFG_DB_PORT}"
+# Database name for PacketAuth
+storage.mysql.databaseName: "${CFG_DB_NAME}"
+# Tokens table name
+storage.mysql.tableName: "${CFG_DB_TABLE}"
+# MySQL user login. I recommend you creation of user with permissions for just PacketAuth table
+storage.mysql.user: "${CFG_DB_USER}"
+# MySQL user password.
+storage.mysql.password: "${CFG_DB_PASS}"
+
+# This is disabled by default. Allows you to disable any player's token
+tokenDisabling.enabled: "true"
+# This line is hidden if storage.mode is "file"
+# DisabledTokens table name
+tokenDisabling.tableName: "${CFG_DB_TABLE_DISABLED}"
+
+# If enabled, generates random token for player that don't have it
+tokengen.enabled: "true"
+# Generated token length
+tokengen.length: "512"
+# Symbols that the token consists of
+tokengen.symbols: "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"

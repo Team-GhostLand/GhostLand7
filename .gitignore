@@ -21,3 +21,6 @@ modpack/overrides/config/analog/records
 
 # Distant Horizons interprets values differently on different devices - better to remove its configs and have everything set to default
 modpack/overrides/config/DistantHorizons.toml
+
+# Leaks personal access tokens
+modpack/overrides/config/PacketAuth/config.yml

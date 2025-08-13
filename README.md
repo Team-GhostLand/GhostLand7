@@ -49,6 +49,10 @@ A modpack for the 7th edition of GhostLand SMP
 
 ## Changelogs:
 
+### 7b15
+- Configured Discord integration
+- Partially configured PacketAuth
+
 ### 7b14
 - *Comparing with 7b13; this is probably not what you want:* Reverted the index to its 7b9 state, except for the version number and for all the changes that happened to it in 7b3 (except Necro and CreQuest becasue they were confirmed to be working) because now we've pinpointed that commit as the source of server crashes (though FTB's sideloaded mods were kept as enabled becasue I find it unlikely that the almighty FTB would fumble something so hard)
 - *Comparing with 7b9, ie. the last „main-branch” (in our hearts, at least, becasue in practice all these tests were done right on MASTER - which was probably a bad idea organisation-wise, but it's too late now) version:* Removed FTB Quest Optimiser and FreezeFix
@@ -513,7 +517,6 @@ Things that - for one reason or another - are exceptionally easy to forget:
 ### Controls: *(\*Not bind-pizzeria)*
 * Disabled creative controls (X&C)
 * Disabled narrator (AVE!)
-* Disabled achievements - you can open them from the Esc menu, anyway
 * Disabled Reload Celestial
 * Disabled AE2 guide
 * Disabled Big Cannons C-key
@@ -552,6 +555,7 @@ Things that - for one reason or another - are exceptionally easy to forget:
 ### ReplayMod
 * Disabled singleplayer recording (RplMd added mostly for social reasons (so that we can clip all funny moments, as recommended [in this video](https://youtu.be/fYpe4KZj9UE)), so there's no need to have it in singleplayer)
 * Enabled multiplayer recording (as stated above - that's our main goal here)
+* Hidden the recording indicator
 
 ### Exordium
 * Disabled Chat Buffering, as it was breaking Chat Animations
@@ -602,7 +606,7 @@ Things that - for one reason or another - are exceptionally easy to forget:
 
 ### BetterCompatChecker
 * Name: `GhostLand`
-* Version: `7-ALPHA` *<---update me!*
+* Version: `7-BETA` *<---update me!*
 
 ### Sparse structures
 * Dumped all structures in
@@ -658,8 +662,22 @@ Things that - for one reason or another - are exceptionally easy to forget:
 ### MI
 * Disabled the guidebook
 
+### FTB Quests
+* Added some quests
+
 ### Tinker's
 * Disabled the guidebook
+
+### Discord integration
+* Bumped max. chat history to 1k from 500 (vanilla is 100, btw), to replace More Chat History's functionality (now that it's gone becasue it was conflicting with this very mod)
+* Configured the bot (see details in the same commit that created this line)
+
+### PacketAuth
+* Translated and Ghostland-ified the messages
+* Increased the wait time from 200ms to 10s becasue the pack tends to chug during joining and it might take it way longer than 200ms to realise that it got an auth-request ping
+* Shortened the token length from 4096 to 512 becasue we need it to fit in a Discord message
+* Configured all DB secret envars
+* Switched from DB to file mode for storage for now (Which is technically the default, anyway? But not really?)
 
 ## Things to mention to people
 * See: [Issue](#issues) about entering
