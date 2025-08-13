@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "7b17",
+  "versionId": "7b18",
   "name": "GhostLand 7 Beta",
   "summary": "Paczka na siódmą edycję GhostLanda - wersja beta",
   "files": [
@@ -3006,6 +3006,21 @@
       "fileSize": 122989
     },
     {
+      "path": "mods/GR_CLX_WhitelistSync-2.8.1-fabric-1.20.1.jar",
+      "hashes": {
+        "sha1": "204d64062e70f59bc3a3bbb6b63ee18083912464",
+        "sha512": "9775462bd8e294b081ac9bc023ff378aacae4e2b9c0da9a282ef21d3586777b155c0c762dcc5df7a75ceca11792d459c86759418bdb4ed20fe7a8120854ed86f"
+      },
+      "env": {
+        "client": "unsupported",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/DcCsQ8S5/versions/ERfqvppy/WhitelistSync-2.8.1-fabric-1.20.1.jar"
+      ],
+      "fileSize": 6834917
+    },
+    {
       "path": "mods/GR_CLX_audioplayer-fabric-1.20.1-1.13.2.jar",
       "hashes": {
         "sha1": "12a1bef12dc6c6d231cd05b14afd6c4fd459dc92",
@@ -3019,21 +3034,6 @@
         "https://cdn.modrinth.com/data/SRlzjEBS/versions/M6EFtrdy/audioplayer-fabric-1.20.1-1.13.2.jar"
       ],
       "fileSize": 781487
-    },
-    {
-      "path": "mods/GR_CLX_dclink-fabric-1.0.8.jar",
-      "hashes": {
-        "sha1": "c8b1b371351fbbbfd69cacceecae709c5f88bd39",
-        "sha512": "a71ba12aea1d96fd12323ecf7c2e958b3f3e2b0cdca420028f0559fa103b9cc783a1fba5a015b1e5e1acedcf4a51b91ed3ff95d449c8e39e766cba33118418d7"
-      },
-      "env": {
-        "client": "unsupported",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/dfWKHnn4/versions/nPZ4Inhl/dclink-fabric-1.0.8.jar"
-      ],
-      "fileSize": 15371279
     },
     {
       "path": "mods/GR_CLX_dimensionalsyncfixes-fabric-1.20.1-0.0.2.jar",
@@ -3094,6 +3094,21 @@
         "https://cdn.modrinth.com/data/PExmWQV8/versions/JlWCTVC5/mods-command-mc1.20.1-1.1.3.jar"
       ],
       "fileSize": 2427235
+    },
+    {
+      "path": "mods/GR_CLX_mysql-jdbc-8.0.33+20230506-all.jar",
+      "hashes": {
+        "sha1": "0a3b812045ffadc7fc8f4d064fb8bb16cf830e9b",
+        "sha512": "bcbaf82b77c15b04838a6652ec475befb48f04114d166f12e8f7d15aaf7a15e9167bf6a20b3b74458bcc8cd00e9d9d4d287c90804e94685cf6384b8a7fe5da72"
+      },
+      "env": {
+        "client": "unsupported",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/yvtIuyXT/versions/94JxXm7O/mysql-jdbc-8.0.33%2B20230506-all.jar"
+      ],
+      "fileSize": 2496667
     },
     {
       "path": "mods/GR_CLX_skinrestorer-2.4.2+1.20-fabric.jar",

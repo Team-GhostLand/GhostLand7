@@ -49,8 +49,12 @@ A modpack for the 7th edition of GhostLand SMP
 
 ## Changelogs:
 
+### 7b18
+- that bitch DCLink is also broken *(There's just straightup a ClassNotFound - FOR ITS OWN DAMN THING! How did that even compile????)*
+- Installed server-sided mods: Whitelist Sync 2; MySQL JDBC
+
 ### 7b17
-- Replaced PacketAuth with `dclink` and SimpleAuth because it was broken :<
+- Replaced PacketAuth with `dclink` and SimpleAuth because it was broken :<  *([uses outdated Netty features](https://github.com/NikSneMC/PacketAuth/issues/7))*
 - Moved DC Integration's server config to server-overrides
 
 ### 7b16
