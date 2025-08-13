@@ -19,8 +19,11 @@ modpack/overrides/config/spark/tmp
 # Copyright violations lol
 modpack/overrides/config/analog/records
 
-# Distant Horizons interprets values differently on different devices - better to remove its configs and have everything set to default
+# Distant Horizons interprets values differently on different devices - better to remove its configs and have everything set to default; it's server-version is in server-overrides
 modpack/overrides/config/DistantHorizons.toml
 
-# Leaks personal access tokens
+# Leaks personal access tokens; it's server-version is in server-overrides
 modpack/overrides/config/PacketAuth/config.yml
+
+# It's server-version is in server-overrides
+modpack/overrides/config/discord_chat_mod-common.toml

@@ -49,6 +49,10 @@ A modpack for the 7th edition of GhostLand SMP
 
 ## Changelogs:
 
+### 7b17
+- Replaced PacketAuth with `dclink` and SimpleAuth because it was broken :<
+- Moved DC Integration's server config to server-overrides
+
 ### 7b16
 - Set PacketAuth to use the DB
 

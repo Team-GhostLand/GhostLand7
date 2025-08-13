@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "7b16",
+  "versionId": "7b17",
   "name": "GhostLand 7 Beta",
   "summary": "Paczka na siódmą edycję GhostLanda - wersja beta",
   "files": [
@@ -3021,6 +3021,21 @@
       "fileSize": 781487
     },
     {
+      "path": "mods/GR_CLX_dclink-fabric-1.0.8.jar",
+      "hashes": {
+        "sha1": "c8b1b371351fbbbfd69cacceecae709c5f88bd39",
+        "sha512": "a71ba12aea1d96fd12323ecf7c2e958b3f3e2b0cdca420028f0559fa103b9cc783a1fba5a015b1e5e1acedcf4a51b91ed3ff95d449c8e39e766cba33118418d7"
+      },
+      "env": {
+        "client": "unsupported",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/dfWKHnn4/versions/nPZ4Inhl/dclink-fabric-1.0.8.jar"
+      ],
+      "fileSize": 15371279
+    },
+    {
       "path": "mods/GR_CLX_dimensionalsyncfixes-fabric-1.20.1-0.0.2.jar",
       "hashes": {
         "sha1": "f1d0d5258e36412ca651d45f95706100a286bc3f",
@@ -3034,6 +3049,21 @@
         "https://cdn.modrinth.com/data/445bpKSe/versions/E29prwyG/dimensionalsyncfixes-fabric-1.20.1-0.0.2.jar"
       ],
       "fileSize": 2938
+    },
+    {
+      "path": "mods/GR_CLX_easyauth-mc1.20-3.3.5.jar",
+      "hashes": {
+        "sha1": "69edb3cba570876c188ff444124ed08ff327f0af",
+        "sha512": "35c9b6c5bc34ffd7f4b8e3ae9a6d0771b2799e8609ffef38e334a96709c37106152f5f0da60a26d513b2047586d619007a44aa4be554723cc8b26465f5b08306"
+      },
+      "env": {
+        "client": "unsupported",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/aZj58GfX/versions/qjdqMGjC/easyauth-mc1.20-3.3.5.jar"
+      ],
+      "fileSize": 22720862
     },
     {
       "path": "mods/GR_CLX_jline4mcdsrv-0.6.4.jar",
@@ -3904,21 +3934,6 @@
         "https://cdn.modrinth.com/data/FiDptjtR/versions/EnGfmh9y/Origins-Classes-1.20-1.7.0.jar"
       ],
       "fileSize": 166904
-    },
-    {
-      "path": "mods/PacketAuth-FabricQuilt-1.6.4_1.20-1.20.1.jar",
-      "hashes": {
-        "sha1": "92ade86ab637e16cdff10a3285d110517a9b8a3e",
-        "sha512": "ada5d0474275ef2316f8598b1572fe9a603fda391f429348d1e69769c709affdc79b700654d7cebfd43ce18d5f1b23377d9fda2378098423c49ca6d9cc8648be"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/7d6mfXL5/versions/SG4SxM1r/PacketAuth-FabricQuilt-1.6.4_1.20-1.20.1.jar"
-      ],
-      "fileSize": 4692347
     },
     {
       "path": "mods/Patchouli-1.20.1-84.1-FABRIC.jar",

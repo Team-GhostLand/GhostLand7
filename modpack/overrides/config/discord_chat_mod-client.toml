@@ -9,3 +9,4 @@ emojifulCompatibility = false
 # Default: 500
 # Range: > 20
 maxChatHistory = 1000
+
