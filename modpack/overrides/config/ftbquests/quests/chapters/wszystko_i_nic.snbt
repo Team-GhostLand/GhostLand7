@@ -5,7 +5,7 @@
 	group: ""
 	icon: "artifacts:mimic_spawn_egg"
 	id: "3C67CB97E63121D5"
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{

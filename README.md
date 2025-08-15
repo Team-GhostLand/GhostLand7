@@ -49,6 +49,10 @@ A modpack for the 7th edition of GhostLand SMP
 
 ## Changelogs:
 
+### 7b21
+- Modified the beginning quest tree
+- Added new quests for Farmer's Delight and [Let's do] in the farming category
+
 ### 7b20
 - Ghostland's second election has been finished
   - Winning results:

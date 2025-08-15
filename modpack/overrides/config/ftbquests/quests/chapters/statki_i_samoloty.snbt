@@ -5,7 +5,7 @@
 	group: ""
 	icon: "immersive_aircraft:biplane"
 	id: "519B9D5EC601A300"
-	order_index: 4
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{

@@ -27,16 +27,7 @@
 			]
 			tasks: [{
 				id: "445A1711525FEA49"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [{
-							Count: 1b
-							id: "minecraft:crafting_table"
-						}]
-					}
-				}
+				item: "minecraft:crafting_table"
 				type: "item"
 			}]
 			title: "Deforestacja"

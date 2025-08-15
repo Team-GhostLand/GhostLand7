@@ -1,0 +1,1235 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "wiejskie_ycie"
+	group: ""
+	icon: "farm_and_charm:cooking_pot"
+	id: "18DEC4EF61B4B0F2"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3F235B063A3A3770"
+			rewards: [{
+				count: 8
+				id: "5A70C97A79ED06B8"
+				item: "minecraft:charcoal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "251A25F63912D1BA"
+				item: "minecraft:campfire"
+				type: "item"
+			}]
+			title: "Prymitywny obiad"
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3F235B063A3A3770"]
+			id: "5299D34020F7AE4A"
+			rewards: [{
+				count: 4
+				id: "792BC9E9038B448D"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "666E435750931643"
+				item: "farmersdelight:cooking_pot"
+				type: "item"
+			}]
+			title: "Pierwsza kuchnia"
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3F235B063A3A3770"]
+			id: "78F94867E27A3ABE"
+			rewards: [{
+				count: 4
+				id: "5DE8049C02675726"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "33BEE8F9E2BFBFAC"
+				item: {
+					Count: 1
+					id: "farmersdelight:skillet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Przenośna kuchnia"
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			id: "46CC3A4DB77434D8"
+			rewards: [{
+				id: "37C157A393227BEA"
+				item: {
+					Count: 1
+					id: "farmersdelight:flint_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "749AF138EBE18903"
+				item: "farmersdelight:cutting_board"
+				type: "item"
+			}]
+			title: "Nie odetnij sobie palców"
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			id: "14F0236E1CCE0DA8"
+			rewards: [{
+				count: 64
+				id: "35F00B0B2EDC4D55"
+				item: "minecraft:mud"
+				type: "item"
+			}]
+			tasks: [{
+				id: "291C3E345671ADEF"
+				item: "farmersdelight:rich_soil"
+				type: "item"
+			}]
+			title: "Żyzna farma"
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			id: "3774887D1EC27CE4"
+			rewards: [{
+				count: 16
+				id: "66BC452A6A99135E"
+				item: "modern_industrialization:salt_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "059D6FCFDA2B1B0A"
+				item: "farmersdelight:rice"
+				type: "item"
+			}]
+			title: "Ryż w solniczce"
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3F235B063A3A3770"]
+			id: "17E48D2AD464AFAD"
+			rewards: [{
+				id: "3B099083680AF0CB"
+				item: "minecraft:smoker"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0A0747FD01EFCAFA"
+				item: "farmersdelight:stove"
+				type: "item"
+			}]
+			title: "Witaj w mojej kuchni"
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			id: "027F73C685E87364"
+			rewards: [{
+				count: 32
+				id: "65C3C0233965A973"
+				item: "minecraft:sweet_berries"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7A6F0300F0232414"
+					item: "farmersdelight:tomato"
+					type: "item"
+				}
+				{
+					id: "12CC5E9137400B3A"
+					item: "farmersdelight:cabbage"
+					type: "item"
+				}
+				{
+					id: "1F6D7765D934C65F"
+					item: "farmersdelight:onion"
+					type: "item"
+				}
+			]
+			title: "Dzikie ważywa"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			id: "1A9C6AE68AE9939D"
+			rewards: [{
+				count: 32
+				id: "2D4481ABEE3ED92F"
+				item: "minecraft:potato"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1A9CE5CB2F14DFD8"
+					item: "farmersdelightexpansion:orange"
+					type: "item"
+				}
+				{
+					id: "44C08A3B5E7DE350"
+					item: "farmersdelightexpansion:grapes"
+					type: "item"
+				}
+				{
+					id: "51FEE1A43CF0AF4E"
+					item: "farmersdelightexpansion:blueberries"
+					type: "item"
+				}
+			]
+			title: "Dzikie owoce"
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["561B2288089A2CC9"]
+			id: "78E8627901ED6BC4"
+			rewards: [
+				{
+					id: "72A4C7D0B0F83C9D"
+					item: "bakery:breadbox"
+					type: "item"
+				}
+				{
+					id: "5473E822BC993519"
+					item: "bakery:tray"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "22F6C7CF89F0DF04"
+					item: {
+						Count: 1
+						id: "bakery:small_cooking_pot"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "789E42ED52F67985"
+					item: {
+						Count: 1
+						id: "bakery:rolling_pin"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "57A42406B24E9FA2"
+					item: {
+						Count: 1
+						id: "bakery:bread_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Zostać piekarzem"
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"78E8627901ED6BC4"
+				"4E01E5E5F52ADB00"
+			]
+			id: "267551EBBBB07CDD"
+			rewards: [{
+				count: 64
+				id: "30B112AFF2D5FA2A"
+				item: "bakery:baguette"
+				type: "item"
+			}]
+			tasks: [{
+				id: "276C85D577800EEC"
+				item: "bakery:bakery_banner"
+				type: "item"
+			}]
+			title: "Piekarnia"
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			id: "7BD5C23C6205D8F1"
+			rewards: [{
+				id: "63517610D37ADD1B"
+				item: {
+					Count: 1
+					id: "beachparty:bikini"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A7A51414C9B4455"
+				item: "beachparty:floaty_boat"
+				type: "item"
+			}]
+			title: "W pontonie"
+			x: -11.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"7BD5C23C6205D8F1"
+				"55BDC7519278C3BA"
+				"60B679E77A20437A"
+				"6DD3D695F13C1B74"
+			]
+			id: "284CEDE03D1921BB"
+			rewards: [{
+				id: "5E84164AA5C2548A"
+				item: {
+					Count: 1
+					id: "beachparty:crocs"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "74739E2CECB6F26E"
+				item: "beachparty:beachparty_banner"
+				type: "item"
+			}]
+			title: "Impreza na plaży"
+			x: -11.5d
+			y: -1.0d
+		}
+		{
+			id: "4E01E5E5F52ADB00"
+			rewards: [{
+				count: 64
+				id: "7AE9DA7CF9E63177"
+				item: "minecraft:sugar"
+				type: "item"
+			}]
+			tasks: [{
+				id: "73EBA0C5133C0151"
+				item: "bakery:baker_station"
+				type: "item"
+			}]
+			title: "Cukrzyca"
+			x: -7.0d
+			y: 0.5d
+		}
+		{
+			id: "561B2288089A2CC9"
+			rewards: [{
+				count: 64
+				id: "39DC81A049B33D99"
+				item: "minecraft:bricks"
+				type: "item"
+			}]
+			tasks: [{
+				id: "51D1D324A96C6F9D"
+				item: "farm_and_charm:stove"
+				type: "item"
+			}]
+			title: "Piecyk w piekarni"
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			id: "55BDC7519278C3BA"
+			rewards: [{
+				count: 64
+				id: "060BD124C3603222"
+				item: "minecraft:sand"
+				type: "item"
+			}]
+			tasks: [{
+				id: "45591AE056AD19E1"
+				item: "beachparty:sand_bucket_filled"
+				type: "item"
+			}]
+			title: "Zamki z piasku"
+			x: -10.0d
+			y: -1.0d
+		}
+		{
+			id: "60B679E77A20437A"
+			rewards: [{
+				count: 4
+				id: "0BDCD21E8D702E0A"
+				item: "beachparty:palm_bar_stool"
+				type: "item"
+			}]
+			tasks: [{
+				id: "49769AD1CE4B2D0D"
+				item: "beachparty:palm_bar"
+				type: "item"
+			}]
+			title: "Palmowy bar"
+			x: -13.0d
+			y: -1.0d
+		}
+		{
+			id: "6DD3D695F13C1B74"
+			rewards: [{
+				id: "7AC75DF73B40C981"
+				item: "beachparty:music_disc_pridelands"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E2EBD41903CF612"
+				item: "beachparty:radio"
+				type: "item"
+			}]
+			title: "Słoneczne melodie"
+			x: -11.5d
+			y: -2.5d
+		}
+		{
+			id: "140D75C986D0C149"
+			rewards: [{
+				count: 8
+				id: "5625C4B0C6715385"
+				item: "brewery:beer_mug"
+				type: "item"
+			}]
+			tasks: [{
+				id: "75871510F25E2585"
+				item: "brewery:wooden_brewingstation"
+				type: "item"
+			}]
+			title: "Kocham piwo"
+			x: -8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["140D75C986D0C149"]
+			id: "18AB7A231FAED5BB"
+			rewards: [{
+				count: 8
+				id: "28456C95E893B044"
+				item: "brewery:beer_wheat"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5FAE2D358EE89CAC"
+				item: "brewery:copper_brewingstation"
+				type: "item"
+			}]
+			title: "Posmak miedzi"
+			x: -8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["18AB7A231FAED5BB"]
+			id: "163A0C9C64F8CB6A"
+			rewards: [{
+				id: "4B26B80B1A265F81"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "68A5B22C1770E854"
+				item: "brewery:netherite_brewingstation"
+				type: "item"
+			}]
+			title: "Mocne piwo"
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			id: "4A3EE3BCA282FBDC"
+			rewards: [{
+				count: 32
+				id: "6FB2CFC6DFFBE718"
+				item: "farm_and_charm:corn"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2C56C6C4765943E3"
+					item: "brewery:dried_wheat"
+					type: "item"
+				}
+				{
+					id: "41A4C2A6CF4B41D3"
+					item: "brewery:dried_barley"
+					type: "item"
+				}
+				{
+					id: "0398B1BAACBCE00C"
+					item: "brewery:dried_corn"
+					type: "item"
+				}
+				{
+					id: "26178D2E1570BA6E"
+					item: "brewery:dried_oat"
+					type: "item"
+				}
+			]
+			title: "Sucha trawa"
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"163A0C9C64F8CB6A"
+				"4A3EE3BCA282FBDC"
+			]
+			id: "181FB9074A2E6E23"
+			rewards: [{
+				count: 32
+				id: "6B456F43D496BDEE"
+				item: "brewery:beer_hops"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0244F9F961CDFAEC"
+				item: "brewery:brewery_banner"
+				type: "item"
+			}]
+			title: "Piwowarnia"
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			id: "7B9299BEFA7CD627"
+			rewards: [{
+				count: 4
+				id: "2EF9FCBCFBDAA8C8"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			tasks: [{
+				id: "25B8EADB6E8E9E2F"
+				item: "candlelight:cobblestone_stove"
+				type: "item"
+			}]
+			title: "Kamienna kuchnia"
+			x: -8.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7B9299BEFA7CD627"]
+			id: "16C2055B79D3060C"
+			rewards: [{
+				id: "41B2BE29CE388F5E"
+				item: {
+					Count: 1
+					id: "estrogen:thigh_highs"
+					tag: {
+						specialStyle: "estrogen:pansexual"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5B3075992E6DEC64"
+				item: {
+					Count: 1
+					id: "candlelight:cooking_pan"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Patelniarstwo"
+			x: -7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7B9299BEFA7CD627"]
+			id: "6DA1375DAF52EE6E"
+			rewards: [{
+				count: 4
+				id: "36AFAD6FBD1A3B14"
+				item: "minecraft:decorated_pot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1EFF8DE25981FF4A"
+				item: "candlelight:cooking_pot"
+				type: "item"
+			}]
+			title: "Garncarstwo"
+			x: -8.5d
+			y: 5.0d
+		}
+		{
+			id: "62227E4227580BE8"
+			rewards: [{
+				id: "65B9A0590447A527"
+				item: "candlelight:typewriter_iron"
+				type: "item"
+			}]
+			tasks: [{
+				id: "684A77F2109D49A5"
+				item: "candlelight:typewriter_copper"
+				type: "item"
+			}]
+			title: "Stare pisadło"
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"62227E4227580BE8"
+				"6DA1375DAF52EE6E"
+				"16C2055B79D3060C"
+			]
+			id: "0D9B4A548198DC06"
+			rewards: [{
+				count: 64
+				id: "1D63ED59FEF05A37"
+				item: "minecraft:candle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E6B187D6D7ADA67"
+				item: "candlelight:candlelight_banner"
+				type: "item"
+			}]
+			title: "Elegancka kuchnia"
+			x: -7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["561B2288089A2CC9"]
+			id: "562C62E5DF6F666F"
+			rewards: [{
+				count: 8
+				id: "7BC00B68500270BB"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "66FD3EBAC1C7DF6C"
+				item: "farm_and_charm:cooking_pot"
+				type: "item"
+			}]
+			title: "Kolejny garnek w kuchni"
+			x: -7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["561B2288089A2CC9"]
+			id: "4F34B5AD1852DC58"
+			rewards: [{
+				count: 32
+				id: "035C8B7B94E24E0B"
+				item: "minecraft:carrot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "79221C35746D9D98"
+				item: "farm_and_charm:roaster"
+				type: "item"
+			}]
+			title: "Prawdziwa kuchnia"
+			x: -8.5d
+			y: -1.0d
+		}
+		{
+			id: "30EADF181CE6DFCE"
+			rewards: [{
+				count: 32
+				id: "4AFCF33E8F423B2A"
+				item: "minecraft:porkchop"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4EDB1ECA8905D13C"
+				item: "farm_and_charm:mincer"
+				type: "item"
+			}]
+			title: "Mielone mięso"
+			x: -5.5d
+			y: -2.5d
+		}
+		{
+			id: "173CD7AD5918D843"
+			rewards: [{
+				count: 64
+				id: "4A9783A0568E4E10"
+				item: "minecraft:mud"
+				type: "item"
+			}]
+			tasks: [{
+				id: "333A4E649E70594E"
+				item: "farm_and_charm:feeding_trough"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["173CD7AD5918D843"]
+			id: "64769AA7BE9F06EF"
+			rewards: [{
+				id: "0683DEB376F621B9"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "52B6C26730227EAB"
+				item: "farm_and_charm:water_sprinkler"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -4.0d
+		}
+		{
+			id: "1BE7445213198930"
+			rewards: [{
+				count: 16
+				id: "130266A810DD1626"
+				item: "minecraft:egg"
+				type: "item"
+			}]
+			tasks: [{
+				id: "66D8EE23AA3F81E8"
+				item: "farm_and_charm:chicken_nest"
+				type: "item"
+			}]
+			title: "Gniazdo"
+			x: -7.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1BE7445213198930"]
+			id: "60353B91A104C586"
+			rewards: [{
+				count: 128
+				id: "75F4BA924983B66E"
+				item: "minecraft:wheat_seeds"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D88E4902C13259B"
+				item: "farm_and_charm:chicken_coop"
+				type: "item"
+			}]
+			title: "Kurnik"
+			x: -8.5d
+			y: -5.5d
+		}
+		{
+			id: "5D01296D0232AF8D"
+			rewards: [{
+				id: "1F843C4B45C68A84"
+				item: "farm_and_charm:silo_copper"
+				type: "item"
+			}]
+			tasks: [{
+				id: "199D1FD791E7B3D5"
+				item: "farm_and_charm:silo_wood"
+				type: "item"
+			}]
+			title: "Suszenie"
+			x: -10.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5D01296D0232AF8D"]
+			id: "415E3E8B6D722FD4"
+			rewards: [{
+				id: "5382DE938443E5C8"
+				item: {
+					Count: 1
+					id: "farm_and_charm:pitchfork"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3DD80B93A38891FE"
+				item: "farm_and_charm:fertilized_soil"
+				type: "item"
+			}]
+			title: "Nawożenie"
+			x: -8.5d
+			y: -2.5d
+		}
+		{
+			id: "106A80DC5763A6C4"
+			rewards: [{
+				id: "2C614BD00D6F735B"
+				item: "minecraft:oak_chest_boat"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1074D9E554431B90"
+				item: "farm_and_charm:supply_cart"
+				type: "item"
+			}]
+			title: "Transport na farmie"
+			x: -10.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["106A80DC5763A6C4"]
+			id: "0E6E3AD81A96E06E"
+			rewards: [{
+				id: "3FF7256FE4607C11"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "529884D359F72529"
+				item: "farm_and_charm:plow"
+				type: "item"
+			}]
+			title: "Zaawansowana maszyneria"
+			x: -10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"64769AA7BE9F06EF"
+				"415E3E8B6D722FD4"
+				"60353B91A104C586"
+				"0E6E3AD81A96E06E"
+			]
+			id: "66605F211A3748BA"
+			rewards: [{
+				count: 64
+				id: "22D526B34F81AF60"
+				item: "farm_and_charm:fertilized_soil"
+				type: "item"
+			}]
+			tasks: [{
+				id: "47944C617D12582A"
+				item: "farm_and_charm:scarecrow"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -4.0d
+		}
+		{
+			id: "4CA35C6725257E85"
+			rewards: [{
+				count: 2
+				id: "7D1D462ACB363722"
+				item: "herbalbrews:tea_leaf_crate"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3523EBA03CAF0249"
+				item: "herbalbrews:stove"
+				type: "item"
+			}]
+			title: "Kolejny piecyk"
+			x: -10.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4CA35C6725257E85"]
+			id: "2B71A98027809662"
+			rewards: [{
+				id: "5EC7A774BC7F6FBF"
+				item: "herbalbrews:copper_tea_kettle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6302404564610DCA"
+				item: "herbalbrews:tea_kettle"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 2.0d
+		}
+		{
+			id: "789664B74A3E6616"
+			rewards: [{
+				count: 4
+				id: "6DF8DA6A19DC2DCE"
+				item: "farm_and_charm:nettle_tea"
+				type: "item"
+			}]
+			tasks: [{
+				id: "697164692DD8561B"
+				item: "herbalbrews:cauldron"
+				type: "item"
+			}]
+			title: "Herbata i eliksiry"
+			x: -10.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["789664B74A3E6616"]
+			id: "1D58D81104307758"
+			rewards: [{
+				id: "07D5F145BA6B3C6D"
+				item: {
+					Count: 1
+					id: "herbalbrews:witch_hat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0582971C47FA1B77"
+				item: "herbalbrews:flask"
+				type: "item"
+			}]
+			title: "Wytwory czarownicy"
+			x: -11.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"1D58D81104307758"
+				"2B71A98027809662"
+				"0D980BE7025C9295"
+			]
+			id: "753D7AFA2F44F2B0"
+			rewards: [{
+				count: 64
+				id: "135673E9970F0C63"
+				item: "herbalbrews:tea_blossom"
+				type: "item"
+			}]
+			tasks: [{
+				id: "136EDDDD578CDA7D"
+				item: "herbalbrews:herbalbrews_banner"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 2.0d
+		}
+		{
+			id: "0D980BE7025C9295"
+			rewards: [{
+				count: 32
+				id: "63A3BB44950FF06C"
+				item: "farm_and_charm:wild_nettle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "47D07981523708D8"
+					item: "herbalbrews:tea_blossom"
+					type: "item"
+				}
+				{
+					id: "12B856561412F1FC"
+					item: "herbalbrews:yerba_mate_leaf"
+					type: "item"
+				}
+				{
+					id: "3ACEE29E1008991E"
+					item: "herbalbrews:rooibos_leaf"
+					type: "item"
+				}
+				{
+					id: "2EC9DDD3D80C80E2"
+					item: "herbalbrews:coffee_beans"
+					type: "item"
+				}
+				{
+					id: "4AE7E19CBDFFE502"
+					item: "herbalbrews:hibiscus"
+					type: "item"
+				}
+				{
+					id: "16DC7FF29A867919"
+					item: "herbalbrews:lavender_blossom"
+					type: "item"
+				}
+			]
+			title: "Dzikie zioła"
+			x: -13.0d
+			y: 2.0d
+		}
+		{
+			id: "2F1B59785210BBFC"
+			rewards: [{
+				id: "0B7B28AF805FD687"
+				item: "minecraft:stonecutter"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1BA7597712009190"
+				item: "meadow:woodcutter"
+				type: "item"
+			}]
+			title: "Cięte drewno"
+			x: -14.5d
+			y: -4.0d
+		}
+		{
+			id: "645CC26EDBDA461B"
+			rewards: [{
+				count: 16
+				id: "7FB00C6F63764050"
+				item: "modern_industrialization:salt_dust"
+				type: "item"
+			}]
+			tasks: [{
+				id: "352B6983C63C9A74"
+				item: "meadow:alpine_salt"
+				type: "item"
+			}]
+			title: "Sól z alp"
+			x: -11.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["645CC26EDBDA461B"]
+			id: "0C7A5C72030C7108"
+			rewards: [{
+				id: "7F642263B0D76D44"
+				item: {
+					Count: 1
+					id: "minecraft:leather_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "656E1EA6B73F238C"
+					item: "meadow:frame"
+					type: "item"
+				}
+				{
+					id: "4A15761BE915CE9B"
+					item: "meadow:cooking_cauldron"
+					type: "item"
+				}
+			]
+			title: "Gotowanie na wysokościach"
+			x: -11.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["645CC26EDBDA461B"]
+			id: "091342D4225B9A24"
+			rewards: [{
+				count: 4
+				id: "29AD3341726719F6"
+				item: "meadow:cheese_rack"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6703B7168F0F94D9"
+				item: "meadow:cheese_form"
+				type: "item"
+			}]
+			title: "cheese"
+			x: -13.0d
+			y: -5.5d
+		}
+		{
+			id: "7693854FD610BD85"
+			rewards: [{
+				id: "0BD158678CD4DC27"
+				item: "minecraft:powder_snow_bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "01A486C9507702BF"
+				item: "meadow:wooden_bucket"
+				type: "item"
+			}]
+			title: "Drewniane wiadro"
+			x: -13.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"7693854FD610BD85"
+				"2F1B59785210BBFC"
+				"091342D4225B9A24"
+				"0C7A5C72030C7108"
+			]
+			id: "222FC98165DB9925"
+			rewards: [{
+				count: 4
+				id: "5D14211C005E7A40"
+				item: {
+					Count: 1
+					id: "vinery:mead"
+					tag: {
+						EffectAmplifier: 0
+						EffectDuration: 1800
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3950696B11BD7C40"
+				item: "meadow:meadow_banner"
+				type: "item"
+			}]
+			title: "Polana"
+			x: -13.0d
+			y: -4.0d
+		}
+		{
+			id: "1FF5977026E3E1BA"
+			rewards: [{
+				count: 64
+				id: "5BC1855F323FE4AB"
+				item: "farmersdelightexpansion:grapes"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "36C2F7BF2B20362D"
+					item: "vinery:savanna_grapes_red"
+					type: "item"
+				}
+				{
+					id: "3195377755695EB8"
+					item: "vinery:savanna_grapes_white"
+					type: "item"
+				}
+				{
+					id: "602CE002880151AD"
+					item: "vinery:taiga_grapes_red"
+					type: "item"
+				}
+				{
+					id: "7D87A4F3793D4072"
+					item: "vinery:taiga_grapes_white"
+					type: "item"
+				}
+				{
+					id: "7A24039D604416D7"
+					item: "vinery:jungle_grapes_red"
+					type: "item"
+				}
+				{
+					id: "3CA09E62FDF3D83E"
+					item: "vinery:jungle_grapes_white"
+					type: "item"
+				}
+				{
+					id: "247E859CDEEAF7BA"
+					item: "vinery:red_grape"
+					type: "item"
+				}
+				{
+					id: "7B3D8E8285021ACC"
+					item: "vinery:white_grape"
+					type: "item"
+				}
+			]
+			title: "Dzikie winogrona"
+			x: -13.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"3EAAEC63CFE60DD9"
+				"35A146EFDE90B4B5"
+				"1FF5977026E3E1BA"
+			]
+			id: "4DC44F9414493147"
+			rewards: [{
+				count: 16
+				id: "0B4792456FBA907E"
+				item: "vinery:flower_box"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0769ADC08966AED8"
+				item: "vinery:vinery_standard"
+				type: "item"
+			}]
+			title: "Winiarnia"
+			x: -14.5d
+			y: 0.5d
+		}
+		{
+			id: "3EAAEC63CFE60DD9"
+			rewards: [{
+				count: 32
+				id: "24F0681B43533A25"
+				item: "vinery:cherry"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A40CAB3F7232ABB"
+				item: "vinery:apple_press"
+				type: "item"
+			}]
+			title: "Kompaktowe jabłka"
+			x: -14.5d
+			y: 2.0d
+		}
+		{
+			id: "174F6C1FF82B4001"
+			rewards: [{
+				count: 4
+				id: "6A88889977FB53CF"
+				item: "vinery:red_grape_seeds"
+				type: "item"
+			}]
+			tasks: [{
+				id: "79FADC561A2637FA"
+				item: "vinery:grapevine_pot"
+				type: "item"
+			}]
+			title: "Sadzenie winogron"
+			x: -14.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["174F6C1FF82B4001"]
+			id: "35A146EFDE90B4B5"
+			rewards: [{
+				count: 64
+				id: "3BABFB1C2DD4A337"
+				item: "minecraft:fermented_spider_eye"
+				type: "item"
+			}]
+			tasks: [{
+				id: "51ED743F55BD4B3C"
+				item: "vinery:fermentation_barrel"
+				type: "item"
+			}]
+			title: "Fermentacja"
+			x: -14.5d
+			y: -1.0d
+		}
+	]
+	subtitle: ["Wiejskie Życie"]
+	title: "Gotowanie"
+}
