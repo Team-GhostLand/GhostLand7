@@ -416,6 +416,75 @@
       "enabled": true,
       "sullys_origins:aetherian_cosmic/chromatic/at_fire_vision_yellow": true,
       "sullys_origins:aetherian_cosmic/chromatic/at_superform_yellow": true
+    },
+    "origins_minus:voidthing": {
+      "enabled": true,
+      "origins_minus:blink": true,
+      "origins_minus:reach": true,
+      "origins_minus:wraparound": true,
+      "origins_minus:voidthing_particles": true
+    },
+    "origins_minus:avian": {
+      "enabled": true,
+      "origins_minus:flap": true,
+      "origins_minus:wingspan": true,
+      "origins_minus:aerodynamic": true
+    },
+    "origins_minus:wildling": {
+      "enabled": true,
+      "origins_minus:energetic": true,
+      "origins_minus:bound": true,
+      "origins_minus:carefree": true
+    },
+    "origins_minus:mer": {
+      "enabled": true,
+      "origins_minus:countercurrent": true,
+      "origins_minus:ocean_free": true,
+      "origins:like_water": true,
+      "origins_minus:osmoregulation": true,
+      "origins_minus:mer_particles": true
+    },
+    "origins_minus:dryad": {
+      "enabled": true,
+      "origins_minus:sunlight": true,
+      "origins_minus:no_hunger": true,
+      "origins_minus:vine_whip": true,
+      "origins_minus:old_friends": true,
+      "origins_minus:bioluminescence": true,
+      "origins_minus:dryad_particles": true
+    },
+    "origins_minus:sanguine": {
+      "enabled": true,
+      "origins_minus:blood": true,
+      "origins_minus:no_hunger": true,
+      "origins_minus:spill": true,
+      "origins_minus:nightstalker": true,
+      "origins_minus:frenzy": true
+    },
+    "origins_minus:starved": {
+      "enabled": true,
+      "origins_minus:satiation": true,
+      "origins_minus:ravenous": true,
+      "origins_minus:buffet_strategy": true
+    },
+    "origins_minus:steadfast": {
+      "enabled": true,
+      "origins_minus:brace": true,
+      "origins_minus:rescue": true
+    },
+    "origins_minus:hellspawn": {
+      "enabled": true,
+      "origins_minus:flamehardy": true,
+      "origins_minus:molten_cruise": true,
+      "origins_minus:temper_temper": true,
+      "origins_minus:hellspawn_particles": true
+    },
+    "origins_minus:weaver": {
+      "enabled": true,
+      "origins_minus:echolocation": true,
+      "origins_minus:rappel": true,
+      "origins_minus:sticky_situations": true,
+      "origins:no_cobweb_slowdown": true
     }
   }
 }

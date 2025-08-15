@@ -26,8 +26,17 @@
 				}
 			]
 			tasks: [{
-				id: "532D66B33D47A6D4"
-				item: "minecraft:crafting_table"
+				id: "445A1711525FEA49"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [{
+							Count: 1b
+							id: "minecraft:crafting_table"
+						}]
+					}
+				}
 				type: "item"
 			}]
 			title: "Deforestacja"
@@ -59,6 +68,7 @@
 				item: "autism:tbh_creature"
 				type: "item"
 			}]
+			subtitle: "Kliknij w ten quest aby kontynuować"
 			tasks: [{
 				id: "117A8093419D9222"
 				title: "Witamy na GhostLandzie"
@@ -202,7 +212,7 @@
 			}]
 			title: "Co dalej?"
 			x: 3.5d
-			y: -5.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["057CE78E85F879E8"]
@@ -264,8 +274,8 @@
 				type: "item"
 			}]
 			title: "Ile można kopać?"
-			x: 5.0d
-			y: -3.5d
+			x: 3.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["0C18CD9FD3FE63E9"]
@@ -393,6 +403,77 @@
 			title: "Ocean róż"
 			x: 3.5d
 			y: 1.0d
+		}
+		{
+			dependencies: [
+				"131DCB73A4FC9EF4"
+				"407F1978E0762F8F"
+			]
+			id: "7349B8E24A73FA25"
+			rewards: [{
+				id: "56D14BD138FA526C"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:mending"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "545120BD42B400BD"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["057CE78E85F879E8"]
+			id: "3FF78392AD89ED57"
+			rewards: [{
+				count: 3
+				id: "327C8D92043C9014"
+				item: {
+					Count: 1
+					id: "vinery:red_wine"
+					tag: {
+						EffectAmplifier: 0
+						EffectDuration: 1800
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "72AFF8BBD14D14DA"
+				item: "minecraft:lapis_lazuli"
+				type: "item"
+			}]
+			title: "Dla żuli"
+			x: -1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["057CE78E85F879E8"]
+			id: "6682857ED7794763"
+			rewards: [{
+				count: 8
+				id: "053D06ED9C6A9E23"
+				item: "minecraft:repeater"
+				type: "item"
+			}]
+			tasks: [{
+				id: "30AE2096D89C8B77"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			title: "Energia w proszku"
+			x: -1.0d
+			y: -5.0d
 		}
 	]
 	subtitle: ["Najzwyklejszy Minecraft"]

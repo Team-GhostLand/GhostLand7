@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "7b19",
+  "versionId": "7b20",
   "name": "GhostLand 7 Beta",
   "summary": "Paczka na siódmą edycję GhostLanda - wersja beta",
   "files": [
@@ -2226,21 +2226,6 @@
       "fileSize": 40544
     },
     {
-      "path": "mods/GR_CLO_bedoverhaul-1.0.2.jar",
-      "hashes": {
-        "sha1": "246fe39796d9db90154342db5bfbca0d7bef40bd",
-        "sha512": "d57fb5d17672a6950d3c54babb6975e9f35fb7228d08d0750c34a2570a225aeff8d44196ea17530626b532c38fd77a4ae5e769a81d896e567a6a15f9615cb543"
-      },
-      "env": {
-        "client": "optional",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/3RDCjrMO/versions/yAxEzTjb/bedoverhaul-1.0.2.jar"
-      ],
-      "fileSize": 114300
-    },
-    {
       "path": "mods/GR_CLO_betterstats-3.12.6+fabric-1.20.1.jar",
       "hashes": {
         "sha1": "bda0ac4e8937cfbe38f9a4a8aadb77f6a882407e",
@@ -2974,21 +2959,6 @@
         "https://cdn.modrinth.com/data/owDBGfRd/versions/dKV5HYJi/zombiehorsespawn-1.20.1-5.2.jar"
       ],
       "fileSize": 34146
-    },
-    {
-      "path": "mods/GR_CLX_CooperativeAdvancements-1.20.1-fabric-1.4.1.jar",
-      "hashes": {
-        "sha1": "09ae992e158a35ddec84ea0c9c669177e08bfffd",
-        "sha512": "d7f93f45773daae38459312c2e30cb1d75e19dce86ff12b7d8ca455785e81eec24391bd2221fc6414b5ca8fec692108ded8f06588cb8b340e269a27136cdbf91"
-      },
-      "env": {
-        "client": "unsupported",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/AoZcM9cv/versions/Yodowo9c/CooperativeAdvancements-1.20.1-fabric-1.4.1.jar"
-      ],
-      "fileSize": 10939
     },
     {
       "path": "mods/GR_CLX_GlobalHorns-1.0.jar",
@@ -4671,21 +4641,6 @@
       "fileSize": 1605986
     },
     {
-      "path": "mods/createbigcannons-5.8.2-mc.1.20.1-fabric.jar",
-      "hashes": {
-        "sha1": "ba8dbabbc013f37844e05add7b7256641c4ee62f",
-        "sha512": "f4bcc2293dbe1003b79888e616f8900796354733eb37511fc0d4edfd63077f57c82dd592f236ecb384fca182aadb30e757f5b6f949b20efa31cb43fd0dac7903"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/GWp4jCJj/versions/bIFKELd8/createbigcannons-5.8.2-mc.1.20.1-fabric.jar"
-      ],
-      "fileSize": 6245365
-    },
-    {
       "path": "mods/createcobblestone-1.4.4+fabric-1.20.1-95.jar",
       "hashes": {
         "sha1": "3a4ab402386b21a9d7a136c21fecc2372e9629f8",
@@ -4806,21 +4761,6 @@
       "fileSize": 46745
     },
     {
-      "path": "mods/dimdoors-5.4.4-fabric.jar",
-      "hashes": {
-        "sha1": "fccc1aa672e12ac0548bbf3be7a20c6d03507cb2",
-        "sha512": "148c835673e01266177f85193b33079347e90cdf210877198d7a9c1cd6ca23376a3ea51e6fee270996fc88eb8d1dff2a54b1b9d211c8c1eb81c04e149632a682"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/b8Q0BxnV/versions/2mbjY4AI/dimdoors-5.4.4-fabric.jar"
-      ],
-      "fileSize": 18034363
-    },
-    {
       "path": "mods/emi-1.1.22+1.20.1+fabric.jar",
       "hashes": {
         "sha1": "968357a16a878d1a0a2063d1d2dfc5eb2ae3ac3b",
@@ -4939,21 +4879,6 @@
         "https://cdn.modrinth.com/data/64FYdx5z/versions/RJ4U7Kz1/fabric-seasons-extras-1.3.2-BETA%2B1.20.jar"
       ],
       "fileSize": 346936
-    },
-    {
-      "path": "mods/fabrishot-1.10.1.jar",
-      "hashes": {
-        "sha1": "715edb014f9c41fed4fb1c4ba32d493916f7d89a",
-        "sha512": "e1c0417297f4b1e8289ecdec73f660560c8dd623cc536cabb3fca451049de0f8d57c6f09617415091cf9be43cc26bb253801feae9e6ac707a3c1038eb484fad3"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/3qsfQtE9/versions/Rduo9X24/fabrishot-1.10.1.jar"
-      ],
-      "fileSize": 46663
     },
     {
       "path": "mods/fallingleaves-1.15.6+1.20.1.jar",
@@ -5689,6 +5614,21 @@
         "https://cdn.modrinth.com/data/HQpcCFZg/versions/dgjhefjt/nightautoconfig-1.0.6-fabric.1.20.jar"
       ],
       "fileSize": 454513
+    },
+    {
+      "path": "mods/origins-minus-2.4.0+1.20.jar",
+      "hashes": {
+        "sha1": "9386b155245418af15595a139c304f3787147441",
+        "sha512": "ccb329b3d78b32c5d220cc7c723f6149664435565268f42e4b027496bb1e7c05c87d71ba29178824e14763e347eb04c2615d8ba63ba4b6b4d1e3408f30f370c2"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/gbOL9is1/versions/pHkQcfzT/origins-minus-2.4.0%2B1.20.jar"
+      ],
+      "fileSize": 142168
     },
     {
       "path": "mods/originsumbrellas-1.5.6.jar",

@@ -100,7 +100,7 @@ key_key.playerlist:key.keyboard.tab
 key_key.pickItem:key.mouse.middle
 key_key.command:key.keyboard.slash
 key_key.socialInteractions:key.keyboard.p
-key_key.screenshot:key.keyboard.unknown
+key_key.screenshot:key.keyboard.f2
 key_key.togglePerspective:key.keyboard.f5
 key_key.smoothCamera:key.keyboard.unknown
 key_key.fullscreen:key.keyboard.f11
@@ -121,7 +121,6 @@ key_key.hotbar.9:key.keyboard.9
 key_key.dynamic_fps.toggle_forced:key.keyboard.unknown
 key_key.dynamic_fps.toggle_disabled:key.keyboard.unknown
 key_key.estrogen.dash:key.keyboard.x
-key_key.fabrishot.screenshot:key.keyboard.f2
 key_key.ftbquests.quests:key.keyboard.j
 key_key.ftbteams.open_gui:key.keyboard.unknown
 key_accessories.key.open_accessories_screen:key.keyboard.unknown
@@ -147,8 +146,6 @@ key_keyinfo.copycats.fill_copycat:key.keyboard.left.alt
 key_create.keyinfo.toolmenu:key.keyboard.left.alt
 key_create.keyinfo.toolbelt:key.keyboard.left.alt
 key_create.keyinfo.ponder:key.keyboard.w
-key_key.createbigcannons.pitch_mode:key.keyboard.unknown
-key_key.createbigcannons.fire_controlled_cannon:key.mouse.left
 key_key.do_a_barrel_roll.toggle_enabled:key.keyboard.unknown
 key_key.do_a_barrel_roll.toggle_thrust:key.keyboard.unknown
 key_key.do_a_barrel_roll.open_config:key.keyboard.unknown

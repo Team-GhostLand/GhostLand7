@@ -49,9 +49,29 @@ A modpack for the 7th edition of GhostLand SMP
 
 ## Changelogs:
 
+### 7b20
+- Ghostland's second election has been finished
+  - Winning results:
+    - Origins stays
+    - Origins minus gets added
+    - Modern Industrialisation stays
+    - Tech Reborn stays
+    - Farmer's Delight stays
+    - [Let's do] stays
+    - Aether, Twilight Forest and Bumblezone stays
+  - Losing results:
+    - Origins++ doesn't get added
+    - Dimensional Doors doesn't stay
+    - Create Big Cannons doesn't stay
+    - Cooperative Advancements doesn't stay
+    - Bed Overhaul doesn't stay
+- Changed the modpack accordingly to the election results
+- Changed back screenshot controls to [F2]
+- Removed Fabrishot
+
 ### 7b19
-* Configured WhList Sync 2
-* Configured SimpleAuth
+- Configured WhList Sync 2
+- Configured SimpleAuth
 
 ### 7b18
 - that bitch DCLink is also broken *(There's just straightup a ClassNotFound - FOR ITS OWN DAMN THING! How did that even compile????)*
