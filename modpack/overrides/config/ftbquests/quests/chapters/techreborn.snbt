@@ -1,0 +1,1029 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "techreborn"
+	group: ""
+	icon: "techreborn:wrench"
+	id: "0669BF68BA81BB56"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			id: "04860C8927E1738B"
+			rewards: [{
+				count: 8
+				id: "54CAF98049C01E69"
+				item: "techreborn:sap"
+				type: "item"
+			}]
+			tasks: [{
+				id: "29139DD5941C7338"
+				item: "techreborn:resin_basin"
+				type: "item"
+			}]
+			title: "Żywica"
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["04860C8927E1738B"]
+			id: "31397CCDA53619D9"
+			rewards: [{
+				id: "46C100A03E44FCF5"
+				item: {
+					Count: 1
+					id: "modern_industrialization:rubber_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2094A353E5315FF4"
+				item: "techreborn:rubber"
+				type: "item"
+			}]
+			title: "Guma"
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["31397CCDA53619D9"]
+			id: "5CE4320B2ED3E809"
+			rewards: [{
+				count: 32
+				id: "42672BAEBA6FD13B"
+				item: "techreborn:copper_cable"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E0CB01AFC706D55"
+				item: "techreborn:insulated_copper_cable"
+				type: "item"
+			}]
+			title: "Izolacja"
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5CE4320B2ED3E809"]
+			id: "3B1234B82776F8B1"
+			rewards: [{
+				count: 8
+				id: "3127CB49C1C1DE08"
+				item: "minecraft:redstone_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2399D89F809F88D6"
+				item: "techreborn:red_cell_battery"
+				type: "item"
+			}]
+			title: "Przenośna bateria"
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3B1234B82776F8B1"]
+			id: "351A2A0041C72D44"
+			rewards: [{
+				id: "38C7918FAA1B40F2"
+				item: "createaddition:modular_accumulator"
+				type: "item"
+			}]
+			tasks: [{
+				id: "364CF88C68FE9632"
+				item: "techreborn:low_voltage_su"
+				type: "item"
+			}]
+			title: "Bateria I"
+			x: -4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["351A2A0041C72D44"]
+			id: "04EF4D42C2C0583B"
+			rewards: [{
+				count: 16
+				id: "0927B51C522486EE"
+				item: "modern_industrialization:transistor"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2CEDB44E39685AFA"
+				item: "techreborn:lv_transformer"
+				type: "item"
+			}]
+			title: "Transformator I"
+			x: -4.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["04EF4D42C2C0583B"]
+			id: "43AE1E8EB80D7704"
+			rewards: [{
+				id: "65F09F04CE513C1A"
+				item: "createaddition:tesla_coil"
+				type: "item"
+			}]
+			tasks: [{
+				id: "53CE250A8E4D17B8"
+				item: "techreborn:mv_transformer"
+				type: "item"
+			}]
+			title: "Transformator II"
+			x: -4.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["43AE1E8EB80D7704"]
+			id: "21DD286A21D19449"
+			rewards: [{
+				count: 4
+				id: "6A2A1B75D9D87DFE"
+				item: "twilightforest:transformation_sapling"
+				type: "item"
+			}]
+			tasks: [{
+				id: "46C7698A7E4C0664"
+				item: "techreborn:hv_transformer"
+				type: "item"
+			}]
+			title: "Transformator III"
+			x: -5.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["21DD286A21D19449"]
+			id: "2EDAAEB3E9A1BCFA"
+			rewards: [{
+				id: "4CC56E7EDB926AD0"
+				item: {
+					Count: 1
+					id: "the_bumblezone:bumble_bee_chestplate_trans_1"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3EB5892E9C7F10FA"
+				item: "techreborn:ev_transformer"
+				type: "item"
+			}]
+			title: "Transformator IV"
+			x: -5.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["351A2A0041C72D44"]
+			id: "749374B58E731575"
+			rewards: [{
+				id: "665341E41040722F"
+				item: {
+					Count: 1
+					id: "techreborn:red_cell_battery"
+					tag: {
+						energy: 10000L
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C84FD243191E9C9"
+				item: "techreborn:medium_voltage_su"
+				type: "item"
+			}]
+			title: "Bateria II"
+			x: -3.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["749374B58E731575"]
+			id: "7038DD93208C67D3"
+			rewards: [{
+				count: 4
+				id: "1FA39EEB1D757B9C"
+				item: "createaddition:electrum_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "50B092809D5DFABA"
+				item: "techreborn:high_voltage_su"
+				type: "item"
+			}]
+			title: "Bateria III"
+			x: -3.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7038DD93208C67D3"]
+			id: "3074254A4A31AA08"
+			rewards: [{
+				id: "34A3D25BAD378248"
+				item: {
+					Count: 1
+					id: "tconstruct:vein_hammer"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"tconstruct:chorus"
+							"tconstruct:chorus"
+							"tconstruct:chorus"
+							"tconstruct:chorus"
+						]
+						tic_modifiers: [
+							{
+								level: 2s
+								name: "tconstruct:piercing"
+							}
+							{
+								level: 4s
+								name: "tconstruct:enderference"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 1.25f
+							"tconstruct:durability": 5.0f
+							"tconstruct:mining_speed": 0.3f
+						}
+						tic_persistent_data: {
+							abilities: 1
+							upgrades: 2
+						}
+						tic_stats: {
+							"tconstruct:attack_damage": 3.75f
+							"tconstruct:attack_speed": 0.765f
+							"tconstruct:durability": 990.0f
+							"tconstruct:harvest_tier": "minecraft:stone"
+							"tconstruct:mining_speed": 0.855f
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C7F661F7E00E8AA"
+				item: "techreborn:interdimensional_su"
+				type: "item"
+			}]
+			title: "Napięcie Międzywymiaorwe"
+			x: -4.5d
+			y: -9.5d
+		}
+		{
+			id: "76046CDAB1398E64"
+			rewards: [{
+				id: "75F6BF199A854B80"
+				item: "minecraft:anvil"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3CF4B2E258665219"
+				item: "techreborn:refined_iron_ingot"
+				type: "item"
+			}]
+			title: "Wyrafinowane żelazo"
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["76046CDAB1398E64"]
+			id: "710D93B02CC8D1DF"
+			rewards: [{
+				id: "06B8948A465C5A14"
+				item: "create:cuckoo_clock"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4D434976A723D3D0"
+				item: "techreborn:alarm"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["76046CDAB1398E64"]
+			id: "1D8BB065A0DB30F5"
+			rewards: [{
+				count: 64
+				id: "4EC33468685AACBD"
+				item: "minecraft:scaffolding"
+				type: "item"
+			}]
+			tasks: [{
+				id: "316FE464E205C20D"
+				item: "techreborn:basic_machine_frame"
+				type: "item"
+			}]
+			title: "Rama I"
+			x: -7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1D8BB065A0DB30F5"]
+			id: "172DCA724490B283"
+			rewards: [{
+				id: "3FAF545CDFEBEBAB"
+				item: "ae2:crystal_resonance_generator"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7480E6B1D7BE5191"
+				item: "techreborn:solid_fuel_generator"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["172DCA724490B283"]
+			id: "7EF638BA454AC10C"
+			rewards: [{
+				count: 8
+				id: "4C8AB8F73525E55F"
+				item: "create:white_sail"
+				type: "item"
+			}]
+			tasks: [{
+				id: "00E3D1FB8E3CF7BC"
+				item: "techreborn:wind_mill"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7EF638BA454AC10C"]
+			id: "0AC058343CB5DD97"
+			rewards: [{
+				id: "7135211DE3E1D462"
+				item: "create:large_water_wheel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4D33605106C4C50F"
+				item: "techreborn:water_mill"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0AC058343CB5DD97"]
+			id: "6AF7E08F35C8B11A"
+			rewards: [{
+				count: 64
+				id: "01E40C9AE5337E33"
+				item: "minecraft:magma_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "53DA060142CE90DC"
+				item: "techreborn:thermal_generator"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1D8BB065A0DB30F5"]
+			id: "486674D9FA78632D"
+			rewards: [{
+				count: 32
+				id: "4C3EE73A8C14A847"
+				item: "minecraft:sunflower"
+				type: "item"
+			}]
+			tasks: [{
+				id: "03ECCA0608BEA666"
+				item: "techreborn:basic_solar_panel"
+				type: "item"
+			}]
+			title: "Panel słoneczny I"
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["486674D9FA78632D"]
+			id: "360635D2E6EDB0C4"
+			rewards: [{
+				count: 4
+				id: "1110540D2248BFE7"
+				item: {
+					Count: 1
+					id: "vinery:glowing_wine"
+					tag: {
+						EffectAmplifier: 0
+						EffectDuration: 1800
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "62FF2538847A77DD"
+				item: "techreborn:advanced_solar_panel"
+				type: "item"
+			}]
+			title: "Panel słoneczny II"
+			x: -5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["360635D2E6EDB0C4"]
+			id: "7BBF9D57BE43219A"
+			rewards: [{
+				count: 32
+				id: "6CD8F692E6A6C53F"
+				item: "chipped:sunny_melon"
+				type: "item"
+			}]
+			tasks: [{
+				id: "67B21E7A722265B3"
+				item: "techreborn:industrial_solar_panel"
+				type: "item"
+			}]
+			title: "Panel słoneczny III"
+			x: -5.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7BBF9D57BE43219A"]
+			id: "48598914A37398D7"
+			rewards: [{
+				id: "24AD4B028CDD102F"
+				item: {
+					Count: 1
+					id: "beachparty:sunglasses"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "606D392E2E97903F"
+				item: "techreborn:ultimate_solar_panel"
+				type: "item"
+			}]
+			title: "Panel słoneczny IV"
+			x: -5.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["48598914A37398D7"]
+			id: "55BF81F2ACE005DD"
+			rewards: [
+				{
+					count: 256
+					id: "7DC762548BF6BC5F"
+					item: "immersive_weathering:tinted_glass_pane"
+					type: "item"
+				}
+				{
+					id: "4BB250172D9EAC30"
+					item: {
+						Count: 1
+						id: "techreborn:quantum_helmet"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "62CC4A5DFFB49A8C"
+				item: "techreborn:quantum_solar_panel"
+				type: "item"
+			}]
+			title: "Panel słoneczny V"
+			x: -5.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["1D8BB065A0DB30F5"]
+			id: "035219BBED21ABBC"
+			rewards: [{
+				id: "3DC097AF26E6D9F2"
+				item: "minecraft:iron_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2D657664D6129D61"
+				item: "techreborn:iron_furnace"
+				type: "item"
+			}]
+			title: "Piec I"
+			x: -8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["035219BBED21ABBC"]
+			id: "1CDACF3356567855"
+			rewards: [{
+				id: "622F7DCB391D9337"
+				item: {
+					Count: 1
+					id: "tconstruct:crossbow"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"tconstruct:electrum"
+							"tconstruct:electrum"
+							"tconstruct:string"
+						]
+						tic_modifiers: [
+							{
+								level: 2s
+								name: "tconstruct:experienced"
+							}
+							{
+								level: 1s
+								name: "tconstruct:stringy"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:durability": 2.0f
+						}
+						tic_persistent_data: {
+							abilities: 1
+							upgrades: 3
+						}
+						tic_stats: {
+							"tconstruct:accuracy": 1.0f
+							"tconstruct:attack_damage": 1.5f
+							"tconstruct:attack_speed": 1.0f
+							"tconstruct:draw_speed": 0.75f
+							"tconstruct:durability": 360.0f
+							"tconstruct:velocity": 1.1f
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "68B268F9069798AB"
+				item: "techreborn:electric_furnace"
+				type: "item"
+			}]
+			title: "Piec II"
+			x: -9.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1D8BB065A0DB30F5"]
+			id: "79B6B13674C9A7BC"
+			rewards: [{
+				count: 32
+				id: "4D35B20C6371DD95"
+				item: "minecraft:raw_iron"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5773ED17D16CCC25"
+				item: "techreborn:iron_alloy_furnace"
+				type: "item"
+			}]
+			title: "Wytapiarka I"
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["79B6B13674C9A7BC"]
+			id: "39B50D498F468A57"
+			rewards: [{
+				count: 8
+				id: "39F2E31B4FBA65FA"
+				item: "minecraft:blast_furnace"
+				type: "item"
+			}]
+			tasks: [{
+				id: "59DB6EEE08FCC087"
+				item: "techreborn:alloy_smelter"
+				type: "item"
+			}]
+			title: "Wytapiarka II"
+			x: -7.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["035219BBED21ABBC"]
+			id: "6E3406CFC38AB6F8"
+			rewards: [{
+				count: 4
+				id: "204A4C56C768550B"
+				item: "minecraft:skeleton_skull"
+				type: "item"
+			}]
+			tasks: [{
+				id: "42789FA075A77E25"
+				item: "techreborn:advanced_machine_frame"
+				type: "item"
+			}]
+			title: "Rama II"
+			x: -10.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1CDACF3356567855"]
+			id: "3B32377EE9754318"
+			rewards: [{
+				count: 4
+				id: "7CD2B94A238C75DB"
+				item: "createdieselgenerators:crude_oil_bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6CEC4D5B7356C0FB"
+				item: "techreborn:solid_canning_machine"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1CDACF3356567855"]
+			id: "6EF0538E87968F78"
+			rewards: [{
+				count: 4
+				id: "2A05A7576C42B7D8"
+				item: "create:mechanical_roller"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3AC6B3BAAF030CEF"
+				item: "techreborn:rolling_machine"
+				type: "item"
+			}]
+			title: "Maszyna walcująca"
+			x: -9.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1CDACF3356567855"]
+			id: "2369C4841120C46E"
+			tasks: [{
+				id: "54B10233A0101E64"
+				item: "techreborn:wire_mill"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1CDACF3356567855"]
+			id: "5FC2DE7F5A38132E"
+			rewards: [{
+				count: 32
+				id: "557DE39DE31E9817"
+				item: "createnuclear:coal_dust"
+				type: "item"
+			}]
+			tasks: [{
+				id: "37D277F9B6793D0A"
+				item: "techreborn:grinder"
+				type: "item"
+			}]
+			title: "Kruszarka I"
+			x: -8.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5FC2DE7F5A38132E"]
+			id: "6841ED45498BB3B9"
+			rewards: [{
+				count: 32
+				id: "73F5C6D0014744A5"
+				item: "techreborn:basic_machine_frame"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C852703B85B8F32"
+				item: "techreborn:extractor"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5FC2DE7F5A38132E"]
+			id: "2D538A0D5029A068"
+			rewards: [{
+				id: "30B22AF3D906D304"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0F888EDFC0CEFD5A"
+				item: "techreborn:compressor"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2D538A0D5029A068"]
+			id: "49EDB05520C48869"
+			rewards: [{
+				count: 64
+				id: "4638ED3A9D98E7F7"
+				item: "createaddition:biomass"
+				type: "item"
+			}]
+			tasks: [{
+				id: "024A6DE164EA5335"
+				item: "techreborn:recycler"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["49EDB05520C48869"]
+			id: "4DC3164B16BFD4C6"
+			rewards: [{
+				count: 8
+				id: "4FEB9F8CC04E55BA"
+				item: "techreborn:scrap_box"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6DEC0A7C091708B3"
+				item: "techreborn:scrapboxinator"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["6E3406CFC38AB6F8"]
+			id: "0B53BAF89CF49F68"
+			rewards: [{
+				count: 16
+				id: "3803060FB89F6FB2"
+				item: "minecraft:lightning_rod"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1380674E34460811"
+				item: "techreborn:lightning_rod"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6E3406CFC38AB6F8"]
+			id: "269C4546E43CA574"
+			tasks: [{
+				id: "33E8EB104CC3E78E"
+				item: "techreborn:fusion_coil"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["269C4546E43CA574"]
+			id: "22FCF1A2C4A1D495"
+			rewards: [{
+				count: 32
+				id: "0B93CB71F60FC82A"
+				item: "createnuclear:raw_uranium"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A56DA788AED0184"
+				item: "techreborn:fusion_control_computer"
+				type: "item"
+			}]
+			title: "Synteza jądrowa"
+			x: -10.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["269C4546E43CA574"]
+			id: "5DE40EAE7155443C"
+			rewards: [{
+				count: 64
+				id: "5AE52FB77151AE36"
+				item: "minecraft:tnt"
+				type: "item"
+			}]
+			tasks: [{
+				id: "67747121A2014111"
+				item: "techreborn:nuke"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6E3406CFC38AB6F8"]
+			id: "5EA72E8951E216B6"
+			rewards: [{
+				count: 2
+				id: "5CDDB680936A0966"
+				item: "createnuclear:reactor_frame"
+				type: "item"
+			}]
+			tasks: [{
+				id: "079EABE2A189C44E"
+				item: "techreborn:industrial_machine_frame"
+				type: "item"
+			}]
+			title: "Rama III"
+			x: -13.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5EA72E8951E216B6"]
+			id: "6D87EDDFCB785AE7"
+			rewards: [{
+				id: "061C18FDC74441F2"
+				item: {
+					Count: 1
+					id: "techreborn:quantum_leggings"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "44D59C0ABDD8ED4C"
+				item: "techreborn:quantum_tank_unit"
+				type: "item"
+			}]
+			title: "Zbiornik kwantowy"
+			x: -12.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5EA72E8951E216B6"]
+			id: "145CA10C2A304B58"
+			rewards: [{
+				id: "2F994E445C132607"
+				item: {
+					Count: 1
+					id: "techreborn:quantum_boots"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "643A74E7E11141B7"
+				item: "techreborn:matter_fabricator"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6E3406CFC38AB6F8"]
+			id: "533E4BA3973D9446"
+			rewards: [{
+				id: "0FC0465564496C68"
+				item: "estrogen:centrifuge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "258988989BD35CB0"
+				item: "techreborn:industrial_centrifuge"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["533E4BA3973D9446"]
+			id: "453294C0E6585527"
+			tasks: [{
+				id: "360B61EC78853FE0"
+				item: "techreborn:nickel_nugget"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["453294C0E6585527"]
+			id: "4D9A2B12B4C1D920"
+			rewards: [{
+				count: 8
+				id: "77F214033EF2DA5A"
+				item: "farm_and_charm:stove"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4CB0FC0861ECFFB1"
+				item: "techreborn:industrial_blast_furnace"
+				type: "item"
+			}]
+			title: "Piec III"
+			x: -7.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["4D9A2B12B4C1D920"]
+			id: "620DBB600262A80F"
+			rewards: [{
+				count: 16
+				id: "6D37DB41F8234297"
+				item: "tconstruct:debris_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6787704A0066752B"
+				item: "techreborn:industrial_grinder"
+				type: "item"
+			}]
+			title: "Kruszarka II"
+			x: -7.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["620DBB600262A80F"]
+			id: "0ECA62FA4341863C"
+			rewards: [{
+				id: "38792B0C6D2E302D"
+				item: {
+					Count: 1
+					id: "techreborn:quantum_chestplate"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A3E48014A129A58"
+				item: "techreborn:implosion_compressor"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["0ECA62FA4341863C"]
+			id: "5CD5D6D66C9B9F93"
+			rewards: [{
+				count: 16
+				id: "531EEB07A84400D5"
+				item: "techreborn:nuke"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "40B1BB13276161C4"
+					item: {
+						Count: 1
+						id: "techreborn:quantum_helmet"
+						tag: {
+							energy: 40000000L
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3980A5CC994AA988"
+					item: {
+						Count: 1
+						id: "techreborn:quantum_chestplate"
+						tag: {
+							energy: 40000000L
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5F5FCFD96A7B27C6"
+					item: {
+						Count: 1
+						id: "techreborn:quantum_leggings"
+						tag: {
+							energy: 40000000L
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3DDB867717DB6098"
+					item: {
+						Count: 1
+						id: "techreborn:quantum_boots"
+						tag: {
+							energy: 40000000L
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Zbroja kwantowa"
+			x: -6.0d
+			y: -12.5d
+		}
+	]
+	subtitle: ["Podstawy moda TechReborn"]
+	title: "TechReborn"
+}

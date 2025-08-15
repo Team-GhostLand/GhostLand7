@@ -49,6 +49,9 @@ A modpack for the 7th edition of GhostLand SMP
 
 ## Changelogs:
 
+### 7b22
+- Added a quest tree for TechReborn
+
 ### 7b21
 - Modified the beginning quest tree
 - Added new quests for Farmer's Delight and [Let's do] in the farming category
