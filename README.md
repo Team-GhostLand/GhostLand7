@@ -48,8 +48,13 @@ A modpack for the 7th edition of GhostLand SMP
 
 ## Changelogs:
 
+### 7b27
+- Solved merge conflict
+
 ### 7b26
-- Created a resourcepack for numismatics and railways navigator
+Merge conflict:
+- MidnightSP: Created a resourcepack for numismatics and railways navigator
+- Guzio: Moved our datapack
 
 ### 7b25
 - Added a `technical.conf` server-side config despite us not using it for anything becasue - apparently - EasyAuth cannot generate any new config files, if there are files present already (but also cannot start unless all files are present)
