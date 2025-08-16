@@ -48,6 +48,9 @@ A modpack for the 7th edition of GhostLand SMP
 
 ## Changelogs:
 
+### 7b26
+- Moved our datapack
+
 ### 7b25
 - Added a `technical.conf` server-side config despite us not using it for anything becasue - apparently - EasyAuth cannot generate any new config files, if there are files present already (but also cannot start unless all files are present)
 
