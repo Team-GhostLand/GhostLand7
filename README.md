@@ -49,6 +49,17 @@ A modpack for the 7th edition of GhostLand SMP
 
 ## Changelogs:
 
+### 7b23
+- Added Railways Navigator
+- Controls:
+  - Changed keybinds for Microphone to [N]
+  - Changed keybinds for Backpack Hose to [;]
+  - Changed keybinds for Map to [M]
+- Quests:
+  - Modified Create quest tree
+  - Created Modern Industrialisation quest tree
+- Edited EMI favourites to reference quest trees
+
 ### 7b22
 - Added a quest tree for TechReborn
 

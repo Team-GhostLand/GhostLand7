@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "end"
-	group: ""
+	group: "51686C08701DA9FF"
 	icon: "minecraft:end_stone"
 	id: "0E880CD43F10A41C"
-	order_index: 10
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{

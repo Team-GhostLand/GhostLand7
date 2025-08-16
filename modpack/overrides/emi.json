@@ -1,148 +1,1390 @@
 {
   "favorites": [
     {
-      "stack": "item:ae2:item_storage_cell_4k"
+      "stack": "item:travelersbackpack:standard",
+      "recipe": "travelersbackpack:standard_no_tanks"
     },
     {
-      "stack": "item:ae2:item_storage_cell_1k"
+      "stack": "item:immersive_aircraft:airship",
+      "recipe": "immersive_aircraft:airship"
     },
     {
-      "stack": "item:ae2:drive"
+      "stack": "item:immersive_aircraft:biplane",
+      "recipe": "immersive_aircraft:biplane"
     },
     {
-      "stack": "item:ae2:controller"
+      "stack": "item:immersive_aircraft:gyrodyne",
+      "recipe": "immersive_aircraft:gyrodyne"
     },
     {
-      "stack": "item:ae2:crafting_terminal"
+      "stack": "item:tconstruct:part_builder",
+      "recipe": "tconstruct:tables/part_builder"
     },
     {
-      "stack": "item:ae2:fluix_glass_cable"
+      "stack": "item:tconstruct:tinker_station",
+      "recipe": "tconstruct:tables/tinker_station"
     },
     {
-      "stack": "item:ae2:inscriber"
+      "stack": "item:tconstruct:seared_brick",
+      "recipe": "tconstruct:smeltery/seared/seared_brick"
     },
     {
-      "stack": "item:ae2:charger"
+      "stack": "item:tconstruct:scorched_brick",
+      "recipe": "tconstruct:smeltery/scorched/scorched_brick"
     },
     {
-      "stack": "item:create:controls"
+      "stack": "item:farmersdelight:stove",
+      "recipe": "farmersdelight:stove"
     },
     {
-      "stack": "item:create:track_signal"
+      "stack": "item:farmersdelight:cooking_pot",
+      "recipe": "farmersdelight:cooking_pot"
     },
     {
-      "stack": "item:create:track"
+      "stack": "item:farmersdelight:skillet{Damage:0}",
+      "recipe": "farmersdelight:skillet"
     },
     {
-      "stack": "item:create:track_station"
+      "stack": "item:farmersdelight:cutting_board",
+      "recipe": "farmersdelight:cutting_board"
+    },
+    {
+      "stack": "item:brewery:wooden_brewingstation",
+      "recipe": "brewery:wooden_brewingstation"
+    },
+    {
+      "stack": "item:farm_and_charm:stove",
+      "recipe": "farm_and_charm:stove"
+    },
+    {
+      "stack": "item:farm_and_charm:mincer",
+      "recipe": "farm_and_charm:mincer"
+    },
+    {
+      "stack": "item:farm_and_charm:cooking_pot",
+      "recipe": "farm_and_charm:cooking_pot"
+    },
+    {
+      "stack": "item:farm_and_charm:roaster",
+      "recipe": "farm_and_charm:roaster"
+    },
+    {
+      "stack": "item:meadow:cooking_cauldron",
+      "recipe": "meadow:cooking_pot"
+    },
+    {
+      "stack": "item:meadow:woodcutter",
+      "recipe": "meadow:woodcutter"
+    },
+    {
+      "stack": "item:meadow:cheese_form",
+      "recipe": "meadow:cheese_form"
+    },
+    {
+      "stack": "item:meadow:wooden_bucket",
+      "recipe": "meadow:wooden_bucket"
+    },
+    {
+      "stack": "item:vinery:grapevine_pot",
+      "recipe": "vinery:grapevine_pot"
+    },
+    {
+      "stack": "item:vinery:fermentation_barrel",
+      "recipe": "vinery:fermentation_barrel"
+    },
+    {
+      "stack": "item:vinery:apple_press",
+      "recipe": "vinery:wine_press"
+    },
+    {
+      "stack": "item:another_furniture:furniture_hammer{Damage:0}",
+      "recipe": "another_furniture:furniture_hammer"
+    },
+    {
+      "stack": "item:immersive_paintings:painting",
+      "recipe": "immersive_paintings:painting"
+    },
+    {
+      "stack": {
+        "type": "item",
+        "id": "immersive_paintings:graffiti",
+        "amount": 8
+      },
+      "recipe": "immersive_paintings:graffiti"
+    },
+    {
+      "stack": "item:chipped:botanist_workbench",
+      "recipe": "chipped:benches/botanist_workbench"
+    },
+    {
+      "stack": "item:chipped:glassblower",
+      "recipe": "chipped:benches/glassblower"
+    },
+    {
+      "stack": "item:chipped:carpenters_table",
+      "recipe": "chipped:benches/carpenters_table"
+    },
+    {
+      "stack": "item:chipped:loom_table",
+      "recipe": "chipped:benches/loom_table"
+    },
+    {
+      "stack": "item:chipped:mason_table",
+      "recipe": "chipped:benches/mason_table"
+    },
+    {
+      "stack": "item:chipped:alchemy_bench",
+      "recipe": "chipped:benches/alchemy_bench"
+    },
+    {
+      "stack": "item:chipped:tinkering_table",
+      "recipe": "chipped:benches/mechanist_workbench"
+    },
+    {
+      "stack": "item:ae2:charger",
+      "recipe": "ae2:network/blocks/crystal_processing_charger"
+    },
+    {
+      "stack": "item:ae2:inscriber",
+      "recipe": "ae2:network/blocks/inscribers"
+    },
+    {
+      "stack": {
+        "type": "item",
+        "id": "ae2:fluix_glass_cable",
+        "amount": 4
+      },
+      "recipe": "ae2:network/cables/glass_fluix"
+    },
+    {
+      "stack": "item:ae2:item_storage_cell_1k",
+      "recipe": "ae2:network/cells/item_storage_cell_1k_storage"
+    },
+    {
+      "stack": "item:ae2:controller",
+      "recipe": "ae2:network/blocks/controller"
+    },
+    {
+      "stack": "item:ae2:crafting_terminal",
+      "recipe": "ae2:network/parts/terminals_crafting"
+    },
+    {
+      "stack": "item:create:andesite_casing"
+    },
+    {
+      "stack": "item:create:brass_casing"
+    },
+    {
+      "stack": "item:create:copper_casing"
     },
     {
       "stack": "item:create:railway_casing"
     },
     {
-      "stack": "item:create:schedule"
+      "stack": {
+        "type": "item",
+        "id": "create:crushing_wheel",
+        "amount": 2
+      },
+      "recipe": "create:mechanical_crafting/crushing_wheel"
     },
     {
-      "stack": "item:tconstruct:seared_melter"
+      "stack": "item:create:mechanical_crafter"
     },
     {
-      "stack": "item:tconstruct:crafting_station",
-      "recipe": "tconstruct:tables/crafting_station_from_logs"
+      "stack": {
+        "type": "item",
+        "id": "create:precision_mechanism",
+        "chance": 0.8
+      },
+      "recipe": "create:sequenced_assembly/precision_mechanism"
+    },
+    {
+      "stack": "item:create:track",
+      "recipe": "create:sequenced_assembly/track"
+    },
+    {
+      "stack": {
+        "type": "item",
+        "id": "create:schedule",
+        "amount": 4
+      },
+      "recipe": "create:crafting/kinetics/schedule"
+    },
+    {
+      "stack": {
+        "type": "item",
+        "id": "create:track_station",
+        "amount": 2
+      },
+      "recipe": "create:crafting/kinetics/track_station"
+    },
+    {
+      "stack": {
+        "type": "item",
+        "id": "create:track_signal",
+        "amount": 4
+      },
+      "recipe": "create:crafting/kinetics/track_signal"
+    },
+    {
+      "stack": "item:create:controls",
+      "recipe": "create:crafting/kinetics/controls"
+    },
+    {
+      "stack": {
+        "type": "item",
+        "id": "create:display_board",
+        "amount": 2
+      },
+      "recipe": "create:crafting/kinetics/display_board"
+    },
+    {
+      "stack": "item:create:display_link",
+      "recipe": "create:crafting/logistics/display_link"
+    },
+    {
+      "stack": "item:create:brass_ingot",
+      "recipe": "tconstruct:smeltery/casting/metal/brass/ingot_gold_cast"
+    },
+    {
+      "stack": "item:createcobblestone:mechanical_generator",
+      "recipe": "createcobblestone:crafting/mechanical_generator"
+    },
+    {
+      "stack": "item:createnuclear:reactor_output"
+    },
+    {
+      "stack": "item:createnuclear:reactor_controller",
+      "recipe": "createnuclear:mechanical_crafting/reactor_controller"
+    },
+    {
+      "stack": "item:createnuclear:reactor_core",
+      "recipe": "createnuclear:mechanical_crafting/reactor_core"
+    },
+    {
+      "stack": "item:createnuclear:reactor_cooler",
+      "recipe": "createnuclear:mechanical_crafting/reactor_cooler"
+    },
+    {
+      "stack": "item:createnuclear:reactor_casing"
+    },
+    {
+      "stack": "item:createnuclear:reactor_frame",
+      "recipe": "createnuclear:mechanical_crafting/reactor_frame"
+    },
+    {
+      "stack": "item:createnuclear:reactor_input"
+    },
+    {
+      "stack": "item:createoreexcavation:drilling_machine"
+    },
+    {
+      "stack": "item:createoreexcavation:extractor",
+      "recipe": "createoreexcavation:extractor"
+    },
+    {
+      "stack": "item:createoreexcavation:sample_drill",
+      "recipe": "createoreexcavation:sample_drill"
+    },
+    {
+      "stack": "item:createoreexcavation:vein_finder",
+      "recipe": "createoreexcavation:vein_finder"
+    },
+    {
+      "stack": "item:estrogen:estrogen_pill",
+      "recipe": "estrogen:filling/estrogen_pill"
+    },
+    {
+      "stack": {
+        "type": "item",
+        "id": "createrailwaysnavigator:advanced_display",
+        "amount": 6
+      },
+      "recipe": "createrailwaysnavigator:advanced_display"
+    },
+    {
+      "stack": "item:createrailwaysnavigator:navigator",
+      "recipe": "createrailwaysnavigator:navigator"
+    },
+    {
+      "stack": "item:estrogen:centrifuge",
+      "recipe": "estrogen:centrifuge"
+    },
+    {
+      "stack": "item:techreborn:basic_machine_frame",
+      "recipe": "techreborn:crafting_table/machine_block/basic_machine_frame"
+    },
+    {
+      "stack": "item:techreborn:advanced_machine_frame",
+      "recipe": "techreborn:crafting_table/machine_block/advanced_machine_frame"
+    },
+    {
+      "stack": "item:techreborn:industrial_machine_frame",
+      "recipe": "techreborn:crafting_table/machine_block/industrial_machine_frame"
+    },
+    {
+      "stack": "item:techreborn:resin_basin",
+      "recipe": "techreborn:crafting_table/machine/resin_basin"
+    },
+    {
+      "stack": "item:techreborn:iron_furnace",
+      "recipe": "techreborn:crafting_table/machine/iron_furnace_alt"
+    },
+    {
+      "stack": "item:techreborn:electric_furnace",
+      "recipe": "techreborn:crafting_table/machine/electric_furnace"
+    },
+    {
+      "stack": "item:techreborn:industrial_blast_furnace",
+      "recipe": "techreborn:crafting_table/machine/industrial_blast_furnace"
+    },
+    {
+      "stack": "item:techreborn:iron_alloy_furnace",
+      "recipe": "techreborn:crafting_table/machine/iron_alloy_furnace"
+    },
+    {
+      "stack": "item:techreborn:alloy_smelter",
+      "recipe": "techreborn:crafting_table/machine/alloy_smelter"
+    },
+    {
+      "stack": "item:techreborn:grinder",
+      "recipe": "techreborn:crafting_table/machine/grinder"
+    },
+    {
+      "stack": "item:techreborn:industrial_sawmill",
+      "recipe": "techreborn:crafting_table/machine/industrial_sawmill"
+    },
+    {
+      "stack": "item:techreborn:rolling_machine",
+      "recipe": "techreborn:crafting_table/machine/rolling_machine"
+    },
+    {
+      "stack": "item:techreborn:vacuum_freezer",
+      "recipe": "techreborn:crafting_table/machine/vacuum_freezer"
+    },
+    {
+      "stack": "item:techreborn:compressor",
+      "recipe": "techreborn:crafting_table/machine/compressor"
+    },
+    {
+      "stack": "item:techreborn:solid_canning_machine",
+      "recipe": "techreborn:crafting_table/machine/canning_machine"
+    },
+    {
+      "stack": "item:techreborn:recycler",
+      "recipe": "techreborn:crafting_table/machine/recycler"
+    },
+    {
+      "stack": "item:techreborn:scrapboxinator",
+      "recipe": "techreborn:crafting_table/machine/scrapboxinator"
+    },
+    {
+      "stack": "item:techreborn:matter_fabricator",
+      "recipe": "techreborn:crafting_table/machine/matter_fabricator"
+    },
+    {
+      "stack": "item:techreborn:implosion_compressor",
+      "recipe": "techreborn:crafting_table/machine/implosion_compressor"
+    },
+    {
+      "stack": "item:techreborn:extractor",
+      "recipe": "techreborn:crafting_table/machine/extractor"
+    },
+    {
+      "stack": "item:techreborn:chemical_reactor",
+      "recipe": "techreborn:crafting_table/machine/chemical_reactor"
+    },
+    {
+      "stack": "item:techreborn:industrial_centrifuge",
+      "recipe": "techreborn:crafting_table/machine/industrial_centrifuge"
+    },
+    {
+      "stack": "item:techreborn:industrial_electrolyzer",
+      "recipe": "techreborn:crafting_table/machine/industrial_electrolyzer"
+    },
+    {
+      "stack": "item:techreborn:distillation_tower",
+      "recipe": "techreborn:crafting_table/machine/distillation_tower"
+    },
+    {
+      "stack": "item:techreborn:water_mill",
+      "recipe": "techreborn:crafting_table/machine/water_mill"
+    },
+    {
+      "stack": "item:techreborn:wind_mill",
+      "recipe": "techreborn:crafting_table/machine/wind_mill_alt"
+    },
+    {
+      "stack": "item:techreborn:basic_solar_panel",
+      "recipe": "techreborn:crafting_table/solar_panel/basic_solar_panel"
+    },
+    {
+      "stack": "item:techreborn:low_voltage_su",
+      "recipe": "techreborn:crafting_table/machine/low_voltage_su"
+    },
+    {
+      "stack": "item:techreborn:lv_transformer",
+      "recipe": "techreborn:crafting_table/machine/lv_transformer"
+    },
+    {
+      "stack": "item:techreborn:medium_voltage_su",
+      "recipe": "techreborn:crafting_table/machine/medium_voltage_su"
+    },
+    {
+      "stack": "item:techreborn:mv_transformer",
+      "recipe": "techreborn:crafting_table/machine/mv_transformer"
+    },
+    {
+      "stack": "item:techreborn:high_voltage_su",
+      "recipe": "techreborn:crafting_table/machine/high_voltage_su"
+    },
+    {
+      "stack": "item:techreborn:hv_transformer",
+      "recipe": "techreborn:crafting_table/machine/hv_transformer"
+    },
+    {
+      "stack": "item:modern_industrialization:steam_mining_drill",
+      "recipe": "modern_industrialization:tools/steam_mining_drill"
+    },
+    {
+      "stack": "item:modern_industrialization:forge_hammer",
+      "recipe": "modern_industrialization:forge_hammer"
     }
   ],
   "lookup_history": [
-    "item:herbalbrews:copper_tea_kettle",
+    "item:modern_industrialization:turbo_machine_hull",
+    "item:modern_industrialization:annealed_copper_ingot",
+    "item:modern_industrialization:monazite_dust",
+    "item:modern_industrialization:cadmium_dust",
+    "item:modern_industrialization:cadmium_ingot",
+    "item:modern_industrialization:annealed_copper_plate",
+    "item:modern_industrialization:annealed_copper_wire",
+    "item:modern_industrialization:annealed_copper_cable",
+    "item:modern_industrialization:cadmium_battery",
+    "item:modern_industrialization:processing_unit",
+    "item:modern_industrialization:highly_advanced_machine_hull",
+    "item:modern_industrialization:stainless_steel_drill",
+    "item:modern_industrialization:aluminum_drill",
+    "fluid:modern_industrialization:polyethylene",
+    "item:modern_industrialization:stainless_steel_drill_head",
+    "item:modern_industrialization:lapis_dust",
+    "item:modern_industrialization:digital_circuit_board",
+    "item:modern_industrialization:and_gate",
+    "item:modern_industrialization:not_gate",
+    "item:modern_industrialization:op_amp",
+    "fluid:modern_industrialization:helium",
+    "fluid:modern_industrialization:argon",
+    "fluid:modern_industrialization:cryofluid",
+    "item:modern_industrialization:iron_dust",
+    "item:modern_industrialization:aluminum_cable",
+    "item:modern_industrialization:aluminum_wire",
+    "item:modern_industrialization:sodium_dust",
+    "item:modern_industrialization:stainless_steel_plate",
+    "item:modern_industrialization:turbo_machine_casing",
+    "item:modern_industrialization:sodium_battery",
+    "item:modern_industrialization:or_gate",
+    "item:modern_industrialization:digital_circuit",
+    "item:modern_industrialization:advanced_machine_casing",
+    "item:modern_industrialization:silicon_dust",
+    "item:modern_industrialization:electrum_cable",
+    "item:modern_industrialization:electronic_circuit_board",
+    "item:modern_industrialization:transistor",
+    "item:modern_industrialization:electrum_wire",
+    "item:modern_industrialization:electrum_fine_wire",
+    "item:modern_industrialization:diode",
+    "item:modern_industrialization:antimony_ingot",
+    "item:modern_industrialization:silicon_battery",
+    "item:modern_industrialization:electronic_circuit",
+    "item:modern_industrialization:advanced_machine_hull",
+    "item:modern_industrialization:basic_machine_hull",
+    "item:modern_industrialization:steel_ring",
+    "item:modern_industrialization:steel_bolt",
+    "item:modern_industrialization:steel_gear",
+    "item:modern_industrialization:steel_machine_casing",
+    "item:modern_industrialization:battery_alloy_curved_plate",
+    "item:modern_industrialization:antimony_dust",
+    "item:modern_industrialization:lead_dust",
+    "item:modern_industrialization:battery_alloy_dust",
+    "item:modern_industrialization:battery_alloy_ingot",
+    "item:modern_industrialization:battery_alloy_plate",
+    "item:modern_industrialization:tin_wire",
+    "item:modern_industrialization:tin_cable",
+    "item:modern_industrialization:redstone_battery",
+    "item:modern_industrialization:analog_circuit_board",
+    "item:modern_industrialization:carbon_dust",
+    "fluid:modern_industrialization:raw_synthetic_oil",
+    "fluid:modern_industrialization:synthetic_oil",
+    "fluid:modern_industrialization:synthetic_rubber",
+    "item:modern_industrialization:rubber_sheet",
+    "item:modern_industrialization:capacitor",
+    "#item:c:steel_ingots",
+    "item:modern_industrialization:steel_rod",
+    "item:modern_industrialization:steel_ingot",
+    "item:modern_industrialization:steel_dust",
+    "#item:c:steel_dusts",
+    "fluid:tconstruct:molten_steel",
+    "item:modern_industrialization:steel_rod_magnetic",
+    "item:modern_industrialization:inductor",
+    "item:modern_industrialization:copper_wire",
+    "item:modern_industrialization:copper_fine_wire",
+    "item:modern_industrialization:resistor",
+    "item:modern_industrialization:analog_circuit",
+    "item:modern_industrialization:forge_hammer",
+    "item:modern_industrialization:stainless_steel_dust",
+    "item:modern_industrialization:stainless_steel_hot_ingot",
+    "item:modern_industrialization:stainless_steel_ingot",
+    "item:modern_industrialization:mixed_ingot_blastproof",
+    "item:modern_industrialization:blastproof_alloy_ingot",
+    "item:modern_industrialization:blastproof_alloy_plate",
+    "item:modern_industrialization:blastproof_alloy_curved_plate",
+    "item:modern_industrialization:he_mox_fuel_rod",
+    "item:modern_industrialization:he_mox_fuel_rod_depleted",
+    "item:modern_industrialization:plutonium_tiny_dust",
+    "item:modern_industrialization:plutonium_nugget",
+    "item:modern_industrialization:plutonium_ingot",
+    "item:modern_industrialization:plutonium_dust",
+    "fluid:modern_industrialization:crude_oil",
+    "fluid:modern_industrialization:sulfuric_naphtha",
+    "fluid:modern_industrialization:hydrogen",
+    "fluid:modern_industrialization:naphtha",
+    "fluid:minecraft:water",
+    "fluid:modern_industrialization:steam",
+    "fluid:modern_industrialization:steam_cracked_naphtha",
+    "fluid:modern_industrialization:liquid_air",
+    "fluid:modern_industrialization:nitrogen",
+    "fluid:modern_industrialization:toluene",
+    "item:modern_industrialization:singularity",
+    "fluid:modern_industrialization:high_pressure_steam",
+    "fluid:modern_industrialization:heavy_water",
+    "fluid:modern_industrialization:heavy_water_steam",
+    "fluid:modern_industrialization:shale_oil",
+    "fluid:modern_industrialization:sulfuric_crude_oil",
+    "item:modern_industrialization:industrial_tnt",
+    "item:modern_industrialization:nuke",
+    "item:modern_industrialization:copper_ring",
+    "item:modern_industrialization:copper_gear",
+    "item:modern_industrialization:copper_curved_plate",
+    "item:modern_industrialization:copper_bolt",
+    "item:modern_industrialization:copper_drill_head",
+    "item:modern_industrialization:iron_large_plate",
+    "item:modern_industrialization:steam_mining_drill",
+    "item:techreborn:hv_cable",
+    "item:techreborn:insulated_hv_cable",
+    "item:techreborn:hv_transformer",
+    "item:techreborn:high_voltage_su",
+    "item:techreborn:mv_transformer",
+    "item:techreborn:medium_voltage_su",
+    "item:techreborn:gold_cable",
+    "item:techreborn:insulated_gold_cable",
+    "item:techreborn:lv_transformer",
+    "item:techreborn:low_voltage_su",
+    "item:techreborn:basic_solar_panel",
+    "item:techreborn:cell",
+    "item:techreborn:peridot_dust",
+    "item:techreborn:magnesium_dust",
+    "item:techreborn:wind_mill",
+    "item:techreborn:magnalium_plate",
+    {
+      "type": "item",
+      "id": "techreborn:basalt_dust",
+      "amount": 16
+    },
+    "item:techreborn:marble_small_dust",
+    {
+      "type": "item",
+      "id": "techreborn:marble_dust",
+      "amount": 8
+    },
+    {
+      "type": "item",
+      "id": "techreborn:pyrope_dust",
+      "amount": 20
+    },
+    "item:techreborn:red_cell_battery",
+    "item:techreborn:solid_fuel_generator",
+    "item:techreborn:water_mill",
+    "item:techreborn:fusion_coil",
+    "item:techreborn:distillation_tower",
+    "item:techreborn:industrial_electrolyzer",
+    "item:techreborn:industrial_centrifuge",
+    "item:techreborn:chemical_reactor",
+    "item:techreborn:extractor",
+    "item:techreborn:implosion_compressor",
+    "item:minecraft:iron_ingot",
+    "item:minecraft:copper_ingot",
+    "item:techreborn:industrial_circuit",
+    "item:techreborn:iridium_alloy_ingot",
+    "item:techreborn:synthetic_redstone_crystal",
+    "item:techreborn:lazurite_dust",
+    "item:techreborn:lazurite_plate",
+    "item:techreborn:lapotronic_orb",
+    "item:techreborn:energy_crystal",
+    "item:techreborn:lapotron_crystal",
+    "item:techreborn:iridium_alloy_plate",
+    "item:techreborn:energy_flow_chip",
+    "item:techreborn:matter_fabricator",
+    "item:minecraft:dirt",
+    "item:techreborn:scrap",
+    "item:techreborn:scrap_box",
+    "item:techreborn:scrapboxinator",
+    "item:techreborn:recycler",
+    "item:techreborn:solid_canning_machine",
+    "item:techreborn:compressor",
+    "item:techreborn:vacuum_freezer",
+    "item:techreborn:rolling_machine",
+    "item:techreborn:reinforced_glass",
+    "item:techreborn:diamond_saw_blade",
+    "item:techreborn:industrial_sawmill",
+    "item:techreborn:diamond_grinding_head",
+    "item:techreborn:industrial_grinder",
+    "item:techreborn:iron_alloy_furnace",
+    "item:techreborn:alloy_smelter",
+    "item:techreborn:grinder",
+    "item:techreborn:industrial_blast_furnace",
+    "item:techreborn:electric_furnace",
+    "item:techreborn:iron_furnace",
+    "item:techreborn:resin_basin",
+    "item:techreborn:industrial_machine_frame",
+    "item:techreborn:advanced_machine_frame",
+    "item:minecraft:lapis_lazuli",
+    "item:techreborn:cupronickel_heating_coil",
+    "item:techreborn:advanced_circuit",
+    "item:techreborn:sap",
+    "item:techreborn:rubber",
+    "item:techreborn:copper_cable",
+    "item:techreborn:insulated_copper_cable",
+    "item:techreborn:electronic_circuit",
+    "#item:minecraft:planks",
+    "#item:techreborn:rubber_logs",
+    "#item:lieonstudio:chests/normal",
+    "#item:c:wooden_chests",
+    "#item:c:iron_ingots",
+    "#item:c:iron_plates",
+    "item:techreborn:refined_iron_plate",
+    "item:techreborn:drain",
+    "item:techreborn:rubber_planks",
+    "item:techreborn:rubber_trapdoor",
+    "item:techreborn:treetap{Damage:0}",
+    "#item:c:chromium_dusts",
+    "item:modern_industrialization:chromium_hot_ingot",
+    "item:modern_industrialization:chromium_ingot",
+    "#item:c:chromium_ingots",
+    "item:modern_industrialization:chromium_plate",
+    "#item:c:chromium_plates",
+    "item:modern_industrialization:titanium_ingot",
+    "item:modern_industrialization:titanium_nugget",
+    {
+      "type": "tag",
+      "registry": "minecraft:item",
+      "id": "c:titanium_nuggets",
+      "amount": 9
+    },
+    "#item:c:titanium_ingots",
+    "item:modern_industrialization:titanium_plate",
+    "#item:c:titanium_plates",
+    "item:techreborn:mixed_metal_ingot",
+    "item:techreborn:advanced_alloy_ingot",
+    "item:techreborn:advanced_alloy_plate",
+    "item:createnuclear:coal_dust",
+    "#item:c:coal_dusts",
+    "item:techreborn:carbon_fiber",
+    "item:techreborn:carbon_mesh",
+    "item:techreborn:carbon_plate",
+    "item:techreborn:refined_iron_ingot",
+    "item:techreborn:basic_machine_frame",
+    "item:estrogen:centrifuge",
+    "item:createrailwaysnavigator:navigator",
+    "item:createrailwaysnavigator:advanced_display",
+    "item:minecraft:cocoa_beans",
+    "item:minecraft:wheat",
+    "fluid:estrogen:horse_urine",
+    "fluid:estrogen:filtrated_horse_urine",
+    "fluid:estrogen:liquid_estrogen",
+    "item:estrogen:estrogen_pill",
+    "item:createoreexcavation:vein_finder",
+    "item:createoreexcavation:vein_atlas",
+    "item:createoreexcavation:sample_drill",
+    "item:minecraft:kelp",
+    "item:createoreexcavation:extractor",
+    "item:createoreexcavation:drilling_machine",
+    "item:createnuclear:reactor_input",
+    "item:createnuclear:reactor_frame",
+    "item:createnuclear:reactor_casing",
+    "item:createnuclear:lead_ingot",
+    "item:createnuclear:reinforced_glass",
+    "item:createnuclear:reactor_cooler",
+    "item:createnuclear:reactor_core",
+    "item:createnuclear:steel_ingot",
+    "item:create:crushed_raw_uranium",
+    "item:createnuclear:uranium_powder",
+    "fluid:createnuclear:uranium",
+    "item:createnuclear:uranium_bucket",
+    "item:minecraft:nether_star",
+    "item:minecraft:ancient_debris",
+    "item:createnuclear:reactor_controller",
+    "item:createnuclear:reactor_output",
+    "item:createnuclear:deepslate_uranium_ore",
+    "item:minecraft:raw_copper",
+    "item:createcobblestone:mechanical_generator",
+    "item:create:brass_ingot",
+    {
+      "type": "fluid",
+      "id": "tconstruct:molten_brass",
+      "amount": 9000
+    },
+    "#item:c:zinc_nuggets",
+    "item:create:zinc_ingot",
+    {
+      "type": "item",
+      "id": "create:zinc_nugget",
+      "amount": 9
+    },
+    {
+      "type": "item",
+      "id": "create:crushed_raw_zinc",
+      "chance": 0.3
+    },
+    "item:create:asurine",
+    "item:create:andesite_alloy",
+    "item:create:goggles",
+    "item:create:display_link",
+    "item:create:display_board",
+    {
+      "type": "item",
+      "id": "minecraft:flint",
+      "chance": 0.25
+    },
+    "item:minecraft:stick",
+    "item:create:controls",
+    "item:create:track_signal",
+    {
+      "type": "item",
+      "id": "create:track_station",
+      "amount": 2
+    },
+    "#item:c:obsidian_dusts",
+    "item:techreborn:obsidian_plate",
+    "#item:c:obsidian_plates",
+    "fluid:minecraft:lava",
+    "item:minecraft:obsidian",
+    "item:create:schedule",
+    [
+      "item:minecraft:iron_nugget",
+      "#item:c:zinc_nuggets"
+    ],
+    "item:create:track",
+    "item:create:precision_mechanism",
+    "item:create:mechanical_arm",
+    "item:minecraft:sand",
+    "#item:minecraft:sand",
+    "item:create:mechanical_crafter",
+    "item:create:deployer",
+    "item:create:contraption_controls",
+    "item:create:steam_engine",
+    "item:create:mechanical_pump",
+    "item:create:empty_blaze_burner",
+    "item:create:blaze_burner",
+    "item:create:mechanical_mixer",
+    "item:create:mechanical_press",
+    "item:create:crushing_wheel",
+    "item:create:copper_casing",
+    "item:create:brass_casing",
+    "item:create:railway_casing",
+    "#item:c:brass_ingots",
+    "item:create:andesite_casing",
+    "#item:c:stone",
+    "item:minecraft:diorite",
+    "item:minecraft:andesite",
+    "item:minecraft:gravel",
+    "item:create:millstone",
+    "item:create:large_water_wheel",
+    "item:create:water_wheel",
+    "item:create:encased_fan",
+    "item:minecraft:glowstone",
+    "item:minecraft:glowstone_dust",
+    "item:minecraft:ender_pearl",
+    "item:minecraft:diamond",
+    "item:ae2:certus_quartz_crystal",
+    "item:minecraft:redstone",
+    "item:minecraft:soul_sand",
+    "item:minecraft:quartz",
+    "item:ae2:fluix_pearl",
+    {
+      "type": "item",
+      "id": "ae2:engineering_processor_press",
+      "remainder": "item:ae2:engineering_processor_press"
+    },
+    "item:ae2:spatial_cell_component_2",
+    "item:ae2:spatial_cell_component_16",
+    "item:ae2:spatial_cell_component_128",
+    "item:ae2:spatial_storage_cell_128",
+    "item:ae2:spatial_storage_cell_16",
+    "item:ae2:spatial_storage_cell_2",
+    "item:ae2:fluid_storage_cell_256k",
+    "item:ae2:fluid_cell_housing",
+    "item:ae2:fluid_storage_cell_64k",
+    "item:ae2:fluid_storage_cell_16k",
+    "item:ae2:fluid_storage_cell_4k",
+    "item:ae2:fluid_storage_cell_1k",
+    "item:ae2:cell_component_16k",
+    "item:ae2:cell_component_64k",
+    "item:ae2:cell_component_256k",
+    "item:ae2:item_storage_cell_256k",
+    "item:ae2:item_storage_cell_4k",
+    "item:ae2:item_storage_cell_16k",
+    "item:ae2:item_storage_cell_64k",
+    "item:ae2:singularity",
+    "item:ae2:quantum_entangled_singularity",
+    "item:ae2:crafting_terminal",
+    "item:ae2:drive",
+    "item:ae2:controller",
+    "item:ae2:silicon",
+    "item:ae2:item_storage_cell_1k",
+    "item:ae2:quartz_cluster",
+    "item:ae2:fluix_glass_cable",
+    "item:ae2:inscriber",
+    "item:ae2:charger",
+    "item:ae2:charged_certus_quartz_crystal",
+    "item:tconstruct:earth_slime_crystal",
+    "item:minecraft:slime_ball",
+    "#item:c:slimeballs",
+    "item:minecraft:sticky_piston",
+    "item:ae2:certus_quartz_wrench",
+    "item:minecraft:tnt",
+    "item:chipped:tinkering_table",
+    "item:minecraft:gunpowder",
+    "item:minecraft:blaze_rod",
+    "item:minecraft:cobblestone",
+    "#item:minecraft:stone_crafting_materials",
+    "item:minecraft:sugar_cane",
+    "item:farmersdelight:straw",
+    "item:farmersdelight:canvas",
+    "item:minecraft:book",
+    "item:minecraft:leather",
+    "item:chipped:alchemy_bench",
+    "item:chipped:mason_table",
+    "item:chipped:loom_table",
+    "item:chipped:carpenters_table",
+    "item:chipped:glassblower",
+    "item:chipped:botanist_workbench",
+    "item:immersive_paintings:graffiti",
+    "item:immersive_paintings:painting",
+    "item:another_furniture:furniture_hammer{Damage:0}",
+    "item:vinery:apple_press",
+    "item:farm_and_charm:roaster",
+    "item:brewery:wooden_brewingstation",
+    "item:meadow:cooking_cauldron",
+    "item:meadow:woodcutter",
+    "item:meadow:cheese_form",
+    "item:meadow:wooden_bucket",
+    "item:vinery:grapevine_pot",
+    "item:vinery:fermentation_barrel",
+    "item:minecraft:barrel",
+    "item:vinery:cherry",
+    "item:meadow:camera",
+    "item:meadow:wheelbarrow",
+    "item:meadow:wooden_cauldron",
+    "item:meadow:frame",
+    "item:meadow:fondue",
+    "item:herbalbrews:jug{Damage:0}",
+    "item:herbalbrews:tea_blossom",
     "item:herbalbrews:cauldron",
+    "item:herbalbrews:tea_kettle",
+    "item:farm_and_charm:scarecrow",
+    "item:farm_and_charm:chicken_nest",
+    "item:farm_and_charm:chicken_coop",
+    "item:herbalbrews:stove",
+    "item:farm_and_charm:supply_cart",
+    "item:farm_and_charm:pitchfork{Damage:0}",
+    "item:farm_and_charm:silo_wood",
+    "item:farm_and_charm:water_sprinkler",
+    "item:farm_and_charm:feeding_trough",
+    "item:candlelight:typewriter_iron",
+    "item:beachparty:mini_fridge",
+    "item:beachparty:floaty_boat",
+    "item:beachparty:palm_bar",
+    "#item:minecraft:coals",
+    "item:minecraft:campfire",
+    "item:tconstruct:nether_grout",
+    "item:tconstruct:scorched_brick",
+    "item:tconstruct:scorched_table",
+    "item:tconstruct:seared_brick",
+    "item:travelersbackpack:standard",
+    "item:immersive_aircraft:airship",
+    "item:immersive_aircraft:biplane",
+    "item:immersive_aircraft:gyrodyne",
+    "item:tconstruct:tinker_station",
+    "item:tconstruct:part_builder",
+    "item:tconstruct:grout",
+    "item:tconstruct:seared_basin",
+    "item:tconstruct:seared_stone",
+    "item:tconstruct:seared_bricks",
+    "item:tconstruct:pattern",
+    "item:immersive_aircraft:improved_landing_gear",
+    "item:immersive_aircraft:hull_reinforcement",
+    "item:immersive_aircraft:gyroscope",
+    "item:immersive_aircraft:sturdy_pipes",
+    "item:immersive_aircraft:industrial_gears",
+    "item:immersive_aircraft:steel_boiler",
+    "item:immersive_aircraft:eco_engine",
+    "item:immersive_aircraft:enhanced_propeller",
+    "item:immersive_aircraft:bomb_bay",
+    "item:immersive_aircraft:telescope",
+    "item:immersive_aircraft:heavy_crossbow",
+    "item:immersive_aircraft:rotary_cannon",
+    "item:immersive_aircraft:bamboo_hopper",
+    "item:immersive_aircraft:quadrocopter",
+    "item:immersive_aircraft:warship",
+    "item:immersive_aircraft:cargo_airship",
+    "item:immersive_aircraft:boiler",
+    "item:immersive_aircraft:propeller",
+    "item:immersive_aircraft:sail",
+    "item:immersive_aircraft:engine",
+    "item:immersive_aircraft:hull",
+    "item:minecraft:chest",
+    "#item:c:chests",
+    "item:lolmcv:oak_chest",
+    "#item:travelersbackpack:sleeping_bags",
+    "#item:c:furnaces",
+    "item:minecraft:furnace",
+    "item:travelersbackpack:white_sleeping_bag",
+    "item:createrailwaysnavigator:advanced_display_panel",
+    "item:createrailwaysnavigator:advanced_display_slab",
+    "item:createrailwaysnavigator:advanced_display_block",
+    "item:herbalbrews:copper_tea_kettle",
     "item:herbalbrews:coffee_beans",
     "item:herbalbrews:yerba_mate_leaf",
     "item:herbalbrews:green_tea_leaf",
-    "item:herbalbrews:tea_blossom",
     "item:herbalbrews:hibiscus",
     "item:herbalbrews:lavender",
     "item:herbalbrews:lavender_blossom",
     "item:beachparty:radio",
-    "item:bakery:baker_station",
     "item:beachparty:crocs{Damage:0}",
     "item:beachparty:rubber_ring_pink{Damage:0}",
     "item:beachparty:sunglasses{Damage:0}",
     "item:beachparty:beach_hat{Damage:0}",
-    "item:bakery:small_cooking_pot{Damage:0}",
     "item:farmersdelight:apple_cider",
     "item:farmersdelight:hot_cocoa",
     "item:farmersdelight:barbecue_stick",
     "item:farmersdelight:kelp_roll_slice",
     "item:farmersdelightexpansion:grape_juice",
     "item:farmersdelight:safety_net",
-    "item:farmersdelight:basket",
-    "item:farmersdelight:stove"
+    "item:farmersdelight:basket"
   ],
   "craft_history": [],
   "recipe_defaults": {
     "added": [
-      "tconstruct:smeltery/alloys/molten_brass",
-      "megacells:inscriber/accumulation_processor_print",
-      "ae2:network/blocks/storage_drive",
-      "tconstruct:smeltery/seared/grout",
-      "ae2:smelting/silicon_from_certus_quartz_dust",
-      "ae2:network/blocks/crystal_processing_charger",
-      "emi_loot:/block_drops/ae2/blocks/quartz_cluster",
-      "ae2:inscriber/logic_processor_print",
-      "ae2:inscriber/fluix_dust",
-      "tconstruct:smeltery/seared/seared_brick",
-      "ae2:network/cells/item_storage_components_cell_4k_part",
-      "ae2:inscriber/calculation_processor_print",
-      "ae2:transform/damaged_budding_quartz",
-      "ae2:charger/guide",
-      "ae2:network/cells/item_storage_components_cell_1k_part",
-      "create:crafting/materials/rose_quartz",
-      "tconstruct:smeltery/casting/metal/brass/ingot_gold_cast",
-      "ae2:network/cells/item_storage_cell_4k_storage",
-      "ae2:inscriber/certus_quartz_dust",
-      "megacells:inscriber/accumulation_processor_press",
-      "ae2:materials/annihilationcore",
-      "minecraft:glass",
-      "tconstruct:smeltery/melting/metal/copper/raw/minecraft/raw_copper",
-      "ae2:network/parts/terminals",
-      "create:splashing/gravel",
-      "ae2:network/blocks/controller",
-      "ae2:transform/fluix_crystals",
-      "ae2:inscriber/calculation_processor",
-      "ae2:inscriber/engineering_processor",
-      "tconstruct:smeltery/seared/melter",
-      "ae2:transform/entangled_singularity",
-      "ae2:inscriber/engineering_processor_print",
-      "ae2:inscriber/silicon_print",
-      "ae2:inscriber/logic_processor",
-      "ae2:network/blocks/inscribers",
-      "tconstruct:smeltery/melting/metal/zinc/raw/create/raw_zinc",
-      "ae2:network/parts/panels_semi_dark_monitor",
-      "ae2:decorative/quartz_glass",
-      "ae2:materials/formationcore",
-      "ae2:network/cells/item_cell_housing",
-      "minecraft:paper",
-      "minecraft:stone_slab",
-      "ae2:smelting/smooth_sky_stone_block",
-      "ae2:network/cells/item_storage_cell_1k_storage",
-      "ae2:inscriber/ender_dust",
-      "ae2:transform/flawed_budding_quartz",
-      "ae2:network/cables/glass_fluix",
-      "ae2:charger/charged_certus_quartz_crystal",
+      "techreborn:industrial_electrolyzer/peridot_dust",
+      "techreborn:crafting_table/cell",
+      "modern_industrialization:materials/annealed_copper/craft/cable",
       "megacells:inscriber/accumulation_processor",
-      "ae2:inscriber/sky_stone_dust",
-      "tconstruct:smeltery/seared/ingot_gauge",
-      "tconstruct:common/slime/sticky_piston",
-      "ae2:network/parts/terminals_crafting",
+      "modern_industrialization:materials/centrifuge/mozanite_dust",
+      "ae2:network/cells/item_storage_components_cell_1k_part",
+      "tconstruct:smeltery/seared/melter",
+      "createcobblestone:crafting/mechanical_generator",
+      "emi:create/crushing/create/crushing/gravel",
+      "techreborn:crafting_table/machine/low_voltage_su",
+      "ae2:inscriber/logic_processor",
+      "techreborn:crafting_table/machine/canning_machine",
       "ae2:charger/meteorite_compass",
+      "createnuclear:item_application/reactor_output_from_shaft_and_reactor_casing",
+      "techreborn:crafting_table/machine/hv_transformer",
+      "ae2:charger/guide",
+      "modern_industrialization:petrochem/sulfuric_purification/naphtha",
+      "ae2:network/cells/fluid_storage_cell_256k_storage",
+      "chipped:benches/glassblower",
+      "techreborn:crafting_table/machine/extractor",
+      "another_furniture:furniture_hammer",
+      "ae2:charger/charged_certus_quartz_crystal",
+      "bakery:small_cooking_pot",
+      "modern_industrialization:compat/techreborn/blastproof_alloy_plate",
+      "tconstruct:tables/part_builder",
+      "modern_industrialization:electric_age/component/craft/and_gate_asbl",
+      "create:splashing/crushed_raw_zinc",
+      "techreborn:crafting_table/cable/insulated_gold_cable_shapeless",
+      "modern_industrialization:materials/iron/craft/large_plate",
+      "modern_industrialization:electric_age/component/implosion_compressor/singularity",
+      "ae2:network/cells/spatial_components_1",
+      "modern_industrialization:electric_age/hull/highly_advanced_machine_hull_asbl",
+      "modern_industrialization:materials/copper/craft/ring",
+      "techreborn:crafting_table/parts/diamond_grinding_head",
+      "modern_industrialization:electric_age/hull/turbo_machine_hull_asbl",
+      "modern_industrialization:alloy/mixer/stainless_steel/dust",
+      "tconstruct:smeltery/seared/seared_brick",
+      "modern_industrialization:materials/electrum/craft/cable",
+      "bakery:bread_knife",
+      "immersive_aircraft:sail",
+      "techreborn:crafting_table/cable/hv_cable",
+      "modern_industrialization:petrochem/distillation/steam_cracked_naphtha_full",
+      "techreborn:crafting_table/machine_block/advanced_machine_frame",
+      "emi:create/crushing/createnuclear/crushing/crushed_raw_uranium",
+      "ae2:inscriber/ender_dust",
+      "ae2:network/parts/terminals",
+      "ae2:inscriber/calculation_processor",
+      "ae2:network/parts/panels_semi_dark_monitor",
+      "immersive_aircraft:industrial_gears",
+      "modern_industrialization:petrochem/distillation/shale_oil_1",
+      "createnuclear:mixing/uranium_fluid",
+      "techreborn:crafting_table/parts/advanced_circuit",
+      "modern_industrialization:electric_age/component/craft/transistor_asbl",
+      "meadow:cheese_form",
+      "modern_industrialization:electric_age/component/craft/op_amp_asbl",
+      "ae2:transform/flawed_budding_quartz",
+      "travelersbackpack:standard_no_tanks",
+      "modern_industrialization:electric_age/battery/silicon_battery_asbl",
+      "create:splashing/soul_sand",
+      "immersive_aircraft:bomb_bay",
+      "createnuclear:mixing/steel",
+      "modern_industrialization:materials/battery_alloy/smelting/dust_to_ingot_smelting",
+      "modern_industrialization:materials/copper/wiremill/fine_wire",
+      "modern_industrialization:alloy/mixer/battery_alloy/dust",
+      "modern_industrialization:materials/plutonium/blast_furnace/tiny_dust",
+      "candlelight:cooking_pot",
+      "modern_industrialization:materials/centrifuge/liquid_air",
+      "modern_industrialization:materials/antimony/macerator/ingot",
+      "techreborn:crafting_table/ingot/iridium_alloy_ingot",
+      "ae2:network/cells/fluid_storage_cell_1k_storage",
+      "modern_industrialization:electric_age/component/craft/not_gate_asbl",
+      "ae2:inscriber/calculation_processor_print",
+      "techreborn:crafting_table/misc_block/rubber_trapdoor",
+      "techreborn:smelting/advanced_alloy_ingot_from_c_mixed_metal_ingots",
+      "techreborn:crafting_table/machine/solid_fuel_generator",
+      "modern_industrialization:electric_age/component/craft/inductor",
+      "techreborn:crafting_table/machine/industrial_grinder",
+      "ae2:materials/annihilationcore",
+      "megacells:inscriber/accumulation_processor_press",
+      "immersive_aircraft:hull_reinforcement",
+      "techreborn:crafting_table/machine/industrial_electrolyzer",
+      "modern_industrialization:materials/copper/compressor/plate",
+      "techreborn:centrifuge/lapis_lazuli",
+      "ae2:network/cells/item_storage_cell_4k_storage",
+      "ae2:inscriber/engineering_processor",
+      "chipped:benches/mason_table",
+      "modern_industrialization:steam_age/steel/machine_casing_asbl",
+      "techreborn:crafting_table/solar_panel/basic_solar_panel",
+      "meadow:wooden_bucket",
+      "techreborn:crafting_table/battery/lapotronic_orb",
+      "travelersbackpack:white_sleeping_bag",
+      "megacells:inscriber/accumulation_processor_print",
+      "modern_industrialization:materials/centrifuge/nuclear_recycling/he_mox_fuel_rod",
+      "techreborn:crafting_table/machine/electric_furnace",
+      "ae2:inscriber/silicon_print",
+      "estrogen:emptying/horse_urine",
+      "techreborn:crafting_table/machine/chemical_reactor",
+      "ae2:network/parts/terminals_crafting",
+      "techreborn:crafting_table/machine_block/industrial_machine_frame",
+      "modern_industrialization:materials/electrum/wiremill/fine_wire",
+      "techreborn:smelting/refined_iron_plate_from_c_iron_plates",
+      "modern_industrialization:materials/centrifuge/carbon",
+      "minecraft:fletching_table",
+      "modern_industrialization:electric_age/circuit/craft/electronic_circuit_asbl",
+      "farmersdelight:skillet",
+      "farm_and_charm:mincer",
+      "ae2:network/cells/item_storage_cell_1k_storage",
+      "ae2:network/cells/spatial_components_0",
+      "createnuclear:mechanical_crafting/reactor_frame",
+      "modern_industrialization:materials/plutonium/macerator/ingot",
+      "techreborn:crafting_table/machine/compressor",
+      "createoreexcavation:drilling_machine",
+      "techreborn:crafting_table/machine/water_mill",
+      "ae2:network/cells/item_storage_components_cell_16k_part",
+      "emi:create/filling/minecraft/bucket/with/createnuclear/uranium",
+      "modern_industrialization:electric_age/circuit/craft/electronic_circuit_board_asbl",
+      "ae2:smelting/silicon_from_certus_quartz_dust",
+      "techreborn:crafting_table/parts/diamond_saw_blade",
+      "modern_industrialization:materials/vacuum_freezer/cryofluid",
+      "techreborn:crafting_table/machine/drain",
+      "create:crafting/materials/andesite_alloy",
+      "techreborn:crafting_table/machine/industrial_blast_furnace",
+      "modern_industrialization:materials/blast_furnace/raw_oil_to_oil",
+      "modern_industrialization:electric_age/circuit/assembler/digital_circuit_board",
+      "lolmcv:oak_chest",
+      "ae2:inscriber/sky_stone_dust",
+      "modern_industrialization:compat/techreborn/annealed_copper_plate",
+      "modern_industrialization:petrochem/polymerization/ethylene_lead",
+      "techreborn:centrifuge/basalt_dust",
+      "estrogen:mixing/filtrated_horse_urine",
+      "chipped:benches/carpenters_table",
+      "ae2:network/cables/glass_fluix",
+      "modern_industrialization:materials/he_mox/assembler/fuel_rod",
+      "modern_industrialization:electric_age/component/craft/capacitor",
+      "techreborn:assembling_machine/energy_crystal",
+      "tconstruct:smeltery/alloys/molten_brass",
+      "immersive_aircraft:gyrodyne",
+      "ae2:network/cells/item_storage_cell_64k_storage",
+      "techreborn:chemical_reactor/synthetic_redstone_crystal",
+      "tconstruct:smeltery/casting/metal/brass/ingot_gold_cast",
+      "techreborn:crafting_table/machine/mv_transformer",
+      "techreborn:compressor/advanced_alloy_plate",
+      "ae2:transform/entangled_singularity",
+      "immersive_aircraft:propeller",
+      "modern_industrialization:oil/crude_oil",
+      "farm_and_charm:roaster",
+      "modern_industrialization:materials/steel/craft/ring",
+      "ae2:transform/damaged_budding_quartz",
+      "tconstruct:smeltery/scorched/scorched_brick",
+      "modern_industrialization:materials/centrifuge/heavy_water",
+      "immersive_aircraft:heavy_crossbow",
+      "ae2:network/blocks/storage_drive",
+      "createnuclear:item_application/reactor_casing_from_steel_and_brass_casing",
+      "ae2:inscriber/certus_quartz_dust",
+      "modern_industrialization:electric_age/circuit/craft/lv_circuit_board_asbl",
+      "techreborn:crafting_table/parts/energy_flow_chip",
+      "techreborn:crafting_table/misc_block/reinforced_glass_alt",
+      "techreborn:crafting_table/machine/distillation_tower",
+      "modern_industrialization:materials/plutonium/craft/ingot_from_nugget",
+      "modern_industrialization:materials/mixer/oil_to_rubber",
+      "modern_industrialization:materials/electrum/wiremill/wire",
+      "ae2:inscriber/fluix_dust",
+      "farmersdelight:cooking_pot",
+      "ae2:network/cells/item_storage_components_cell_256k_part",
+      "modern_industrialization:electric_age/component/craft/steel_rod_magnetic",
+      "megacells:transform/sky_steel_ingot",
+      "vinery:grapevine_pot",
+      "techreborn:crafting_table/machine/scrapboxinator",
+      "modern_industrialization:materials/heat_exchanger/lava",
+      "chipped:benches/alchemy_bench",
+      "ae2:network/cells/spatial_components",
+      "techreborn:crafting_table/machine/implosion_compressor",
+      "techreborn:crafting_table/machine/alloy_smelter",
+      "modern_industrialization:materials/copper/forge_hammer/ingot_to_bolt_with_tool",
+      "create:crafting/materials/rose_quartz",
+      "minecraft:paper",
+      "modern_industrialization:electric_age/battery/sodium_battery_asbl",
+      "createnuclear:mechanical_crafting/reactor_controller",
+      "create:milling/cobblestone",
+      "modern_industrialization:materials/packer/mixed_ingot_blastproof",
+      "modern_industrialization:electric_age/battery/cadmium_battery_asbl",
+      "modern_industrialization:electric_age/hull/lv_machine_hull_asbl",
+      "candlelight:cooking_pan",
+      "minecraft:diorite",
+      "techreborn:crafting_table/cable/insulated_hv_cable_shapeless",
+      "modern_industrialization:materials/cadmium/smelting/dust_to_ingot_smelting",
+      "createnuclear:mechanical_crafting/reactor_cooler",
+      "estrogen:filling/estrogen_pill",
+      "estrogen:centrifuge",
+      "techreborn:crafting_table/parts/carbon_mesh",
+      "meadow:woodcutter",
+      "immersive_aircraft:cargo_airship",
+      "modern_industrialization:materials/mixer/rubber_sheet_from_synthetic",
+      "vinery:wine_press",
+      "techreborn:crafting_table/machine/industrial_centrifuge",
+      "minecraft:stick",
+      "ae2:network/blocks/controller",
+      "ae2:network/cells/fluid_storage_cell_64k_storage",
+      "immersive_aircraft:boiler",
+      "minecraft:stone_slab",
+      "emi:create/crushing/createnuclear/crushing/coal",
+      "techreborn:smelting/rubber",
+      "createrailwaysnavigator:navigator",
+      "createnuclear:item_application/reactor_input_from_hopper_and_reactor_casing",
+      "tconstruct:tables/pattern",
+      "bakery:baking_station",
+      "ae2:inscriber/logic_processor_print",
+      "createnuclear:mechanical_crafting/reactor_core",
+      "modern_industrialization:materials/aluminum/wiremill/wire",
+      "createnuclear:crafting/reactor/reinforced_glass",
+      "immersive_aircraft:biplane",
+      "modern_industrialization:materials/titanium/compressor/main",
+      "brewery:wooden_brewingstation",
+      "tconstruct:smeltery/melting/metal/copper/raw/minecraft/raw_copper",
+      "techreborn:crafting_table/misc_block/rubber_planks",
+      "modern_industrialization:forge_hammer",
+      "ae2:network/cells/spatial_storage_cell_128_cubed_storage",
+      "techreborn:crafting_table/machine/wind_mill_alt",
+      "tconstruct:common/slime/sticky_piston",
+      "ae2:network/cells/fluid_cell_housing",
+      "modern_industrialization:electric_age/battery/lv_battery_asbl",
+      "techreborn:compressor/carbon_plate",
+      "techreborn:grinder/basalt_dust",
+      "create:haunting/soul_sand",
+      "modern_industrialization:materials/mixer/itnt",
+      "immersive_paintings:graffiti",
+      "modern_industrialization:electric_age/component/craft/resistor",
+      "modern_industrialization:oil/shale_oil",
+      "modern_industrialization:materials/annealed_copper/wiremill/wire",
+      "modern_industrialization:materials/copper/wiremill/wire",
+      "minecraft:chest",
+      "chipped:benches/botanist_workbench",
+      "meadow:cooking_pot",
+      "modern_industrialization:materials/copper/craft/gear",
+      "modern_industrialization:compat/techreborn/stainless_steel_plate",
+      "modern_industrialization:electric_age/hull/advanced_machine_hull_asbl",
+      "immersive_paintings:painting",
+      "techreborn:crafting_table/cable/gold_cable",
+      "techreborn:crafting_table/machine/resin_basin",
+      "ae2:transform/fluix_crystals",
+      "techreborn:smelting/refined_iron_ingot_from_iron_ingot",
+      "ae2:network/blocks/crystal_processing_charger",
+      "modern_industrialization:compat/techreborn/battery_alloy_curved_plate",
+      "ae2:inscriber/engineering_processor_print",
+      "techreborn:crafting_table/machine/grinder",
+      "techreborn:crafting_table/cable/insulated_copper_cable_shapeless",
+      "modern_industrialization:electric_age/component/craft/or_gate_asbl",
+      "ae2:network/cells/item_cell_housing",
+      "techreborn:crafting_table/machine/lv_transformer",
+      "modern_industrialization:materials/steel/forge_hammer/ingot_to_bolt_with_tool",
+      "vinery:fermentation_barrel",
+      "tconstruct:smeltery/melting/metal/zinc/raw/create/raw_zinc",
+      "modern_industrialization:materials/tin/wiremill/wire",
+      "ae2:network/cells/item_storage_components_cell_4k_part",
+      "ae2:materials/formationcore",
+      "modern_industrialization:electric_age/casing/turbo_machine_casing_asbl",
+      "ae2:smelting/smooth_sky_stone_block",
       "ae2:network/parts/quartz_fiber_part",
-      "megacells:transform/sky_steel_ingot"
+      "modern_industrialization:materials/steel/forge_hammer/ingot_to_rod_with_tool",
+      "ae2:decorative/quartz_glass",
+      "techreborn:crafting_table/parts/carbon_fiber",
+      "modern_industrialization:materials/steel/craft/gear",
+      "ae2:network/cells/fluid_storage_cell_16k_storage",
+      "modern_industrialization:materials/assembler/nuke",
+      "farmersdelight:stove",
+      "tconstruct:smeltery/scorched/nether_grout",
+      "techreborn:crafting_table/machine/iron_alloy_furnace",
+      "meadow:cooking_pot/leather",
+      "modern_industrialization:electric_age/circuit/craft/lv_circuit_asbl",
+      "immersive_aircraft:enhanced_propeller",
+      "modern_industrialization:compat/techreborn/battery_alloy_plate",
+      "immersive_aircraft:telescope",
+      "minecraft:glass",
+      "minecraft:andesite",
+      "modern_industrialization:tools/steam_mining_drill",
+      "modern_industrialization:compat/techreborn/blastproof_alloy_curved_plate",
+      "modern_industrialization:electric_age/component/craft/diode_asbl",
+      "techreborn:crafting_table/machine/vacuum_freezer",
+      "ae2:network/cells/item_storage_cell_16k_storage",
+      "createoreexcavation:extractor",
+      "techreborn:crafting_table/machine/high_voltage_su",
+      "modern_industrialization:electric_age/circuit/craft/digital_circuit_asbl",
+      "immersive_aircraft:engine",
+      "techreborn:crafting_table/cable/copper_cable",
+      "techreborn:crafting_table/machine/matter_fabricator",
+      "immersive_aircraft:improved_landing_gear",
+      "modern_industrialization:materials/implosion_compressor/blastproof_alloy_plate",
+      "modern_industrialization:materials/tin/craft/cable",
+      "ae2:misc/fluixpearl",
+      "immersive_aircraft:bamboo_hopper",
+      "ae2:network/cells/spatial_storage_cell_16_cubed_storage",
+      "techreborn:crafting_table/battery/lapotron_crystal",
+      "techreborn:rolling_machine/magnalium_plate",
+      "farm_and_charm:stove",
+      "modern_industrialization:materials/lead/macerator/ingot",
+      "techreborn:crafting_table/battery/red_cell_battery",
+      "immersive_aircraft:quadrocopter",
+      "farm_and_charm:cooking_pot",
+      "modern_industrialization:electric_age/circuit/craft/processing_unit_asbl",
+      "techreborn:crafting_table/machine/industrial_sawmill",
+      "createrailwaysnavigator:advanced_display",
+      "ae2:network/cells/item_storage_components_cell_64k_part",
+      "modern_industrialization:electric_age/casing/advanced_machine_casing_asbl",
+      "techreborn:compressor/lazurite_plate",
+      "immersive_aircraft:eco_engine",
+      "techreborn:rolling_machine/cupronickel_heating_coil",
+      "tconstruct:smeltery/seared/grout",
+      "modern_industrialization:materials/lapis/macerator/gem",
+      "tconstruct:smeltery/seared/ingot_gauge",
+      "chipped:benches/loom_table",
+      "ae2:network/cells/spatial_storage_cell_2_cubed_storage",
+      "immersive_aircraft:airship",
+      "techreborn:crafting_table/machine/medium_voltage_su",
+      "techreborn:crafting_table/machine_block/basic_machine_frame",
+      "modern_industrialization:materials/chromium/compressor/main",
+      "ae2:network/cells/fluid_storage_cell_4k_storage",
+      "modern_industrialization:petrochem/steam_cracking/naphtha",
+      "techreborn:crafting_table/machine/iron_furnace_alt",
+      "immersive_aircraft:steel_boiler",
+      "modern_industrialization:materials/iron/forge_hammer/raw_metal_to_dust_with_tool",
+      "techreborn:assembling_machine/industrial_circuit",
+      "techreborn:crafting_table/scrap_box",
+      "modern_industrialization:materials/stainless_steel/blast_furnace/dust",
+      "techreborn:crafting_table/machine/recycler",
+      "chipped:benches/mechanist_workbench",
+      "techreborn:crafting_table/machine/rolling_machine",
+      "farmersdelight:cutting_board",
+      "candlelight:cobblestone_stove",
+      "immersive_aircraft:hull",
+      "ae2:network/blocks/inscribers",
+      "modern_industrialization:materials/mixer/carbon_dust_to_raw_oil",
+      "ae2:network/cells/item_storage_cell_256k_storage",
+      "modern_industrialization:materials/aluminum/craft/cable",
+      "immersive_aircraft:rotary_cannon",
+      "modern_industrialization:petrochem/distillation/crude_oil_2",
+      "estrogen:centrifuging/liquid_estrogen",
+      "immersive_aircraft:gyroscope",
+      "herbalbrews:tea_kettle",
+      "create:crafting/materials/zinc_ingot_from_compacting",
+      "createoreexcavation:sample_drill",
+      "techreborn:crafting_table/parts/electronic_circuit",
+      "bakery:rolling_pin",
+      "immersive_aircraft:sturdy_pipes",
+      "modern_industrialization:materials/copper/craft/drill_head",
+      "create_copper_and_zinc:mixing_asurine",
+      "techreborn:crafting_table/tool/treetap",
+      "tconstruct:tables/tinker_station"
     ],
     "tags": {
-      "#item:create:sleepers": "item:minecraft:stone_slab",
+      "#item:ae2:illuminated_panel": "item:ae2:semi_dark_monitor",
       "#item:c:certus_quartz": "item:ae2:certus_quartz_crystal",
-      "#item:c:glass_blocks": "item:minecraft:glass",
-      "#item:ae2:illuminated_panel": "item:ae2:semi_dark_monitor"
+      "#item:create:sleepers": "item:minecraft:stone_slab",
+      "#item:c:glass_blocks": "item:minecraft:glass"
     },
-    "resolutions": {},
+    "resolutions": {
+      "modern_industrialization:materials/stainless_steel/heat_exchanger/hot_ingot": [
+        "item:modern_industrialization:stainless_steel_ingot"
+      ],
+      "emi:create/crushing/create/crushing/asurine": [
+        {
+          "type": "item",
+          "id": "create:crushed_raw_zinc",
+          "chance": 0.3
+        }
+      ],
+      "modern_industrialization:heat_exchanger/steam_with_heavy_water": [
+        {
+          "type": "fluid",
+          "id": "modern_industrialization:heavy_water_steam",
+          "amount": 1296000
+        }
+      ],
+      "modern_industrialization:materials/electrolyzer/lapis": [
+        {
+          "type": "item",
+          "id": "modern_industrialization:aluminum_dust",
+          "amount": 3
+        },
+        {
+          "type": "item",
+          "id": "modern_industrialization:sodium_dust",
+          "amount": 2
+        },
+        "item:modern_industrialization:silicon_dust"
+      ],
+      "create:splashing/gravel": [
+        {
+          "type": "item",
+          "id": "minecraft:iron_nugget",
+          "chance": 0.125
+        }
+      ],
+      "modern_industrialization:materials/electrolyzer/water": [
+        {
+          "type": "fluid",
+          "id": "modern_industrialization:hydrogen",
+          "amount": 162000
+        }
+      ],
+      "techreborn:implosion_compressor/iridium_alloy_plate": [
+        "item:techreborn:iridium_alloy_plate"
+      ],
+      "modern_industrialization:heat_exchanger/high_pressure_steam_with_heavy_water": [
+        {
+          "type": "fluid",
+          "id": "modern_industrialization:high_pressure_water",
+          "amount": 10125
+        }
+      ]
+    },
     "disabled": []
   },
   "hidden_stacks": []

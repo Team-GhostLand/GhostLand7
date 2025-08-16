@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "applied_energetics"
-	group: ""
+	group: "14D4AB3C2AA4531F"
 	icon: "ae2:charged_certus_quartz_crystal"
 	id: "12436E36253D6AB2"
-	order_index: 9
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{

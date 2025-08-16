@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "7b22",
+  "versionId": "7b23",
   "name": "GhostLand 7 Beta",
   "summary": "Paczka na siódmą edycję GhostLanda - wersja beta",
   "files": [
@@ -4714,6 +4714,21 @@
         "https://cdn.modrinth.com/data/ResbpANg/versions/O48L7huv/createoreexcavation-fabric-1.20-1.5.4.jar"
       ],
       "fileSize": 499058
+    },
+    {
+      "path": "mods/createrailwaysnavigator-fabric-1.20.1-beta-0.8.4.jar",
+      "hashes": {
+        "sha1": "edad84635a71b2c957e8943830b7b3b634ffa513",
+        "sha512": "ee01df891a57b266a7fd17488d394120688a1e18fde5b86b54df079b7b1a5f6582954532bb474853b3f0c476528aee060e4feae87029f2a74fcde859e2ccfe57"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/Dq3STxps/versions/fXKmWm2r/createrailwaysnavigator-fabric-1.20.1-beta-0.8.4.jar"
+      ],
+      "fileSize": 3297697
     },
     {
       "path": "mods/cristellib-1.1.5-fabric.jar",
