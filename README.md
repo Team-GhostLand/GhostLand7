@@ -86,6 +86,7 @@ A modpack for the 7th edition of GhostLand SMP
 - Changed the modpack accordingly to the election results
 - Changed back screenshot controls to [F2]
 - Removed Fabrishot
+- Set a correct default Iris pack
 
 ### 7b19
 - Configured WhList Sync 2
@@ -733,6 +734,11 @@ Things that - for one reason or another - are exceptionally easy to forget:
 
 ### WhList Sync 2
 * Storage: Switched to MySQL mode and configured all envars
+
+### Iris
+* Default shaderpack: `GR_SVX_ComplementaryReimagined_r5.5.1.zip`
+* Some changes to MiniatueShader carried over from GL6 (or 7-BL - idk, tbh)
+* *note: enabled status is default, aka off*
 
 ## Things to mention to people
 * See: [Issue](#issues) about entering
