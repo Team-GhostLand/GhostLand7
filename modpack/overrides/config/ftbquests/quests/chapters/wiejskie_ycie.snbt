@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "wiejskie_ycie"
-	group: ""
+	group: "14D4AB3C2AA4531F"
 	icon: "farm_and_charm:cooking_pot"
 	id: "18DEC4EF61B4B0F2"
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -833,6 +833,7 @@
 				item: "farm_and_charm:scarecrow"
 				type: "item"
 			}]
+			title: "Farma Clarksona"
 			x: -8.5d
 			y: -4.0d
 		}
@@ -927,6 +928,7 @@
 				item: "herbalbrews:herbalbrews_banner"
 				type: "item"
 			}]
+			title: "Zielnik"
 			x: -11.5d
 			y: 2.0d
 		}

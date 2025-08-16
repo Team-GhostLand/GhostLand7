@@ -136,6 +136,7 @@ key_key.aether.open_accessories.desc:key.keyboard.unknown
 key_key.aether.gravitite_jump_ability.desc:key.keyboard.unknown
 key_key.aether.invisibility_toggle.desc:key.keyboard.unknown
 key_key.antighost.reveal:key.keyboard.unknown
+key_key.createrailwaysnavigator.route_overlay_options:key.keyboard.r
 key_artifacts.key.helium_flamingo.activate:key.keyboard.unknown
 key_artifacts.key.night_vision_goggles.toggle:key.keyboard.unknown
 key_artifacts.key.universal_attractor.toggle:key.keyboard.unknown
@@ -236,14 +237,14 @@ key_key.travelersbackpack.inventory:key.keyboard.b
 key_key.travelersbackpack.sort:key.keyboard.unknown
 key_key.travelersbackpack.ability:key.keyboard.unknown
 key_key.travelersbackpack.cycle_tool:key.keyboard.z
-key_key.travelersbackpack.toggle_tank:key.keyboard.n
+key_key.travelersbackpack.toggle_tank:key.keyboard.semicolon
 key_treechop.key.toggle_chopping:key.keyboard.unknown
 key_treechop.key.toggle_felling:key.keyboard.unknown
 key_treechop.key.cycle_sneak_behavior:key.keyboard.unknown
 key_treechop.key.open_settings_overlay:key.keyboard.unknown
 key_key.push_to_talk:key.keyboard.grave.accent
 key_key.whisper:key.keyboard.unknown
-key_key.mute_microphone:key.keyboard.m
+key_key.mute_microphone:key.keyboard.n
 key_key.disable_voice_chat:key.keyboard.unknown
 key_key.hide_icons:key.keyboard.unknown
 key_key.voice_chat:key.keyboard.unknown
@@ -273,7 +274,7 @@ key_gui.xaero_alternative_list_players:key.keyboard.unknown
 key_gui.xaero_toggle_tracked_players_on_map:key.keyboard.unknown
 key_gui.xaero_toggle_tracked_players_in_world:key.keyboard.unknown
 key_gui.xaero_toggle_pac_chunk_claims:key.keyboard.unknown
-key_gui.xaero_open_map:key.keyboard.unknown
+key_gui.xaero_open_map:key.keyboard.m
 key_gui.xaero_open_settings:key.keyboard.unknown
 key_gui.xaero_map_zoom_in:key.keyboard.unknown
 key_gui.xaero_map_zoom_out:key.keyboard.unknown

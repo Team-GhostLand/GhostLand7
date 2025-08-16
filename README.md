@@ -48,7 +48,14 @@ A modpack for the 7th edition of GhostLand SMP
 
 ## Changelogs:
 
+### 7b24
+- Solved merge conflict (you know by now how this works; won't go into the details)
+- Cleared EMI's history (leaves other changes, like recipe trees and pins, completley intact - just the history is cleared)
+
 ### 7b23
+Merge conflict:
+
+#### Guzio's version
 - Seed added
 - Updated: 3D Skins (from: 1.8.2), Tectonic (from: 3.0.7), Traveler's Backpack (from: 9.1.37)
 - Disabled Vinniette cuz it was rendering on top of the chat, making it seem as if your monitor is broken (the text was suddenly gray instead of white in the corner, as if the backlight is failing) and scaring people like that is probably not a good idea
@@ -56,6 +63,17 @@ A modpack for the 7th edition of GhostLand SMP
 - Enabled the whitelist
 - Configured DH client
 - Chunky is now server-side-only
+
+#### MidnightSP's version
+- Added Railways Navigator
+- Controls:
+  - Changed keybinds for Microphone to [N]
+  - Changed keybinds for Backpack Hose to [;]
+  - Changed keybinds for Map to [M]
+- Quests:
+  - Modified Create quest tree
+  - Created Modern Industrialisation quest tree
+- Edited EMI favourites to reference quest trees
 
 ### 7b22
 - Added a quest tree for TechReborn
@@ -567,6 +585,7 @@ Things that - for one reason or another - are exceptionally easy to forget:
 * Vinniette off
 
 ### Controls: *(\*Not bind-pizzeria)*
+* MidnightSP's 2b23 does things here; too lazy to merge them in anymore, with how we're gonna set up BP soon, anyway
 * Disabled creative controls (X&C)
 * Disabled narrator (AVE!)
 * Disabled Reload Celestial

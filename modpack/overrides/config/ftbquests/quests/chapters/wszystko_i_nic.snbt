@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "wszystko_i_nic"
-	group: ""
+	group: "5ADF68F11C1B5491"
 	icon: "artifacts:mimic_spawn_egg"
 	id: "3C67CB97E63121D5"
-	order_index: 2
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{

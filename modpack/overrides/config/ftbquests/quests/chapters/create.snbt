@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "create"
-	group: ""
+	group: "1FD1C1467EC475DA"
 	icon: "create:cogwheel"
 	id: "4F0410FEC7CCCFD3"
-	order_index: 6
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -1363,6 +1363,41 @@
 			title: "Automatyczne tworzenie"
 			x: 2.0d
 			y: -14.5d
+		}
+		{
+			dependencies: ["7A5B19330F3C0EC1"]
+			id: "62F11174333DBA88"
+			rewards: [{
+				id: "75572EF3088CDB13"
+				item: "createrailwaysnavigator:train_station_clock"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3EFA963ACA6DBC43"
+				item: "createrailwaysnavigator:navigator"
+				type: "item"
+			}]
+			title: "Jak dojade"
+			x: -3.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["17649A0BB15D6775"]
+			id: "377064D9A11644A0"
+			rewards: [{
+				count: 4
+				id: "0A89B5A45CE10E2B"
+				item: "createrailwaysnavigator:advanced_display_sloped"
+				type: "item"
+			}]
+			tasks: [{
+				id: "093042716BA2F5C9"
+				item: "createrailwaysnavigator:advanced_display"
+				type: "item"
+			}]
+			title: "4K Ultra HD"
+			x: 4.0d
+			y: -17.5d
 		}
 	]
 	subtitle: ["Wprowadzenie do moda Create"]

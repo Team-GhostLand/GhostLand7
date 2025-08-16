@@ -1,3 +1,9 @@
 {
-	chapter_groups: [ ]
+	chapter_groups: [
+		{ id: "5ADF68F11C1B5491", title: "Witamy na GhostLandzie" }
+		{ id: "01224BAC3E4C0E0D", title: "Podróż i Narzędzia" }
+		{ id: "14D4AB3C2AA4531F", title: "Budowanie bazy" }
+		{ id: "1FD1C1467EC475DA", title: "Technologia" }
+		{ id: "51686C08701DA9FF", title: "Inne światy" }
+	]
 }

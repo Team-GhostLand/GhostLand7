@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "techreborn"
-	group: ""
+	group: "1FD1C1467EC475DA"
 	icon: "techreborn:wrench"
 	id: "0669BF68BA81BB56"
-	order_index: 7
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
