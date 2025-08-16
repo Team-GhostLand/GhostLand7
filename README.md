@@ -48,6 +48,15 @@ A modpack for the 7th edition of GhostLand SMP
 
 ## Changelogs:
 
+### 7b28
+- Updated: FlightAssistant, BwG, Amendments, Kotlin, MoonlighLib, Supplementaries
+- Removed: Veinminer, Nvidium, HT's
+- Removed push-to-talk keybind and set mute in its place
+- EMI: `append-item-mod-id: true;`
+- Disabled AE2 channels
+- Switched SimpleVC to Discord-style voice activation, with 20dB (instead of 50bB) as the treshold
+- Disabled SVC groups
+
 ### 7b27
 - Solved merge conflict
 
@@ -595,6 +604,9 @@ Things that - for one reason or another - are exceptionally easy to forget:
 * SSPB: 50%
 * Vinniette off
 
+### AE2
+* no channels
+
 ### Controls: *(\*Not bind-pizzeria)*
 * MidnightSP's 2b23 does things here; too lazy to merge them in anymore, with how we're gonna set up BP soon, anyway
 * Disabled creative controls (X&C)
@@ -605,7 +617,6 @@ Things that - for one reason or another - are exceptionally easy to forget:
 * Disabled secondary zoom
 * Disabled Accessories opening (in Acc's own menu, and then again in Aether's) - can do it from the inventory
 * Disabled Things' Toggle Jump Boost and Open Ender Pouch - the latter can be done via a rightclick
-* Disabled HT's config
 * Disabled everything in VC except Mute and Push-to-talk (latter remapped to ``` ` ```, for easier access during gameplay, due to its proximity to `W`)
 * Disabled Presence Footsteps config
 * Disabled Jukebox
@@ -699,9 +710,6 @@ Things that - for one reason or another - are exceptionally easy to forget:
 * Disabled LambDynamicLights integration (we're using Sodium Dynamic Lights, so that wouldn't work for us)
 * Enabled vanilla mode (becasue we're not using LambDynamicLights and - with both modes disabled - the mod would literally do nothing)
 
-### Veinminer
-* No configs were changed - which is very notable because I thought that we'd need to manually get it to cooperate with HT's, but appently they work together by default (chop trees without sneaking, *no Veinminer* (by default) when sneaking)
-
 ### Geocluster
 * Via a datapack: Re-enabled vanilla oregen. One other thing we need to do via a DP is to switch from using GC's own non-vanilla ores to whatever equivalents other mods add (eg. Create: Nuclear's Urainium instead of Geocluster's). GC will still be used for samples, though - because (obviously) other mods don't add those.
 * In settings: allowed modded ores, Deepslate Samples and vanilla veins; disallowed chat spam; cranked up max samples/chunk by 2x; slightly bumped spawn rates (3x not 2x attempts; 10pp higher chance to even attempt in the 1st place)
@@ -713,12 +721,8 @@ Things that - for one reason or another - are exceptionally easy to forget:
 * No searchbar centering
 * Hidden by default *(Ctrl+O to show)*
 * No changes to keybinds; U, R and A for Usages, Recipes and „Add to favourites” works just fine
-* Set up complete crafting trees for some super-basic AE2 components (enough to build a very simple AE2 setup) and pinned those 
-* Slightly altered crafting trees for Create's Brass (to use Tinker's instead of the much more expensive Blaze Burners), Train Tracks (to default to the easiest-to-automate sleepers - tho I couldn't do the same for iron ingots (only ending at gravel instead - no cobble->gravel) because that'd mess up all other recipes) and Rose Quartz (it didn't pick up on the recipie at first), and pinned the „standard setup” for trains. Notably, not a lot of adjustments had to be done (only minor tweaks to otherwise pre-configured routes) becasue it seems that Create is supported out-of-the-box. Yay!
-* Set up complete crafting trees for Tinker's Controller (the basic-ass-2block-Smeltery one, not the 3x3-big-Smeltery one) and liquid Brass (for those Create craftings mentioned above), and pinned said controller. Also, pinned the Crafting Station (not the item, but the recipie itself - becasue there are just too many damn variants; I didn't bother setting up crafting trees for it for the same reason). This doesn't even cover 2% of what should be pinned and/or what trees should be set up for a „minimum Tinker's setup”, but setting up Tinkers' trees in particular just feels SO TEDIOUS for some reason.
+* Configured default pins and trees to align with quests
 * Fixed a weird crafting loop involving Paper and Twilight Forest (now, paper is crafted using the regular Sugar Cane).
-* Prevented EMI from showing mod names under items.
-* *pinning Create trains, basic AE2 stuff and just a wee-bit of Tinker's is obviously not everything, just like that one paper loop propapbly isn't the only edge case - but I decided to remove the TODO about configuring pins and to not open a new Known Issue about loops becasue (respectively): this is a good-enough starting point for the pinning process (so good, that it's justifiable to remove the TODO - which doesn't change the fact that there's still a lot of stuff To-Do in this regard), and I didn't find any other bugs YET and that one about paper is now fixed*
 
 ### Distant Horizons (server-side)
 * `distantGeneratorMode = "PRE_EXISTING_ONLY"`, So that it wouldn't attempt to generate any chunks on its own. This task shall be left to Chunky. For 2 reasons: Chunky tends to be so fast that DH can't keep up (thus leaving holes in LODs), so we'll first let Chunky run, then DH can do its thing at its own pace; DH warned about an unknown generator type (`org.dimdev.dimdoors.world.pocket.BlankChunkGenerator`) that may cause DH's gen to fail. Chunky's won't becasue it generates normal chunks.
@@ -773,6 +777,11 @@ Things that - for one reason or another - are exceptionally easy to forget:
 * Default shaderpack: `GR_SVX_ComplementaryReimagined_r5.5.1.zip`
 * Some changes to MiniatueShader carried over from GL6 (or 7-BL - idk, tbh)
 * *note: enabled status is default, aka off*
+
+### SimpleVC
+* Default trigger: Discord-like (not push-to-talk)
+* Treshold for above: 20dB (not 50dB)
+* Disabled groups
 
 ## Things to mention to people
 * See: [Issue](#issues) about entering

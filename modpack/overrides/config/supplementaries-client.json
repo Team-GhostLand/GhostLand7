@@ -112,6 +112,7 @@
     "tooltip_image_size": 80,
     "mob_head_shaders": true,
     "send_chat_on_death": true,
+    "enderman_head_texture_pack_support": true,
     "colored_maps": {
       "tinted_blocks_on_maps": true,
       "tall_grass_color": true,

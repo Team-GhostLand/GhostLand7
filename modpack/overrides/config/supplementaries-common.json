@@ -133,7 +133,7 @@
     },
     "cannon": {
       "enabled": true,
-      "explode_tnt": true,
+      "explode_tnt": "IGNITE",
       "fire_power": 0.6,
       "fuse_time": 40,
       "cooldown": 60,
