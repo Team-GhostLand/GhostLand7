@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "7b25",
+  "versionId": "7b26",
   "name": "GhostLand 7 Beta",
   "summary": "Paczka na siódmą edycję GhostLanda - wersja beta",
   "files": [
@@ -2749,6 +2749,21 @@
         "https://cdn.modrinth.com/data/lWDHr9jE/versions/YRZvMfxY/tectonic-3.0.8-fabric-1.20.1.jar"
       ],
       "fileSize": 298512
+    },
+    {
+      "path": "mods/GR_CLO_timeoutout-1.0.3+1.19.1.jar",
+      "hashes": {
+        "sha1": "ca85e8276c84d67361331ad2aadd5ed1eab3cf8c",
+        "sha512": "68fe58cda6b6c51e935a32a2fd6bcc3a6b064d60d1df2fff55c5cc68549ecc58ea8c1209dcbd33f55112ba1ba0d05817c9b50400565b6f214833824b78525d82"
+      },
+      "env": {
+        "client": "optional",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/7cFX55fD/versions/1.0.3/timeoutout-1.0.3%2B1.19.1.jar"
+      ],
+      "fileSize": 9833
     },
     {
       "path": "mods/GR_CLO_toggleableitemframes-5.1.0-1.20.1.jar",
