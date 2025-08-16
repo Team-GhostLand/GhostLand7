@@ -48,6 +48,9 @@ A modpack for the 7th edition of GhostLand SMP
 
 ## Changelogs:
 
+### 7b25
+- Added a `technical.conf` server-side config despite us not using it for anything becasue - apparently - EasyAuth cannot generate any new config files, if there are files present already (but also cannot start unless all files are present)
+
 ### 7b24
 - Solved merge conflict (you know by now how this works; won't go into the details)
 - Cleared EMI's history (leaves other changes, like recipe trees and pins, completley intact - just the history is cleared)
