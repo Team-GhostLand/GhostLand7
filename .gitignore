@@ -20,7 +20,7 @@ modpack/overrides/config/spark/tmp
 modpack/overrides/config/analog/records
 
 # Distant Horizons interprets values differently on different devices - better to remove its configs and have everything set to default; it's server-version is in server-overrides
-modpack/overrides/config/DistantHorizons.toml
+#modpack/overrides/config/DistantHorizons.toml
 
 # Leaks personal access tokens; it's server-version is in server-overrides
 modpack/overrides/config/PacketAuth/config.yml

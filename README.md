@@ -23,8 +23,7 @@ A modpack for the 7th edition of GhostLand SMP
 ## Issues:
 - [x] Continents incompatible with Tectonic *(fixed: Tectonic handles continentality on its own)*
 - [ ] Update config files *(ongoing)*
-- [ ] Clouds have some issues with rendering (DH makes clouds double-layerd) ~~*(note: Can't we pretend that this is intentional? They look kinda dope!)*~~ ~~*(fixed: turned the clouds off (there is one layer now instead of two))*~~ *(nope: look below)*
-- [x] Clouds don't render at all without DH *(fixed: turned the clouds back on (there is one layer now instead of zero for DH-less players))*
+- [x] Clouds have some issues with rendering (DH makes clouds double-layerd) ~~*(note: Can't we pretend that this is intentional? They look kinda dope!)*~~ *(fixed: turned DH clouds off (there is one layer now instead of two))*
 - [ ] Client's embedded server seems to be getting stuck during startup (falling through the world (with commands, etc. not working), while the chunks are loading - and they never finnish loading) and shutdown (you get stuck on the „waiting to save World”-screen) *(note1: neither Guzio, nor `knpks` were able to replicate the issue (Guzio was able to achieve partial replication (falling through the world for a minute or 2, then fixed; I had some exit bugs once or twice, but they eventually stopped happening), while `knpks` couldn't at all, albeit their testing was much shorter) - currenly, this seems to affect only and exclusively MidnightSP)* *(note2: Could this be related to having higher-end hardware? Some heavily-threaded or -threading mod, like Distant Horizons or ASYNC spreads the load onto all 16 cores (compared to Guzio's and `knpks`'s pathetic 4), which creates more opportunities for some nasty lock-ups (thread 1 waits for thread 2, thread 2 waits for thread 1 - and they just get stuck like this until killed) to rear their ugly heads.)* *(note3: it seems like we can safely ignore it, as it only affects singleplayer (doesn't seem to happen on the dedicated server server-wise, and the embedded server doesn't start on multiplayer client-wise) and this pack is mostly multiplayer-focused, anyway - although I can imagine this does probably make development much more annoying for MidnightSP and I feel sorry for the inncocent lad)*
 - [ ] Issues while entering a world (game incredibly laggy for the first few minutes) *(note: that's the chunks loading in - recommended solution is to look at the horizon in a single direction until it loads, then look around very slowly until all other directions load)*
 - [x] If Aether detects Loading Screen Tips - regardless of whether integration with it is enabled in the config or not - it reloads resources right after game loads, leading to a doubled loading screen (which significantly increases the practical startup time - since, even though thanks to RRS we can navigate menus when resources are loading, noone's gonna join the world with a loading bar, especially one so obnoxious (in-game, it's fine when loading) as the one that ELS adds). *(fixed: Tipsn't)*
@@ -48,6 +47,15 @@ A modpack for the 7th edition of GhostLand SMP
 
 
 ## Changelogs:
+
+### 7b23
+- Seed added
+- Updated: 3D Skins (from: 1.8.2), Tectonic (from: 3.0.7), Traveler's Backpack (from: 9.1.37)
+- Disabled Vinniette cuz it was rendering on top of the chat, making it seem as if your monitor is broken (the text was suddenly gray instead of white in the corner, as if the backlight is failing) and scaring people like that is probably not a good idea
+- Removed: YUNG's Better Mineshafts, End Island, Dungeons, Strongholds
+- Enabled the whitelist
+- Configured DH client
+- Chunky is now server-side-only
 
 ### 7b22
 - Added a quest tree for TechReborn
@@ -544,7 +552,7 @@ Things that - for one reason or another - are exceptionally easy to forget:
 * Auto-jump off
 * Disabled pasue-on-lost-focus
 * Added default multiplayer servers
-* Server-side: Added an MOTD, cleared-out RCON configs, increased the player cap, allowed flight (I don't think anyone's going to cheat - meanwhile, lags might cause false kicked-for-flying errors), enabled Command Blocks, set the default difficulty to hard (in line with older GLs), enabled query, forced gamemode, disabled chat reporting (not that this would change anything with NCR installed), turned the Watchdog from a pitbull to a golden retriever
+* Server-side: Added an MOTD, cleared-out RCON configs, increased the player cap, allowed flight (I don't think anyone's going to cheat - meanwhile, lags might cause false kicked-for-flying errors), enabled Command Blocks, set the default difficulty to hard (in line with older GLs), enabled query, forced gamemode, disabled chat reporting (not that this would change anything with NCR installed), turned the Watchdog from a pitbull to a golden retriever, added a seed, enabled the whitelist
 * Fabric: added dependency overrides for Zoomify (set YACL version to something that exists), ReplayVC (as part of 7a9, so I no longer remember what I did - but whatever it was, it wasn't enough to let us update SimpleVC), Distant Horizons (forced it to cooperate with Chunky); Nvidium has overriden itself (for... some reason)
 * „Seen” the Bundle Tutorial
 
@@ -556,6 +564,7 @@ Things that - for one reason or another - are exceptionally easy to forget:
 * Sodium Extra>More: cloud reach and height max
 * Sodium Extra>More: no tutorial, system and crafting toasts
 * SSPB: 50%
+* Vinniette off
 
 ### Controls: *(\*Not bind-pizzeria)*
 * Disabled creative controls (X&C)
@@ -685,6 +694,12 @@ Things that - for one reason or another - are exceptionally easy to forget:
 * `distantGeneratorMode = "PRE_EXISTING_ONLY"`, So that it wouldn't attempt to generate any chunks on its own. This task shall be left to Chunky. For 2 reasons: Chunky tends to be so fast that DH can't keep up (thus leaving holes in LODs), so we'll first let Chunky run, then DH can do its thing at its own pace; DH warned about an unknown generator type (`org.dimdev.dimdoors.world.pocket.BlankChunkGenerator`) that may cause DH's gen to fail. Chunky's won't becasue it generates normal chunks.
 * `showGenerationProgress = "LOG" #To not bother every online player with DH`, `generationProgressDisplayIntervalInSeconds = 30` and `generationProgressDisableMessageDisplayTimeInSeconds = 0` because this progress bar is pretty obnoxious
 * Cranked to all 4 cores (what could possibly go wrong?)
+
+### Distant Horizons
+* No clouds. (bugfix)
+* Less chunks by default (96 instead of 256)
+* Minimum core usage (just 1)
+* Disabled showing progress becasue it's annoying
 
 ### VC interaction
 * Enabled group and sneak interactions

@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "7b22",
+  "versionId": "7b23",
   "name": "GhostLand 7 Beta",
   "summary": "Paczka na siódmą edycję GhostLanda - wersja beta",
   "files": [
@@ -1641,19 +1641,19 @@
       "fileSize": 160946
     },
     {
-      "path": "mods/GR_CLO+SVX_skinlayers3d-fabric-1.8.2-mc1.20.1.jar",
+      "path": "mods/GR_CLO+SVX_skinlayers3d-fabric-1.9.0-mc1.20.1.jar",
       "hashes": {
-        "sha1": "b8f3fb94209366a9f4a590dab5b84b663a4ae037",
-        "sha512": "f7f1178b35a393c3914e2e66373fe41412418914678b627fd743ad39a044cba4432121fdf22fd874dacc858339da65709400db54ac9f22496b9e30892e721bb0"
+        "sha1": "e82e80df4c2fb130c0aa10d715e046ddb98e7c6c",
+        "sha512": "0b386b5d05f5581acce0d92e861bb43a59f84ae72ca8166ec1d41774bc957e3b0ac12b685f03aa50a969695d329fe7f1d3ae7cb5f7460b4f27e9ee9f53cd5137"
       },
       "env": {
         "client": "optional",
         "server": "unsupported"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/zV5r3pPn/versions/YUlOqvMH/skinlayers3d-fabric-1.8.2-mc1.20.1.jar"
+        "https://cdn.modrinth.com/data/zV5r3pPn/versions/mh2PivEP/skinlayers3d-fabric-1.9.0-mc1.20.1.jar"
       ],
-      "fileSize": 871160
+      "fileSize": 872569
     },
     {
       "path": "mods/GR_CLO+SVX_sodium-shadowy-path-blocks-3.4.2.jar",
@@ -1744,21 +1744,6 @@
         "https://cdn.modrinth.com/data/TWsbC6jW/versions/Z1oQ0Gjc/AdditionalStructures-1.20.x-%28v.4.2.2-fabric%29.jar"
       ],
       "fileSize": 1548031
-    },
-    {
-      "path": "mods/GR_CLO_Chunky-1.3.146.jar",
-      "hashes": {
-        "sha1": "b5672d69dc2b210ab2165a27afc03a424fa2b46a",
-        "sha512": "9dbb82993302a8dfbe6ce1f46a051d72b5ada924424f4e23674ce660d209257584159a33248fa9247793e9ba03d3a117299ce1ff6685f06a7fb87c96504459aa"
-      },
-      "env": {
-        "client": "optional",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/fALzjamp/versions/NHWYq9at/Chunky-1.3.146.jar"
-      ],
-      "fileSize": 344004
     },
     {
       "path": "mods/GR_CLO_Clumps-fabric-1.20.1-12.0.0.4.jar",
@@ -1941,36 +1926,6 @@
       "fileSize": 1063786
     },
     {
-      "path": "mods/GR_CLO_YungsBetterDungeons-1.20-Fabric-4.0.4.jar",
-      "hashes": {
-        "sha1": "cb4ea32fe75c9dbcd62f6f3d3f912c1b79ac697a",
-        "sha512": "02ee00641aea2e80806923c1d97a366b82eb6d6e1d749fc8fb4eeddeddea718c08f5a87ba5189427f747801b899abe5a6138a260c7e7f949e5e69b4065ac5464"
-      },
-      "env": {
-        "client": "optional",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/o1C1Dkj5/versions/nidyvq2m/YungsBetterDungeons-1.20-Fabric-4.0.4.jar"
-      ],
-      "fileSize": 944170
-    },
-    {
-      "path": "mods/GR_CLO_YungsBetterEndIsland-1.20-Fabric-2.0.6.jar",
-      "hashes": {
-        "sha1": "169bc72b247240b79cad00751e2d5a2b7493a389",
-        "sha512": "cb63d9cdd69f955ed8044aec6f03aedbf76fdb53fd97826b254b68e3559941df301b714260505d165c58c276aa7ea7c11c2fada7509cb731f10b1815d5633b87"
-      },
-      "env": {
-        "client": "optional",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/2BwBOmBQ/versions/qJTsmyiE/YungsBetterEndIsland-1.20-Fabric-2.0.6.jar"
-      ],
-      "fileSize": 517369
-    },
-    {
       "path": "mods/GR_CLO_YungsBetterJungleTemples-1.20-Fabric-2.0.5.jar",
       "hashes": {
         "sha1": "e0c5366159af63c1a0b110ce1a62750d3d75d978",
@@ -1984,21 +1939,6 @@
         "https://cdn.modrinth.com/data/z9Ve58Ih/versions/6LPrzuB0/YungsBetterJungleTemples-1.20-Fabric-2.0.5.jar"
       ],
       "fileSize": 947293
-    },
-    {
-      "path": "mods/GR_CLO_YungsBetterMineshafts-1.20-Fabric-4.0.4.jar",
-      "hashes": {
-        "sha1": "dda3af404d6958f6fed882b8b4ae7827ac78944b",
-        "sha512": "82d6e361ef403471beaaf2fa86964af541df167da56f53b820e5abfac693f63dd5d6c0aafbc9e9baa947b42a57c79f069ed6ede55e680a2523d2ca7f2e538b13"
-      },
-      "env": {
-        "client": "optional",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/HjmxVlSr/versions/qLnQnqXS/YungsBetterMineshafts-1.20-Fabric-4.0.4.jar"
-      ],
-      "fileSize": 621495
     },
     {
       "path": "mods/GR_CLO_YungsBetterNetherFortresses-1.20-Fabric-2.0.6.jar",
@@ -2029,21 +1969,6 @@
         "https://cdn.modrinth.com/data/3dT9sgt4/versions/4c00pjbt/YungsBetterOceanMonuments-1.20-Fabric-3.0.4.jar"
       ],
       "fileSize": 1165832
-    },
-    {
-      "path": "mods/GR_CLO_YungsBetterStrongholds-1.20-Fabric-4.0.3.jar",
-      "hashes": {
-        "sha1": "f7a5eb03935abe845c6691ae99ae42889fdd5da1",
-        "sha512": "e70c8daa91e88d8af97e99201264c9646c82a8cf1966b87ca1e53b591e7f1ed3cee2f8875dbe88f9b58e2a7d151fded34896bb4bd23f33f2bfef4c590fbba850"
-      },
-      "env": {
-        "client": "optional",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/kidLKymU/versions/yV6hn0bB/YungsBetterStrongholds-1.20-Fabric-4.0.3.jar"
-      ],
-      "fileSize": 611598
     },
     {
       "path": "mods/GR_CLO_YungsBetterWitchHuts-1.20-Fabric-3.0.3.jar",
@@ -2811,19 +2736,19 @@
       "fileSize": 913732
     },
     {
-      "path": "mods/GR_CLO_tectonic-3.0.7-fabric-1.20.1.jar",
+      "path": "mods/GR_CLO_tectonic-3.0.8-fabric-1.20.1.jar",
       "hashes": {
-        "sha1": "0fdad4dd12f828f74097b9264f9e2465bfddb0a5",
-        "sha512": "c39b42a84d6cee75e56f158855662f5648477391072ad45ba9102f7502c87fdaea967762b9878b2fb4cc4621a3e2ac1f074c89d531546ca0b3be212e098104d7"
+        "sha1": "d68a367819c34b0f68e2a1fdfd08a4cceae67c33",
+        "sha512": "1fcb072cb9da14e9b24a3d300432fe2d4651a0f3d1df3fa070c69bb83aabd9a1c48efbd510648a9c7008c6d9598ead3e3cedb02231b1df7dc648b940657a4aeb"
       },
       "env": {
         "client": "optional",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/lWDHr9jE/versions/Fde2Lsbo/tectonic-3.0.7-fabric-1.20.1.jar"
+        "https://cdn.modrinth.com/data/lWDHr9jE/versions/YRZvMfxY/tectonic-3.0.8-fabric-1.20.1.jar"
       ],
-      "fileSize": 294677
+      "fileSize": 298512
     },
     {
       "path": "mods/GR_CLO_toggleableitemframes-5.1.0-1.20.1.jar",
@@ -2959,6 +2884,21 @@
         "https://cdn.modrinth.com/data/owDBGfRd/versions/dKV5HYJi/zombiehorsespawn-1.20.1-5.2.jar"
       ],
       "fileSize": 34146
+    },
+    {
+      "path": "mods/GR_CLX_Chunky-1.3.146.jar",
+      "hashes": {
+        "sha1": "b5672d69dc2b210ab2165a27afc03a424fa2b46a",
+        "sha512": "9dbb82993302a8dfbe6ce1f46a051d72b5ada924424f4e23674ce660d209257584159a33248fa9247793e9ba03d3a117299ce1ff6685f06a7fb87c96504459aa"
+      },
+      "env": {
+        "client": "unsupported",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/fALzjamp/versions/NHWYq9at/Chunky-1.3.146.jar"
+      ],
+      "fileSize": 344004
     },
     {
       "path": "mods/GR_CLX_GlobalHorns-1.0.jar",
@@ -5871,19 +5811,19 @@
       "fileSize": 144848
     },
     {
-      "path": "mods/travelersbackpack-fabric-1.20.1-9.1.37.jar",
+      "path": "mods/travelersbackpack-fabric-1.20.1-9.1.38.jar",
       "hashes": {
-        "sha1": "3cc437c41bb20fd231e53adde2ec7a4e53e27b2f",
-        "sha512": "b88f5dcc7e0a064918c5444ea805531129a271dc5002501368156b74aadf99c83fc9a95316221c57263691e6188605485e838a59693ad1c8d29c1393c389a40c"
+        "sha1": "2d10d7002d1349cfeb5e9c9f5686d096025342ac",
+        "sha512": "2c5e7348d2c9990bf25517a44c9baa0488b76e8fe5d0b5492e92189797d7725913b46d644b0dfe7587b55e03404d9770bc7ea945c626299e4ecd88aa0e04d067"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/rlloIFEV/versions/PO5Zx5TX/travelersbackpack-fabric-1.20.1-9.1.37.jar"
+        "https://cdn.modrinth.com/data/rlloIFEV/versions/lnzLVA1W/travelersbackpack-fabric-1.20.1-9.1.38.jar"
       ],
-      "fileSize": 1327550
+      "fileSize": 1356893
     },
     {
       "path": "mods/twilightforest-fabric-1.20.1-1.4.7.jar",
