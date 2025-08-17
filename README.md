@@ -48,6 +48,9 @@ A modpack for the 7th edition of GhostLand SMP
 
 ## Changelogs:
 
+### 7b30
+- Increased SpawnProt range
+
 ### 7b29
 - Configured Geocluster's ores
 - Configured Sparse Structures
