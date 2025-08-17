@@ -50,6 +50,7 @@ A modpack for the 7th edition of GhostLand SMP
 
 ### 7b29
 - Configured Geocluster's ores
+- Configured Sparse Structures
 
 ### 7b28
 - Updated: FlightAssistant, BwG, Amendments, Kotlin, MoonlighLib, Supplementaries
@@ -565,7 +566,6 @@ There will, for certain, be more. These are just some things that came to my min
 * FancyMenu (incl. Remove GFARB)
 * Bind-pizzeria (incl. a link to a LOOREEEEE repository, should we vote on a more roleplay-ish edition)
 * DiscordRCP
-* Sparse Structures for modded structures
 * Disable Simple VC groups (we have radios for that)
 * Add the modpack icon into our files (won't be auto-applied, but this way, people will at least have the option to enable it themselves), preferably in such a way that it also works as a server icon, without needing to set one explicitly
 * Clear configs for mods that are no longer with us (eg. ~~Geocluster~~ ~~*that's gone now, but there are a lot more removed mods from that 7a23 update, that left their configs behing*~~ *Geocluster is back, and so are some mods from 7a23 - but now 7a26 has a lot of deleted stuff*)
@@ -708,6 +708,8 @@ Things that - for one reason or another - are exceptionally easy to forget:
 * Dumped all structures in
 * Slightly lowered reduction rates (from the default 2x reduction to 1.75x) for modded structures
 * Kept vanilla spread rates as vanilla (1x recuction rate (aka „kept the same”) instead of 2x)
+* Kept Bumblezone, Twiligth and Aether spread rates as vanilla (1x recuction rate (aka „kept the same”) instead of 2x) becasue they don't affect the overworld
+* Sligtly bumped Village, Firewatch Tower and Tavern spawn rates (a purely-artistric choice to make the world more lively)
 
 ### Create Dynamic Lights
 * Disabled LambDynamicLights integration (we're using Sodium Dynamic Lights, so that wouldn't work for us)

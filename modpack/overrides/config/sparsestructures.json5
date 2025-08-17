@@ -194,19 +194,19 @@
         },
         {
             "structure": "aether:bronze_dungeon",
-            "factor": 1.75
+            "factor": 1
         },
         {
             "structure": "aether:large_aercloud",
-            "factor": 1.75
+            "factor": 1
         },
         {
             "structure": "aether:ruined_portals",
-            "factor": 1.75
+            "factor": 1
         },
         {
             "structure": "aether:silver_and_gold_dungeons",
-            "factor": 1.75
+            "factor": 1
         },
         {
             "structure": "bakery:bakery",
@@ -586,75 +586,75 @@
         },
         {
             "structure": "minecraft:ancient_cities",
-            "factor": 1.75
+            "factor": 1
         },
         {
             "structure": "minecraft:buried_treasures",
-            "factor": 1.75
+            "factor": 1
         },
         {
             "structure": "minecraft:desert_pyramids",
-            "factor": 1.75
+            "factor": 1
         },
         {
             "structure": "minecraft:end_cities",
-            "factor": 1.75
+            "factor": 1
         },
         {
             "structure": "minecraft:igloos",
-            "factor": 1.75
+            "factor": 1
         },
         {
             "structure": "minecraft:jungle_temples",
-            "factor": 1.75
+            "factor": 1
         },
         {
             "structure": "minecraft:mineshafts",
-            "factor": 1.75
+            "factor": 1
         },
         {
             "structure": "minecraft:nether_complexes",
-            "factor": 1.75
+            "factor": 1
         },
         {
             "structure": "minecraft:nether_fossils",
-            "factor": 1.75
+            "factor": 1
         },
         {
             "structure": "minecraft:ocean_monuments",
-            "factor": 1.75
+            "factor": 1
         },
         {
             "structure": "minecraft:ocean_ruins",
-            "factor": 1.75
+            "factor": 1
         },
         {
             "structure": "minecraft:pillager_outposts",
-            "factor": 1.75
+            "factor": 1
         },
         {
             "structure": "minecraft:ruined_portals",
-            "factor": 1.75
+            "factor": 1
         },
         {
             "structure": "minecraft:shipwrecks",
-            "factor": 1.75
+            "factor": 1
         },
         {
             "structure": "minecraft:swamp_huts",
-            "factor": 1.75
+            "factor": 1
         },
         {
             "structure": "minecraft:trail_ruins",
-            "factor": 1.75
+            "factor": 1
         },
         {
             "structure": "minecraft:villages",
-            "factor": 1.75
+            "factor": 0.85
         },
         {
             "structure": "minecraft:woodland_mansions",
-            "factor": 1.75
+            "factor": 1
         },
         {
             "structure": "nova_structures:badlands_miner_outpost",
@@ -678,7 +678,7 @@
         },
         {
             "structure": "nova_structures:firewatch_towers",
-            "factor": 1.75
+            "factor": 1.5
         },
         {
             "structure": "nova_structures:illager_camp",
@@ -718,7 +718,7 @@
         },
         {
             "structure": "nova_structures:taverns",
-            "factor": 1.75
+            "factor": 0.85
         },
         {
             "structure": "nova_structures:undead_crypt",
@@ -726,7 +726,7 @@
         },
         {
             "structure": "nova_structures:underground_house",
-            "factor": 1.75
+            "factor": 1
         },
         {
             "structure": "nova_structures:villages_jungle",
@@ -838,43 +838,43 @@
         },
         {
             "structure": "the_bumblezone:bumbling_beepartments",
-            "factor": 1.75
+            "factor": 1
         },
         {
             "structure": "the_bumblezone:cell_maze",
-            "factor": 1.75
+            "factor": 1
         },
         {
             "structure": "the_bumblezone:cherry_veteran_tree",
-            "factor": 1.75
+            "factor": 1
         },
         {
             "structure": "the_bumblezone:hanging_structures",
-            "factor": 1.75
+            "factor": 1
         },
         {
             "structure": "the_bumblezone:honey_cave_room",
-            "factor": 1.75
+            "factor": 1
         },
         {
             "structure": "the_bumblezone:main_structures",
-            "factor": 1.75
+            "factor": 1
         },
         {
             "structure": "the_bumblezone:pollinated_stream",
-            "factor": 1.75
+            "factor": 1
         },
         {
             "structure": "the_bumblezone:sempiternal_sanctums",
-            "factor": 1.75
+            "factor": 1
         },
         {
             "structure": "the_bumblezone:throne_pillar",
-            "factor": 1.75
+            "factor": 1
         },
         {
             "structure": "the_bumblezone:tiny_structures",
-            "factor": 1.75
+            "factor": 1
         },
         {
             "structure": "totw_additions:end_tower",
@@ -914,67 +914,67 @@
         },
         {
             "structure": "twilightforest:aurora_palace",
-            "factor": 1.75
+            "factor": 1
         },
         {
             "structure": "twilightforest:dark_tower",
-            "factor": 1.75
+            "factor": 1
         },
         {
             "structure": "twilightforest:final_castle",
-            "factor": 1.75
+            "factor": 1
         },
         {
             "structure": "twilightforest:hedge_maze",
-            "factor": 1.75
+            "factor": 1
         },
         {
             "structure": "twilightforest:hydra_lair",
-            "factor": 1.75
+            "factor": 1
         },
         {
             "structure": "twilightforest:knight_stronghold",
-            "factor": 1.75
+            "factor": 1
         },
         {
             "structure": "twilightforest:labyrinth",
-            "factor": 1.75
+            "factor": 1
         },
         {
             "structure": "twilightforest:large_hollow_hill",
-            "factor": 1.75
+            "factor": 1
         },
         {
             "structure": "twilightforest:lich_tower",
-            "factor": 1.75
+            "factor": 1
         },
         {
             "structure": "twilightforest:medium_hollow_hill",
-            "factor": 1.75
+            "factor": 1
         },
         {
             "structure": "twilightforest:mushroom_tower",
-            "factor": 1.75
+            "factor": 1
         },
         {
             "structure": "twilightforest:naga_courtyard",
-            "factor": 1.75
+            "factor": 1
         },
         {
             "structure": "twilightforest:quest_grove",
-            "factor": 1.75
+            "factor": 1
         },
         {
             "structure": "twilightforest:small_hollow_hill",
-            "factor": 1.75
+            "factor": 1
         },
         {
             "structure": "twilightforest:troll_cave",
-            "factor": 1.75
+            "factor": 1
         },
         {
             "structure": "twilightforest:yeti_cave",
-            "factor": 1.75
+            "factor": 1
         },
         {
             "structure": "wilderwild:abandoned_cabin",
