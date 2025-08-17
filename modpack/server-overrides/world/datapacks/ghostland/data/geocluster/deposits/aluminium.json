@@ -8,8 +8,16 @@
     "blocks": {
       "default": [
         {
+          "block": "techreborn:bauxite_ore",
+          "chance": 0.3
+        },
+        {
+          "block": "modern_industrialization:bauxite_ore",
+          "chance": 0.3
+        },
+        {
           "block": "geocluster:aluminium_ore",
-          "chance": 0.9
+          "chance": 0.3
         },
         {
           "block": null,
@@ -18,12 +26,24 @@
       ],
       "minecraft:deepslate": [
         {
+          "block": "techreborn:deepslate_bauxite_ore",
+          "chance": 0.2
+        },
+        {
+          "block": "techreborn:deepslate_sodalite_ore",
+          "chance": 0.2
+        },
+        {
+          "block": "modern_industrialization:deepslate_bauxite_ore",
+          "chance": 0.2
+        },
+        {
           "block": "geocluster:deepslate_aluminium_ore",
-          "chance": 0.9
+          "chance": 0.2
         },
         {
           "block": null,
-          "chance": 0.1
+          "chance": 0.2
         }
       ]
     },

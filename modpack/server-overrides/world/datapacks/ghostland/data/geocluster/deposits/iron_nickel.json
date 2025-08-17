@@ -5,21 +5,33 @@
       "default": [
         {
           "block": "iron_ore",
-          "chance": 0.75
+          "chance": 0.8
         },
         {
           "block": "geocluster:nickel_ore",
-          "chance": 0.25
+          "chance": 0.1
+        },
+        {
+          "block": "modern_industrialization:nickel_ore",
+          "chance": 0.1
         }
       ],
       "minecraft:deepslate": [
         {
           "block": "deepslate_iron_ore",
-          "chance": 0.75
+          "chance": 0.7
         },
         {
           "block": "geocluster:deepslate_nickel_ore",
-          "chance": 0.25
+          "chance": 0.1
+        },
+        {
+          "block": "modern_industrialization:deepslate_nickel_ore",
+          "chance": 0.1
+        },
+        {
+          "block": "techreborn:deepslate_sheldonite_ore",
+          "chance": 0.1
         }
       ]
     },
