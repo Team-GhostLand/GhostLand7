@@ -51,6 +51,13 @@ A modpack for the 7th edition of GhostLand SMP
 ### 7b29
 - Configured Geocluster's ores
 - Configured Sparse Structures
+- Changed starter kits:
+  - Yeeted bed upgrades
+  - Swapped the TODO paper for a real book
+  - Bundled coins and bread into: `/give Guzio minecraft:bundle{display:{Name:'{"text":"Starter-Bundle","color":"aqua","italic":true,"underlined":true}',Lore:['{"text":"Parę rzeczy na początek gry: Trochę pieniędzy, chlebka i kolejny darmowy bundle","color":"white","italic":false}']}} 1`
+  - Reorganized the hotbar a bit
+  - gave u more monei
+- Added Ultimine so that Palmer doesn't kill me
 
 ### 7b28
 - Updated: FlightAssistant, BwG, Amendments, Kotlin, MoonlighLib, Supplementaries
