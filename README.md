@@ -48,6 +48,9 @@ A modpack for the 7th edition of GhostLand SMP
 
 ## Changelogs:
 
+### 7b32
+- Renamed async (to disable it) and Ultimine (cuz I got angry)
+
 ### 7b31
 - Nuked Wiretap
 
