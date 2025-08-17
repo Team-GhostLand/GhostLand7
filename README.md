@@ -48,6 +48,9 @@ A modpack for the 7th edition of GhostLand SMP
 
 ## Changelogs:
 
+### 7b31
+- Nuked Wiretap
+
 ### 7b30
 - Increased SpawnProt range
 

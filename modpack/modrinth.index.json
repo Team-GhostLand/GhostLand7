@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "7b30",
+  "versionId": "7b31",
   "name": "GhostLand 7 Beta",
   "summary": "Paczka na siódmą edycję GhostLanda - wersja beta",
   "files": [
@@ -3034,21 +3034,6 @@
         "https://cdn.modrinth.com/data/ghrZDhGW/versions/q06yyYO8/skinrestorer-2.4.2%2B1.20-fabric.jar"
       ],
       "fileSize": 188470
-    },
-    {
-      "path": "mods/GR_CLX_wiretap-1.20.1-1.0.3.jar",
-      "hashes": {
-        "sha1": "ed8c36729a802360c1cbf2b3fc6ba183795a4c77",
-        "sha512": "4efc34fbdf1dc248b3e6bf208fd8fdf53096091147bf2d90be1c1d4175f6b7ce76ef6fa40e97951480dd504d8ab4256f0726590b2f757e75da404c2c07659602"
-      },
-      "env": {
-        "client": "unsupported",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/q3tICGpu/versions/uTtVzTDf/wiretap-1.20.1-1.0.3.jar"
-      ],
-      "fileSize": 314034
     },
     {
       "path": "mods/GR_SVX_AmbientSounds_FABRIC_v6.1.11_mc1.20.1.jar",
