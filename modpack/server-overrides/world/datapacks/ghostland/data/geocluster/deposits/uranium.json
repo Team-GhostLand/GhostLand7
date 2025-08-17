@@ -5,21 +5,57 @@
       "default": [
         {
           "block": "geocluster:uranium_ore",
-          "chance": 0.85
+          "chance": 0.20625
+        },
+        {
+          "block": "modern_industrialization:uranium_ore",
+          "chance": 0.20625
+        },
+        {
+          "block": "create_new_age:thorium_ore",
+          "chance": 0.20625
+        },
+        {
+          "block": "powah:uraninite_ore_poor",
+          "chance": 0.1
+        },
+        {
+          "block": "powah:uraninite_ore",
+          "chance": 0.05
+        },
+        {
+          "block": "powah:uraninite_ore_dense",
+          "chance": 0.025
         },
         {
           "block": null,
-          "chance": 0.15
+          "chance": 0.20625
         }
       ],
       "minecraft:deepslate": [
         {
           "block": "geocluster:deepslate_uranium_ore",
-          "chance": 0.85
+          "chance": 0.240625
+        },
+        {
+          "block": "modern_industrialization:deepslate_uranium_ore",
+          "chance": 0.240625
+        },
+        {
+          "block": "powah:deepslate_uraninite_ore_poor",
+          "chance": 0.134375
+        },
+        {
+          "block": "powah:deepslate_uraninite_ore",
+          "chance": 0.084375
+        },
+        {
+          "block": "powah:deepslate_uraninite_ore_dense",
+          "chance": 0.059375
         },
         {
           "block": null,
-          "chance": 0.15
+          "chance": 0.240625
         }
       ]
     },

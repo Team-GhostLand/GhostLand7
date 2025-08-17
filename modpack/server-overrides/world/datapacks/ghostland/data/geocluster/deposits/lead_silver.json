@@ -9,22 +9,54 @@
     "blocks": {
       "default": [
         {
+          "block": "techreborn:galena_ore",
+          "chance": 0.125
+        },
+        {
+          "block": "techreborn:lead_ore",
+          "chance": 0.125
+        },
+        {
+          "block": "modern_industrialization:lead_ore",
+          "chance": 0.125
+        },
+        {
           "block": "geocluster:lead_ore",
-          "chance": 0.5
+          "chance": 0.125
         },
         {
           "block": "geocluster:silver_ore",
-          "chance": 0.5
+          "chance": 0.25
+        },
+        {
+          "block": "techreborn:silver_ore",
+          "chance": 0.25
         }
       ],
       "minecraft:deepslate": [
         {
+          "block": "techreborn:deepslate_galena_ore",
+          "chance": 0.125
+        },
+        {
+          "block": "techreborn:deepslate_lead_ore",
+          "chance": 0.125
+        },
+        {
+          "block": "modern_industrialization:deepslate_lead_ore",
+          "chance": 0.125
+        },
+        {
           "block": "geocluster:deepslate_lead_ore",
-          "chance": 0.5
+          "chance": 0.125
         },
         {
           "block": "geocluster:deepslate_silver_ore",
-          "chance": 0.5
+          "chance": 0.25
+        },
+        {
+          "block": "techreborn:deepslate_silver_ore",
+          "chance": 0.25
         }
       ]
     },

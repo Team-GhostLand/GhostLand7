@@ -1,1 +1,51 @@
-{}
+{
+  "type": "geocluster:deposit_dike",
+  "config": {
+    "yMin": -25,
+    "yMax": 19,
+    "baseRadius": 4,
+    "maxHeight": 7,
+    "biomeTag": "#minecraft:is_mountain",
+    "blocks": {
+      "default": [
+        {
+          "block": "modern_industrialization:titanium_ore",
+          "chance": 0.33
+        },
+        {
+          "block": "geocluster:titanium_ore",
+          "chance": 0.33
+        },
+        {
+          "block": "techreborn:bauxite_ore",
+          "chance": 0.1
+        },
+        {
+          "block": null,
+          "chance": 0.33
+        }
+      ],
+      "minecraft:deepslate": [
+        {
+          "block": "geocluster:deepslate_titanium_ore",
+          "chance": 0.66
+        },
+        {
+          "block": "techreborn:deepslate_bauxite_ore",
+          "chance": 0.1
+        },
+        {
+          "block": null,
+          "chance": 0.33
+        }
+      ]
+    },
+    "samples": [
+      {
+        "block": "geocluster:titanium_ore_sample",
+        "chance": 1.0
+      }
+    ],
+    "generationWeight": 2
+  }
+}

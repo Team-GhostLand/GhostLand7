@@ -9,14 +9,22 @@
     "blocks": {
       "default": [
         {
+          "block": "create:zinc_ore",
+          "chance": 0.5
+        },
+        {
           "block": "geocluster:zinc_ore",
-          "chance": 1.0
+          "chance": 0.5
         }
       ],
       "minecraft:deepslate": [
         {
+          "block": "create:deepslate_zinc_ore",
+          "chance": 0.5
+        },
+        {
           "block": "geocluster:deepslate_zinc_ore",
-          "chance": 1.0
+          "chance": 0.5
         }
       ]
     },

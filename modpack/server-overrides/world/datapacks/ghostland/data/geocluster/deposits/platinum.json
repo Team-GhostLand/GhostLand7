@@ -9,12 +9,16 @@
     "blocks": {
       "default": [
         {
+          "block": "modern_industrialization:platinum_ore",
+          "chance": 0.33
+        },
+        {
           "block": "geocluster:platinum_ore",
-          "chance": 0.67
+          "chance": 0.33
         },
         {
           "block": null,
-          "chance": 0.33
+          "chance": 0.34
         }
       ],
       "minecraft:deepslate": [

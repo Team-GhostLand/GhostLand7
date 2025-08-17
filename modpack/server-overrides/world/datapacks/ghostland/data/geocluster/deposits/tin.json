@@ -9,8 +9,16 @@
     "blocks": {
       "default": [
         {
+          "block": "techreborn:tin_ore",
+          "chance": 0.25
+        },
+        {
+          "block": "modern_industrialization:tin_ore",
+          "chance": 0.25
+        },
+        {
           "block": "geocluster:tin_ore",
-          "chance": 0.75
+          "chance": 0.25
         },
         {
           "block": null,
@@ -18,6 +26,14 @@
         }
       ],
       "minecraft:deepslate": [
+        {
+          "block": "techreborn:deepslate_tin_ore",
+          "chance": 0.75
+        },
+        {
+          "block": "modern_industrialization:deepslate_tin_ore",
+          "chance": 0.75
+        },
         {
           "block": "geocluster:deepslate_tin_ore",
           "chance": 0.75

@@ -10,7 +10,11 @@
       "default": [
         {
           "block": "geocluster:quartz_ore",
-          "chance": 1.0
+          "chance": 0.5
+        },
+        {
+          "block": "modern_industrialization:quartz_ore",
+          "chance": 0.5
         }
       ],
       "minecraft:deepslate": [

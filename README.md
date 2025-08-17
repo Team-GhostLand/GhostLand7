@@ -48,6 +48,9 @@ A modpack for the 7th edition of GhostLand SMP
 
 ## Changelogs:
 
+### 7b29
+- Configured Geocluster's ores
+
 ### 7b28
 - Updated: FlightAssistant, BwG, Amendments, Kotlin, MoonlighLib, Supplementaries
 - Removed: Veinminer, Nvidium, HT's
@@ -711,7 +714,9 @@ Things that - for one reason or another - are exceptionally easy to forget:
 * Enabled vanilla mode (becasue we're not using LambDynamicLights and - with both modes disabled - the mod would literally do nothing)
 
 ### Geocluster
-* Via a datapack: Re-enabled vanilla oregen. One other thing we need to do via a DP is to switch from using GC's own non-vanilla ores to whatever equivalents other mods add (eg. Create: Nuclear's Urainium instead of Geocluster's). GC will still be used for samples, though - because (obviously) other mods don't add those.
+* Via a datapack: Re-enabled vanilla oregen.
+* Via a datapack: Added-in modded ores to Geocluster's modded clusters.
+* Via a datapack: Enabled Titanium.
 * In settings: allowed modded ores, Deepslate Samples and vanilla veins; disallowed chat spam; cranked up max samples/chunk by 2x; slightly bumped spawn rates (3x not 2x attempts; 10pp higher chance to even attempt in the 1st place)
 
 ### EMI
