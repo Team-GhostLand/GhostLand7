@@ -201,6 +201,10 @@
           "factor": 1.75
         },
         {
+          "structure": "aether:ruined_portals",
+          "factor": 1.75
+        },
+        {
           "structure": "aether:silver_and_gold_dungeons",
           "factor": 1.75
         },
@@ -234,26 +238,6 @@
         },
         {
           "structure": "betterdeserttemples:desert_temples",
-          "factor": 1.75
-        },
-        {
-          "structure": "betterdungeons:skeleton_dungeons",
-          "factor": 1.75
-        },
-        {
-          "structure": "betterdungeons:small_dungeons",
-          "factor": 1.75
-        },
-        {
-          "structure": "betterdungeons:small_nether_dungeons",
-          "factor": 1.75
-        },
-        {
-          "structure": "betterdungeons:spider_dungeons",
-          "factor": 1.75
-        },
-        {
-          "structure": "betterdungeons:zombie_dungeons",
           "factor": 1.75
         },
         {
@@ -294,10 +278,6 @@
         },
         {
           "structure": "betterjungletemples:jungle_temples",
-          "factor": 1.75
-        },
-        {
-          "structure": "bettermineshafts:mineshafts",
           "factor": 1.75
         },
         {
@@ -342,10 +322,6 @@
         },
         {
           "structure": "betteroceanmonuments:ocean_monument",
-          "factor": 1.75
-        },
-        {
-          "structure": "betterstrongholds:stronghold",
           "factor": 1.75
         },
         {
@@ -565,10 +541,6 @@
           "factor": 1.75
         },
         {
-          "structure": "dimdoors:gateways",
-          "factor": 1.75
-        },
-        {
           "structure": "dungeonnowloading:labyrinth",
           "factor": 1.75
         },
@@ -614,75 +586,207 @@
         },
         {
           "structure": "minecraft:ancient_cities",
-          "factor": 1
+          "factor": 1.75
         },
         {
           "structure": "minecraft:buried_treasures",
-          "factor": 1
+          "factor": 1.75
         },
         {
           "structure": "minecraft:desert_pyramids",
-          "factor": 1
+          "factor": 1.75
         },
         {
           "structure": "minecraft:end_cities",
-          "factor": 1
+          "factor": 1.75
         },
         {
           "structure": "minecraft:igloos",
-          "factor": 1
+          "factor": 1.75
         },
         {
           "structure": "minecraft:jungle_temples",
-          "factor": 1
+          "factor": 1.75
         },
         {
           "structure": "minecraft:mineshafts",
-          "factor": 1
+          "factor": 1.75
         },
         {
           "structure": "minecraft:nether_complexes",
-          "factor": 1
+          "factor": 1.75
         },
         {
           "structure": "minecraft:nether_fossils",
-          "factor": 1
+          "factor": 1.75
         },
         {
           "structure": "minecraft:ocean_monuments",
-          "factor": 1
+          "factor": 1.75
         },
         {
           "structure": "minecraft:ocean_ruins",
-          "factor": 1
+          "factor": 1.75
         },
         {
           "structure": "minecraft:pillager_outposts",
-          "factor": 1
+          "factor": 1.75
         },
         {
           "structure": "minecraft:ruined_portals",
-          "factor": 1
+          "factor": 1.75
         },
         {
           "structure": "minecraft:shipwrecks",
-          "factor": 1
+          "factor": 1.75
         },
         {
           "structure": "minecraft:swamp_huts",
-          "factor": 1
+          "factor": 1.75
         },
         {
           "structure": "minecraft:trail_ruins",
-          "factor": 1
+          "factor": 1.75
         },
         {
           "structure": "minecraft:villages",
-          "factor": 1
+          "factor": 1.75
         },
         {
           "structure": "minecraft:woodland_mansions",
-          "factor": 1
+          "factor": 1.75
+        },
+        {
+          "structure": "nova_structures:badlands_miner_outpost",
+          "factor": 1.75
+        },
+        {
+          "structure": "nova_structures:bunker",
+          "factor": 1.75
+        },
+        {
+          "structure": "nova_structures:conduit_ruin",
+          "factor": 1.75
+        },
+        {
+          "structure": "nova_structures:creeping_crypt",
+          "factor": 1.75
+        },
+        {
+          "structure": "nova_structures:desert_ruins",
+          "factor": 1.75
+        },
+        {
+          "structure": "nova_structures:firewatch_towers",
+          "factor": 1.75
+        },
+        {
+          "structure": "nova_structures:illager_camp",
+          "factor": 1.75
+        },
+        {
+          "structure": "nova_structures:illager_hideout",
+          "factor": 1.75
+        },
+        {
+          "structure": "nova_structures:jungle_ruins",
+          "factor": 1.75
+        },
+        {
+          "structure": "nova_structures:mangrove_witch_hut",
+          "factor": 1.75
+        },
+        {
+          "structure": "nova_structures:nether_camps",
+          "factor": 1.75
+        },
+        {
+          "structure": "nova_structures:nether_skeleton_towers",
+          "factor": 1.75
+        },
+        {
+          "structure": "nova_structures:nether_structures",
+          "factor": 1.75
+        },
+        {
+          "structure": "nova_structures:ruin_town",
+          "factor": 1.75
+        },
+        {
+          "structure": "nova_structures:stray_fort",
+          "factor": 1.75
+        },
+        {
+          "structure": "nova_structures:taverns",
+          "factor": 1.75
+        },
+        {
+          "structure": "nova_structures:undead_crypt",
+          "factor": 1.75
+        },
+        {
+          "structure": "nova_structures:underground_house",
+          "factor": 1.75
+        },
+        {
+          "structure": "nova_structures:villages_jungle",
+          "factor": 1.75
+        },
+        {
+          "structure": "nova_structures:villages_swamp",
+          "factor": 1.75
+        },
+        {
+          "structure": "nova_structures:wells",
+          "factor": 1.75
+        },
+        {
+          "structure": "nova_structures:wild_ruin",
+          "factor": 1.75
+        },
+        {
+          "structure": "nova_structures:witch_villa",
+          "factor": 1.75
+        },
+        {
+          "structure": "structory:mid_rare_ruin",
+          "factor": 1.75
+        },
+        {
+          "structure": "structory:old_manor",
+          "factor": 1.75
+        },
+        {
+          "structure": "structory:outcast_villager",
+          "factor": 1.75
+        },
+        {
+          "structure": "structory:ruin",
+          "factor": 1.75
+        },
+        {
+          "structure": "structory:ruin_quiet",
+          "factor": 1.75
+        },
+        {
+          "structure": "structory_towers:end_towers",
+          "factor": 1.75
+        },
+        {
+          "structure": "structory_towers:nether_towers",
+          "factor": 1.75
+        },
+        {
+          "structure": "structory_towers:rare_towers",
+          "factor": 1.75
+        },
+        {
+          "structure": "structory_towers:towers",
+          "factor": 1.75
+        },
+        {
+          "structure": "structory_towers:ultra_rare_towers",
+          "factor": 1.75
         },
         {
           "structure": "supplementaries:way_signs",
@@ -778,6 +882,34 @@
         },
         {
           "structure": "totw_additions:nether_tower",
+          "factor": 1.75
+        },
+        {
+          "structure": "totw_reworked:derelict",
+          "factor": 1.75
+        },
+        {
+          "structure": "totw_reworked:derelict_grass",
+          "factor": 1.75
+        },
+        {
+          "structure": "totw_reworked:ice",
+          "factor": 1.75
+        },
+        {
+          "structure": "totw_reworked:jungle",
+          "factor": 1.75
+        },
+        {
+          "structure": "totw_reworked:ocean",
+          "factor": 1.75
+        },
+        {
+          "structure": "totw_reworked:ocean_warm",
+          "factor": 1.75
+        },
+        {
+          "structure": "totw_reworked:regular",
           "factor": 1.75
         },
         {
