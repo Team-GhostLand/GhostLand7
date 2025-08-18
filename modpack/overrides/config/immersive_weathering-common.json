@@ -61,7 +61,7 @@
   },
   "leaf_piles": {
     "leaf_piles_slow": true,
-    "spawn_entity_from_decay": 0.3,
+    "spawn_entity_from_decay": 0.0,
     "reach": 12,
     "max_pile_height": 3,
     "leaf_piles_blacklist": []

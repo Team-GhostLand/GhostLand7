@@ -123,6 +123,7 @@ key_key.dynamic_fps.toggle_disabled:key.keyboard.unknown
 key_key.estrogen.dash:key.keyboard.x
 key_key.ftbquests.quests:key.keyboard.j
 key_key.ftbteams.open_gui:key.keyboard.unknown
+key_key.ftbultimine:key.keyboard.unknown
 key_accessories.key.open_accessories_screen:key.keyboard.unknown
 key_key.ae2.wireless_terminal:key.keyboard.unknown
 key_key.ae2.portable_item_cell:key.keyboard.unknown
