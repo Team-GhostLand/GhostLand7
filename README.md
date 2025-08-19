@@ -48,8 +48,11 @@ A modpack for the 7th edition of GhostLand SMP
 
 ## Changelogs:
 
+### 7b35
+- Re-disabled Async
+
 ### 7b34
-- Disabled Async (for now - will re-disable during pregen p.2), but only on the server (it *might?* be causing some crashes on the client)
+- Enabled Async (for now - will re-disable during pregen p.2), but only on the server (it *might?* be causing some crashes on the client)
 - Removed Ultimine's keybind (it was conflicting with SVC)
 - Disabled leaf piling up from IW
 
