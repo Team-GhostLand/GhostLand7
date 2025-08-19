@@ -793,7 +793,7 @@
 			rewards: [{
 				count: 32
 				id: "0B93CB71F60FC82A"
-				item: "createnuclear:raw_uranium"
+				item: "modern_industrialization:uranium_ingot"
 				type: "item"
 			}]
 			tasks: [{

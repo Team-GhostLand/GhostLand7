@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "7b35",
+  "versionId": "7b36",
   "name": "GhostLand 7 Beta",
   "summary": "Paczka na siódmą edycję GhostLanda - wersja beta",
   "files": [
@@ -291,21 +291,6 @@
       "fileSize": 50740
     },
     {
-      "path": "datapacks/GR_CLO_Stronger Skill Tree.zip",
-      "hashes": {
-        "sha1": "2761bf0491036e7c09c0fc9d070d341aec2cab54",
-        "sha512": "e1e36197b860285738aab86d2ba59827b6e9ade8bf4ddafef1f9e7d1d670b7edf4e41536d23e50b1e85ac26e4badd18fe09d250b063272bb47deb92d78c2baec"
-      },
-      "env": {
-        "client": "optional",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/KsIs7qhw/versions/YFoa63WG/Stronger%20Skill%20Tree.zip"
-      ],
-      "fileSize": 21412
-    },
-    {
       "path": "datapacks/GR_CLO_Structory_1.20_v1.3.5.zip",
       "hashes": {
         "sha1": "e296a05a943e0ec247c73b60efc86cee2df56b48",
@@ -409,21 +394,6 @@
         "https://cdn.modrinth.com/data/l9fldtN4/versions/HLBuQatN/ctov-creates-structures-add-on-v1-0.zip"
       ],
       "fileSize": 91191
-    },
-    {
-      "path": "datapacks/GR_CLO_default_skill_trees-1.1.zip",
-      "hashes": {
-        "sha1": "564a1320a4d26de1ad476687ce1920ccd12c142c",
-        "sha512": "3f09b95c480ba7371264bd3b021f4ddb639bd1abeabb8a416d429ac4753b86b4f2aa462a3b1f77a49a70f8a28a9f558bde7c2b6dab0f735a686ba5b8538e9984"
-      },
-      "env": {
-        "client": "optional",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/4w7YR25f/versions/Y9zJqtr4/default_skill_trees-1.1.zip"
-      ],
-      "fileSize": 11519
     },
     {
       "path": "datapacks/GR_CLO_farmers-cutting-aether_1.20.1-1.0-fabric_data_pack.zip",
@@ -4579,21 +4549,6 @@
         "https://cdn.modrinth.com/data/reiRz8zO/versions/cgeIYny5/createdieselgenerators-2.1.4.jar"
       ],
       "fileSize": 1952791
-    },
-    {
-      "path": "mods/createnuclear-1.3.0-fabric.jar",
-      "hashes": {
-        "sha1": "cee9d14249f7afadc7d2b325b2a90c061356172b",
-        "sha512": "4ab6b6764e8c6a6ca90706b49a7067423cf28768867d3bfd7b039e6e12ebe88ecf7e39f8f395b24b5a0b2a028a28c2b17a66961215126ea50c85dd6ad2b01b8d"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/z611fdf7/versions/inOwpH0J/createnuclear-1.3.0-fabric.jar"
-      ],
-      "fileSize": 6742749
     },
     {
       "path": "mods/createoreexcavation-fabric-1.20-1.5.4.jar",

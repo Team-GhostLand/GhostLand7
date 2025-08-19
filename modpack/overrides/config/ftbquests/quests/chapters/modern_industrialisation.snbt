@@ -346,7 +346,7 @@
 			rewards: [{
 				count: 32
 				id: "2262D8C51C40A07C"
-				item: "createnuclear:raw_uranium"
+				item: "create:crushed_raw_uranium"
 				type: "item"
 			}]
 			tasks: [{
@@ -576,7 +576,7 @@
 			rewards: [{
 				count: 64
 				id: "426EF9960337E93C"
-				item: "createnuclear:reactor_casing"
+				item: "create_new_age:reactor_casing"
 				type: "item"
 			}]
 			tasks: [{

@@ -48,6 +48,15 @@ A modpack for the 7th edition of GhostLand SMP
 
 ## Changelogs:
 
+### 7b36
+- Removed Create: Nuclear
+- In Immersive Weathering set leaf pile reach and max height to 0
+- Set controls for FTB Ultimine to [0]
+- Set controls for Voice Chat GUI to [N]
+- Modified Create quest tree and modified some rewards in MI and TR quest trees
+- Set controls for Puffer's Skill Tree to [Right Ctrl]
+- Removed Default Skill Tree and Stronger Skill Tree so now there is only RPG Skill Tree
+
 ### 7b35
 - Re-disabled Async
 

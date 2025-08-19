@@ -341,363 +341,6 @@
 		}
 		{
 			dependencies: ["730C8098116C22E3"]
-			id: "5385ADA62A2AF996"
-			rewards: [{
-				count: 8
-				id: "22833D892818A7FC"
-				item: "create:electron_tube"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "3F0958FF9C584D11"
-					item: "createnuclear:raw_uranium"
-					type: "item"
-				}
-				{
-					id: "7E814AAD42F03707"
-					item: "createnuclear:raw_lead"
-					type: "item"
-				}
-			]
-			title: "Pora na atom"
-			x: 6.5d
-			y: 0.5d
-		}
-		{
-			dependencies: ["5385ADA62A2AF996"]
-			id: "4F1CB658E65FD497"
-			rewards: [{
-				count: 32
-				id: "2A0DC79E34980509"
-				item: "minecraft:coal"
-				type: "item"
-			}]
-			tasks: [{
-				id: "6AE406458E929AED"
-				item: "createnuclear:steel_ingot"
-				type: "item"
-			}]
-			title: "Stalowa wola"
-			x: 8.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["5385ADA62A2AF996"]
-			id: "72844092524F389D"
-			rewards: [{
-				id: "6476B614F88E97F1"
-				item: {
-					Count: 1
-					id: "minecraft:potion"
-					tag: {
-						Potion: "createnuclear:potion_of_radiation_1"
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "0B6B1222BE19788E"
-				item: "createnuclear:lead_ingot"
-				type: "item"
-			}]
-			title: "Obrona przed radiacją"
-			x: 5.0d
-			y: 2.0d
-		}
-		{
-			dependencies: [
-				"72844092524F389D"
-				"5385ADA62A2AF996"
-			]
-			id: "32CF53D018C72319"
-			rewards: [
-				{
-					id: "507A6A735FDD4A50"
-					item: {
-						Count: 1
-						id: "createnuclear:orange_anti_radiation_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "047028EFE4102855"
-					item: {
-						Count: 1
-						id: "createnuclear:orange_anti_radiation_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "7B8F2F5B9E1B2741"
-					item: {
-						Count: 1
-						id: "createnuclear:orange_anti_radiation_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "5C29D9AE0C329FE9"
-				item: {
-					Count: 1
-					id: "createnuclear:anti_radiation_boots"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			title: "Pełny strój"
-			x: 6.5d
-			y: 2.5d
-		}
-		{
-			dependencies: ["5385ADA62A2AF996"]
-			id: "57AB861F61B18158"
-			rewards: [{
-				count: 4
-				id: "12A7EE05D18032FF"
-				item: "immersive_paintings:graffiti"
-				type: "item"
-			}]
-			tasks: [{
-				id: "43AC10F6CF963C14"
-				item: "createnuclear:graphene"
-				type: "item"
-			}]
-			title: "Grafit bez ti"
-			x: 8.0d
-			y: -1.0d
-		}
-		{
-			dependencies: [
-				"4F1CB658E65FD497"
-				"57AB861F61B18158"
-			]
-			id: "3FFB4456BE099339"
-			rewards: [{
-				id: "7490A5FE7E900C6A"
-				item: "minecraft:writable_book"
-				type: "item"
-			}]
-			tasks: [{
-				id: "1F0E8F07542FB79A"
-				item: "createnuclear:graphite_rod"
-				type: "item"
-			}]
-			title: "Duży ołówek"
-			x: 8.5d
-			y: 0.5d
-		}
-		{
-			dependencies: ["5385ADA62A2AF996"]
-			id: "05F008BF2CDC3F3E"
-			rewards: [{
-				count: 16
-				id: "7B8A476FBECC2298"
-				item: "minecraft:lime_dye"
-				type: "item"
-			}]
-			tasks: [{
-				id: "5E4B20E8B6EC5EA3"
-				item: "createnuclear:uranium_powder"
-				type: "item"
-			}]
-			title: "Uran w proszku"
-			x: 5.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["05F008BF2CDC3F3E"]
-			id: "4FD7A2258FD4FFA7"
-			rewards: [{
-				id: "170D0FCA8F6243F4"
-				item: "minecraft:pufferfish_bucket"
-				type: "item"
-			}]
-			tasks: [{
-				id: "6CD120805323B998"
-				item: "createnuclear:uranium_bucket"
-				type: "item"
-			}]
-			title: "Uran w wiadrze"
-			x: 5.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["4FD7A2258FD4FFA7"]
-			id: "7C4F420516A79299"
-			rewards: [{
-				count: 16
-				id: "0B7D19EEEEF4E592"
-				item: "create:dough"
-				type: "item"
-			}]
-			tasks: [{
-				id: "7B401B5834A4DB66"
-				item: "createnuclear:yellowcake"
-				type: "item"
-			}]
-			title: "Smacznego"
-			x: 4.5d
-			y: -4.0d
-		}
-		{
-			dependencies: ["7C4F420516A79299"]
-			id: "0460D56FB4DD1DF9"
-			rewards: [{
-				count: 64
-				id: "410F81E74AB1877B"
-				item: "minecraft:yellow_concrete"
-				type: "item"
-			}]
-			tasks: [{
-				id: "6523B4D5257140C0"
-				item: "createnuclear:enriched_yellowcake"
-				type: "item"
-			}]
-			title: "Smaczniejszego"
-			x: 5.0d
-			y: -5.5d
-		}
-		{
-			dependencies: ["0460D56FB4DD1DF9"]
-			id: "000E51BF77C3B829"
-			rewards: [{
-				count: 4
-				id: "4DD1938353FB367E"
-				item: "createnuclear:graphite_rod"
-				type: "item"
-			}]
-			tasks: [{
-				id: "3656A5D64785F754"
-				item: "createnuclear:uranium_rod"
-				type: "item"
-			}]
-			title: "Kijowy ten uran"
-			x: 5.0d
-			y: -7.0d
-		}
-		{
-			dependencies: ["5385ADA62A2AF996"]
-			id: "68A5A0FC5A5B575D"
-			rewards: [{
-				count: 16
-				id: "2F3147E8A8D24B00"
-				item: "create:andesite_casing"
-				type: "item"
-			}]
-			tasks: [{
-				id: "3F3A91A01BD4E7E2"
-				item: "createnuclear:reactor_casing"
-				type: "item"
-			}]
-			x: 6.5d
-			y: -4.0d
-		}
-		{
-			dependencies: ["68A5A0FC5A5B575D"]
-			id: "4AD2CA35C17D7403"
-			rewards: [{
-				id: "009C79290F69E85A"
-				item: "create:schematic_and_quill"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "1AE9E9AE52765136"
-					item: "createnuclear:reactor_controller"
-					type: "item"
-				}
-				{
-					id: "3964373BFCF85BBF"
-					item: "createnuclear:reactor_blueprint_item"
-					type: "item"
-				}
-			]
-			title: "Plan awaryjny"
-			x: 8.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["68A5A0FC5A5B575D"]
-			id: "1047AC878876E68C"
-			rewards: [{
-				count: 8
-				id: "7030CE4327B92BA1"
-				item: "create:brass_door"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "513AE8A9E5147F10"
-					item: "createnuclear:reactor_input"
-					type: "item"
-				}
-				{
-					id: "2E38D6BBD547958C"
-					item: "createnuclear:reactor_output"
-					type: "item"
-				}
-			]
-			title: "Wyjdę i wejdę"
-			x: 8.5d
-			y: -4.0d
-		}
-		{
-			dependencies: ["68A5A0FC5A5B575D"]
-			id: "353D4FBD4727CBD8"
-			rewards: [{
-				count: 32
-				id: "4F24F1C03506409C"
-				item: "minecraft:blue_ice"
-				type: "item"
-			}]
-			tasks: [{
-				id: "26E847FFA8894688"
-				item: "createnuclear:reactor_cooler"
-				type: "item"
-			}]
-			title: "Chłodno"
-			x: 8.0d
-			y: -5.5d
-		}
-		{
-			dependencies: ["68A5A0FC5A5B575D"]
-			id: "045B1AE2270DBB37"
-			rewards: [{
-				id: "42DCB697196416D5"
-				item: "artifacts:crystal_heart"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "1799C264D34A6D99"
-					item: "createnuclear:reactor_core"
-					type: "item"
-				}
-				{
-					id: "340B97A45FD9C750"
-					item: "createnuclear:reactor_frame"
-					type: "item"
-				}
-			]
-			title: "Od zewnątrz i od środka"
-			x: 6.5d
-			y: -6.0d
-		}
-		{
-			dependencies: ["730C8098116C22E3"]
 			id: "2F4C8D813DBD17B8"
 			rewards: [{
 				id: "6281A5EE446A89AD"
@@ -1398,6 +1041,322 @@
 			title: "4K Ultra HD"
 			x: 4.0d
 			y: -17.5d
+		}
+		{
+			dependencies: ["730C8098116C22E3"]
+			id: "0C7B4842392C6F72"
+			rewards: [{
+				count: 8
+				id: "7C565E733C1A29A9"
+				item: "modern_industrialization:copper_cable"
+				type: "item"
+			}]
+			tasks: [{
+				id: "46EE32850F2CC43D"
+				item: "create_new_age:electrical_connector"
+				type: "item"
+			}]
+			title: "Pod prąd"
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0C7B4842392C6F72"]
+			id: "07A04AA1AB21EF89"
+			rewards: [{
+				id: "6545AF807160A2C2"
+				item: "powah:steel_energized"
+				type: "item"
+			}]
+			tasks: [{
+				id: "18EF14491C5CFC67"
+				item: "create_new_age:energiser_t1"
+				type: "item"
+			}]
+			title: "Podwyższanie napięcia"
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0C7B4842392C6F72"]
+			id: "4390C2FBEE3235BE"
+			rewards: [{
+				count: 4
+				id: "46BA92CC53C58D44"
+				item: {
+					Count: 1
+					id: "vinery:magnetic_wine"
+					tag: {
+						EffectAmplifier: 0
+						EffectDuration: 1800
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "74A60E432D3CA363"
+				item: "create_new_age:magnetite_block"
+				type: "item"
+			}]
+			title: "Magnetyt"
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4390C2FBEE3235BE"]
+			id: "5A9504677A06CA76"
+			rewards: [{
+				id: "7A32D7537BBAF9FE"
+				item: "modern_industrialization:motor"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2D402E86647D5EB5"
+				item: "create_new_age:basic_motor"
+				type: "item"
+			}]
+			title: "Napęd"
+			x: 6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4390C2FBEE3235BE"]
+			id: "1E26A3D4E99A7248"
+			rewards: [{
+				count: 64
+				id: "78F23F133C9DAA0A"
+				item: "minecraft:cut_copper"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "524A2AC88654D78E"
+					item: "create_new_age:carbon_brushes"
+					type: "item"
+				}
+				{
+					id: "4E9B7C4DE3FE6ECD"
+					item: "create_new_age:generator_coil"
+					type: "item"
+				}
+			]
+			title: "Generator"
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0C7B4842392C6F72"]
+			id: "584724C74C7E2E75"
+			rewards: [{
+				count: 8
+				id: "7D55D3DF878BF825"
+				item: "create:fluid_pipe"
+				type: "item"
+			}]
+			tasks: [{
+				id: "50124414B29FD81F"
+				item: "create_new_age:heat_pipe"
+				type: "item"
+			}]
+			title: "Transport ciepła"
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["584724C74C7E2E75"]
+			id: "640EE959B1EDE33F"
+			rewards: [{
+				id: "24C7103C3ED6D989"
+				item: "artifacts:pickaxe_heater"
+				type: "item"
+			}]
+			tasks: [{
+				id: "280E51E6FE91F97C"
+				item: "create_new_age:heat_pump"
+				type: "item"
+			}]
+			title: "Pompa ciepła"
+			x: 10.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["584724C74C7E2E75"]
+			id: "76C7E7D384497AD5"
+			rewards: [{
+				count: 8
+				id: "5B6D2F9BE96B8E7B"
+				item: "immersive_aircraft:boiler"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C09C30F7789EAD3"
+				item: "create_new_age:heater"
+				type: "item"
+			}]
+			title: "Podgrzewacz bojlera"
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["584724C74C7E2E75"]
+			id: "6ED439D9B194A0DB"
+			rewards: [{
+				id: "3CCA90B32E38C805"
+				item: "create:steam_engine"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3CFCC7337604F0B6"
+				item: "create_new_age:stirling_engine"
+				type: "item"
+			}]
+			title: "Silnik"
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["584724C74C7E2E75"]
+			id: "7A43C250899EB73B"
+			rewards: [{
+				id: "63729284C014451A"
+				item: "powah:solar_panel_starter"
+				type: "item"
+			}]
+			tasks: [{
+				id: "16CF0E0C1450D3E7"
+				item: "create_new_age:basic_solar_heating_plate"
+				type: "item"
+			}]
+			title: "Prąd ze słońca"
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0C7B4842392C6F72"]
+			id: "5EC3CCD52FD70096"
+			rewards: [{
+				count: 8
+				id: "10C62139894D9A06"
+				item: "create_new_age:thorium"
+				type: "item"
+			}]
+			tasks: [{
+				id: "71D57218110B8FCF"
+				item: "create_new_age:reactor_casing"
+				type: "item"
+			}]
+			title: "Rama reaktora"
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5EC3CCD52FD70096"]
+			id: "0131AED7E16A48F1"
+			rewards: [{
+				count: 32
+				id: "23CEB4786DBB484C"
+				item: "create:crushed_raw_uranium"
+				type: "item"
+			}]
+			tasks: [{
+				id: "53BC2964AF519AB5"
+				item: "create_new_age:reactor_rod"
+				type: "item"
+			}]
+			title: "Paliwo reaktora"
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5EC3CCD52FD70096"]
+			id: "54461BD588682CE3"
+			rewards: [{
+				count: 8
+				id: "154D703F624AEE6D"
+				item: "create_new_age:reactor_glass"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C76BA12F69C0E31"
+				item: "create_new_age:reactor_fuel_acceptor"
+				type: "item"
+			}]
+			title: "Wejście na paliwo"
+			x: 6.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"5EC3CCD52FD70096"
+				"584724C74C7E2E75"
+			]
+			id: "545C4C2015EB8E4E"
+			rewards: [{
+				id: "1F9CEEB3CAFD9D81"
+				item: "biomesoplenty:thermal_calcite_vent"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4AC556043120FB95"
+				item: "create_new_age:reactor_heat_vent"
+				type: "item"
+			}]
+			title: "Wentylacja reaktora"
+			x: 8.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0C7B4842392C6F72"]
+			id: "1D918D8FA45EA848"
+			rewards: [{
+				count: 16
+				id: "066B354BFEC8EF63"
+				item: "minecraft:raw_copper"
+				type: "item"
+			}]
+			tasks: [{
+				id: "311D4D47FB973355"
+				item: "create_new_age:copper_wire"
+				type: "item"
+			}]
+			title: "Na kablu"
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5EC3CCD52FD70096"]
+			id: "13BAC5A5F59DA9C4"
+			rewards: [{
+				count: 64
+				id: "2FC8214E76033E76"
+				item: "minecraft:bricks"
+				type: "item"
+			}]
+			tasks: [{
+				id: "54D8440D60292C9E"
+				item: "create_new_age:reactor_glass"
+				type: "item"
+			}]
+			title: "Szklany reaktor"
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4390C2FBEE3235BE"]
+			id: "4BB9FA3D58E397B6"
+			rewards: [{
+				id: "535BFA6210EB27DF"
+				item: "create_new_age:layered_magnet"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5CEF491E659C434F"
+				item: "create_new_age:redstone_magnet"
+				type: "item"
+			}]
+			title: "Wzmocniony magnes"
+			x: 5.0d
+			y: -3.0d
 		}
 	]
 	subtitle: ["Wprowadzenie do moda Create"]
