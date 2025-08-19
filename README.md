@@ -48,6 +48,10 @@ A modpack for the 7th edition of GhostLand SMP
 
 ## Changelogs:
 
+### 7b39
+- Made CE double-sided.
+- Removed `servers.dat_old`
+
 ### 7b38
 - RIP Origins: Sizes 🫡 *you were very fun...*
 - Updated: Tectonic, Skinsrestorer

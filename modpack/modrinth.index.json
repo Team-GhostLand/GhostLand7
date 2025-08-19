@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "7b38",
+  "versionId": "7b39",
   "name": "GhostLand 7 Beta",
   "summary": "Paczka na siódmą edycję GhostLanda - wersja beta",
   "files": [
@@ -634,6 +634,21 @@
         "https://cdn.modrinth.com/data/BpwWFOVM/versions/E9PUxeM9/Bountiful-6.0.4%2B1.20.1-fabric.jar"
       ],
       "fileSize": 503384
+    },
+    {
+      "path": "mods/ConfigurableEverything-1.2-mc1.20.1.jar",
+      "hashes": {
+        "sha1": "48c9dc6b296a6caa86e316f006d5c4376cd8e9da",
+        "sha512": "af32190cc422329e0ac98f53fe4ac6d70df765d0354d691aeee577b53eb720ab272163fc5d3de1e4c109b5b77dc2cfae333f8af8d46b0a4f4bfb12c1480a9960"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/2OtUT3F2/versions/b2VzCVta/ConfigurableEverything-1.2-mc1.20.1.jar"
+      ],
+      "fileSize": 2350438
     },
     {
       "path": "mods/Corgilib-Fabric-1.20.1-4.0.3.4.jar",
@@ -2899,21 +2914,6 @@
         "https://cdn.modrinth.com/data/fALzjamp/versions/NHWYq9at/Chunky-1.3.146.jar"
       ],
       "fileSize": 344004
-    },
-    {
-      "path": "mods/GR_CLX_ConfigurableEverything-1.2-mc1.20.1.jar",
-      "hashes": {
-        "sha1": "48c9dc6b296a6caa86e316f006d5c4376cd8e9da",
-        "sha512": "af32190cc422329e0ac98f53fe4ac6d70df765d0354d691aeee577b53eb720ab272163fc5d3de1e4c109b5b77dc2cfae333f8af8d46b0a4f4bfb12c1480a9960"
-      },
-      "env": {
-        "client": "unsupported",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/2OtUT3F2/versions/b2VzCVta/ConfigurableEverything-1.2-mc1.20.1.jar"
-      ],
-      "fileSize": 2350438
     },
     {
       "path": "mods/GR_CLX_GlobalHorns-1.0.jar",
