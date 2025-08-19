@@ -48,6 +48,9 @@ A modpack for the 7th edition of GhostLand SMP
 
 ## Changelogs:
 
+### 7b37
+- In Immersive Weathering set leaf pile reach and max height to 0 (for real this time)
+
 ### 7b36
 - Removed Create: Nuclear
 - In Immersive Weathering set leaf pile reach and max height to 0
