@@ -49,6 +49,9 @@ A modpack for the 7th edition of GhostLand SMP
 ## Changelogs:
 
 ### 7b39
+- Fuck you, CE. You introduced more instability to GL than both GregTechs combined.
+
+### 7b39
 - Made CE double-sided.
 - Removed `servers.dat_old`
 
