@@ -48,6 +48,14 @@ A modpack for the 7th edition of GhostLand SMP
 
 ## Changelogs:
 
+### 7b38
+- RIP Origins: Sizes 🫡 *you were very fun...*
+- Updated: Tectonic, Skinsrestorer
+- Added: furnaces, Factory API, LBG, ConfEvery
+- *Tried* to get ConfEvery to fix Nuclear's ores into Andesite/Veridium (idk if this works; didn't on SP)
+- Cleared EMI History
+- Enabled Async again, now that the pregen is done
+
 ### 7b37
 - In Immersive Weathering set leaf pile reach and max height to 0 (for real this time)
 

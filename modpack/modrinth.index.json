@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "7b37",
+  "versionId": "7b38",
   "name": "GhostLand 7 Beta",
   "summary": "Paczka na siódmą edycję GhostLanda - wersja beta",
   "files": [
@@ -501,21 +501,6 @@
       "fileSize": 23163
     },
     {
-      "path": "datapacks/GR_CLO_scaleorigins.zip",
-      "hashes": {
-        "sha1": "ca8bea45ecf9739f9db8ee633de993e37a778ade",
-        "sha512": "93dd114cc42ed5c4a9dcdd87ed12f0325ab41b5b75b518e9aebb09c3625c61e1d5d3528f776f3bdd53f7012c229459b9a07ea457877ddc94cfe4ea102b50842f"
-      },
-      "env": {
-        "client": "optional",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/9JpuntRB/versions/BKVsSosd/scaleorigins.zip"
-      ],
-      "fileSize": 10689
-    },
-    {
       "path": "mods/Annotated-DI-Fabric-4.0.8+1.20.4.jar",
       "hashes": {
         "sha1": "6229bf60e0f00fc0b638458fe74e1d1d512c2710",
@@ -574,6 +559,21 @@
         "https://cdn.modrinth.com/data/KJhXPbHQ/versions/gatP97QZ/BetterCompatibilityChecker-fabric-4.0.1%2Bmc1.20.1.jar"
       ],
       "fileSize": 26039
+    },
+    {
+      "path": "mods/BetterFurnacesReforged-1.20.1-1.1.2518.1-fabric.jar",
+      "hashes": {
+        "sha1": "d73c3468da393add111643ecb67459eff3613383",
+        "sha512": "cc4344307a1881f40195d58f0f17c9486b68ec9b868b9815a0c2cb75a93543f55383db44d6b4609b9c3ed33b65e6bb697984e871ae17b670b7eac989029029bc"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/ZXOYCX2A/versions/erLAvSS1/BetterFurnacesReforged-1.20.1-1.1.2518.1-fabric.jar"
+      ],
+      "fileSize": 624668
     },
     {
       "path": "mods/BetterGrassify-1.4.4+fabric.1.20.1.jar",
@@ -769,6 +769,21 @@
         "https://cdn.modrinth.com/data/5XH5uKvv/versions/N1flIxoc/ExtraBounties-universal.jar"
       ],
       "fileSize": 273462
+    },
+    {
+      "path": "mods/FactoryAPI-1.20.1-2.2.6-fabric.jar",
+      "hashes": {
+        "sha1": "1ad3d5569fe9a436d60bf07fb0fae561e97730db",
+        "sha512": "fd33cc119951bce798578f3f5fbefd8dfc0a478cb4d72bb76ea63651e89c3e49dbdcabd31ac958e30b6f0093bd0d1a7176d96726fe08197fa36a1b11fac77353"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/nkTZHOLD/versions/13Uw3GnI/FactoryAPI-1.20.1-2.2.6-fabric.jar"
+      ],
+      "fileSize": 563583
     },
     {
       "path": "mods/FarmersDelight-1.20.1-2.4.0+refabricated.jar",
@@ -1806,6 +1821,21 @@
       "fileSize": 29869
     },
     {
+      "path": "mods/GR_CLO_LeavesBeGone-v8.0.0-1.20.1-Fabric.jar",
+      "hashes": {
+        "sha1": "ba9bef859e585a25818c46113d3f33a42f0048a8",
+        "sha512": "0299a3b639b4fa27f590e3a9f1ebb2149b0106779b56bf7e1ee369c7a5283646a965bdfd6e7ad9266cba607e2fa750379e92ab88f0410bdb5f1c3a226693b826"
+      },
+      "env": {
+        "client": "optional",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/AVq17PqV/versions/I6xyij66/LeavesBeGone-v8.0.0-1.20.1-Fabric.jar"
+      ],
+      "fileSize": 46694
+    },
+    {
       "path": "mods/GR_CLO_MRU-1.0.4+1.20.1+fabric.jar",
       "hashes": {
         "sha1": "fe62ff4ff3bc390f0e841bbd868ce219c5caca1e",
@@ -2691,19 +2721,19 @@
       "fileSize": 913732
     },
     {
-      "path": "mods/GR_CLO_tectonic-3.0.8-fabric-1.20.1.jar",
+      "path": "mods/GR_CLO_tectonic-3.0.10-fabric-1.20.1.jar",
       "hashes": {
-        "sha1": "d68a367819c34b0f68e2a1fdfd08a4cceae67c33",
-        "sha512": "1fcb072cb9da14e9b24a3d300432fe2d4651a0f3d1df3fa070c69bb83aabd9a1c48efbd510648a9c7008c6d9598ead3e3cedb02231b1df7dc648b940657a4aeb"
+        "sha1": "f17ba876343bdd1a350a399f082b2a74afd21e1d",
+        "sha512": "a0bc6c78e49c1059c9d8a470c2a82a4fe463d35ab7cc6eb1f20129480968c3c9f60a3d49ccdece4bd56f036caf3839d693522c89e5fea11b3d62d77e733cd21f"
       },
       "env": {
         "client": "optional",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/lWDHr9jE/versions/YRZvMfxY/tectonic-3.0.8-fabric-1.20.1.jar"
+        "https://cdn.modrinth.com/data/lWDHr9jE/versions/RQgQyfUR/tectonic-3.0.10-fabric-1.20.1.jar"
       ],
-      "fileSize": 298512
+      "fileSize": 314099
     },
     {
       "path": "mods/GR_CLO_timeoutout-1.0.3+1.19.1.jar",
@@ -2871,6 +2901,21 @@
       "fileSize": 344004
     },
     {
+      "path": "mods/GR_CLX_ConfigurableEverything-1.2-mc1.20.1.jar",
+      "hashes": {
+        "sha1": "48c9dc6b296a6caa86e316f006d5c4376cd8e9da",
+        "sha512": "af32190cc422329e0ac98f53fe4ac6d70df765d0354d691aeee577b53eb720ab272163fc5d3de1e4c109b5b77dc2cfae333f8af8d46b0a4f4bfb12c1480a9960"
+      },
+      "env": {
+        "client": "unsupported",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/2OtUT3F2/versions/b2VzCVta/ConfigurableEverything-1.2-mc1.20.1.jar"
+      ],
+      "fileSize": 2350438
+    },
+    {
       "path": "mods/GR_CLX_GlobalHorns-1.0.jar",
       "hashes": {
         "sha1": "fa0be0c303ccd5c61d4e41d496cdd930d4745140",
@@ -2991,19 +3036,19 @@
       "fileSize": 2496667
     },
     {
-      "path": "mods/GR_CLX_skinrestorer-2.4.2+1.20-fabric.jar",
+      "path": "mods/GR_CLX_skinrestorer-2.4.3+1.20-fabric.jar",
       "hashes": {
-        "sha1": "47901324e452b656de3a36082f87f40c32555857",
-        "sha512": "6b6813e3f7606b6e6f5e66f24bb2a401dfbbfd49c4554f039b5645a5463bfc468e247f6b07831c23267f95eb687becf3107d14d33a959224872de41b2187ded2"
+        "sha1": "a3c29898279c2f1eb9a9edf3a6712559618e8f22",
+        "sha512": "850ee69db48c4cc90e8f7edd4b1cf87ab195b97d09118a5654c0665fc575dabe665eb4753ad8718ddc05709a2d870e414d8bdedf88714ef02d7a1cfb973879c3"
       },
       "env": {
         "client": "unsupported",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/ghrZDhGW/versions/q06yyYO8/skinrestorer-2.4.2%2B1.20-fabric.jar"
+        "https://cdn.modrinth.com/data/ghrZDhGW/versions/vOQRWGz7/skinrestorer-2.4.3%2B1.20-fabric.jar"
       ],
-      "fileSize": 188470
+      "fileSize": 190082
     },
     {
       "path": "mods/GR_SVX_AmbientSounds_FABRIC_v6.1.11_mc1.20.1.jar",
