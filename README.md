@@ -48,7 +48,10 @@ A modpack for the 7th edition of GhostLand SMP
 
 ## Changelogs:
 
-### 7b39
+### 7b41
+- Made `bclib` not take up 2h to start the server.
+
+### 7b40
 - Fuck you, CE. You introduced more instability to GL than both GregTechs combined.
 
 ### 7b39
