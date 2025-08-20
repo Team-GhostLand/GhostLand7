@@ -48,6 +48,9 @@ A modpack for the 7th edition of GhostLand SMP
 
 ## Changelogs:
 
+### 7.0.1
+- name fixed
+
 ### 7.0.0
 *will write later... (not enough time)*
 
