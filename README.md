@@ -48,6 +48,9 @@ A modpack for the 7th edition of GhostLand SMP
 
 ## Changelogs:
 
+### 7b43
+*will write later...*
+
 ### 7b42
 - Disabled Async for world pregen (yes, we broke it; beyond repair; regen needed)
 
