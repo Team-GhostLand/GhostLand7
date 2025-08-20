@@ -48,6 +48,9 @@ A modpack for the 7th edition of GhostLand SMP
 
 ## Changelogs:
 
+### 7.0.3
+- disabled C2ME on the server (no prefix changes; for testing purpouses)
+
 ### 7.0.2
 - bumped VC range
 - made it required (not bump to 7.1.0 becasue it's technically a non-breaking change, as it was alreadly in the pack)

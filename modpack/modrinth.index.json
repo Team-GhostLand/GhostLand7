@@ -1,8 +1,8 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "7.0.2",
-  "name": "GhostLand 7.0.2",
+  "versionId": "7.0.3",
+  "name": "GhostLand 7.0.3",
   "summary": "Paczka na siódmą edycję GhostLanda - wersja beta",
   "files": [
     {
@@ -4333,7 +4333,7 @@
       },
       "env": {
         "client": "required",
-        "server": "required"
+        "server": "unsupported"
       },
       "downloads": [
         "https://cdn.modrinth.com/data/VSNURh3q/versions/s4WOiNtz/c2me-fabric-mc1.20.1-0.2.0%2Balpha.11.16.jar"
