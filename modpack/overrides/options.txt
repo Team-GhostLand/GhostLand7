@@ -99,7 +99,7 @@ key_key.chat:key.keyboard.t
 key_key.playerlist:key.keyboard.tab
 key_key.pickItem:key.mouse.middle
 key_key.command:key.keyboard.slash
-key_key.socialInteractions:key.keyboard.p
+key_key.socialInteractions:key.keyboard.unknown
 key_key.screenshot:key.keyboard.f2
 key_key.togglePerspective:key.keyboard.f5
 key_key.smoothCamera:key.keyboard.unknown
@@ -108,7 +108,7 @@ key_key.spectatorOutlines:key.keyboard.unknown
 key_key.swapOffhand:key.keyboard.f
 key_key.saveToolbarActivator:key.keyboard.unknown
 key_key.loadToolbarActivator:key.keyboard.unknown
-key_key.advancements:key.keyboard.l
+key_key.advancements:key.keyboard.unknown
 key_key.hotbar.1:key.keyboard.1
 key_key.hotbar.2:key.keyboard.2
 key_key.hotbar.3:key.keyboard.3
@@ -121,7 +121,7 @@ key_key.hotbar.9:key.keyboard.9
 key_key.dynamic_fps.toggle_forced:key.keyboard.unknown
 key_key.dynamic_fps.toggle_disabled:key.keyboard.unknown
 key_key.estrogen.dash:key.keyboard.x
-key_key.ftbquests.quests:key.keyboard.j
+key_key.ftbquests.quests:key.keyboard.unknown
 key_key.ftbteams.open_gui:key.keyboard.unknown
 key_key.ftbultimine:key.keyboard.0
 key_accessories.key.open_accessories_screen:key.keyboard.unknown
@@ -137,7 +137,7 @@ key_key.aether.open_accessories.desc:key.keyboard.unknown
 key_key.aether.gravitite_jump_ability.desc:key.keyboard.unknown
 key_key.aether.invisibility_toggle.desc:key.keyboard.unknown
 key_key.antighost.reveal:key.keyboard.unknown
-key_key.createrailwaysnavigator.route_overlay_options:key.keyboard.r
+key_key.createrailwaysnavigator.route_overlay_options:key.keyboard.unknown
 key_artifacts.key.helium_flamingo.activate:key.keyboard.unknown
 key_artifacts.key.night_vision_goggles.toggle:key.keyboard.unknown
 key_artifacts.key.universal_attractor.toggle:key.keyboard.unknown
@@ -192,15 +192,15 @@ key_key.jade.show_details_alternative:key.keyboard.unknown
 key_Open Pizza Menu:key.keyboard.k
 key_key.modern_industrialization.activate:key.keyboard.unknown
 key_key.modmenu.open_menu:key.keyboard.unknown
-key_supplementaries.keybind.quiver:key.keyboard.v
+key_supplementaries.keybind.quiver:key.keyboard.unknown
 key_key.musicnotification.open_screen:key.keyboard.unknown
 key_key.observable.profile:key.keyboard.unknown
 key_key.origins.primary_active:key.keyboard.g
 key_key.origins.secondary_active:key.keyboard.h
-key_key.origins.view_origin:key.keyboard.o
-key_key.presencefootsteps.settings:key.keyboard.f10
+key_key.origins.view_origin:key.keyboard.unknown
+key_key.presencefootsteps.settings:key.keyboard.unknown
 key_key.presencefootsteps.toggle:key.keyboard.unknown
-key_key.puffish_skills.open:key.keyboard.right.control
+key_key.puffish_skills.open:key.keyboard.unknown
 key_railways.keyinfo.bogey_menu:key.keyboard.left.alt
 key_railways.keyinfo.cycle_menu:key.keyboard.left.alt
 key_options.narrator:key.keyboard.unknown
@@ -234,17 +234,17 @@ key_key.techreborn.suitNightVision:key.keyboard.unknown
 key_key.techreborn.quantumSuitSprint:key.keyboard.unknown
 key_key.the_bumblezone.beehemoth_up:key.keyboard.unknown
 key_key.the_bumblezone.beehemoth_down:key.keyboard.unknown
-key_key.travelersbackpack.inventory:key.keyboard.b
+key_key.travelersbackpack.inventory:key.keyboard.unknown
 key_key.travelersbackpack.sort:key.keyboard.unknown
 key_key.travelersbackpack.ability:key.keyboard.unknown
-key_key.travelersbackpack.cycle_tool:key.keyboard.z
-key_key.travelersbackpack.toggle_tank:key.keyboard.semicolon
+key_key.travelersbackpack.cycle_tool:key.keyboard.unknown
+key_key.travelersbackpack.toggle_tank:key.keyboard.unknown
 key_key.push_to_talk:key.keyboard.unknown
 key_key.whisper:key.keyboard.unknown
-key_key.mute_microphone:key.keyboard.grave.accent
+key_key.mute_microphone:key.keyboard.unknown
 key_key.disable_voice_chat:key.keyboard.unknown
 key_key.hide_icons:key.keyboard.unknown
-key_key.voice_chat:key.keyboard.n
+key_key.voice_chat:key.keyboard.unknown
 key_key.voice_chat_settings:key.keyboard.unknown
 key_key.voice_chat_group:key.keyboard.unknown
 key_key.voice_chat_toggle_recording:key.keyboard.unknown
@@ -256,7 +256,7 @@ key_gui.xaero_new_waypoint:key.keyboard.unknown
 key_gui.xaero_waypoints_key:key.keyboard.unknown
 key_gui.xaero_enlarge_map:key.keyboard.unknown
 key_gui.xaero_toggle_map:key.keyboard.unknown
-key_gui.xaero_toggle_waypoints:key.keyboard.unknown
+key_gui.xaero_toggle_waypoints:key.keyboard.p
 key_gui.xaero_toggle_map_waypoints:key.keyboard.unknown
 key_gui.xaero_toggle_slime:key.keyboard.unknown
 key_gui.xaero_toggle_grid:key.keyboard.unknown
@@ -271,7 +271,7 @@ key_gui.xaero_alternative_list_players:key.keyboard.unknown
 key_gui.xaero_toggle_tracked_players_on_map:key.keyboard.unknown
 key_gui.xaero_toggle_tracked_players_in_world:key.keyboard.unknown
 key_gui.xaero_toggle_pac_chunk_claims:key.keyboard.unknown
-key_gui.xaero_open_map:key.keyboard.m
+key_gui.xaero_open_map:key.keyboard.unknown
 key_gui.xaero_open_settings:key.keyboard.unknown
 key_gui.xaero_map_zoom_in:key.keyboard.unknown
 key_gui.xaero_map_zoom_out:key.keyboard.unknown

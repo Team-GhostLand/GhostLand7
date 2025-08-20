@@ -4,7 +4,7 @@ default-modpack "GhostLand7"
 
 modpacks {
     modpack "GhostLand7" path="./modpack" preferred-name="GhostLand 7" {
-        version-prefix "7b"
+        version-prefix "7."
         description "Paczka na siódmą edycję GhostLanda - wersja beta"
         ingame-name "GhostLand 7 Beta"
         /-files {

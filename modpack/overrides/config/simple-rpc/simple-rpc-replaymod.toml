@@ -19,7 +19,7 @@
 		#The second line of text under the app name
 		state = "{{player.name}} is browsing the library"
 		#The Asset ID or URLs of images to randomly use for the large image
-		largeImageKey = ["mclogonew"]
+		largeImageKey = ["gl-hd"]
 		#The text to show when someone hovers over the largeImage
 		largeImageText = "It's Minecraft {{game.version}}, but modded"
 		#The Asset ID or URLs of images to randomly use for the small image
@@ -45,7 +45,7 @@
 		#The second line of text under the app name
 		state = "{{player.name}} is reviewing footage"
 		#The Asset ID or URLs of images to randomly use for the large image
-		largeImageKey = ["mclogonew"]
+		largeImageKey = ["gl-hd"]
 		#The text to show when someone hovers over the largeImage
 		largeImageText = "It's Minecraft {{game.version}}, but modded"
 		#The Asset ID or URLs of images to randomly use for the small image
@@ -71,7 +71,7 @@
 		#The second line of text under the app name
 		state = "Rendering {{replaymod.frames.current}}/{{replaymod.frames.total}} frames"
 		#The Asset ID or URLs of images to randomly use for the large image
-		largeImageKey = ["mclogonew"]
+		largeImageKey = ["gl-hd"]
 		#The text to show when someone hovers over the largeImage
 		largeImageText = "It's Minecraft {{game.version}}, but modded"
 		#The Asset ID or URLs of images to randomly use for the small image

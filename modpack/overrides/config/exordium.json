@@ -38,7 +38,7 @@
     "forceUpdates": false
   },
   "tablistSettings": {
-    "enabled": true,
+    "enabled": false,
     "maxFps": 20,
     "forceBlend": false,
     "forceUpdates": false

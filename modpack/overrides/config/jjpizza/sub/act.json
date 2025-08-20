@@ -1,0 +1,26 @@
+[
+  {
+    "circleSlice": {
+      "startAngle": {
+        "radianAngle": 0.0
+      },
+      "endAngle": {
+        "radianAngle": 3.141593
+      }
+    },
+    "name": "Dostępne wkrótce...",
+    "color": -9376941,
+    "onLeftClick": {
+      "RunnableType": "io.github.JumperOnJava.jjpizza.pizzamenu.slices.runnable.actionproviders.NullActionProvider",
+      "Object": {}
+    },
+    "onRightClick": {
+      "RunnableType": "io.github.JumperOnJava.jjpizza.pizzamenu.slices.runnable.actionproviders.NullActionProvider",
+      "Object": {}
+    },
+    "icon": {
+      "field_13353": "minecraft",
+      "field_13355": "textures/item/barrier.png"
+    }
+  }
+]

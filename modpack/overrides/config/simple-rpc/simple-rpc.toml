@@ -2,7 +2,7 @@
 #General Config Section. See https://srpc.fdd-docs.com/introduction/
 [general]
 	#The Application ID of the Discord App to use
-	applicationID = "762726289341677668"
+	applicationID = "1003727117940445195"
 	#Enable/Disable the mod
 	enabled = true
 	#Enable/Disable debugging mode. WARNING: MAY CAUSE LOG SPAM!
@@ -30,11 +30,11 @@
 		#The second line of text under the app name
 		state = "Game Starting..."
 		#The Asset ID or URLs of images to randomly use for the large image
-		largeImageKey = ["mclogonew"]
+		largeImageKey = ["gl-hd"]
 		#The text to show when someone hovers over the largeImage
 		largeImageText = "It's Minecraft {{game.version}}, but modded"
 		#The Asset ID or URLs of images to randomly use for the small image
-		smallImageKey = ["mclogo"]
+		smallImageKey = []
 		#The text to show when someone hovers over the smallImage
 		smallImageText = "{{game.mods}} mods installed"
 		#The Twitch or Youtube URL to use when type is set to STREAMING
@@ -56,7 +56,7 @@
 		#The second line of text under the app name
 		state = "Chilling in the menu"
 		#The Asset ID or URLs of images to randomly use for the large image
-		largeImageKey = ["mclogonew"]
+		largeImageKey = ["gl-hd"]
 		#The text to show when someone hovers over the largeImage
 		largeImageText = "It's Minecraft {{game.version}}, but modded"
 		#The Asset ID or URLs of images to randomly use for the small image
@@ -82,7 +82,7 @@
 		#The second line of text under the app name
 		state = "Searching for friends"
 		#The Asset ID or URLs of images to randomly use for the large image
-		largeImageKey = ["mclogonew"]
+		largeImageKey = ["gl-hd"]
 		#The text to show when someone hovers over the largeImage
 		largeImageText = "It's Minecraft {{game.version}}, but modded"
 		#The Asset ID or URLs of images to randomly use for the small image
@@ -108,7 +108,7 @@
 		#The second line of text under the app name
 		state = "Browsing Realms"
 		#The Asset ID or URLs of images to randomly use for the large image
-		largeImageKey = ["mclogonew"]
+		largeImageKey = ["gl-hd"]
 		#The text to show when someone hovers over the largeImage
 		largeImageText = "It's Minecraft {{game.version}}, but modded"
 		#The Asset ID or URLs of images to randomly use for the small image
@@ -134,7 +134,7 @@
 		#The second line of text under the app name
 		state = "Joining Game"
 		#The Asset ID or URLs of images to randomly use for the large image
-		largeImageKey = ["mclogonew"]
+		largeImageKey = ["gl-hd"]
 		#The text to show when someone hovers over the largeImage
 		largeImageText = "It's Minecraft {{game.version}}, but modded"
 		#The Asset ID or URLs of images to randomly use for the small image
@@ -160,7 +160,7 @@
 		#The second line of text under the app name
 		state = "Playing lonely mode"
 		#The Asset ID or URLs of images to randomly use for the large image
-		largeImageKey = ["mclogonew"]
+		largeImageKey = ["gl-hd"]
 		#The text to show when someone hovers over the largeImage
 		largeImageText = "It's Minecraft {{game.version}}, but modded"
 		#The Asset ID or URLs of images to randomly use for the small image
@@ -186,7 +186,7 @@
 		#The second line of text under the app name
 		state = "Playing online"
 		#The Asset ID or URLs of images to randomly use for the large image
-		largeImageKey = ["mclogonew"]
+		largeImageKey = ["gl-hd"]
 		#The text to show when someone hovers over the largeImage
 		largeImageText = "It's Minecraft {{game.version}}, but modded"
 		#The Asset ID or URLs of images to randomly use for the small image
@@ -212,7 +212,7 @@
 		#The second line of text under the app name
 		state = "Playing on a Realm"
 		#The Asset ID or URLs of images to randomly use for the large image
-		largeImageKey = ["mclogonew"]
+		largeImageKey = ["gl-hd"]
 		#The text to show when someone hovers over the largeImage
 		largeImageText = "It's Minecraft {{game.version}}, but modded"
 		#The Asset ID or URLs of images to randomly use for the small image
@@ -238,7 +238,7 @@
 		#The second line of text under the app name
 		state = "Game Paused"
 		#The Asset ID or URLs of images to randomly use for the large image
-		largeImageKey = ["mclogonew"]
+		largeImageKey = ["gl-hd"]
 		#The text to show when someone hovers over the largeImage
 		largeImageText = "It's Minecraft {{game.version}}, but modded"
 		#The Asset ID or URLs of images to randomly use for the small image
@@ -262,11 +262,11 @@
 		#The second line of text under the app name
 		state = ""
 		#The Asset ID or URLs of images to randomly use for the large image
-		largeImageKey = ["mclogonew"]
+		largeImageKey = ["gl-hd"]
 		#The text to show when someone hovers over the largeImage
 		largeImageText = "It's Minecraft {{game.version}}, but modded"
 		#The Asset ID or URLs of images to randomly use for the small image
-		smallImageKey = ["mclogo"]
+		smallImageKey = []
 		#The text to show when someone hovers over the smallImage
 		smallImageText = "{{game.mods}} mods installed"
 		#The Twitch or Youtube URL to use when type is set to STREAMING
@@ -304,7 +304,7 @@
 			#The text to show when someone hovers over the largeImage
 			largeImageText = "In the Overworld"
 			#The Asset ID or URLs of images to randomly use for the small image
-			smallImageKey = ["mclogo"]
+			smallImageKey = []
 			#The text to show when someone hovers over the smallImage
 			smallImageText = "{{game.mods}} mods installed"
 			#The Twitch or Youtube URL to use when type is set to STREAMING
@@ -329,7 +329,7 @@
 			#The text to show when someone hovers over the largeImage
 			largeImageText = "In the Nether"
 			#The Asset ID or URLs of images to randomly use for the small image
-			smallImageKey = ["mclogo"]
+			smallImageKey = []
 			#The text to show when someone hovers over the smallImage
 			smallImageText = "{{game.mods}} mods installed"
 			#The Twitch or Youtube URL to use when type is set to STREAMING
@@ -354,7 +354,7 @@
 			#The text to show when someone hovers over the largeImage
 			largeImageText = "In the End"
 			#The Asset ID or URLs of images to randomly use for the small image
-			smallImageKey = ["mclogo"]
+			smallImageKey = []
 			#The text to show when someone hovers over the smallImage
 			smallImageText = "{{game.mods}} mods installed"
 			#The Twitch or Youtube URL to use when type is set to STREAMING
