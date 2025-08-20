@@ -6,7 +6,7 @@ modpacks {
     modpack "GhostLand7" path="./modpack" preferred-name="GhostLand 7" {
         version-prefix "7."
         description "Paczka na siódmą edycję GhostLanda"
-        ingame-name "GhostLand 7.0.1"
+        ingame-name "GhostLand 7.0.2"
         /-files {
             allow "config/*" "mods/*" "shaderpacks/*"
             expect "config/" "mods/" "shaderpacks/" "datapacks/" "resourcepacks/" "defaultconfigs/" "moddata/" "options.txt"
