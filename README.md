@@ -48,6 +48,9 @@ A modpack for the 7th edition of GhostLand SMP
 
 ## Changelogs:
 
+### 7.0.4
+- Async.
+
 ### 7.0.3
 - disabled C2ME on the server (no prefix changes; for testing purpouses)
 
