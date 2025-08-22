@@ -8,7 +8,7 @@
   "showTimeUntilDawn": true,
   "showTimeUntilDusk": true,
   "sendNotEnoughPlayersSleepingMessage": true,
-  "allowDaySleeping": false,
+  "allowDaySleeping": true,
   "sleepSpeedCurve": "LINEAR",
   "sleepSpeedMultiplier": 25.0,
   "blockEntityTickSpeedMultiplier": 5.0,

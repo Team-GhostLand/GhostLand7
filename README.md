@@ -48,6 +48,10 @@ A modpack for the 7th edition of GhostLand SMP
 
 ## Changelogs:
 
+### 7.0.6
+- Enabled daytime sleeping in SRS.
+- Allowed Moongazers to sleep, so that they can skip the day (which was just enabled).
+
 ### 7.0.5
 - Quest rebalancing
 

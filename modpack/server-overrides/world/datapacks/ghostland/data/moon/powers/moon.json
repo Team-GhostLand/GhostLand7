@@ -1,0 +1,72 @@
+{
+    "type": "origins:multiple",
+    "name": "From the moon",
+    "description": "You're skin is a little transparent. You have particles of the end rod floating around you a little. You have night vision. You can breath under water. Less mining speed in water.",
+    "repeat": {
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "particle minecraft:end_rod ~ ~1 ~ 0.5 0.5 0.5 0 1"
+                },
+                {
+                    "type": "origins:apply_effect",
+                    "effect": {
+                        "effect": "minecraft:night_vision",
+                        "duration": 409,
+                        "amplifier": 0,
+                        "show_particles": false,
+                        "show_icon": false
+                    }
+                },
+                {
+                    "type": "origins:apply_effect",
+                    "effect": {
+                        "effect": "minecraft:water_breathing",
+                        "duration": 409,
+                        "amplifier": 0,
+                        "show_particles": false,
+                        "show_icon": false
+                    }
+                }
+            ]
+        }
+    },
+    "inwater": {
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:apply_effect",
+                    "effect": {
+                        "effect": "minecraft:mining_fatigue",
+                        "duration": 409,
+                        "amplifier": 0,
+                        "show_particles": false,
+                        "show_icon": false
+                    }
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:fluid_height",
+                    "fluid": "minecraft:water",
+                    "comparison": "!=",
+                    "compare_to": 0
+                }
+            ]
+        }
+    },
+    "trans":{
+        "type": "origins:model_color",
+        "alpha": 0.7
+    }
+}
