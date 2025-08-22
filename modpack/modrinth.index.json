@@ -1,8 +1,8 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "7.0.6",
-  "name": "GhostLand 7.0.6",
+  "versionId": "7.0.7",
+  "name": "GhostLand 7.0.7",
   "summary": "Paczka na siódmą edycję GhostLanda",
   "files": [
     {
@@ -1566,19 +1566,19 @@
       "fileSize": 543084
     },
     {
-      "path": "mods/GR_CLO+SVX_rebind_narrator-fabric-1.20.1-2.0.2.jar",
+      "path": "mods/GR_CLO+SVX_rebind_narrator-1.20.1-fabric-2025.8.21.jar",
       "hashes": {
-        "sha1": "7b62e4a1ff04bd8a13dac790cf480dc56929f6a4",
-        "sha512": "888c7522a8c5e4e52e1036c7221af16796acc91303d74554ca1345a39314737b1111ac94bc99c65efcd0689bf3d4dc4492bcfa5e4c7167bd75ba4a62ed1e1712"
+        "sha1": "30d76fe9169032c7d28295946631b4364c4c9c14",
+        "sha512": "7d1d7cc59ec5685086233392755337123f8342038849b95b1482c38cc2db9040294a76b6ac8155ef5ec901745d91b01eee8d1484db8473c049bf24c2e9e96d97"
       },
       "env": {
         "client": "optional",
         "server": "unsupported"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/qw2Ls89j/versions/WGRiAAhJ/rebind_narrator-fabric-1.20.1-2.0.2.jar"
+        "https://cdn.modrinth.com/data/qw2Ls89j/versions/rlVQeCnT/rebind_narrator-1.20.1-fabric-2025.8.21.jar"
       ],
-      "fileSize": 15988
+      "fileSize": 181338
     },
     {
       "path": "mods/GR_CLO+SVX_replaymod-1.20.1-2.6.23.jar",
@@ -2196,6 +2196,21 @@
       "fileSize": 657310
     },
     {
+      "path": "mods/GR_CLO_coroutil-fabric-1.20.1-1.3.7.jar",
+      "hashes": {
+        "sha1": "0b9a1b0db34d1271fe7bcc4ec0e451c3fb25a04c",
+        "sha512": "4a03363dd9cfd517eb04bea77779c88e74f12c1dacadc726869cb9b595348d615e50041893ad72155f7ac2c359219604710d6157dec95a46fe0e598ef5642035"
+      },
+      "env": {
+        "client": "optional",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/rLLJ1OZM/versions/7tRnsYkP/coroutil-fabric-1.20.1-1.3.7.jar"
+      ],
+      "fileSize": 2392617
+    },
+    {
       "path": "mods/GR_CLO_create-deco-additions-1.3.jar",
       "hashes": {
         "sha1": "b8850600e00829a4244f4385cd82a7d4a69748ec",
@@ -2466,6 +2481,21 @@
       "fileSize": 36039
     },
     {
+      "path": "mods/GR_CLO_mobtimizations-fabric-1.20.1-1.0.0.jar",
+      "hashes": {
+        "sha1": "3fc5279c915292e7ffbfa5c89848592403ee17fe",
+        "sha512": "972ab7947d920035c03cc5c05357a405f276b5d9e291b74280f67906185f8e8475dd41dc3df6f99f83fc22c9a831627ddf720de074c78b9c024094f594979e18"
+      },
+      "env": {
+        "client": "optional",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/Kbz7UydC/versions/Q8aBGBRu/mobtimizations-fabric-1.20.1-1.0.0.jar"
+      ],
+      "fileSize": 505747
+    },
+    {
       "path": "mods/GR_CLO_mooshroomtweaks-1.20.1-3.6.jar",
       "hashes": {
         "sha1": "012f303e0d60788884850833314b1f96b747923d",
@@ -2721,19 +2751,19 @@
       "fileSize": 913732
     },
     {
-      "path": "mods/GR_CLO_tectonic-3.0.10-fabric-1.20.1.jar",
+      "path": "mods/GR_CLO_tectonic-3.0.12-fabric-1.20.1.jar",
       "hashes": {
-        "sha1": "f17ba876343bdd1a350a399f082b2a74afd21e1d",
-        "sha512": "a0bc6c78e49c1059c9d8a470c2a82a4fe463d35ab7cc6eb1f20129480968c3c9f60a3d49ccdece4bd56f036caf3839d693522c89e5fea11b3d62d77e733cd21f"
+        "sha1": "4f0353041107e030939db6f1fc268e3acb7f1757",
+        "sha512": "b1df73dd70a672c3bc984dbd6f941f18aad380f5500ef47e25315274743a20ea9a2c1240e0f0a95a092ff550c4d82ed08c9db88c0571f56f0d6a76bb955fc180"
       },
       "env": {
         "client": "optional",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/lWDHr9jE/versions/RQgQyfUR/tectonic-3.0.10-fabric-1.20.1.jar"
+        "https://cdn.modrinth.com/data/lWDHr9jE/versions/8tMoAYRz/tectonic-3.0.12-fabric-1.20.1.jar"
       ],
-      "fileSize": 314099
+      "fileSize": 316557
     },
     {
       "path": "mods/GR_CLO_timeoutout-1.0.3+1.19.1.jar",
@@ -2961,19 +2991,19 @@
       "fileSize": 2938
     },
     {
-      "path": "mods/GR_CLX_easyauth-mc1.20-3.3.5.jar",
+      "path": "mods/GR_CLX_easyauth-mc1.20-3.3.6.jar",
       "hashes": {
-        "sha1": "69edb3cba570876c188ff444124ed08ff327f0af",
-        "sha512": "35c9b6c5bc34ffd7f4b8e3ae9a6d0771b2799e8609ffef38e334a96709c37106152f5f0da60a26d513b2047586d619007a44aa4be554723cc8b26465f5b08306"
+        "sha1": "52bed76f57c3d3d2ad490bf594a236807acd1fce",
+        "sha512": "e7fbb3dce97a63d87b0658ae7114c21549e4a3f8bead89fa2cdc31724836fc386c805cdd8f9ac0608753411ee74b6f229d214fb5141576322776bb8d8fdf1c3d"
       },
       "env": {
         "client": "unsupported",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/aZj58GfX/versions/qjdqMGjC/easyauth-mc1.20-3.3.5.jar"
+        "https://cdn.modrinth.com/data/aZj58GfX/versions/Gxj49gBw/easyauth-mc1.20-3.3.6.jar"
       ],
-      "fileSize": 22720862
+      "fileSize": 22723459
     },
     {
       "path": "mods/GR_CLX_jline4mcdsrv-0.6.4.jar",
@@ -5736,6 +5766,21 @@
       "fileSize": 13469746
     },
     {
+      "path": "mods/techreborn-player-ability-lib-compat-0.0.2.1.jar",
+      "hashes": {
+        "sha1": "64aab06aafbb3a0c9bca4d72cd77f7d9dae0d542",
+        "sha512": "a78a76cc1c3d41e309efc9d913ab14c1aaa4cdfa735641fc82a0edc07d4e7206a3fbc664483b2c5ff025dfbf4e62934f05759e6a7ac76ebfce545806dc6820e9"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/tdpYbREv/versions/3w1ve47o/techreborn-player-ability-lib-compat-0.0.2.1.jar"
+      ],
+      "fileSize": 36795
+    },
+    {
       "path": "mods/the_bumblezone-7.8.0+1.20.1-fabric.jar",
       "hashes": {
         "sha1": "fccdd209e02f703249fe46f08c750fd929b9db33",
@@ -6096,6 +6141,21 @@
       "fileSize": 7766144
     },
     {
+      "path": "shaderpacks/GR_SVX_miniature-shader-2.16.1.zip",
+      "hashes": {
+        "sha1": "de9a068f38b612713e515131d4e41f05280e4830",
+        "sha512": "7e471215d4d1999db38bfd93033e02682862c36abb076bca62b1bc3f0780623a3546f8ca6711c5cd50c97138859c612fbe6f8f8e854fc092159e726ea961c098"
+      },
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/UaS8ROxa/versions/NngviH0C/miniature-shader-2.16.1.zip"
+      ],
+      "fileSize": 31977
+    },
+    {
       "path": "shaderpacks/GR_SVX_photon_v1.2a.zip",
       "hashes": {
         "sha1": "6ad7e57f22ceb5530b168d077414abc8387c9b04",
@@ -6124,21 +6184,6 @@
         "https://cdn.modrinth.com/data/kmwfVOoi/versions/ZYsfUe9S/rethinking-voxels_r0.1-beta8.zip"
       ],
       "fileSize": 8320052
-    },
-    {
-      "path": "shaderpacks/miniature-shader-2.16.1.zip",
-      "hashes": {
-        "sha1": "de9a068f38b612713e515131d4e41f05280e4830",
-        "sha512": "7e471215d4d1999db38bfd93033e02682862c36abb076bca62b1bc3f0780623a3546f8ca6711c5cd50c97138859c612fbe6f8f8e854fc092159e726ea961c098"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/UaS8ROxa/versions/NngviH0C/miniature-shader-2.16.1.zip"
-      ],
-      "fileSize": 31977
     }
   ],
   "dependencies": {

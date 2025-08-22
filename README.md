@@ -48,12 +48,19 @@ A modpack for the 7th edition of GhostLand SMP
 
 ## Changelogs:
 
+### 7.0.7
+- Updated: Rebind Narrator, Tectonic, EasyAuth
+- Properly marked Miniature Shader as server-excluded
+- Added: PAL x TR; Mobtimizations (and dep.: Corolib)
+- Yeeted Async, now that we can be pretty much sure it's the casue of our problems
+
 ### 7.0.6
 - Enabled daytime sleeping in SRS.
 - Allowed Moongazers to sleep, so that they can skip the day (which was just enabled).
 
 ### 7.0.5
 - Quest rebalancing
+- Re-enabled C2ME (testing period over; Async seems to have been the cause)
 
 ### 7.0.4
 - Async.
