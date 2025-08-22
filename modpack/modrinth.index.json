@@ -1,9 +1,9 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "7.0.4",
-  "name": "GhostLand 7.0.4",
-  "summary": "Paczka na siódmą edycję GhostLanda - wersja beta",
+  "versionId": "7.0.5",
+  "name": "GhostLand 7.0.5",
+  "summary": "Paczka na siódmą edycję GhostLanda",
   "files": [
     {
       "path": "datapacks/GR_CLO_1.21 Crafting Backport.zip",
@@ -4333,7 +4333,7 @@
       },
       "env": {
         "client": "required",
-        "server": "unsupported"
+        "server": "required"
       },
       "downloads": [
         "https://cdn.modrinth.com/data/VSNURh3q/versions/s4WOiNtz/c2me-fabric-mc1.20.1-0.2.0%2Balpha.11.16.jar"

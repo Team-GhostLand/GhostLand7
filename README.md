@@ -48,6 +48,9 @@ A modpack for the 7th edition of GhostLand SMP
 
 ## Changelogs:
 
+### 7.0.5
+- Quest rebalancing
+
 ### 7.0.4
 - Async.
 

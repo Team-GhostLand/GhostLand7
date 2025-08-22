@@ -678,9 +678,9 @@
 			dependencies: ["1CDACF3356567855"]
 			id: "5FC2DE7F5A38132E"
 			rewards: [{
-				count: 32
-				id: "557DE39DE31E9817"
-				item: "createnuclear:coal_dust"
+				count: 2
+				id: "1768DE3369D4EB52"
+				item: "geocluster:raw_platinum"
 				type: "item"
 			}]
 			tasks: [{
@@ -696,7 +696,7 @@
 			dependencies: ["5FC2DE7F5A38132E"]
 			id: "6841ED45498BB3B9"
 			rewards: [{
-				count: 32
+				count: 8
 				id: "73F5C6D0014744A5"
 				item: "techreborn:basic_machine_frame"
 				type: "item"

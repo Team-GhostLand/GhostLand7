@@ -247,32 +247,121 @@
 		}
 		{
 			dependencies: ["1F7E969761923081"]
-			id: "70AF1F3FF41A3454"
+			id: "13B9E05B55A49BD0"
 			rewards: [{
-				id: "6600B8FDF3CBC1D5"
+				id: "6596A05B9DEFC2C2"
 				item: "travelersbackpack:crafting_upgrade"
 				type: "item"
 			}]
 			tasks: [{
-				id: "233566E25EC2314F"
-				item: {
-					Count: 1
-					id: "travelersbackpack:standard"
-					tag: {
-						StarterUpgrades: {
-							Items: [{
-								Count: 1b
-								id: "travelersbackpack:tanks_upgrade"
-							}]
-						}
-						Tier: 4
-					}
-				}
+				id: "5A77EE28284902BE"
+				item: "travelersbackpack:iron_tier_upgrade"
 				type: "item"
 			}]
-			title: "Wszystko się zmieści"
+			title: "Żelazny plecak"
 			x: 2.0d
 			y: -4.5d
+		}
+		{
+			dependencies: ["13B9E05B55A49BD0"]
+			id: "467E76E661719C1B"
+			rewards: [{
+				id: "4C06FD0CC0C705FF"
+				item: "travelersbackpack:tanks_upgrade"
+				type: "item"
+			}]
+			tasks: [{
+				id: "19FC06B71B99C840"
+				item: "travelersbackpack:gold_tier_upgrade"
+				type: "item"
+			}]
+			title: "Złoty plecak"
+			x: 2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["467E76E661719C1B"]
+			id: "7E75F66894FE724A"
+			rewards: [{
+				id: "61F66AB91D53FA31"
+				item: "travelersbackpack:jukebox_upgrade"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3A41F19E3AF55D1D"
+				item: "travelersbackpack:diamond_tier_upgrade"
+				type: "item"
+			}]
+			title: "Diamentowy plecak"
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7E75F66894FE724A"]
+			id: "6F0E91D4929986BC"
+			rewards: [{
+				id: "5B88476ECB86FFDB"
+				item: "travelersbackpack:furnace_upgrade"
+				type: "item"
+			}]
+			tasks: [{
+				id: "64D7430633CCBA81"
+				item: "travelersbackpack:netherite_tier_upgrade"
+				type: "item"
+			}]
+			title: "Netherytowy plecak"
+			x: -2.0d
+			y: -6.5d
+		}
+		{
+			id: "5A8940279381713F"
+			rewards: [{
+				id: "6986D2AF8539807B"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7DC3A76039616311"
+				item: "numismatics:vendor"
+				type: "item"
+			}]
+			title: "Kapitalizm"
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5A8940279381713F"]
+			id: "1A16CE6A3932DCD4"
+			rewards: [{
+				id: "3F8214B1235E041A"
+				item: "numismatics:bank_terminal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "161F5328F30D9A08"
+				item: "numismatics:sun"
+				type: "item"
+			}]
+			title: "Milionerzy"
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			id: "425429224B96000A"
+			rewards: [{
+				count: 32
+				id: "6081A5BC39C643D7"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "03C331D84452AF43"
+				item: "crabsbackport:music_disc_lava_chicken"
+				type: "item"
+			}]
+			title: "La-la-la-lava Ch-ch-ch-chicken Steve's Lava Chicken, yeah, it's tasty as hell Ooh, mamacita, now you're ringin' the bell Crispy and juicy, now you're havin' a snack Ooh, super spicy, it's a lava attack!"
+			x: -4.0d
+			y: -6.5d
 		}
 	]
 	subtitle: ["Podróż po różnych zakątkach GhostLandu"]
