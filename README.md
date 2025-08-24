@@ -48,6 +48,13 @@ A modpack for the 7th edition of GhostLand SMP
 
 ## Changelogs:
 
+### 7.0.8
+- Begun migrating to a new datapack architecture, so that changes done to our pack after world creation (such as from this patch (7.0.8) and 7.6), will actually be applied.
+- Made Steve's Relaistic Sleep (hopefully?) less laggy. (And also gave it some better messages, cuz y not?)
+- Jifo added some plane rebalancing, from a different branch (merge conflict aut-fixed) *[NOTE: This, just like DP changes in 7.0.6, will not work - new DP architecture should change that.]*
+- Updated: Sodium Translations, CME-SmD
+- Added: Does it Tick?; Chunk Debug (and dep.: Chunk Activity Tracker)
+
 ### 7.0.7
 - Updated: Rebind Narrator, Tectonic, EasyAuth
 - Properly marked Miniature Shader as server-excluded
@@ -56,7 +63,7 @@ A modpack for the 7th edition of GhostLand SMP
 
 ### 7.0.6
 - Enabled daytime sleeping in SRS.
-- Allowed Moongazers to sleep, so that they can skip the day (which was just enabled).
+- Allowed Moongazers to sleep, so that they can skip the day (which was just enabled). *[EDIT: Apparently, this didn't work]*
 
 ### 7.0.5
 - Quest rebalancing

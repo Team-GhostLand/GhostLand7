@@ -83,7 +83,7 @@ element {
 }
 
 element {
-  source = v7.0.7
+  source = v7.0.8
   source_mode = direct
   scale = 0.6
   shadow = true

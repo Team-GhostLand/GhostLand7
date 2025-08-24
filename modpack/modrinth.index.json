@@ -1,8 +1,8 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "7.0.7",
-  "name": "GhostLand 7.0.7",
+  "versionId": "7.0.8",
+  "name": "GhostLand 7.0.8",
   "summary": "Paczka na siódmą edycję GhostLanda",
   "files": [
     {
@@ -2181,6 +2181,36 @@
       "fileSize": 3200242
     },
     {
+      "path": "mods/GR_CLO_chunk-debug-1.20.1-1.0.8.jar",
+      "hashes": {
+        "sha1": "eb96df09992b86ddc3ed84adf6e1534ba3738774",
+        "sha512": "5179ffd0bf2574dd6fe98315f8deaf03805fff95873961d26589e4e895d091a0049919fe5ba8bb72afa05d20e982e483a95a4208392f302522b5fea33c3954c3"
+      },
+      "env": {
+        "client": "optional",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/zQxjhDPq/versions/M5Z6hDQa/chunk-debug-1.20.1-1.0.8.jar"
+      ],
+      "fileSize": 23684
+    },
+    {
+      "path": "mods/GR_CLO_chunkactivitytracker-fabric-1.0.1-1.20.1.jar",
+      "hashes": {
+        "sha1": "68169bc579b9fb275156fd2bd1dbf96fc0ef2bfe",
+        "sha512": "0ada6c9156fe0d32f02dec7738d4c248930008087958504fd421196636699f773bb813194715a882ebbe8540b8de6072a862d55530be933713c47bfef3b93c85"
+      },
+      "env": {
+        "client": "optional",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/BNuR43mM/versions/Fq2p40zU/chunkactivitytracker-fabric-1.0.1-1.20.1.jar"
+      ],
+      "fileSize": 740998
+    },
+    {
       "path": "mods/GR_CLO_collective-1.20.1-8.3.jar",
       "hashes": {
         "sha1": "ec387c40637a330661d9f4c3e59d93efc17046a2",
@@ -2329,6 +2359,21 @@
         "https://cdn.modrinth.com/data/6FtRfnLg/versions/CuLlUIYD/do_a_barrel_roll-fabric-3.6.1%2B1.20.1.jar"
       ],
       "fileSize": 502529
+    },
+    {
+      "path": "mods/GR_CLO_does_it_tick-fabric-1.1.4-1.20.1.jar",
+      "hashes": {
+        "sha1": "b01303bdc0be9ed6e253b9d72dcd390725c1e548",
+        "sha512": "181f22c37eea35fe16e927ef53c12824f6d781f5cc66bc277833fede6f92810c51ac6b15c70cbe6ff15c366131a7a15b39eae71ce84f1219e00b081205691618"
+      },
+      "env": {
+        "client": "optional",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/vmg6jaPW/versions/B77nTlT0/does_it_tick-fabric-1.1.4-1.20.1.jar"
+      ],
+      "fileSize": 446033
     },
     {
       "path": "mods/GR_CLO_doubledoors-1.20.1-7.1.jar",
@@ -3576,19 +3621,19 @@
       "fileSize": 407589
     },
     {
-      "path": "mods/GRd_CLO_CMESuckMyDuck-1.0.6.jar.disabled",
+      "path": "mods/GRd_CLO_CMESuckMyDuck-1.0.7.jar.disabled",
       "hashes": {
-        "sha1": "956b331e68319e0f9ab9e204197b2e175d789545",
-        "sha512": "d727847b2e61c398718e3eae9f444fbdb506df91648947f0704422d2da28647ad72110daaefcc78ffa33b53f0688e301c89f2ae3af7853629d93810d425b50c3"
+        "sha1": "decf24036892defb566df63dcbf295ef07fab1cd",
+        "sha512": "cd41f0d12cca4c302797ca777392dae016e04eba54aec72d1a71cf5958d432a913d3d94b8b38b20f5767561fa0298e6856db5909a052c3addc4ca99021ce9349"
       },
       "env": {
         "client": "optional",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/ubAFBxFs/versions/78LURkK0/CMESuckMyDuck-1.0.6.jar"
+        "https://cdn.modrinth.com/data/ubAFBxFs/versions/FpA77YL1/CMESuckMyDuck-1.0.7.jar"
       ],
-      "fileSize": 70389
+      "fileSize": 83956
     },
     {
       "path": "mods/GlitchCore-fabric-1.20.1-0.0.1.1.jar",
@@ -6023,17 +6068,17 @@
     {
       "path": "resourcepacks/GR_SVX_SodiumTranslations.zip",
       "hashes": {
-        "sha1": "4de31894e8228f475922af9e1b2d86e22d5ed0b3",
-        "sha512": "1d8af3ffb771fa7297230617ebd566f6cda3cd15fcd28b2794759b0b8d840023372e81490a5cc3c389c432fe63c3258e2e67989e1e08f32647c6621e2cc6e042"
+        "sha1": "353b1122ccac5a79c3e85233803fd3519115fa57",
+        "sha512": "d0207641ff13897c56e6b3afe450873c0c4cc364b0731d44ebb617aacae445694c2c94c8a714afa5f12965f9bd9a7def8153adb85187c02889c7b0d33ec0111b"
       },
       "env": {
         "client": "required",
         "server": "unsupported"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/yfDziwn1/versions/IG6CxWl0/SodiumTranslations.zip"
+        "https://cdn.modrinth.com/data/yfDziwn1/versions/fkEfyeA8/SodiumTranslations.zip"
       ],
-      "fileSize": 228774
+      "fileSize": 228674
     },
     {
       "path": "resourcepacks/GR_SVX_[1.4.1] Enhanced Boss Bars.zip",

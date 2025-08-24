@@ -1,0 +1,2 @@
+/data/datapacks
+https://github.com/Team-GhostLand/GhostLand-datapack/archive/refs/tags/v7.0.zip
