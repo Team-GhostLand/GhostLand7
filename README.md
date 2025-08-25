@@ -48,6 +48,21 @@ A modpack for the 7th edition of GhostLand SMP
 
 ## Changelogs:
 
+### 7.0.9
+- Waystones:
+  - All cooldowns are 10x longer
+  - Only global waystones can be used between dimensions
+  - Waystones generated naturally are unbreakable
+  - Global waystones can't be created by survival players
+  - Teleportation now costs 1 level per 200 blocks
+  - Teleportation between dimensions costs 6 levels
+  - Inventory button teleportation costs 50% of the normal cost instead of being free
+- Quests:
+  - Modified Immersive Aircraft quests
+  - Added two misc quests
+- Resourcepack:
+  - Changed the Nether Star texture
+
 ### 7.0.8
 - Begun migrating to a new datapack architecture, so that changes done to our pack after world creation (such as from this patch (7.0.8) and 7.6), will actually be applied.
 - Made Steve's Relaistic Sleep (hopefully?) less laggy. (And also gave it some better messages, cuz y not?)

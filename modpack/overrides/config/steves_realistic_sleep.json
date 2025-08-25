@@ -1,7 +1,7 @@
 {
   "showSleepVignette": true,
   "sendDawnMessage": true,
-  "dawnMessage": "Słoneczko wstaje :>",
+  "dawnMessage": "Słoneczko wstaje :\u003e",
   "sendDuskMessage": true,
   "duskMessage": "Nadeszła ciemna noc...",
   "sendSleepingMessage": true,

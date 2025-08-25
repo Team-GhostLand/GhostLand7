@@ -363,6 +363,52 @@
 			x: -4.0d
 			y: -6.5d
 		}
+		{
+			id: "2953BC1B6D54A216"
+			rewards: [{
+				count: 64
+				id: "17C905D15FF56C74"
+				item: "minecraft:blue_dye"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3192B2B7EBE92768"
+					item: "create:schematicannon"
+					type: "item"
+				}
+				{
+					id: "456BD9C15D09805D"
+					item: "create:schematic_and_quill"
+					type: "item"
+				}
+				{
+					id: "3F6A183F3C4E53C6"
+					item: "create:schematic_table"
+					type: "item"
+				}
+			]
+			title: "Schematycznie"
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			id: "3843CFA30646F891"
+			rewards: [{
+				id: "77B05424424BE537"
+				item: "techreborn:uu_matter"
+				type: "item"
+			}]
+			tasks: [{
+				count: 1000000L
+				id: "6AB0DFE632A91168"
+				item: { Count: 1000000, id: "minecraft:cobblestone" }
+				type: "item"
+			}]
+			title: "Kto da więcej?"
+			x: -4.0d
+			y: -0.5d
+		}
 	]
 	subtitle: ["Podróż po różnych zakątkach GhostLandu"]
 	title: "Wszystko i nic"

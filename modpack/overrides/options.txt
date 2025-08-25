@@ -190,6 +190,7 @@ key_key.jade.toggle_liquid:key.keyboard.unknown
 key_key.jade.narrate:key.keyboard.unknown
 key_key.jade.show_details_alternative:key.keyboard.unknown
 key_Open Pizza Menu:key.keyboard.k
+key_options.narrator:key.keyboard.unknown
 key_key.modern_industrialization.activate:key.keyboard.unknown
 key_key.modmenu.open_menu:key.keyboard.unknown
 key_supplementaries.keybind.quiver:key.keyboard.unknown
@@ -203,7 +204,6 @@ key_key.presencefootsteps.toggle:key.keyboard.unknown
 key_key.puffish_skills.open:key.keyboard.unknown
 key_railways.keyinfo.bogey_menu:key.keyboard.left.alt
 key_railways.keyinfo.cycle_menu:key.keyboard.left.alt
-key_options.narrator:key.keyboard.unknown
 key_key.replaymod.playeroverview:key.keyboard.unknown
 key_key.replaymod.lighting:key.keyboard.unknown
 key_key.replaymod.quickmode:key.keyboard.unknown
