@@ -1,8 +1,8 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "7.0.9",
-  "name": "GhostLand 7.0.9",
+  "versionId": "7.0.10",
+  "name": "GhostLand 7.0.10",
   "summary": "Paczka na siódmą edycję GhostLanda",
   "files": [
     {
@@ -3036,21 +3036,6 @@
       "fileSize": 2938
     },
     {
-      "path": "mods/GR_CLX_easyauth-mc1.20-3.3.6.jar",
-      "hashes": {
-        "sha1": "52bed76f57c3d3d2ad490bf594a236807acd1fce",
-        "sha512": "e7fbb3dce97a63d87b0658ae7114c21549e4a3f8bead89fa2cdc31724836fc386c805cdd8f9ac0608753411ee74b6f229d214fb5141576322776bb8d8fdf1c3d"
-      },
-      "env": {
-        "client": "unsupported",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/aZj58GfX/versions/Gxj49gBw/easyauth-mc1.20-3.3.6.jar"
-      ],
-      "fileSize": 22723459
-    },
-    {
       "path": "mods/GR_CLX_jline4mcdsrv-0.6.4.jar",
       "hashes": {
         "sha1": "a00347aa593d5de4a052a41e0222d033d281f3e7",
@@ -3094,21 +3079,6 @@
         "https://cdn.modrinth.com/data/yvtIuyXT/versions/94JxXm7O/mysql-jdbc-8.0.33%2B20230506-all.jar"
       ],
       "fileSize": 2496667
-    },
-    {
-      "path": "mods/GR_CLX_skinrestorer-2.4.3+1.20-fabric.jar",
-      "hashes": {
-        "sha1": "a3c29898279c2f1eb9a9edf3a6712559618e8f22",
-        "sha512": "850ee69db48c4cc90e8f7edd4b1cf87ab195b97d09118a5654c0665fc575dabe665eb4753ad8718ddc05709a2d870e414d8bdedf88714ef02d7a1cfb973879c3"
-      },
-      "env": {
-        "client": "unsupported",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/ghrZDhGW/versions/vOQRWGz7/skinrestorer-2.4.3%2B1.20-fabric.jar"
-      ],
-      "fileSize": 190082
     },
     {
       "path": "mods/GR_SVX_AmbientSounds_FABRIC_v6.1.11_mc1.20.1.jar",

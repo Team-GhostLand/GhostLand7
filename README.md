@@ -48,6 +48,10 @@ A modpack for the 7th edition of GhostLand SMP
 
 ## Changelogs:
 
+### 7.0.10
+- Nuked EasyAuth (it was causing broader issues for the pack, eg. falsely spamming that you need to log in after dying and potentially casuing fals-flags as offline mode), thus removing support for pirated players, after we found out that none of our players ever actually pirated the game, anyway. 
+- Removed SkinRestorer becasue we no longer need it for pirates, anyway.
+
 ### 7.0.9
 - Waystones:
   - All cooldowns are 10x longer
