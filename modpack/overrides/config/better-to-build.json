@@ -1,0 +1,6 @@
+{
+  "maxSize_building_wand": 1024,
+  "maxDurabillity_building_wand": 5000,
+  "maxSize_exchanging_wand": 256,
+  "maxDurabillity_exchanging_wand": 1024
+}

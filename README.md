@@ -21,32 +21,20 @@ A modpack for the 7th edition of GhostLand SMP
 - [Credits/Licensing](#creditslicensing)
 
 ## Issues:
-- [x] Continents incompatible with Tectonic *(fixed: Tectonic handles continentality on its own)*
-- [ ] Update config files *(ongoing)*
-- [x] Clouds have some issues with rendering (DH makes clouds double-layerd) ~~*(note: Can't we pretend that this is intentional? They look kinda dope!)*~~ *(fixed: turned DH clouds off (there is one layer now instead of two))*
-- [ ] Client's embedded server seems to be getting stuck during startup (falling through the world (with commands, etc. not working), while the chunks are loading - and they never finnish loading) and shutdown (you get stuck on the „waiting to save World”-screen) *(note1: neither Guzio, nor `knpks` were able to replicate the issue (Guzio was able to achieve partial replication (falling through the world for a minute or 2, then fixed; I had some exit bugs once or twice, but they eventually stopped happening), while `knpks` couldn't at all, albeit their testing was much shorter) - currenly, this seems to affect only and exclusively MidnightSP)* *(note2: Could this be related to having higher-end hardware? Some heavily-threaded or -threading mod, like Distant Horizons or ASYNC spreads the load onto all 16 cores (compared to Guzio's and `knpks`'s pathetic 4), which creates more opportunities for some nasty lock-ups (thread 1 waits for thread 2, thread 2 waits for thread 1 - and they just get stuck like this until killed) to rear their ugly heads.)* *(note3: it seems like we can safely ignore it, as it only affects singleplayer (doesn't seem to happen on the dedicated server server-wise, and the embedded server doesn't start on multiplayer client-wise) and this pack is mostly multiplayer-focused, anyway - although I can imagine this does probably make development much more annoying for MidnightSP and I feel sorry for the inncocent lad)*
-- [ ] Issues while entering a world (game incredibly laggy for the first few minutes) *(note: that's the chunks loading in - recommended solution is to look at the horizon in a single direction until it loads, then look around very slowly until all other directions load)*
-- [x] If Aether detects Loading Screen Tips - regardless of whether integration with it is enabled in the config or not - it reloads resources right after game loads, leading to a doubled loading screen (which significantly increases the practical startup time - since, even though thanks to RRS we can navigate menus when resources are loading, noone's gonna join the world with a loading bar, especially one so obnoxious (in-game, it's fine when loading) as the one that ELS adds). *(fixed: Tipsn't)*
-- [x] GregTech's ores become transparent underwater (their polygons disappear - you can see the void) **(fixed: GREGORY GOT GEYEETEN)** *(fixed: rest in pieces)* *(note: this has 2 different „fixed” notes bacause it got fixed twice, in both versions of 7a28)*
-- [x] On some modded biome coastlines, Creeper-hole-like cutouts appear, and they tend to cut off trees and leave them floating ~~*(note: this doesn't seem to happen, rather it is regular world generation issue)* *(fixed: alr, whatever u say...)* *(note: this DOES happen, and doesn't only affect trees, but even villager houses - the responsible biome seems to be `biomesoplenty:floodplain` and its variations)*~~ *(fixed: floodplain is now disabled in Biomes O' Plenty)*
-- [ ] Enabling Planet Curvature in Distant Horizons does nothing
-- [x] With Panoramics seemingly completely cooked, we have nothing to make a main menu panorama for Fancy Menu with. *(fixed: found [this thing](https://modrinth.com/mod/panorama-screenshot) - not yet in the pack, since we're not doing any FancyMenu stuff yet)*
-- [x] Small Ships' boats made from wood from WilderWilds don't have textures *(fixed: removed WilderWilds's biomes, so there's no way of obtaining these wood types now - players won't run into this issue in normal gameplay)*
-- [x] WW's panorama texturepack keeps enabling itself against our will any time the packs change (and causes Missing Texture glitches whenever we disable it (ie. set it to the state it's *supposed to* be in) if its panorama was loaded before) *(fixed: moved it to the bottom of the list, practically disabling it)*
-- [x] Can't join the server 💀 *(fixed: Somewhere along the mess that was 2a28, 2a29 and 2a30 - this bug has vanished. Now you can join. It even takes you all the way to the Origins screen!)*
-- [x] Can't join the server at first becasue Twilight Forest complains about stuff; I have to get kicked and join again, after it's finished complaining *~~(note: this might be, in some way, related to an issue \~~that I've been ignoring for now (becasue it lowkey works like an accitential security feature 💀)~~~ that TwF sometimes just randomly screams `Exception occurred in netty pipeline`, whenever server-seeker (Which, btw, WON'T BLOODY LEAVE US ALONE - does this stupid script-kiddie not have any flags to set to not auto-retry on modded servers? Bro, let it go! Unless you actually manage to find this repo, there's no chance of you just brute-forcing a ~300 characters-long password, where each character has ~118000 states - becasue that's what our modlist effectively becomes in this context.) tries to join)*~~ *(fixed: that's... uhhh... No longer happening. I dunno why. Maybe it only happens some times?)*
-- [x] The server spends too long loading players when they join, causing Watchdog to crash it *(fixed: bumped watchdog to 5min)*
-- [ ] In EMI's tree view, all texture-derived icons (ie. NOT those black-and-white ones, like crafting;smelting;Tinker's, but those that are based on EMI's tab texture, like Sequenced Assembly or Inscriber) are offset in the Y axis so much that they clip all the way outside of the tree
-- [ ] On the server, you start with a shield in your hand, which greatly lowers the initial wow-effect of Adaptive Crosshair *(note: this can be fixed, by actually configuring starting kits)* 
-- [ ] You start with a Tinker's guidebook *(note: Tinker's seems to ignore starting kits)* 
-- [ ] Modrinth's server list underscores the entire MOTD for some reason *(note: since doesn't happen in the actual game, I'm afraid this is entirely MR's fault and there might be no way to fix it from our level)*
-- [x] RPM's recording incicator is constantly lingering in the corner on multiplayer (though it's normally covered by the minimap); not really providing anything of value (ppl will already know that we have RPM - we'll just tell them in the Discord) *(fixed: off)*
-- [ ] Missing translations from Steve's Realistic Sleep in Slim Edition
-- [x] WilderWild has disappeared *(fixed: added it back)*
-- [ ] Opening AE2 Guidebook crashes the game *(note: crashdump imples that this is due to Starlight)*
-
+https://discord.com/channels/966397518445412413/1261662618230460446
 
 ## Changelogs:
+
+### 7.1.0
+- Added Via Romana
+- Added Wand of Better Building
+- Added Immersive Snow
+- Added Factory Blocks
+- Added XK's Decoration
+- Added Extended AE
+- Disabled Waystones via config
+- Winters and Summers are now 2 times shorter and Springs and Falls are 1.5 times longer so that years have the same length as before but there is less extreme weather.
+- Phantoms now drop less music discs
 
 ### 7.0.10
 - Nuked EasyAuth (it was causing broader issues for the pack, eg. falsely spamming that you need to log in after dying and potentially casuing fals-flags as offline mode), thus removing support for pirated players, after we found out that none of our players ever actually pirated the game, anyway. 

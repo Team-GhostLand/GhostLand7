@@ -18,7 +18,7 @@
     "minecraft:chests/end_city_treasure, music_disc_wuird, music_disc_enderwalk, music_disc_flyingship, music_disc_lgm, music_disc_flight_of_the_voids_ship, music_disc_void, music_disc_justyhebeginning, music_disc_dreams, music_disc_avian, music_disc_tall, music_disc_chorus, music_disc_squiggles, music_disc_antiremake, music_disc_reloaded, music_disc_scopophobia, 4",
     "minecraft:entities/elder_guardian, music_disc_squidly, music_disc_dive, music_disc_tide, music_disc_submerge, 1",
     "minecraft:entities/ender_dragon, music_disc_droopylovesjean, 1",
-    "minecraft:entities/phantom, music_disc_thespeedrunner, music_disc_sleepz, 1",
+    "minecraft:entities/phantom, music_disc_thespeedrunner, music_disc_sleepz, S",
     "minecraft:entities/mooshroom, music_disc_shroom, music_disc_mush_roam, S",
     "minecraft:entities/witch, music_disc_azometrall, music_disc_turfufact, music_disc_shallow, music_disc_potion_of_swiftness, music_disc_mangrove_swamp, S",
     "minecraft:entities/skeleton, music_disc_clouds, S",
