@@ -1,6 +1,6 @@
 format-version 3
 
-default-modpack "GhostLand7"
+default-modpack "GhostRun"
 
 modpacks {
     modpack "GhostLand7" path="./modpack" preferred-name="GhostLand 7" {
