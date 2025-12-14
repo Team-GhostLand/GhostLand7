@@ -1,0 +1,13 @@
+{
+  "enableAutoReplant": true,
+  "requireHoe": false,
+  "replantDelayTicks": 1,
+  "cropsWhitelist": [
+    "minecraft:wheat",
+    "minecraft:carrots",
+    "minecraft:potatoes",
+    "minecraft:beetroots",
+    "minecraft:nether_wart",
+    "minecraft:cocoa"
+  ]
+}

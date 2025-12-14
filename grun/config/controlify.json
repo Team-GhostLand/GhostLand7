@@ -1,0 +1,5 @@
+{
+	"reachAroundPolicy": true,
+	"noFlyDriftPolicy": true,
+	"enforceKeyboardLikeMovement": false
+}

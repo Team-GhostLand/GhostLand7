@@ -13,4 +13,9 @@ modpacks {
             disallowed ".fabric" "crash-reports" "CustomSkinLoader" "data" "fancymenu_data" "frozenlib_cape_cache" "ldlib" "logs" "ModTranslations" "saves" "schematics" "stackdeobf_mappings" "xaero" "irisUpdateInfo.json" 
         }
     }
+    modpack "GhostRun" path="./grun" preferred-name="GhostRun" {
+        version-prefix "0."
+        description "Paczka serwerowa GhostLanda, na czas między-edycjowy."
+        ingame-name "GhostRun 0.0"
+    }
 }
