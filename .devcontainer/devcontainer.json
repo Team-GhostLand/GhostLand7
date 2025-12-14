@@ -1,0 +1,8 @@
+{
+	"name": "Devcontainer for Grinch",
+	"image": "mcr.microsoft.com/devcontainers/base:noble",
+	"features": {
+		"ghcr.io/guziomg/devcontainers/grinch:latest": {},  //required
+		"ghcr.io/guziomg/devcontainers/personal:latest": {} //Not required, but useful. Hope that MidnightSP won't mind some of my personal preferences (mainly FiSH being the default shell (as that could be the most disruptive one) and some „bloatware”, ie. Python that's not used here) - worst-case scenario, I'll have to „deconstruct” this feature into those that are actually needed here, that'd otherwise be present in my personal bundle (mainly polskie-rozszerzenia, extension-spellcheck, extensions-github and support extensions for some other modding-common config langs like TOML).
+	}
+}
