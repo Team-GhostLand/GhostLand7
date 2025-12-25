@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "0.1.4",
+  "versionId": "0.1.5",
   "name": "GhostRun 2025 [PACZKA SERWEROWA! Prawdopodobnie to nie jej chcesz używać u siebie na kliencie.]",
   "summary": "GhostRun: Paczka serwerowa GhostLanda, na czas między-edycjowy. Edycja zimowa 2025/26.",
   "files": [
@@ -34,21 +34,6 @@
         "https://cdn.modrinth.com/data/fALzjamp/versions/1CpEkmcD/Chunky-Fabric-1.4.55.jar"
       ],
       "fileSize": 355288
-    },
-    {
-      "path": "mods/GR_CLO_DistantHorizons-2.4.5-b-1.21.11-fabric-neoforge.jar",
-      "hashes": {
-        "sha1": "9c97e5eab78fa8dd176e0f62f00db3e266c468ae",
-        "sha512": "a9f673fac1f6f554b7394168cbe726f1a15eb2bbef1b65b3c9979853af8de70bf13a457c88ebdc30b955a071d519e86c631cdbf1dd39cdab7c73b9c2d7f165e1"
-      },
-      "env": {
-        "client": "optional",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/uCdwusMi/versions/GT3Bm3GN/DistantHorizons-2.4.5-b-1.21.11-fabric-neoforge.jar"
-      ],
-      "fileSize": 25622435
     },
     {
       "path": "mods/GR_CLO_ForgeConfigAPIPort-v21.11.1-mc1.21.11-Fabric.jar",
