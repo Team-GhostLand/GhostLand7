@@ -1,25 +1,10 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "0.1.0",
+  "versionId": "J0.1.0",
   "name": "GhostRun 2025 [PACZKA SERWEROWA! Prawdopodobnie to nie jej chcesz używać u siebie na kliencie.]",
   "summary": "GhostRun: Paczka serwerowa GhostLanda, na czas między-edycjowy. Edycja zimowa 2025/26.",
   "files": [
-    {
-      "path": "mods/GR_CLO_Almanac-1.21.11-x-fabric-1.5.5.jar",
-      "hashes": {
-        "sha1": "29025f7fe2a2558f96e8f35cdf4798d4804ef910",
-        "sha512": "fdbb0772a802911771fa3ad05a9a353c398c086fa3365e01a578485bf20c6d7456f3dfd693b9164041b62271e1dbd4f37871e8b0b223601d192457450db331f4"
-      },
-      "env": {
-        "client": "optional",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/Gi02250Z/versions/sAOWfVcy/Almanac-1.21.11-x-fabric-1.5.5.jar"
-      ],
-      "fileSize": 1035575
-    },
     {
       "path": "mods/GR_CLO_Chunky-Fabric-1.4.55.jar",
       "hashes": {
@@ -34,36 +19,6 @@
         "https://cdn.modrinth.com/data/fALzjamp/versions/1CpEkmcD/Chunky-Fabric-1.4.55.jar"
       ],
       "fileSize": 355288
-    },
-    {
-      "path": "mods/GR_CLO_DistantHorizons-2.4.5-b-1.21.11-fabric-neoforge.jar",
-      "hashes": {
-        "sha1": "9c97e5eab78fa8dd176e0f62f00db3e266c468ae",
-        "sha512": "a9f673fac1f6f554b7394168cbe726f1a15eb2bbef1b65b3c9979853af8de70bf13a457c88ebdc30b955a071d519e86c631cdbf1dd39cdab7c73b9c2d7f165e1"
-      },
-      "env": {
-        "client": "optional",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/uCdwusMi/versions/GT3Bm3GN/DistantHorizons-2.4.5-b-1.21.11-fabric-neoforge.jar"
-      ],
-      "fileSize": 25622435
-    },
-    {
-      "path": "mods/GR_CLO_ForgeConfigAPIPort-v21.11.1-mc1.21.11-Fabric.jar",
-      "hashes": {
-        "sha1": "61aa1b5fafd75afc44552d0213cac39bc938bc2d",
-        "sha512": "28791c992d613da14b8685505d3ef632ed53b5f1e1d517f0b41677d10f8419f192dfbde991308df6cda5d0f113c0aa8fc18ecf4a0834029403b16d2f68dc52d6"
-      },
-      "env": {
-        "client": "optional",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/ohNO6lps/versions/uXrWPsCu/ForgeConfigAPIPort-v21.11.1-mc1.21.11-Fabric.jar"
-      ],
-      "fileSize": 598009
     },
     {
       "path": "mods/GR_CLO_ImmediatelyFast-Fabric-1.14.1+1.21.11.jar",
@@ -81,51 +36,6 @@
       "fileSize": 308452
     },
     {
-      "path": "mods/GR_CLO_Jade-1.21.11-Fabric-21.0.1.jar",
-      "hashes": {
-        "sha1": "8dae93d3cdbb6850735a438bb1f6e2a315ec7235",
-        "sha512": "6a3d659cec9a3e21fe006e8760dea6350b64aa6d71180f8f087a2e2a7d94dedda6a5f27eafbf93de70adc606c75c07bdfcd9dc25be3a0ecf594e022dee87511b"
-      },
-      "env": {
-        "client": "optional",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/nvQzSEkH/versions/7cBo3s22/Jade-1.21.11-Fabric-21.0.1.jar"
-      ],
-      "fileSize": 940202
-    },
-    {
-      "path": "mods/GR_CLO_LeavesBeGone-v21.11.0-mc1.21.11-Fabric.jar",
-      "hashes": {
-        "sha1": "2d31e9d6f10766cd6cc99789fded577ca650e3f6",
-        "sha512": "34b7218b973aad2ab079e58167a0d493dc0a57eda0ae1f980839e21411abf7fdda0d37bd6633f1b7c59aa7bc09d1043c6bdb2a6fab3f2ecadc1676448bad7385"
-      },
-      "env": {
-        "client": "optional",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/AVq17PqV/versions/RhFHpbMN/LeavesBeGone-v21.11.0-mc1.21.11-Fabric.jar"
-      ],
-      "fileSize": 41406
-    },
-    {
-      "path": "mods/GR_CLO_LetMeDespawn-1.21.11-x-fabric-1.5.6.jar",
-      "hashes": {
-        "sha1": "df85df2d5ff952a5a3f83886e0b0639046841695",
-        "sha512": "ca03667053358993b85288136e8a75ba7d02164c285a9b98af22515974d47f13aa27f2fb0109f4bde4d53ad30e77b44548ace2726b25eeac1de0d4c2b53e3f09"
-      },
-      "env": {
-        "client": "optional",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/vE2FN5qn/versions/fOwYRcZR/LetMeDespawn-1.21.11-x-fabric-1.5.6.jar"
-      ],
-      "fileSize": 17557
-    },
-    {
       "path": "mods/GR_CLO_Moonrise-Fabric-0.9.0-beta.2+1ff1c8c.jar",
       "hashes": {
         "sha1": "f2131c7225001cf1538b5c5029b71a2e707d8da2",
@@ -139,51 +49,6 @@
         "https://cdn.modrinth.com/data/KOHu7RCS/versions/RHK1oePc/Moonrise-Fabric-0.9.0-beta.2%2B1ff1c8c.jar"
       ],
       "fileSize": 1625986
-    },
-    {
-      "path": "mods/GR_CLO_NoChatReports-FABRIC-1.21.11-v2.17.0.jar",
-      "hashes": {
-        "sha1": "8380e9ea9dc298d58de6a3450e373651ec119b62",
-        "sha512": "2b28489841736bbe96fd24e013d74da9dc7a7a94c4a14ed24d73d1b2b0414940a4796a22bc224e52e699a95c1c45c73ca5064ef5425254720644308ffd52efa2"
-      },
-      "env": {
-        "client": "optional",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/qQyHxfxd/versions/sFOP9oAo/NoChatReports-FABRIC-1.21.11-v2.17.0.jar"
-      ],
-      "fileSize": 244984
-    },
-    {
-      "path": "mods/GR_CLO_PuzzlesLib-v21.11.4-mc1.21.11-Fabric.jar",
-      "hashes": {
-        "sha1": "02bb99cb4db3e8615d02634111a5be130c11900e",
-        "sha512": "876eff00d18ee8666bd4b84c20b95e6702a9cfdb42a484f30176f5165ebaaec6d47e11c27ff749bbda9c1c1ae13a83afe0ea0ad88046da5c7d842ef1c04f8d80"
-      },
-      "env": {
-        "client": "optional",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/QAGBst4M/versions/papKcBDm/PuzzlesLib-v21.11.4-mc1.21.11-Fabric.jar"
-      ],
-      "fileSize": 1059616
-    },
-    {
-      "path": "mods/GR_CLO_alternate-current-mc1.21.11-1.9.0.jar",
-      "hashes": {
-        "sha1": "f35f95c653c0ec99fa2aa5f993306922d00e59e9",
-        "sha512": "6c6f9411fad87f5ad04648fe47946764bce5f9121af2155aa2be7731e52b11e9150ac2de1657e0407ecc4cf1c373ef605b4de020aa71db32ba051bf88aec2535"
-      },
-      "env": {
-        "client": "optional",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/r0v8vy1s/versions/XdouG8YV/alternate-current-mc1.21.11-1.9.0.jar"
-      ],
-      "fileSize": 52557
     },
     {
       "path": "mods/GR_CLO_appleskin-fabric-mc1.21.11-3.0.7.jar",
@@ -231,36 +96,6 @@
       "fileSize": 212141
     },
     {
-      "path": "mods/GR_CLO_dreams-compass-v1.5.1.jar",
-      "hashes": {
-        "sha1": "95cf37c20b76502bed5f3a7f16195d8b2d74e980",
-        "sha512": "59487753596a2a9861e22ec21361c8c1f962ec87057fe7bd275f3896e084215cd110cda7cd9f86e96bb08652fa21cf86f738c6e838e0155adb98a669e7fd08ba"
-      },
-      "env": {
-        "client": "optional",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/dRzOvPpQ/versions/9eQoFJOi/dreams-compass-v1.5.1.jar"
-      ],
-      "fileSize": 69928
-    },
-    {
-      "path": "mods/GR_CLO_dungeons-and-taverns-v5.1.0.jar",
-      "hashes": {
-        "sha1": "09cca41971985fb9e137186bee6f4e23ec42a8f0",
-        "sha512": "fee86a3aca2bbb97f7c45926c1e6c1a5366f6f15242133bfe1a1f55bba8ef0f63dea092da1f61bfebd1ae448a05c2ba94ba61a349aa4ab61d990020d6a855154"
-      },
-      "env": {
-        "client": "optional",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/tpehi7ww/versions/rJ0Y6xDT/dungeons-and-taverns-v5.1.0.jar"
-      ],
-      "fileSize": 38916351
-    },
-    {
       "path": "mods/GR_CLO_fabric-api-0.140.2+1.21.11.jar",
       "hashes": {
         "sha1": "c115a7e4442bb6f54cb316efa28fb7d41d2e103c",
@@ -306,21 +141,6 @@
       "fileSize": 77269
     },
     {
-      "path": "mods/GR_CLO_getittogetherdrops-fabric-1.21.11-1.3.2.jar",
-      "hashes": {
-        "sha1": "5c5ccf06cb9e9bfefd7fe2c53d2666c00c4d18ee",
-        "sha512": "1b54f5be9ebc3de10a6d9ea2982fdb293e1ed4a340c79753796e9529f7398f64a1b3ceee5f4dd9b9f15585ad9c6d29f0b733ecdf29286ea1e6d4c86dd4b20573"
-      },
-      "env": {
-        "client": "optional",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/T0OUgf8P/versions/sBup7Uqc/getittogetherdrops-fabric-1.21.11-1.3.2.jar"
-      ],
-      "fileSize": 80753
-    },
-    {
       "path": "mods/GR_CLO_lithium-fabric-0.21.2+mc1.21.11.jar",
       "hashes": {
         "sha1": "c1f8f61d4b2fac28ab083a927c6b1338598255ed",
@@ -336,21 +156,6 @@
       "fileSize": 858481
     },
     {
-      "path": "mods/GR_CLO_mixintrace-1.1.1+1.17.jar",
-      "hashes": {
-        "sha1": "7fbb0130db0e427ee7180d304dfa65c46f0e3b69",
-        "sha512": "ea9034b60bc1c64629a9bcad2e619907692fe6e7464026236c55cc5a4892a20d21dd6318ad0380ab2ec245f7077939b6717d2ed58e00708c17470be14f5e0b5f"
-      },
-      "env": {
-        "client": "optional",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/sGmHWmeL/versions/1.1.1%2B1.17/mixintrace-1.1.1%2B1.17.jar"
-      ],
-      "fileSize": 36039
-    },
-    {
       "path": "mods/GR_CLO_modernfix-fabric-latest.jar",
       "hashes": {
         "sha1": "35b5364564cd06bd430b89fffcf78b70724f16e5",
@@ -364,66 +169,6 @@
         "https://cdn.modrinth.com/data/TjSm1wrD/versions/qkw8nBDe/modernfix-fabric-latest.jar"
       ],
       "fileSize": 432205
-    },
-    {
-      "path": "mods/GR_CLO_noisium-fabric-2.8.1+mc1.21.11.jar",
-      "hashes": {
-        "sha1": "71330a11e24d2f3f925afd8c769c1e90b992a3d7",
-        "sha512": "ec2c4e2425a797f81760807c1dd0d0800c0f0f6bc9010d85bb767eb632e7825384e7b409b928aabbb523f3ab0d53148a0f6788220a49375f7e8626d475d71d96"
-      },
-      "env": {
-        "client": "optional",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/hasdd01q/versions/RHzCanhO/noisium-fabric-2.8.1%2Bmc1.21.11.jar"
-      ],
-      "fileSize": 224568
-    },
-    {
-      "path": "mods/GR_CLO_packetfixer-fabric-3.3.2-1.21.11.jar",
-      "hashes": {
-        "sha1": "63119ad6b0ad0abd2dcfb4ba130347d38fbdd2bf",
-        "sha512": "a7cdc4b81653ca7c823c91ffd29092365feff78b8d8e019f35ab6c47a0f18661768656cc5fe73f802ab7097d828d8173cc23d32b454a7acd64ff6b7118789413"
-      },
-      "env": {
-        "client": "optional",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/c7m1mi73/versions/LFMYVIc7/packetfixer-fabric-3.3.2-1.21.11.jar"
-      ],
-      "fileSize": 31174
-    },
-    {
-      "path": "mods/GR_CLO_replanter-plus-2.3.3.jar",
-      "hashes": {
-        "sha1": "7d215e655d486c1a8182427327f05d80c923a9d3",
-        "sha512": "1f9b34dc7e012a206f3f2b3b837aaddd5c5ae45c117e13a189ac8fffc413ade577c1389721228b56823a01e8cc49c346e4fa6baf8fdcd4cf927d8a46dc7c2c68"
-      },
-      "env": {
-        "client": "optional",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/is7374ZC/versions/1vgkHi5b/replanter-plus-2.3.3.jar"
-      ],
-      "fileSize": 43178
-    },
-    {
-      "path": "mods/GR_CLO_servercore-fabric-1.5.15+1.21.11.jar",
-      "hashes": {
-        "sha1": "c3c6ec10b0ceddaa8f1ef53ffe57db57b4e8638f",
-        "sha512": "964392769e53f9764466e26044552f60e91137f487b49d98a85bd4dc03ab8e965f0c69bc1a43e96ef5737cd8f1a9bb75cc0a0c09dd30bab6786d8ab4bbea6e01"
-      },
-      "env": {
-        "client": "optional",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/4WWQxlQP/versions/zg8VIycZ/servercore-fabric-1.5.15%2B1.21.11.jar"
-      ],
-      "fileSize": 932539
     },
     {
       "path": "mods/GR_CLO_sound-physics-remastered-fabric-1.21.11-1.5.1.jar",
@@ -469,21 +214,6 @@
         "https://cdn.modrinth.com/data/Eldc1g37/versions/Hbo8bT4d/tcdcommons-5.0.0-alpha.2%2Bfabric-1.21.11.jar"
       ],
       "fileSize": 391507
-    },
-    {
-      "path": "mods/GR_CLO_villager-inventory-hwyla-plugin-1.0.0.jar",
-      "hashes": {
-        "sha1": "d92f2a6c8872f0b4a7b2f62b49505c0dc812b059",
-        "sha512": "ddcd3a98348b7fbef034ce7551ab96cc57f84d23e5eba1d2b991e51866f2cbc189a1ee1cfd63ba738ccca632dfa95e1645896e2ced0bc8bca00e08ceaf913463"
-      },
-      "env": {
-        "client": "optional",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/ESa9RivE/versions/RVH25yBF/villager-inventory-hwyla-plugin-1.0.0.jar"
-      ],
-      "fileSize": 30691
     },
     {
       "path": "mods/GR_CLX_Discord-MC-Chat-2.7.1.jar",

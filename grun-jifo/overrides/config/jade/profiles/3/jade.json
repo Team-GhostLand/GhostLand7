@@ -1,6 +1,4 @@
 {
-  "enableProfiles": false,
-  "profileIndex": 0,
   "general": {
     "displayTooltip": true,
     "displayBlocks": true,
@@ -125,17 +123,5 @@
     "vihp": {
       "villager_inventory": true
     }
-  },
-  "history": {
-    "previewOverlay": true,
-    "hintOverlayToggle": true,
-    "hintNarratorToggle": true,
-    "accessibilityModMemory": false,
-    "themesHash": -825076755,
-    "usersHash": [
-      -776603421,
-      1403705116,
-      -1148451845
-    ]
   }
 }
