@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "0.1.2",
+  "versionId": "0.1.3",
   "name": "GhostRun 2025 [PACZKA SERWEROWA! Prawdopodobnie to nie jej chcesz używać u siebie na kliencie.]",
   "summary": "GhostRun: Paczka serwerowa GhostLanda, na czas między-edycjowy. Edycja zimowa 2025/26.",
   "files": [
@@ -199,21 +199,6 @@
         "https://cdn.modrinth.com/data/EsAfCjCV/versions/pvcLnrm0/appleskin-fabric-mc1.21.11-3.0.7.jar"
       ],
       "fileSize": 168688
-    },
-    {
-      "path": "mods/GR_CLO_architectury-19.0.1-fabric.jar",
-      "hashes": {
-        "sha1": "2d40563f7e36f7a03f094031aeaacb175117928e",
-        "sha512": "7ca532844a0ed3d35e8515e13d1e84f8eadfceaae93281b79ad6b4dac253f4634e3dfcc7592f9543871dec117e1a3092c196ba5eae33735162de223be19dc4ad"
-      },
-      "env": {
-        "client": "optional",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/lhGA9TYQ/versions/uNdfrcQ8/architectury-19.0.1-fabric.jar"
-      ],
-      "fileSize": 568474
     },
     {
       "path": "mods/GR_CLO_betterstats-5.0.0-alpha.2+fabric-1.21.11.jar",
