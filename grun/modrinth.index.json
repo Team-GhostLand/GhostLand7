@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "0.0.4",
+  "versionId": "0.0.5",
   "name": "GhostRun 2025 [PACZKA SERWEROWA! Prawdopodobnie to nie jej chcesz używać u siebie na kliencie.]",
   "summary": "GhostRun: Paczka serwerowa GhostLanda, na czas między-edycjowy. Edycja zimowa 2025/26.",
   "files": [
@@ -306,6 +306,21 @@
       "fileSize": 36039
     },
     {
+      "path": "mods/GR_CLO_modernfix-fabric-latest.jar",
+      "hashes": {
+        "sha1": "35b5364564cd06bd430b89fffcf78b70724f16e5",
+        "sha512": "8deecf450b54b7c43c6b36ae5cc7c5560376c5e56408dddd98c6f97fc3f99585f78e4e7e379d5ebec59cf86e57bbfde3e76e8f1af037e8b8f98ce54c40a9e2ba"
+      },
+      "env": {
+        "client": "optional",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/TjSm1wrD/versions/qkw8nBDe/modernfix-fabric-latest.jar"
+      ],
+      "fileSize": 432205
+    },
+    {
       "path": "mods/GR_CLO_noisium-fabric-2.8.1+mc1.21.11.jar",
       "hashes": {
         "sha1": "71330a11e24d2f3f925afd8c769c1e90b992a3d7",
@@ -366,6 +381,21 @@
       "fileSize": 932539
     },
     {
+      "path": "mods/GR_CLO_spark-1.10.156-fabric.jar",
+      "hashes": {
+        "sha1": "7cd8909634ab02ca352969a2ea337f1f7641cc1c",
+        "sha512": "c17995968561761e0857445e28e9235f3c0ec5fc0695deda3b2ae408baf074348822f0a8671791032b32c6b2977edba1024a2cc3b4588b9274e7f131795af6e0"
+      },
+      "env": {
+        "client": "optional",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/l6YH9Als/versions/1CB3cS0m/spark-1.10.156-fabric.jar"
+      ],
+      "fileSize": 3901887
+    },
+    {
       "path": "mods/GR_CLO_villager-inventory-hwyla-plugin-1.0.0.jar",
       "hashes": {
         "sha1": "d92f2a6c8872f0b4a7b2f62b49505c0dc812b059",
@@ -379,6 +409,21 @@
         "https://cdn.modrinth.com/data/ESa9RivE/versions/RVH25yBF/villager-inventory-hwyla-plugin-1.0.0.jar"
       ],
       "fileSize": 30691
+    },
+    {
+      "path": "mods/GR_CLX_jline4mcdsrv-0.6.4.jar",
+      "hashes": {
+        "sha1": "a00347aa593d5de4a052a41e0222d033d281f3e7",
+        "sha512": "a2bcd1d1b597c499f93b2831e7cb53a8bb6e4ad2f0eaa1070f16616611feba3af980b50767f7b9b3beed0d889bc22698a4703f9f11e2784279ee0e0713276217"
+      },
+      "env": {
+        "client": "unsupported",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/9mnPo3ZV/versions/7oc0agle/jline4mcdsrv-0.6.4.jar"
+      ],
+      "fileSize": 1504834
     }
   ],
   "dependencies": {
