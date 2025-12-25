@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "0.0.6",
+  "versionId": "0.0.7",
   "name": "GhostRun 2025 [PACZKA SERWEROWA! Prawdopodobnie to nie jej chcesz używać u siebie na kliencie.]",
   "summary": "GhostRun: Paczka serwerowa GhostLanda, na czas między-edycjowy. Edycja zimowa 2025/26.",
   "files": [
@@ -484,6 +484,36 @@
         "https://cdn.modrinth.com/data/ESa9RivE/versions/RVH25yBF/villager-inventory-hwyla-plugin-1.0.0.jar"
       ],
       "fileSize": 30691
+    },
+    {
+      "path": "mods/GR_CLX_Discord-MC-Chat-2.7.1.jar",
+      "hashes": {
+        "sha1": "786b3477bb3c76a85febba3f871a914b25004e0f",
+        "sha512": "8e57146ae4f306be93cfc39717a618351ddcc29630ba9f599a4a1a56b6d02540b876b3dd6dd845ec57fe39709f510b362203f8840b81fb67102a140e2f4e1242"
+      },
+      "env": {
+        "client": "unsupported",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/D0sHdnXY/versions/aWxpt7iY/Discord-MC-Chat-2.7.1.jar"
+      ],
+      "fileSize": 17474174
+    },
+    {
+      "path": "mods/GR_CLX_WhitelistSync-2.8.3-fabric-1.21.11.jar",
+      "hashes": {
+        "sha1": "b4cd359fbaf32661f4df7513dc0c1728578571c6",
+        "sha512": "93148cb0567cb395f68e9c4a199d8e445fca4ae61c0762a0f34200e9220a0a8faccb2f10c7282ed22d1e6f2f55ac94f11883a37975ef8cfb074ab9d7540e465e"
+      },
+      "env": {
+        "client": "unsupported",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/DcCsQ8S5/versions/T4uZWLJo/WhitelistSync-2.8.3-fabric-1.21.11.jar"
+      ],
+      "fileSize": 25833178
     },
     {
       "path": "mods/GR_CLX_jline4mcdsrv-0.6.4.jar",
