@@ -1,6 +1,6 @@
 format-version 3
 
-default-modpack "GhostRun"
+default-modpack "GhostRunCM"
 
 modpacks {
     modpack "GhostLand7" path="./modpack" preferred-name="GhostLand 7" {
@@ -18,9 +18,14 @@ modpacks {
         description "GhostRun: Paczka serwerowa GhostLanda, na czas między-edycjowy. Edycja zimowa 2025/26."
         ingame-name "GhostRun 2025 [PACZKA SERWEROWA! Prawdopodobnie to nie jej chcesz używać u siebie na kliencie.]"
     }
-    modpack "GhostRunJIF0" path="./grun-jifo" preferred-name="GhostRun" {
+    modpack "GhostRunJIF0" path="./grun-jifo" preferred-name="GhostRun - Jiffed Edition" {
         version-prefix "J0."
         description "GhostRun: Paczka serwerowa GhostLanda, na czas między-edycjowy. Edycja zimowa 2025/26."
         ingame-name "GhostRun 2025 [PACZKA SERWEROWA! Prawdopodobnie to nie jej chcesz używać u siebie na kliencie.]"
+    }
+    modpack "GhostRunCM" path="./grun-cm" preferred-name="GhostRun - CraftMine Edition" {
+    	version-prefix "1.0."
+        description "GhostRun: Paczka serwerowa (opcj. klientowa) GhostLanda, na czas między-edycjowy. Wersja CraftMine."
+        ingame-name "GhostRun CM"
     }
 }
