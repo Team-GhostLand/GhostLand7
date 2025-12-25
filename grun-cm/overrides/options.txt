@@ -78,7 +78,7 @@ tutorialStep:movement
 mouseWheelSensitivity:1.0
 rawMouseInput:true
 glDebugVerbosity:1
-skipMultiplayerWarning:false
+skipMultiplayerWarning:true
 hideMatchedNames:true
 joinedFirstServer:false
 syncChunkWrites:false
@@ -112,8 +112,8 @@ key_key.smoothCamera:key.keyboard.unknown
 key_key.fullscreen:key.keyboard.f11
 key_key.spectatorOutlines:key.keyboard.unknown
 key_key.swapOffhand:key.keyboard.f
-key_key.saveToolbarActivator:key.keyboard.c
-key_key.loadToolbarActivator:key.keyboard.x
+key_key.saveToolbarActivator:key.keyboard.unknown
+key_key.loadToolbarActivator:key.keyboard.unknown
 key_key.advancements:key.keyboard.l
 key_key.hotbar.1:key.keyboard.1
 key_key.hotbar.2:key.keyboard.2
@@ -135,11 +135,11 @@ key_key.jade.profile.0:key.keyboard.unknown
 key_key.jade.profile.1:key.keyboard.unknown
 key_key.jade.profile.2:key.keyboard.unknown
 key_key.jade.profile.3:key.keyboard.unknown
-key_zume.zoom:key.keyboard.z
-key_zume.zoom_in:key.keyboard.equal
-key_zume.zoom_out:key.keyboard.minus
-soundCategory_master:1.0
-soundCategory_music:1.0
+key_zume.zoom:key.keyboard.c
+key_zume.zoom_in:key.keyboard.unknown
+key_zume.zoom_out:key.keyboard.unknown
+soundCategory_master:0.6502077867184869
+soundCategory_music:0.22528907555502503
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0

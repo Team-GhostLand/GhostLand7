@@ -24,7 +24,7 @@ modpacks {
         ingame-name "GhostRun 2025 [PACZKA SERWEROWA! Prawdopodobnie to nie jej chcesz używać u siebie na kliencie.]"
     }
     modpack "GhostRunCM" path="./grun-cm" preferred-name="GhostRun - CraftMine Edition" {
-    	version-prefix "1.0."
+    	version-prefix "1.2."
         description "GhostRun: Paczka serwerowa (opcj. klientowa) GhostLanda, na czas między-edycjowy. Wersja CraftMine."
         ingame-name "GhostRun CM"
     }

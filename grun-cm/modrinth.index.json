@@ -1,253 +1,253 @@
 {
-	"game": "minecraft",
-	"formatVersion": 1,
-	"versionId": "1.0.1",
-	"name": "GhostRun CM",
-	"summary": "GhostRun: Paczka serwerowa (opcj. klientowa) GhostLanda, na czas między-edycjowy. Wersja CraftMine.",
-	"files": [
-		{
-			"path": "datapacks/GR_CLO_tab-player-health-1.21.11-1.0.2.zip",
-			"hashes": {
-				"sha1": "fe9aabaca4a2e91cfd819d0cc8ff22d12f76a77d",
-				"sha512": "727a7b2e6d4ec496f8b7c76195642287f758b24cd2ba9439cf78b90a4f48a83a96ea98411571922c8ca7c2e72598f287b4dd2866ce7ddc09fb203527f2ffae21"
-			},
-			"env": {
-				"client": "optional",
-				"server": "required"
-			},
-			"downloads": [
-				"https://cdn.modrinth.com/data/TCq8DibQ/versions/X8J9FMRH/tab-player-health-1.21.11-1.0.2.zip"
-			],
-			"fileSize": 1083008
-		},
-		{
-			"path": "mods/GR_CLO_MinimalismLeafDecay+1.21.1+0.2.0.jar",
-			"hashes": {
-				"sha1": "6d9a1d1d59080544a827aa93e91af0fd9d634af8",
-				"sha512": "d281efc3ab629dfa35bd990bc78d374eec341bc0ae15881eea7b126daba97c42bde5782994cb09f991c72fc4c40fba824138d7f27c2e45be7dcd0ff6f6dcd7ef"
-			},
-			"env": {
-				"client": "optional",
-				"server": "required"
-			},
-			"downloads": [
-				"https://cdn.modrinth.com/data/eM6lDmSn/versions/H8zVcxLF/MinimalismLeafDecay%2B1.21.1%2B0.2.0.jar"
-			],
-			"fileSize": 19472
-		},
-		{
-			"path": "mods/GR_CLO_NoBugs 1.4.0 (1.21.2-1.21.7).jar",
-			"hashes": {
-				"sha1": "5577b9a56f05f81cadfad99737d2cc200cd9a8a7",
-				"sha512": "114eaec292e34e42fc9a7ed88916b6b53b397bffc23d846889a1b181340ab9e0a4f9c09ef914aeb6ec046a6392f0c3a07b707e269a23d53e126f03190624a360"
-			},
-			"env": {
-				"client": "optional",
-				"server": "required"
-			},
-			"downloads": [
-				"https://cdn.modrinth.com/data/mXDu22i4/versions/ZnJqMEtt/NoBugs%201.4.0%20%281.21.2-1.21.7%29.jar"
-			],
-			"fileSize": 58396
-		},
-		{
-			"path": "mods/GR_CLO_NoMineCrafterGriefing-11.45.14.jar",
-			"hashes": {
-				"sha1": "05753ac248cdd2258fbf12cc1d9ab0a36dc175d3",
-				"sha512": "ddd292230e9178fd657df27eed57b3a6938e00111f95b900c11bdf504041f51d2c4532678be5af15135fb9e4536c45f3e7c36fdb232322d2fbdb88dfe268134d"
-			},
-			"env": {
-				"client": "optional",
-				"server": "required"
-			},
-			"downloads": [
-				"https://cdn.modrinth.com/data/FgHBBZ8w/versions/9J9kD9Yd/NoMineCrafterGriefing-11.45.14.jar"
-			],
-			"fileSize": 22874
-		},
-		{
-			"path": "mods/GR_CLO_c2me-fabric-mc25w14craftmine-0.3.3+alpha.0.2.jar",
-			"hashes": {
-				"sha1": "5e61c3fbbb95c5ef04ae3fd2adb80ac3a27373e4",
-				"sha512": "a7aedd1fe39eff2316ddf6e4bb9a654cf8a65e88541f4fe42f2d8ec9b94ac4a122c9373490e006bbe57d4c718aa29789372f334b3b2b1024863edfa6fdf2772c"
-			},
-			"env": {
-				"client": "optional",
-				"server": "required"
-			},
-			"downloads": [
-				"https://cdn.modrinth.com/data/VSNURh3q/versions/OFC8pud6/c2me-fabric-mc25w14craftmine-0.3.3%2Balpha.0.2.jar"
-			],
-			"fileSize": 4663270
-		},
-		{
-			"path": "mods/GR_CLO_craftminebiomefix-1.0.1.jar",
-			"hashes": {
-				"sha1": "830b15451e97e6eb192bfc133a44de8f24398362",
-				"sha512": "f80910a96ad29ae5a1ebf2e370c0b9735f2f10cbdafac43450f77ec9f936af4af20738051321ea126896a72f2522b0073f9e175bcacd3c36f07499053c3eefa9"
-			},
-			"env": {
-				"client": "optional",
-				"server": "required"
-			},
-			"downloads": [
-				"https://cdn.modrinth.com/data/1SkIV5qw/versions/BWvKmb6Q/craftminebiomefix-1.0.1.jar"
-			],
-			"fileSize": 13809
-		},
-		{
-			"path": "mods/GR_CLO_exchangevaluetracker-1.0.0.jar",
-			"hashes": {
-				"sha1": "50c589e4da3ce9d0b8b6cd86e545174058bd4b0a",
-				"sha512": "d0a9f25bad9d43435cfd0a0b64434820a881bf3cc8a5aa8d0d36d9be3804fa8197cff41ee3c83e0f5897c7050c8b585e669acd49e07eb8bd5a377983e249432c"
-			},
-			"env": {
-				"client": "optional",
-				"server": "required"
-			},
-			"downloads": [
-				"https://cdn.modrinth.com/data/Wd5MO1ll/versions/hrex3w8g/exchangevaluetracker-1.0.0.jar"
-			],
-			"fileSize": 39394
-		},
-		{
-			"path": "mods/GR_CLO_fabric-api-0.119.10+25w14craftmine.jar",
-			"hashes": {
-				"sha1": "6be0db4c6e24f57cce3e505929323b3601c8e92b",
-				"sha512": "500c92609cc091c7f8b5ab3d5fc99ccc3f1fa4c720f504648ba59213238be05c53338220c2de0852c4a300cdbd8fdeaa7d98d9cd74d822c61426ceb253ec75b1"
-			},
-			"env": {
-				"client": "optional",
-				"server": "required"
-			},
-			"downloads": [
-				"https://cdn.modrinth.com/data/P7dR8mSH/versions/MyA3WGr0/fabric-api-0.119.10%2B25w14craftmine.jar"
-			],
-			"fileSize": 2134165
-		},
-		{
-			"path": "mods/GR_CLO_rarity-tooltips-1.1.2.jar",
-			"hashes": {
-				"sha1": "10243888e33ed71d5aafc9217ca54394bae31118",
-				"sha512": "9501c3126a4c3ff026553421409c1bf0d82d41719104c750cb56d262522e5fff2f137b18f50d24c3278c6b8359232ec9869b2a33b53197830551c6e95b025a58"
-			},
-			"env": {
-				"client": "optional",
-				"server": "required"
-			},
-			"downloads": [
-				"https://cdn.modrinth.com/data/4dZZPNHS/versions/ilzSCD3r/rarity-tooltips-1.1.2.jar"
-			],
-			"fileSize": 315688
-		},
-		{
-			"path": "mods/GR_CLX_jline4mcdsrv-0.6.3+craftmine.jar",
-			"hashes": {
-				"sha1": "0c34c2c2b6c633326a52bd9794ecae5eea9335c8",
-				"sha512": "6c4e129811f11ffe0b6e6f564b8daa9602224e4de41503d3f6ab594c40479a81ce9dc30560d1b6c8e355cc2f13effbd4dc2d624cfd7209ba18ce195885b9fae0"
-			},
-			"env": {
-				"client": "unsupported",
-				"server": "required"
-			},
-			"downloads": [
-				"https://cdn.modrinth.com/data/9mnPo3ZV/versions/lzZQPjvl/jline4mcdsrv-0.6.3%2Bcraftmine.jar"
-			],
-			"fileSize": 1477297
-		},
-		{
-			"path": "mods/GR_SVX_dynamic-fps-3.9.4+minecraft-1.21.5-fabric.jar",
-			"hashes": {
-				"sha1": "317fa92e11ff83bdda2dce899c1d096ef16fca9f",
-				"sha512": "fa59f35bfdd3509c49362cbcdda35a08f706ff053594afd44c37176d75c536120cb66fa2b129782e707a6aa7fe2ecb7d3bd477d0e22d4b6ef4c937f687626b8b"
-			},
-			"env": {
-				"client": "required",
-				"server": "unsupported"
-			},
-			"downloads": [
-				"https://cdn.modrinth.com/data/LQ3K71Q1/versions/wrSjf4ld/dynamic-fps-3.9.4%2Bminecraft-1.21.5-fabric.jar"
-			],
-			"fileSize": 192205
-		},
-		{
-			"path": "mods/GR_SVX_dynamiclights-v1.9.1-mc1.17-1.21.11-mod.jar",
-			"hashes": {
-				"sha1": "df4303deb02246cde9c3a9b82c165bec3f37dada",
-				"sha512": "a296222307cd4a19aeb65beb8f486a22d5e74795130cd2d775f4bb5d1b5f9fffdd733f1072253d5626216ab369913c75952a859e836798f1d89b7cc0590dc5a4"
-			},
-			"env": {
-				"client": "required",
-				"server": "unsupported"
-			},
-			"downloads": [
-				"https://cdn.modrinth.com/data/7YjclEGc/versions/necGsua8/dynamiclights-v1.9.1-mc1.17-1.21.11-mod.jar"
-			],
-			"fileSize": 405957
-		},
-		{
-			"path": "mods/GR_SVX_zume-1.2.1.jar",
-			"hashes": {
-				"sha1": "433406987269d89cf4fc0170a1f1d1c9b8ddd504",
-				"sha512": "ce41ce418f42c663ca7dfa96cd3ff78a797754ef6ba1ebf618c77ebd55794c8b885d56052944263b7baaa6524f19a5fd53c5ddd15b93e19fb8feec76f0ce0ebe"
-			},
-			"env": {
-				"client": "required",
-				"server": "unsupported"
-			},
-			"downloads": [
-				"https://cdn.modrinth.com/data/o6qsdrrQ/versions/xWYY0WPk/zume-1.2.1.jar"
-			],
-			"fileSize": 99253
-		},
-		{
-			"path": "mods/Jade-25w14craftmine-Fabric-18.0.3.jar",
-			"hashes": {
-				"sha1": "df673d98c925908f996e581a5408618bd86fe5bf",
-				"sha512": "bdd3444f7d15d3b8f0ea6476f1f1052d5caf72c72dd7689334cc710444fb9bbd73085daa5390b2027620737b873647619704adc4c35db795bfa9c1bada1823a4"
-			},
-			"env": {
-				"client": "required",
-				"server": "required"
-			},
-			"downloads": [
-				"https://cdn.modrinth.com/data/nvQzSEkH/versions/cJIrDrbJ/Jade-25w14craftmine-Fabric-18.0.3.jar"
-			],
-			"fileSize": 811141
-		},
-		{
-			"path": "mods/craftmine-fixes-0.30.jar",
-			"hashes": {
-				"sha1": "f6938d750198e2d5aa41bfe252a8032d98f6faa5",
-				"sha512": "d047ca0d256319da787b78347f3b1f31ac1fd652d00905498d0a2e37cb8dd45dd9c871ed52804a3486e783f460e17e2f5f0d984150286d88f9fbdf401024de4b"
-			},
-			"env": {
-				"client": "required",
-				"server": "required"
-			},
-			"downloads": [
-				"https://cdn.modrinth.com/data/lbZmE2uR/versions/4XIKzK99/craftmine-fixes-0.30.jar"
-			],
-			"fileSize": 208736
-		},
-		{
-			"path": "mods/craftminefix-1.5.0.jar",
-			"hashes": {
-				"sha1": "536e8e4d1968913eb882969f5d830df42fc4438d",
-				"sha512": "7c061238423562ec5cacadfd9f7acf23663a48f72a657be321b2041f253b928d489713262755596f4d0b0d4aa080da94f6e1069bb820510761bef91caa1dc4c4"
-			},
-			"env": {
-				"client": "required",
-				"server": "required"
-			},
-			"downloads": [
-				"https://cdn.modrinth.com/data/xmchfDRO/versions/CPjmkmin/craftminefix-1.5.0.jar"
-			],
-			"fileSize": 32528
-		}
-	],
-	"dependencies": {
-		"fabric-loader": "0.18.4",
-		"minecraft": "25w14craftmine"
-	}
+  "game": "minecraft",
+  "formatVersion": 1,
+  "versionId": "1.2.0",
+  "name": "GhostRun CM",
+  "summary": "GhostRun: Paczka serwerowa (opcj. klientowa) GhostLanda, na czas między-edycjowy. Wersja CraftMine.",
+  "files": [
+    {
+      "path": "datapacks/GR_CLO_tab-player-health-1.21.11-1.0.2.zip",
+      "hashes": {
+        "sha1": "fe9aabaca4a2e91cfd819d0cc8ff22d12f76a77d",
+        "sha512": "727a7b2e6d4ec496f8b7c76195642287f758b24cd2ba9439cf78b90a4f48a83a96ea98411571922c8ca7c2e72598f287b4dd2866ce7ddc09fb203527f2ffae21"
+      },
+      "env": {
+        "client": "optional",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/TCq8DibQ/versions/X8J9FMRH/tab-player-health-1.21.11-1.0.2.zip"
+      ],
+      "fileSize": 1083008
+    },
+    {
+      "path": "mods/GR_CLO_MinimalismLeafDecay+1.21.1+0.2.0.jar",
+      "hashes": {
+        "sha1": "6d9a1d1d59080544a827aa93e91af0fd9d634af8",
+        "sha512": "d281efc3ab629dfa35bd990bc78d374eec341bc0ae15881eea7b126daba97c42bde5782994cb09f991c72fc4c40fba824138d7f27c2e45be7dcd0ff6f6dcd7ef"
+      },
+      "env": {
+        "client": "optional",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/eM6lDmSn/versions/H8zVcxLF/MinimalismLeafDecay%2B1.21.1%2B0.2.0.jar"
+      ],
+      "fileSize": 19472
+    },
+    {
+      "path": "mods/GR_CLO_NoBugs 1.4.0 (1.21.2-1.21.7).jar",
+      "hashes": {
+        "sha1": "5577b9a56f05f81cadfad99737d2cc200cd9a8a7",
+        "sha512": "114eaec292e34e42fc9a7ed88916b6b53b397bffc23d846889a1b181340ab9e0a4f9c09ef914aeb6ec046a6392f0c3a07b707e269a23d53e126f03190624a360"
+      },
+      "env": {
+        "client": "optional",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/mXDu22i4/versions/ZnJqMEtt/NoBugs%201.4.0%20%281.21.2-1.21.7%29.jar"
+      ],
+      "fileSize": 58396
+    },
+    {
+      "path": "mods/GR_CLO_NoMineCrafterGriefing-11.45.14.jar",
+      "hashes": {
+        "sha1": "05753ac248cdd2258fbf12cc1d9ab0a36dc175d3",
+        "sha512": "ddd292230e9178fd657df27eed57b3a6938e00111f95b900c11bdf504041f51d2c4532678be5af15135fb9e4536c45f3e7c36fdb232322d2fbdb88dfe268134d"
+      },
+      "env": {
+        "client": "optional",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/FgHBBZ8w/versions/9J9kD9Yd/NoMineCrafterGriefing-11.45.14.jar"
+      ],
+      "fileSize": 22874
+    },
+    {
+      "path": "mods/GR_CLO_c2me-fabric-mc25w14craftmine-0.3.3+alpha.0.2.jar",
+      "hashes": {
+        "sha1": "5e61c3fbbb95c5ef04ae3fd2adb80ac3a27373e4",
+        "sha512": "a7aedd1fe39eff2316ddf6e4bb9a654cf8a65e88541f4fe42f2d8ec9b94ac4a122c9373490e006bbe57d4c718aa29789372f334b3b2b1024863edfa6fdf2772c"
+      },
+      "env": {
+        "client": "optional",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/VSNURh3q/versions/OFC8pud6/c2me-fabric-mc25w14craftmine-0.3.3%2Balpha.0.2.jar"
+      ],
+      "fileSize": 4663270
+    },
+    {
+      "path": "mods/GR_CLO_craftminebiomefix-1.0.1.jar",
+      "hashes": {
+        "sha1": "830b15451e97e6eb192bfc133a44de8f24398362",
+        "sha512": "f80910a96ad29ae5a1ebf2e370c0b9735f2f10cbdafac43450f77ec9f936af4af20738051321ea126896a72f2522b0073f9e175bcacd3c36f07499053c3eefa9"
+      },
+      "env": {
+        "client": "optional",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/1SkIV5qw/versions/BWvKmb6Q/craftminebiomefix-1.0.1.jar"
+      ],
+      "fileSize": 13809
+    },
+    {
+      "path": "mods/GR_CLO_exchangevaluetracker-1.0.0.jar",
+      "hashes": {
+        "sha1": "50c589e4da3ce9d0b8b6cd86e545174058bd4b0a",
+        "sha512": "d0a9f25bad9d43435cfd0a0b64434820a881bf3cc8a5aa8d0d36d9be3804fa8197cff41ee3c83e0f5897c7050c8b585e669acd49e07eb8bd5a377983e249432c"
+      },
+      "env": {
+        "client": "optional",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/Wd5MO1ll/versions/hrex3w8g/exchangevaluetracker-1.0.0.jar"
+      ],
+      "fileSize": 39394
+    },
+    {
+      "path": "mods/GR_CLO_rarity-tooltips-1.1.2.jar",
+      "hashes": {
+        "sha1": "10243888e33ed71d5aafc9217ca54394bae31118",
+        "sha512": "9501c3126a4c3ff026553421409c1bf0d82d41719104c750cb56d262522e5fff2f137b18f50d24c3278c6b8359232ec9869b2a33b53197830551c6e95b025a58"
+      },
+      "env": {
+        "client": "optional",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/4dZZPNHS/versions/ilzSCD3r/rarity-tooltips-1.1.2.jar"
+      ],
+      "fileSize": 315688
+    },
+    {
+      "path": "mods/GR_CLX_jline4mcdsrv-0.6.3+craftmine.jar",
+      "hashes": {
+        "sha1": "0c34c2c2b6c633326a52bd9794ecae5eea9335c8",
+        "sha512": "6c4e129811f11ffe0b6e6f564b8daa9602224e4de41503d3f6ab594c40479a81ce9dc30560d1b6c8e355cc2f13effbd4dc2d624cfd7209ba18ce195885b9fae0"
+      },
+      "env": {
+        "client": "unsupported",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/9mnPo3ZV/versions/lzZQPjvl/jline4mcdsrv-0.6.3%2Bcraftmine.jar"
+      ],
+      "fileSize": 1477297
+    },
+    {
+      "path": "mods/GR_SVX_dynamic-fps-3.9.4+minecraft-1.21.5-fabric.jar",
+      "hashes": {
+        "sha1": "317fa92e11ff83bdda2dce899c1d096ef16fca9f",
+        "sha512": "fa59f35bfdd3509c49362cbcdda35a08f706ff053594afd44c37176d75c536120cb66fa2b129782e707a6aa7fe2ecb7d3bd477d0e22d4b6ef4c937f687626b8b"
+      },
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/LQ3K71Q1/versions/wrSjf4ld/dynamic-fps-3.9.4%2Bminecraft-1.21.5-fabric.jar"
+      ],
+      "fileSize": 192205
+    },
+    {
+      "path": "mods/GR_SVX_dynamiclights-v1.9.1-mc1.17-1.21.11-mod.jar",
+      "hashes": {
+        "sha1": "df4303deb02246cde9c3a9b82c165bec3f37dada",
+        "sha512": "a296222307cd4a19aeb65beb8f486a22d5e74795130cd2d775f4bb5d1b5f9fffdd733f1072253d5626216ab369913c75952a859e836798f1d89b7cc0590dc5a4"
+      },
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/7YjclEGc/versions/necGsua8/dynamiclights-v1.9.1-mc1.17-1.21.11-mod.jar"
+      ],
+      "fileSize": 405957
+    },
+    {
+      "path": "mods/GR_SVX_zume-1.2.1.jar",
+      "hashes": {
+        "sha1": "433406987269d89cf4fc0170a1f1d1c9b8ddd504",
+        "sha512": "ce41ce418f42c663ca7dfa96cd3ff78a797754ef6ba1ebf618c77ebd55794c8b885d56052944263b7baaa6524f19a5fd53c5ddd15b93e19fb8feec76f0ce0ebe"
+      },
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/o6qsdrrQ/versions/xWYY0WPk/zume-1.2.1.jar"
+      ],
+      "fileSize": 99253
+    },
+    {
+      "path": "mods/Jade-25w14craftmine-Fabric-18.0.3.jar",
+      "hashes": {
+        "sha1": "df673d98c925908f996e581a5408618bd86fe5bf",
+        "sha512": "bdd3444f7d15d3b8f0ea6476f1f1052d5caf72c72dd7689334cc710444fb9bbd73085daa5390b2027620737b873647619704adc4c35db795bfa9c1bada1823a4"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/nvQzSEkH/versions/cJIrDrbJ/Jade-25w14craftmine-Fabric-18.0.3.jar"
+      ],
+      "fileSize": 811141
+    },
+    {
+      "path": "mods/craftmine-fixes-0.30.jar",
+      "hashes": {
+        "sha1": "f6938d750198e2d5aa41bfe252a8032d98f6faa5",
+        "sha512": "d047ca0d256319da787b78347f3b1f31ac1fd652d00905498d0a2e37cb8dd45dd9c871ed52804a3486e783f460e17e2f5f0d984150286d88f9fbdf401024de4b"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/lbZmE2uR/versions/4XIKzK99/craftmine-fixes-0.30.jar"
+      ],
+      "fileSize": 208736
+    },
+    {
+      "path": "mods/craftminefix-1.5.0.jar",
+      "hashes": {
+        "sha1": "536e8e4d1968913eb882969f5d830df42fc4438d",
+        "sha512": "7c061238423562ec5cacadfd9f7acf23663a48f72a657be321b2041f253b928d489713262755596f4d0b0d4aa080da94f6e1069bb820510761bef91caa1dc4c4"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/xmchfDRO/versions/CPjmkmin/craftminefix-1.5.0.jar"
+      ],
+      "fileSize": 32528
+    },
+    {
+      "path": "mods/fabric-api-0.119.10+25w14craftmine.jar",
+      "hashes": {
+        "sha1": "6be0db4c6e24f57cce3e505929323b3601c8e92b",
+        "sha512": "500c92609cc091c7f8b5ab3d5fc99ccc3f1fa4c720f504648ba59213238be05c53338220c2de0852c4a300cdbd8fdeaa7d98d9cd74d822c61426ceb253ec75b1"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/P7dR8mSH/versions/MyA3WGr0/fabric-api-0.119.10%2B25w14craftmine.jar"
+      ],
+      "fileSize": 2134165
+    }
+  ],
+  "dependencies": {
+    "fabric-loader": "0.18.4",
+    "minecraft": "25w14craftmine"
+  }
 }
