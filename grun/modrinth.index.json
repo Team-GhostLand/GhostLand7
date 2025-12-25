@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "0.0.2",
+  "versionId": "0.0.3",
   "name": "GhostRun 2025 [PACZKA SERWEROWA! Prawdopodobnie to nie jej chcesz używać u siebie na kliencie.]",
   "summary": "GhostRun: Paczka serwerowa GhostLanda, na czas między-edycjowy. Edycja zimowa 2025/26.",
   "files": [
@@ -12,7 +12,7 @@
         "sha512": "fdbb0772a802911771fa3ad05a9a353c398c086fa3365e01a578485bf20c6d7456f3dfd693b9164041b62271e1dbd4f37871e8b0b223601d192457450db331f4"
       },
       "env": {
-        "client": "required",
+        "client": "optional",
         "server": "required"
       },
       "downloads": [
@@ -27,7 +27,7 @@
         "sha512": "3be0e049e3dea6256b395ccb1f7dccc9c6b23cb7b1f6a717a7cd1ca55f9dbda489679df32868c72664ebb28ca05f2c366590d1e1a11f0dc5f69f947903bad833"
       },
       "env": {
-        "client": "required",
+        "client": "optional",
         "server": "required"
       },
       "downloads": [
@@ -42,7 +42,7 @@
         "sha512": "309de4c201db1e16bc0e18ac3ecf8b5da5e9aaaa30786a571731298b62ba41a587fae1d647ec1c3f36c6181ddf0bcf5a3c0f80b8d2b67644dfb9feb884e51efc"
       },
       "env": {
-        "client": "required",
+        "client": "optional",
         "server": "required"
       },
       "downloads": [
@@ -57,7 +57,7 @@
         "sha512": "28791c992d613da14b8685505d3ef632ed53b5f1e1d517f0b41677d10f8419f192dfbde991308df6cda5d0f113c0aa8fc18ecf4a0834029403b16d2f68dc52d6"
       },
       "env": {
-        "client": "required",
+        "client": "optional",
         "server": "required"
       },
       "downloads": [
@@ -72,7 +72,7 @@
         "sha512": "6534609849c4b33951d3b6ce0c83dd9272181f8d1d9d8cf39bbca8b5a2e3cbb498200d36844454bb3e52e4943fc9a556f52674b53be4f07fe897f0bf5689ea66"
       },
       "env": {
-        "client": "required",
+        "client": "optional",
         "server": "required"
       },
       "downloads": [
@@ -87,7 +87,7 @@
         "sha512": "6a3d659cec9a3e21fe006e8760dea6350b64aa6d71180f8f087a2e2a7d94dedda6a5f27eafbf93de70adc606c75c07bdfcd9dc25be3a0ecf594e022dee87511b"
       },
       "env": {
-        "client": "required",
+        "client": "optional",
         "server": "required"
       },
       "downloads": [
@@ -102,7 +102,7 @@
         "sha512": "34b7218b973aad2ab079e58167a0d493dc0a57eda0ae1f980839e21411abf7fdda0d37bd6633f1b7c59aa7bc09d1043c6bdb2a6fab3f2ecadc1676448bad7385"
       },
       "env": {
-        "client": "required",
+        "client": "optional",
         "server": "required"
       },
       "downloads": [
@@ -117,7 +117,7 @@
         "sha512": "ca03667053358993b85288136e8a75ba7d02164c285a9b98af22515974d47f13aa27f2fb0109f4bde4d53ad30e77b44548ace2726b25eeac1de0d4c2b53e3f09"
       },
       "env": {
-        "client": "required",
+        "client": "optional",
         "server": "required"
       },
       "downloads": [
@@ -132,7 +132,7 @@
         "sha512": "98a2d5893d118b5cf4acbb56403c61d75e78036d198ddf29e3baeb32a6221257baf2d13599cbbe68da08c8c9201f0cc25d11c13b24419ec644d2bd08b6750358"
       },
       "env": {
-        "client": "required",
+        "client": "optional",
         "server": "required"
       },
       "downloads": [
@@ -147,7 +147,7 @@
         "sha512": "2b28489841736bbe96fd24e013d74da9dc7a7a94c4a14ed24d73d1b2b0414940a4796a22bc224e52e699a95c1c45c73ca5064ef5425254720644308ffd52efa2"
       },
       "env": {
-        "client": "required",
+        "client": "optional",
         "server": "required"
       },
       "downloads": [
@@ -162,7 +162,7 @@
         "sha512": "876eff00d18ee8666bd4b84c20b95e6702a9cfdb42a484f30176f5165ebaaec6d47e11c27ff749bbda9c1c1ae13a83afe0ea0ad88046da5c7d842ef1c04f8d80"
       },
       "env": {
-        "client": "required",
+        "client": "optional",
         "server": "required"
       },
       "downloads": [
@@ -177,7 +177,7 @@
         "sha512": "6c6f9411fad87f5ad04648fe47946764bce5f9121af2155aa2be7731e52b11e9150ac2de1657e0407ecc4cf1c373ef605b4de020aa71db32ba051bf88aec2535"
       },
       "env": {
-        "client": "required",
+        "client": "optional",
         "server": "required"
       },
       "downloads": [
@@ -192,7 +192,7 @@
         "sha512": "59487753596a2a9861e22ec21361c8c1f962ec87057fe7bd275f3896e084215cd110cda7cd9f86e96bb08652fa21cf86f738c6e838e0155adb98a669e7fd08ba"
       },
       "env": {
-        "client": "required",
+        "client": "optional",
         "server": "required"
       },
       "downloads": [
@@ -207,7 +207,7 @@
         "sha512": "fee86a3aca2bbb97f7c45926c1e6c1a5366f6f15242133bfe1a1f55bba8ef0f63dea092da1f61bfebd1ae448a05c2ba94ba61a349aa4ab61d990020d6a855154"
       },
       "env": {
-        "client": "required",
+        "client": "optional",
         "server": "required"
       },
       "downloads": [
@@ -222,7 +222,7 @@
         "sha512": "af4465797d80401021a6aefc8c547200e7c0f8cae134299bf3fafbc310fa81f055246b0614fc0e037538f4a844e55aad30abfa3c67460422853dfc426f086d00"
       },
       "env": {
-        "client": "required",
+        "client": "optional",
         "server": "required"
       },
       "downloads": [
@@ -237,7 +237,7 @@
         "sha512": "90bf59f810ea62363bdd7b2ce85a6268b7db67d6d4ce5ae6555204bc7eff0446a6e17d60ef51ad41bf85e92ca430043a8f7c21157cbaee9279733304605cc4d0"
       },
       "env": {
-        "client": "required",
+        "client": "optional",
         "server": "required"
       },
       "downloads": [
@@ -252,7 +252,7 @@
         "sha512": "be600543e499b59286f9409f46497570adc51939ae63eaa12ac29e6778da27d8c7c6cd0b3340d8bcca1cc99ce61779b1a8f52b990f9e4e9a93aa9c6482905231"
       },
       "env": {
-        "client": "required",
+        "client": "optional",
         "server": "required"
       },
       "downloads": [
@@ -267,7 +267,7 @@
         "sha512": "1b54f5be9ebc3de10a6d9ea2982fdb293e1ed4a340c79753796e9529f7398f64a1b3ceee5f4dd9b9f15585ad9c6d29f0b733ecdf29286ea1e6d4c86dd4b20573"
       },
       "env": {
-        "client": "required",
+        "client": "optional",
         "server": "required"
       },
       "downloads": [
@@ -282,7 +282,7 @@
         "sha512": "94625510013e0daaf1c2e2b6d8a463c932ff6220f91ba5b0cd5f868658215f046d94d07b3465660f576c4dc27a5aa183dfbdc1c9303f11894b5b25a1dc6c3bb6"
       },
       "env": {
-        "client": "required",
+        "client": "optional",
         "server": "required"
       },
       "downloads": [
@@ -297,7 +297,7 @@
         "sha512": "ea9034b60bc1c64629a9bcad2e619907692fe6e7464026236c55cc5a4892a20d21dd6318ad0380ab2ec245f7077939b6717d2ed58e00708c17470be14f5e0b5f"
       },
       "env": {
-        "client": "required",
+        "client": "optional",
         "server": "required"
       },
       "downloads": [
@@ -312,7 +312,7 @@
         "sha512": "ec2c4e2425a797f81760807c1dd0d0800c0f0f6bc9010d85bb767eb632e7825384e7b409b928aabbb523f3ab0d53148a0f6788220a49375f7e8626d475d71d96"
       },
       "env": {
-        "client": "required",
+        "client": "optional",
         "server": "required"
       },
       "downloads": [
@@ -327,7 +327,7 @@
         "sha512": "a7cdc4b81653ca7c823c91ffd29092365feff78b8d8e019f35ab6c47a0f18661768656cc5fe73f802ab7097d828d8173cc23d32b454a7acd64ff6b7118789413"
       },
       "env": {
-        "client": "required",
+        "client": "optional",
         "server": "required"
       },
       "downloads": [
@@ -342,7 +342,7 @@
         "sha512": "1f9b34dc7e012a206f3f2b3b837aaddd5c5ae45c117e13a189ac8fffc413ade577c1389721228b56823a01e8cc49c346e4fa6baf8fdcd4cf927d8a46dc7c2c68"
       },
       "env": {
-        "client": "required",
+        "client": "optional",
         "server": "required"
       },
       "downloads": [
@@ -357,7 +357,7 @@
         "sha512": "964392769e53f9764466e26044552f60e91137f487b49d98a85bd4dc03ab8e965f0c69bc1a43e96ef5737cd8f1a9bb75cc0a0c09dd30bab6786d8ab4bbea6e01"
       },
       "env": {
-        "client": "required",
+        "client": "optional",
         "server": "required"
       },
       "downloads": [
@@ -372,7 +372,7 @@
         "sha512": "ddcd3a98348b7fbef034ce7551ab96cc57f84d23e5eba1d2b991e51866f2cbc189a1ee1cfd63ba738ccca632dfa95e1645896e2ced0bc8bca00e08ceaf913463"
       },
       "env": {
-        "client": "required",
+        "client": "optional",
         "server": "required"
       },
       "downloads": [
