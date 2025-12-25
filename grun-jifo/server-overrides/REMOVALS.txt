@@ -1,2 +1,2 @@
 options.txt
-.config/fabric
+config/fabric
