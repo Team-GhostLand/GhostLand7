@@ -15,7 +15,7 @@ modpacks {
     }
     modpack "GhostRun" path="./grun" preferred-name="GhostRun" {
         version-prefix "0."
-        description "Paczka serwerowa GhostLanda, na czas między-edycjowy."
-        ingame-name "GhostRun 0.0"
+        description "GhostRun: Paczka serwerowa GhostLanda, na czas między-edycjowy. Edycja zimowa 2025/26."
+        ingame-name "GhostRun 2025 [PACZKA SERWEROWA! Prawdopodobnie to nie jej chcesz używać u siebie na kliencie.]"
     }
 }
