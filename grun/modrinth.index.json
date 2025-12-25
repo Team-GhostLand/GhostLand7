@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "0.0.5",
+  "versionId": "0.0.6",
   "name": "GhostRun 2025 [PACZKA SERWEROWA! Prawdopodobnie to nie jej chcesz używać u siebie na kliencie.]",
   "summary": "GhostRun: Paczka serwerowa GhostLanda, na czas między-edycjowy. Edycja zimowa 2025/26.",
   "files": [
@@ -184,6 +184,51 @@
         "https://cdn.modrinth.com/data/r0v8vy1s/versions/XdouG8YV/alternate-current-mc1.21.11-1.9.0.jar"
       ],
       "fileSize": 52557
+    },
+    {
+      "path": "mods/GR_CLO_appleskin-fabric-mc1.21.11-3.0.7.jar",
+      "hashes": {
+        "sha1": "1e6270a1af621aba386b3613fd3c607f232e3bc3",
+        "sha512": "dfc990170b969f3213a9912d13c3fc0d067e2e88faf1a6c7a69bd1a463cd6144ac2dcaeb6a2a3150b595378c1f9449fb0740714ff7703c18c93f8ae3c9eceaa3"
+      },
+      "env": {
+        "client": "optional",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/EsAfCjCV/versions/pvcLnrm0/appleskin-fabric-mc1.21.11-3.0.7.jar"
+      ],
+      "fileSize": 168688
+    },
+    {
+      "path": "mods/GR_CLO_architectury-19.0.1-fabric.jar",
+      "hashes": {
+        "sha1": "2d40563f7e36f7a03f094031aeaacb175117928e",
+        "sha512": "7ca532844a0ed3d35e8515e13d1e84f8eadfceaae93281b79ad6b4dac253f4634e3dfcc7592f9543871dec117e1a3092c196ba5eae33735162de223be19dc4ad"
+      },
+      "env": {
+        "client": "optional",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/lhGA9TYQ/versions/uNdfrcQ8/architectury-19.0.1-fabric.jar"
+      ],
+      "fileSize": 568474
+    },
+    {
+      "path": "mods/GR_CLO_betterstats-5.0.0-alpha.2+fabric-1.21.11.jar",
+      "hashes": {
+        "sha1": "096c61e2978452b6bdc0c6c95438ffa201cd2593",
+        "sha512": "928f4bd3272416917bff74b7eef1edaf6008e189e3bdbfde03029d77b73917e892d9f9cd344c1d5a485253ac052e2bebe7f44a486015f0bed13370dbb33805e6"
+      },
+      "env": {
+        "client": "optional",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/n6PXGAoM/versions/mu3I4p17/betterstats-5.0.0-alpha.2%2Bfabric-1.21.11.jar"
+      ],
+      "fileSize": 212141
     },
     {
       "path": "mods/GR_CLO_dreams-compass-v1.5.1.jar",
@@ -381,6 +426,21 @@
       "fileSize": 932539
     },
     {
+      "path": "mods/GR_CLO_sound-physics-remastered-fabric-1.21.11-1.5.1.jar",
+      "hashes": {
+        "sha1": "f04c90b17094aaa849b147a42d4df9aa82d54ace",
+        "sha512": "0413e8d654fa5d74dc32ab7c21a82cf8e44aec22c7392648f23a34e2cdb7255af5b34a6016d71bda226c251e5089838f2be9310360723f88e9080fd048efd25f"
+      },
+      "env": {
+        "client": "optional",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/qyVF9oeo/versions/pfqxi9qs/sound-physics-remastered-fabric-1.21.11-1.5.1.jar"
+      ],
+      "fileSize": 203479
+    },
+    {
       "path": "mods/GR_CLO_spark-1.10.156-fabric.jar",
       "hashes": {
         "sha1": "7cd8909634ab02ca352969a2ea337f1f7641cc1c",
@@ -394,6 +454,21 @@
         "https://cdn.modrinth.com/data/l6YH9Als/versions/1CB3cS0m/spark-1.10.156-fabric.jar"
       ],
       "fileSize": 3901887
+    },
+    {
+      "path": "mods/GR_CLO_tcdcommons-5.0.0-alpha.2+fabric-1.21.11.jar",
+      "hashes": {
+        "sha1": "16f8bffcb97dedee3e71c5d3f9b34c1d6fc68595",
+        "sha512": "79be7948b3a240c093ad1063c11f266316dfdffbacd2e5f2198ffd5731953111a5932021e20196632494c95552844ebce084bedd1891a2d4ef110d56ba29ae09"
+      },
+      "env": {
+        "client": "optional",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/Eldc1g37/versions/Hbo8bT4d/tcdcommons-5.0.0-alpha.2%2Bfabric-1.21.11.jar"
+      ],
+      "fileSize": 391507
     },
     {
       "path": "mods/GR_CLO_villager-inventory-hwyla-plugin-1.0.0.jar",
